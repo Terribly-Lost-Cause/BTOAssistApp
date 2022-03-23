@@ -1,12 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              x:Class="BTOAssistApp.Views.Launch">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+
+            <Image Source="background_image.jpg" 
+                   Aspect="AspectFill"
+                   />
+
+            <!-- Place your layouts and controls here, for example-->
+
+            <Frame BackgroundColor="White"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   VerticalOptions="CenterAndExpand"
+                   HeightRequest="180">
+
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    
+                    <Label TextColor="DarkRed" FontSize="40" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="BTOAssist" />
+                    <Label TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="Making your life easier!"></Label>
+                    <Grid VerticalOptions="CenterAndExpand">
+                        <control:ProgressRing HeightRequest="30" RingProgressColor="Red" Scale="2.5" RingThickness="2" Margin="20" Progress="0.3" />
+                        <StackLayout VerticalOptions="CenterAndExpand">
+                            <Label FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" Text="20%"/>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
