@@ -14,7 +14,7 @@ namespace BTOAssistApp
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new Launch();
         }
 
         protected override void OnStart()
