@@ -7,7 +7,7 @@
             <Label Text="Applicant's Particulars"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Entry Placeholder="Stuff" />
+            <Entry Placeholder="Stuffy stuffy stuffy " />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
