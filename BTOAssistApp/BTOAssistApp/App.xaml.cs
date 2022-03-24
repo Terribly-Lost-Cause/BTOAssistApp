@@ -16,7 +16,7 @@ namespace BTOAssistApp
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new Launch();
+            MainPage = new FinanceFAQ();
         }
 
         protected override void OnStart()

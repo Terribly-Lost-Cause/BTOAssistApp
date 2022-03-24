@@ -88,7 +88,7 @@ namespace BTOAssistApp.Views
                             ring.Progress = 0.5;
                             Progress = "50%";
                             client = new HttpClient();
-                            Uri uri = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/person-sample/InvalidNRICNum");
+                            Uri uri = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/person-sample/S9812381D");
 
                             HttpResponseMessage response = await client.GetAsync(uri);
                             if (response.IsSuccessStatusCode)
