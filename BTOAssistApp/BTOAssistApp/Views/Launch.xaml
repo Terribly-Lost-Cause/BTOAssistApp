@@ -17,17 +17,29 @@
                    Padding="0"
                    Margin="10"
                    VerticalOptions="CenterAndExpand"
+                   x:Name="mainframe"
                    HeightRequest="180">
 
                 <StackLayout VerticalOptions="CenterAndExpand">
-                    
                     <Label TextColor="DarkRed" FontSize="40" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="BTOAssist" />
                     <Label TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="Making your life easier!"></Label>
-                    <Grid VerticalOptions="CenterAndExpand">
-                        <control:ProgressRing HeightRequest="30" RingProgressColor="Red" Scale="2.5" RingThickness="2" Margin="20" Progress="0.3" />
+                    <Grid VerticalOptions="CenterAndExpand" IsVisible="{Binding ProgressGrid}">
+                        <control:ProgressRing x:Name="ring" HeightRequest="30" RingProgressColor="Red" Scale="2.5" RingThickness="2" Margin="20" Progress="0" />
                         <StackLayout VerticalOptions="CenterAndExpand">
-                            <Label FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" Text="20%"/>
+                            <Label x:Name="labl" FontAttributes="Bold" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black" Text="{Binding Progress}"/>
                         </StackLayout>
+                    </Grid>
+                    <Grid IsVisible="{Binding ErrorGrid}" >
+                        <Frame
+                   Background="red"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   VerticalOptions="CenterAndExpand"
+                   HeightRequest="180">
+                            <Label x:Name="error" FontAttributes="Bold" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" Text="{Binding ErrorMsg}"/>
+
+                        </Frame>
                     </Grid>
                 </StackLayout>
             </Frame>

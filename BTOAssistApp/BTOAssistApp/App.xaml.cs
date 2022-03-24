@@ -3,6 +3,8 @@ using BTOAssistApp.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
+using System.Diagnostics;
 
 namespace BTOAssistApp
 {
