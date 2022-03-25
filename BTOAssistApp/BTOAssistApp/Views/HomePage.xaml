@@ -4,9 +4,13 @@
              x:Class="BTOAssistApp.Views.HomePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid>
+                <SearchBar Placeholder="Search"/>
+            </Grid>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Left!" HorizontalOptions="CenterAndExpand"/>
+                <Button Text="Right!" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

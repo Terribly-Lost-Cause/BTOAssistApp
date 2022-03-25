@@ -70,8 +70,9 @@ namespace BTOAssistApp.Views
         async void OnLogin(object sender, EventArgs args)
         {
             await Task.Delay(1000);
-            await Shell.Current.GoToAsync("//AboutPage");
+            await Shell.Current.GoToAsync("//HomePage");
         }
+        
         public Launch()
         {
             InitializeComponent();
@@ -101,7 +102,7 @@ namespace BTOAssistApp.Views
                             Progress = "50%";
                             client = new HttpClient();
                             Uri uri = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/person-sample/S9812381D");
-
+                            Uri singpass = new Uri("https://id.singpass.gov.sg/static/ndi_embedded_auth.js");
                             HttpResponseMessage response = await client.GetAsync(uri);
                             if (response.IsSuccessStatusCode)
                             {
@@ -110,6 +111,11 @@ namespace BTOAssistApp.Views
                                 ProgressGrid = "false";
                                 ButtonGrid = "true";
                                 stat = false;
+                                if(Progress == "100%")
+                                {
+                                    
+
+                                }
                             }
                             else
                             {

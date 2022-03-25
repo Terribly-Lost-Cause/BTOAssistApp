@@ -5,6 +5,7 @@
              x:Class="BTOAssistApp.Views.Launch">
     <ContentPage.Content>
         <Grid>
+            
 
             <Image Source="background_image.jpg" 
                    Aspect="AspectFill"
