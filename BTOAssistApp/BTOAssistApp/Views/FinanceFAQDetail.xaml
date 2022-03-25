@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTOAssistApp.Views.FinanceFAQDetail"
+             Title="Financing For BTO">
+  <StackLayout Padding="10">
+        <Frame BackgroundColor="Transparent"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   HeightRequest="180"
+                   BorderColor="DarkRed">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="1" HorizontalOptions="Center" TextColor="#0C8188" FontSize="50" FontAttributes="Bold" FontFamily="Verdana"/>
+                    <Label Grid.Column="1" TextColor="Black" Text="A crucial part of the financing process is to decide on who to get your home loan from. You have a choice between taking out an HDB loan and a bank loan" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,0,20,0" FontFamily="Verdana" FontSize="14" />
+                </Grid>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="Transparent"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   HeightRequest="180"
+                   BorderColor="DarkRed">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="2" HorizontalOptions="Center" TextColor="#0C8188" FontSize="50" FontAttributes="Bold" FontFamily="Verdana"/>
+                    <Label Grid.Column="1" TextColor="Black" Text="First-timers typically go for an HDB loan since they require no cash downpayment (see below), but if you're savvy and have enough savings, you can opt for a bank loan to get lower interest rates." HorizontalOptions="Center" VerticalOptions="Center" Padding="0,0,20,0" FontFamily="Verdana" FontSize="14" />
+                </Grid>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="Transparent"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   HeightRequest="180"
+                   BorderColor="DarkRed">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="3" HorizontalOptions="Center" TextColor="#0C8188" FontSize="50" FontAttributes="Bold" FontFamily="Verdana"/>
+                    <Label Grid.Column="1" TextColor="Black" Text="Either way, you'll need to get some kind of loan approval in principal BEFORE you chope the flat. You'll need to have all your loan documents in order to sign the lease agreement." HorizontalOptions="Center" VerticalOptions="Center" Padding="0,0,20,0" FontFamily="Verdana" FontSize="14" />
+                </Grid>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="Transparent"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   HeightRequest="180"
+                   BorderColor="DarkRed">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="4" HorizontalOptions="Center" TextColor="#0C8188" FontSize="50" FontAttributes="Bold" FontFamily="Verdana"/>
+                    <Label Grid.Column="1" TextColor="Black" Text="HDB loan: Apply for a HDB Loan Eligibility (HLE) letter. This letter declares how much HDB is willing to loan you. Bank loan: Obtain approval in principle (AIP) from the bank, which is the equivalent of HLE." HorizontalOptions="Center" VerticalOptions="Center" Padding="0,0,20,0" FontFamily="Verdana" FontSize="14" />
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

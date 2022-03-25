@@ -69,7 +69,7 @@ namespace BTOAssistApp.Views
             {
                 Task.Run(async () =>
                 {
-                    bool isShowingMyPage2 = Application.Current.MainPage is Launch;
+                    bool isShowingMyPage2 = Application.Current.MainPage is AppShell;
                     if (isShowingMyPage2 == true)
                     {
                         counter += 1;
@@ -81,20 +81,18 @@ namespace BTOAssistApp.Views
                         var current = Connectivity.NetworkAccess;
                         if (current == NetworkAccess.Internet)
                         {
-                            // Connection to internet is available
-                            //ring.RingProgressColor = Color.Transparent;
-                            //ring.RingBaseColor = Color.Transparent;
-                            //Progress = "No Internet Connection";
                             ring.Progress = 0.5;
                             Progress = "50%";
                             client = new HttpClient();
-                            Uri uri = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/person-sample/InvalidNRICNum");
+                            Uri uri = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/person-sample/S9812381D");
 
                             HttpResponseMessage response = await client.GetAsync(uri);
                             if (response.IsSuccessStatusCode)
                             {
                                 ring.Progress = 1;
                                 Progress = "100%";
+                                await Task.Delay(1000);
+                                await Shell.Current.GoToAsync("//AboutPage");
                             }
                             else
                             {
