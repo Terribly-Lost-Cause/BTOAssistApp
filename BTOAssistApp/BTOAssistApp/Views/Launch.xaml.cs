@@ -19,6 +19,7 @@ namespace BTOAssistApp.Views
         private string progress;
         private string progressgrid;
         private string errorgrid;
+        private string buttongrid;
         private string errormsg;
 
         public string Progress
@@ -48,6 +49,15 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(ErrorGrid)); // Notify that there was a change on this property
             }
         }
+        public string ButtonGrid
+        {
+            get { return buttongrid; }
+            set
+            {
+                buttongrid = value;
+                OnPropertyChanged(nameof(ButtonGrid)); // Notify that there was a change on this property
+            }
+        }
         public string ErrorMsg
         {
             get { return errormsg; }
@@ -57,6 +67,11 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(ErrorMsg)); // Notify that there was a change on this property
             }
         }
+        async void OnLogin(object sender, EventArgs args)
+        {
+            await Task.Delay(1000);
+            await Shell.Current.GoToAsync("//AboutPage");
+        }
         public Launch()
         {
             InitializeComponent();
@@ -64,7 +79,9 @@ namespace BTOAssistApp.Views
 
             Progress = "0%";
             ErrorGrid = "false";
+            ButtonGrid = "false";
             var counter = 0;
+            var stat = true;
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 Task.Run(async () =>
@@ -73,7 +90,6 @@ namespace BTOAssistApp.Views
                     if (isShowingMyPage2 == true)
                     {
                         counter += 1;
-                        
                     }
 
                     if (counter == 5)
@@ -91,8 +107,9 @@ namespace BTOAssistApp.Views
                             {
                                 ring.Progress = 1;
                                 Progress = "100%";
-                                await Task.Delay(1000);
-                                await Shell.Current.GoToAsync("//AboutPage");
+                                ProgressGrid = "false";
+                                ButtonGrid = "true";
+                                stat = false;
                             }
                             else
                             {
@@ -110,9 +127,8 @@ namespace BTOAssistApp.Views
                         }
                     }
                 });
-                return true;
+                return stat;
             });
-            
         }
     }
 }

@@ -41,6 +41,9 @@
 
                         </Frame>
                     </Grid>
+                    <Grid IsVisible="{Binding ButtonGrid}" >
+                        <Button x:Name="login" Text="Login via singpass" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="Large" Clicked="OnLogin"/>
+                    </Grid>
                 </StackLayout>
             </Frame>
 
