@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTOAssistApp.Views.AddBTO">
+    <ScrollView>
+        <StackLayout Margin="20"
+                 VerticalOptions="StartAndExpand">
+            <Label Text="ID" />
+            <Entry Text="{Binding ID}" />
+
+            <Label Text="Image" />
+            <Entry Text="{Binding Image}" />
+
+            <Label Text="Location" />
+            <Entry Text="{Binding Location}" />
+
+            <Label Text="Block" />
+            <Entry Text="{Binding Block}" />
+
+            <Label Text="YearsLeft" />
+            <Entry Text="{Binding YearsLeft}" />
+
+            <Label Text="Applicants" />
+            <Entry Text="{Binding Applicants}" />
+
+            <Label Text="Room" />
+            <Entry Text="{Binding Room}" />
+
+            <Label Text="SQM" />
+            <Entry Text="{Binding SQM}" />
+
+            <Label Text="Bus" />
+            <Entry Text="{Binding Bus}" />
+
+            <Label Text="MRT" />
+            <Entry Text="{Binding MRT}" />
+
+            <Label Text="ShortDescription" />
+            <Entry Text="{Binding ShortDescription}" />
+
+            <Label Text="LongDescription" />
+            <Entry Text="{Binding LongDescription}" />
+
+            <Label Text="DownPayment" />
+            <Entry Text="{Binding DownPayment}" />
+
+            <Label Text="FullPayment" />
+            <Entry Text="{Binding FullPayment}" />
+
+            <Button Text="Save"
+                Clicked="OnSaveClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

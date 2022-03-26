@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BTOAssistApp.Data;
+using BTOAssistApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,14 @@ namespace BTOAssistApp.Views
         public HomePage()
         {
             InitializeComponent();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            BTOAssistDatabase database = await BTOAssistDatabase.Instance;
+            List<BTO>  re = await database.GetBTOAsync();
         }
     }
 }
