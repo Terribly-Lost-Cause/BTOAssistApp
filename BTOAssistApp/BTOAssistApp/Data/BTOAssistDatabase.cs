@@ -26,6 +26,11 @@ namespace BTOAssistApp.Data
             return Database.Table<BTO>().ToListAsync();
         }
 
+        public Task<List<BTO>> GetBTOPopularityAsync()
+        {
+            return Database.Table<BTO>().OrderByDescending(x => x.Applicants).ToListAsync();
+        }
+
         public Task<int> AddBTOAsync(BTO item)
         {
             return Database.InsertAsync(item);

@@ -1,16 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BTOAssistApp.Views.HomePage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Grid>
-                <SearchBar Placeholder="Search"/>
-            </Grid>
-            <StackLayout Orientation="Horizontal">
-                <Button Text="Left!" HorizontalOptions="CenterAndExpand"/>
-                <Button Text="Right!" HorizontalOptions="CenterAndExpand"/>
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="BTOAssistApp.Views.HomePage"
+             Title="Apply BTO">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="" Icon="bell_logo.png"/>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+            <StackLayout Margin="20,20,30,10">
+            <SearchBar Placeholder="Search" Margin="0"/>
+
+            <Frame HeightRequest="250" Padding="0" BackgroundColor="Transparent">
+                <StackLayout Padding="0" Margin="0">
+                    <Label Text="Nearby You" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18"></Label>
+                    <CarouselView ItemsSource="{Binding AllBTO}" PeekAreaInsets="60" Loop="False" EmptyView="No BTO to display.">
+                        <CarouselView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal"
+                                               SnapPointsType="None"
+                                               SnapPointsAlignment="End" />
+                        </CarouselView.ItemsLayout>
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Frame HasShadow="True" BorderColor="DarkGray" CornerRadius="5" Padding="0" Margin="0,0,30,0">
+                                        <StackLayout>
+                                            <StackLayout>
+                                                <Grid>
+                                                    <Image Grid.Row="0" Grid.Column="0"
+                                                       Source="{Binding Image}"
+                                                       HeightRequest="100"
+                                                       Aspect="AspectFill" />
+                                                    <StackLayout Orientation="Horizontal" VerticalOptions="End" BackgroundColor="Gray" HorizontalOptions="Start" Margin="10,0,0,0">
+                                                        <Image Source="pin.png" WidthRequest="15" HeightRequest="15"/>
+                                                        <Label Text="{Binding Location}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                                                    </StackLayout>
+                                                </Grid>
+
+                                            </StackLayout>
+                                            <StackLayout Margin="10,5,10,5">
+                                                <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold"/>
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Image Source="spanner.jpg" WidthRequest="15" HeightRequest="15"/>
+                                                    <Label Text="Complete In" FontFamily="Verdana" FontSize="12"/>
+                                                    <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="12"/>
+                                                    <Label Text="Years" FontFamily="Verdana" FontSize="12"/>
+                                                </StackLayout>
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Image Source="bluedot.png" WidthRequest="15" HeightRequest="15"/>
+                                                    <Label Text="{Binding Applicants}" FontFamily="Verdana" FontSize="12" TextColor="#0C8188"/>
+                                                    <Label Text="People Applied" FontFamily="Verdana" FontSize="12" TextColor="#0C8188"/>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </StackLayout>
+            </Frame>
+
+
+            <Frame HeightRequest="250" Padding="0" BackgroundColor="Transparent">
+                <StackLayout Padding="0" Margin="0">
+                    <Label Text="Popular" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18"></Label>
+                    <CarouselView ItemsSource="{Binding BTOSorted}" PeekAreaInsets="60" Loop="False" EmptyView="No BTO to display.">
+                        <CarouselView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal"
+                                               SnapPointsType="None"
+                                               SnapPointsAlignment="Start" />
+                        </CarouselView.ItemsLayout>
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Frame HasShadow="True" BorderColor="DarkGray" CornerRadius="5" Padding="0" Margin="0,0,30,0">
+                                        <StackLayout>
+                                            <StackLayout>
+                                                <Grid>
+                                                    <Image Grid.Row="0" Grid.Column="0"
+                                                       Source="{Binding Image}"
+                                                       HeightRequest="100"
+                                                       Aspect="AspectFill" />
+                                                    <StackLayout Orientation="Horizontal" VerticalOptions="End" BackgroundColor="Gray" HorizontalOptions="Start" Margin="10,0,0,0">
+                                                        <Image Source="pin.png" WidthRequest="15" HeightRequest="15"/>
+                                                        <Label Text="{Binding Location}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                                                    </StackLayout>
+                                                </Grid>
+                                                
+                                            </StackLayout>
+                                            <StackLayout Margin="10,5,10,5">
+                                                <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold"/>
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Image Source="spanner.jpg" WidthRequest="15" HeightRequest="15"/>
+                                                    <Label Text="Complete In" FontFamily="Verdana" FontSize="12"/>
+                                                    <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="12"/>
+                                                    <Label Text="Years" FontFamily="Verdana" FontSize="12"/>
+                                                </StackLayout>
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Image Source="bluedot.png" WidthRequest="15" HeightRequest="15"/>
+                                                    <Label Text="{Binding Applicants}" FontFamily="Verdana" FontSize="12" TextColor="#0C8188"/>
+                                                    <Label Text="People Applied" FontFamily="Verdana" FontSize="12" TextColor="#0C8188"/>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </StackLayout>
+            </Frame>
         </StackLayout>
-        </StackLayout>
-    </ContentPage.Content>
+            
+            
+        
+        </ScrollView>
 </ContentPage>
