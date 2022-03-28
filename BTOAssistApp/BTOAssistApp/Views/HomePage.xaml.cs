@@ -24,7 +24,6 @@ namespace BTOAssistApp.Views
         {
             InitializeComponent();
 
-            BindingContext = this;
         }
 
         protected override async void OnAppearing()
@@ -50,6 +49,16 @@ namespace BTOAssistApp.Views
                 eachBTOSorted.Block = "Block " + eachBTOSorted.Block;
                 BTOSorted.Add(eachBTOSorted);
             }
+
+            BindingContext = this;
+        }
+
+        protected override void OnDisappearing()
+        {
+
+            base.OnDisappearing();
+
+            BindingContext = null;
         }
     }
 }
