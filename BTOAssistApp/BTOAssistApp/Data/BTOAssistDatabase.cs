@@ -26,6 +26,11 @@ namespace BTOAssistApp.Data
             return Database.Table<BTO>().ToListAsync();
         }
 
+        public Task<BTO> GetBTODetailAsync(string id)
+        {
+            return Database.Table<BTO>().Where(i => i.ID == id).FirstOrDefaultAsync();
+        }
+
         public Task<List<BTO>> GetBTOPopularityAsync()
         {
             return Database.Table<BTO>().OrderByDescending(x => x.Applicants).ToListAsync();
@@ -35,15 +40,5 @@ namespace BTOAssistApp.Data
         {
             return Database.InsertAsync(item);
         }
-
-        //public Task<int> DeleteItemAsync(TodoItem item)
-        //{
-        //    return Database.DeleteAsync(item);
-        //}
-
-        //public Task<int> DeleteAllItems<T>()
-        //{
-        //    return Database.DeleteAllAsync<BTO>();
-        //}
     }
 }

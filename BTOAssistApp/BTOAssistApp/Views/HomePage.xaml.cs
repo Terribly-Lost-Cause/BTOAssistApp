@@ -62,10 +62,13 @@ namespace BTOAssistApp.Views
             BindingContext = null;
         }
 
-        void ViewDetail(object sender, EventArgs args)
+        async void ViewDetail(object sender, EventArgs args)
         {
             var BTO = (Frame)sender;
-            Trace.WriteLine(BTO.AutomationId);
+            string id = BTO.AutomationId;
+
+            Trace.WriteLine(id);
+            await Navigation.PushAsync(new BTODetail(id));
         }
     }
 }

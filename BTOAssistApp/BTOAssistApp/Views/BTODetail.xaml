@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTOAssistApp.Views.BTODetail"
+             Title="Apply BTO">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="" Icon="bell_logo.png"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Grid>
+                <Image Grid.Row="0" Grid.Column="0"
+                    Source="{Binding Image}"
+                    HeightRequest="150"
+                    Aspect="AspectFill" />
+                <StackLayout Orientation="Horizontal" VerticalOptions="End" BackgroundColor="Gray" HorizontalOptions="Start" Margin="10,0,0,0">
+                    <Image Source="pin.png" WidthRequest="15" HeightRequest="15"/>
+                    <Label Text="{Binding Location}" FontFamily="Verdana" FontSize="24" FontAttributes="Bold" TextColor="White"/>
+                </StackLayout>
+            </Grid>
+
+            <Frame Margin="10,0,10,0" BorderColor="Black">
+                <StackLayout>
+                    <Grid>
+                        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Padding="0">
+                            <Label Text="Block" FontFamily="Verdana" FontSize="20" TextColor="Black"/>
+                            <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="20" TextColor="Black"/>
+                        </StackLayout>
+                        
+                        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalOptions="End">
+                            <Label Text="{Binding SQM}" FontFamily="Verdana" FontSize="20" TextColor="Black"/>
+                            <Label Text="SQM" FontFamily="Verdana" FontSize="20" TextColor="Black"/>
+                        </StackLayout>
+                    </Grid>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding RoomType}" FontFamily="Verdana" FontSize="20" TextColor="Black"/>
+                        <Label Text="Room" FontFamily="Verdana" FontSize="20" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="bus.png" WidthRequest="20" HeightRequest="20"/>
+                        <Label Text="Bus: " FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                        <Label Text="{Binding Bus}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="train.png" WidthRequest="20" HeightRequest="20"/>
+                        <Label Text="MRT Station: " FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                        <Label Text="{Binding Mrt}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="store.png" WidthRequest="20" HeightRequest="20"/>
+                        <Label Text="{Binding Direction}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="spanner.jpg" WidthRequest="20" HeightRequest="20"/>
+                        <Label Text="Complete In" FontFamily="Verdana" FontSize="15"/>
+                        <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="15"/>
+                        <Label Text="Years" FontFamily="Verdana" FontSize="15"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="bluedot.png" WidthRequest="20" HeightRequest="20"/>
+                        <Label Text="{Binding Applicants}" FontFamily="Verdana" FontSize="15" TextColor="#0C8188"/>
+                        <Label Text="People Applied" FontFamily="Verdana" FontSize="15" TextColor="#0C8188"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding LongDescription}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                    </StackLayout>
+                    <Grid>
+                        <Button Text="Apply" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="White" FontSize="Large"/>
+                    </Grid>
+                    
+                </StackLayout>
+                
+                
+            </Frame>
+            
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
