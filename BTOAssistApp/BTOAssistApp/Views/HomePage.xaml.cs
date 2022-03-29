@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -59,6 +60,12 @@ namespace BTOAssistApp.Views
             base.OnDisappearing();
 
             BindingContext = null;
+        }
+
+        void ViewDetail(object sender, EventArgs args)
+        {
+            var BTO = (Frame)sender;
+            Trace.WriteLine(BTO.AutomationId);
         }
     }
 }

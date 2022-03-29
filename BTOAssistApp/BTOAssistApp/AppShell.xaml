@@ -78,32 +78,19 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
-    
+
     <ShellItem Route="Launch" FlyoutItemIsVisible="False" Shell.NavBarIsVisible="false">
         <ShellContent ContentTemplate="{DataTemplate local:Launch}" />
     </ShellItem>
-    <FlyoutItem Title="About" Icon="icon_about.png">
-        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-    </FlyoutItem>
     <FlyoutItem Title="Apply BTO">
     <ShellContent Route="HomePage" ContentTemplate="{DataTemplate local:HomePage}" />
     </FlyoutItem>
-    <FlyoutItem Title="FAQ">
-               <ShellContent Route="FinancePage" ContentTemplate="{DataTemplate local:FinancePage}" />
-
+    <FlyoutItem Title="Financing for BTO">
+        <ShellContent Route="FinancePage" ContentTemplate="{DataTemplate local:FinancePage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Check Eligibility">
         <ShellContent Route="EligibilityPage" ContentTemplate="{DataTemplate local:EligibilityPage}" />
     </FlyoutItem>
-    
-    <FlyoutItem Title="Browse" Icon="icon_feed.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
-    </FlyoutItem>
-    <FlyoutItem Title="Particulars">
-        <ShellContent Route="Particulars" ContentTemplate="{DataTemplate local:Particulars}" />
-    </FlyoutItem>
-
-    <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
-    </MenuItem>
 
     <!--
         TabBar lets you define content that won't show up in a flyout menu. When this content is active
