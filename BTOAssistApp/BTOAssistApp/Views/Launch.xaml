@@ -2,9 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
-             x:Class="BTOAssistApp.Views.Launch">
+             x:Class="BTOAssistApp.Views.Launch"
+             >
     <ContentPage.Content>
-        <Grid>
+        <Grid x:Name="Test">
             
 
             <Image Source="background_image.jpg" 
@@ -43,10 +44,14 @@
                         </Frame>
                     </Grid>
                     <Grid IsVisible="{Binding ButtonGrid}" >
+                        <StackLayout x:Name="Stl">
                         <Button x:Name="login" Text="Login via singpass" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="Large" Clicked="OnLogin"/>
+                    </StackLayout>
                     </Grid>
+                    
                 </StackLayout>
             </Frame>
+        <WebView x:Name="SingpassRedirect" IsVisible="false"/>
 
         </Grid>
     </ContentPage.Content>

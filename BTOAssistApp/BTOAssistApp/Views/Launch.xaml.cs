@@ -8,7 +8,6 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.Diagnostics;
 using System.Net.Http;
-
 namespace BTOAssistApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -70,7 +69,16 @@ namespace BTOAssistApp.Views
         async void OnLogin(object sender, EventArgs args)
         {
             await Task.Delay(1000);
-            await Shell.Current.GoToAsync("//HomePage");
+            WebView webView = new WebView();
+            webView.WidthRequest = 50000;
+            webView.HeightRequest = 50000;
+            webView.IsVisible = true;
+            //webView.Source = "https://sandbox.api.myinfo.gov.sg/com/v3/authorise?client_id=STG2-MYINFO-SELF-TEST&attributes=uinfin,name,sex,race,nationality,dob,email,mobileno,regadd,housingtype,hdbtype,marital,edulevel,noa-basic,ownerprivate,cpfcontributions,cpfbalances&purpose=demonstrating MyInfo APIs&state=123&redirect_uri=http://localhost:3001/callback";
+            webView.Source = "https://www.google.com/";
+
+            Test.Children.Add(webView);
+            //await Shell.Current.GoToAsync("//HomePage");
+
         }
         
         public Launch()
@@ -102,8 +110,10 @@ namespace BTOAssistApp.Views
                             Progress = "50%";
                             client = new HttpClient();
                             Uri uri = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/person-sample/S9812381D");
+                            Uri redirect = new Uri("https://sandbox.api.myinfo.gov.sg/com/v3/authorise");
                             Uri singpass = new Uri("https://id.singpass.gov.sg/static/ndi_embedded_auth.js");
                             HttpResponseMessage response = await client.GetAsync(uri);
+
                             if (response.IsSuccessStatusCode)
                             {
                                 ring.Progress = 1;
@@ -111,8 +121,17 @@ namespace BTOAssistApp.Views
                                 ProgressGrid = "false";
                                 ButtonGrid = "true";
                                 stat = false;
+                                
                                 if(Progress == "100%")
                                 {
+
+                                    WebView webView = new WebView();
+                                    webView.WidthRequest = 500;
+                                    webView.HeightRequest = 500;
+                                    webView.IsVisible = false;
+                                    webView.Source = "https://www.google.com";
+                                    
+                                    Stl.Children.Add(webView);
                                     
 
                                 }
