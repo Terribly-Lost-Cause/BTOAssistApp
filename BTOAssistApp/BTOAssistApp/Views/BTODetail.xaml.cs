@@ -16,6 +16,7 @@ namespace BTOAssistApp.Views
     public partial class BTODetail : ContentPage
     {
         private string BTOId;
+        private string id;
         private string image;
         private string location;
         private string block;
@@ -29,6 +30,16 @@ namespace BTOAssistApp.Views
         private string longdescription;
         private double downpayment;
         private double fullpayment;
+        public string Id
+        {
+            get { return id; }
+            set
+            {
+                id = value;
+                OnPropertyChanged(nameof(Id)); // Notify that there was a change on this property
+            }
+        }
+
 
         public string Image
         {
@@ -168,6 +179,7 @@ namespace BTOAssistApp.Views
             BTOAssistDatabase database = await BTOAssistDatabase.Instance;
             BTO BTODetails = await database.GetBTODetailAsync(BTOId);
 
+            Id = BTODetails.ID;
             Image = BTODetails.Image;
             Location = BTODetails.Location;
             Block = BTODetails.Block.ToString();
@@ -182,6 +194,14 @@ namespace BTOAssistApp.Views
             DownPayment = BTODetails.DownPayment;
             FullPayment = BTODetails.FullPayment;
             BindingContext = this;
+        }
+
+        async void ApplyBTO(object sender, EventArgs args)
+        {
+            var BTODeets = (Button)sender;
+            string id = BTODeets.AutomationId;
+
+            Trace.WriteLine(id);
         }
     }
 }

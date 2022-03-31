@@ -20,7 +20,7 @@
                 </StackLayout>
             </Grid>
 
-            <Frame Margin="10,0,10,0" BorderColor="Black">
+            <Frame Margin="10,0,10,0" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
                 <StackLayout>
                     <Grid>
                         <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" Padding="0">
@@ -66,8 +66,20 @@
                     <StackLayout Orientation="Horizontal">
                         <Label Text="{Binding LongDescription}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
                     </StackLayout>
-                    <Grid>
-                        <Button Text="Apply" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="White" FontSize="Large"/>
+                    <StackLayout Orientation="Vertical" HorizontalOptions="End">
+                        <Label Text="Down Payment Of" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                        <Label Text="$" FontFamily="Verdana" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="{Binding DownPayment}" FontFamily="Verdana" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                        <Label Text="Full Amount" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                        <Label Text="$" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                        <Label Text="{Binding FullPayment}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                    </StackLayout>
+                    <Grid VerticalOptions="End">
+                        <Button Text="Apply" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" TextColor="White" FontSize="Large" AutomationId="{Binding Id}" Clicked="ApplyBTO"/>
                     </Grid>
                     
                 </StackLayout>
