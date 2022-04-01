@@ -23,8 +23,6 @@ namespace BTOAssistApp.ViewModels
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-
-            AddItemCommand = new Command(OnAddItem);
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -63,11 +61,6 @@ namespace BTOAssistApp.ViewModels
             {
                 SetProperty(ref _selectedItem, value);
             }
-        }
-
-        private async void OnAddItem(object obj)
-        {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
         }
     }
 }

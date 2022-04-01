@@ -13,7 +13,6 @@ namespace BTOAssistApp
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
         }
     }
 }
