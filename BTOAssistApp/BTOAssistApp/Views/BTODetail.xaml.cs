@@ -201,6 +201,8 @@ namespace BTOAssistApp.Views
             var BTODeets = (Button)sender;
             string id = BTODeets.AutomationId;
 
+            await Shell.Current.GoToAsync("//ApplicationPage1");
+
             Trace.WriteLine(id);
         }
     }

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTOAssistApp.Views.ApplicationPage1"
+             Title="Fill Application">
+    <ContentPage.Content>
+        <StackLayout Margin="20,30,20,0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
+                </Frame>
+                <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">2</Label>
+                </Frame>
+                <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">3</Label>
+                </Frame>
+                <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">4</Label>
+                </Frame>
+                <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">5</Label>
+                </Frame>
+            </StackLayout>
+            <Label FontSize="25" FontAttributes="Bold">Applicant's Particular</Label>
+            <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="10" Margin="0,0,0,20">
+                <Entry Placeholder="Full Name"/>
+            </Frame>
+            
+            <Grid>
+                <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
+                    <Entry Placeholder="NRIC"/>
+                </Frame>
+                <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">
+                    <Entry Placeholder="Mobile No."/>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
