@@ -6,11 +6,14 @@
              >
     <ContentPage.Content>
         <Grid x:Name="Test">
-            
 
             <Image Source="background_image.jpg" 
                    Aspect="AspectFill"
                    />
+
+            <Grid IsVisible="{Binding WebGrid}">
+                <WebView  x:Name="SingpassRedirect" Source="https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/#"  Navigating="webviewNavigating"/>
+            </Grid>
 
             <!-- Place your layouts and controls here, for example-->
 
@@ -20,6 +23,7 @@
                    Margin="10"
                    VerticalOptions="CenterAndExpand"
                    x:Name="mainframe"
+                    IsVisible="{Binding PageGrid}"
                    HeightRequest="180">
 
                 <StackLayout VerticalOptions="CenterAndExpand">
@@ -45,14 +49,25 @@
                     </Grid>
                     <Grid IsVisible="{Binding ButtonGrid}" >
                         <StackLayout x:Name="Stl">
-                        <Button x:Name="login" Text="Login via singpass" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="Large" Clicked="OnLogin"/>
-                    </StackLayout>
+                            <Frame
+                                IsVisible="{Binding Redirect}"
+                                
+                   Background="darkred"
+                   CornerRadius="10"
+                   Padding="0"
+                   Margin="10"
+                   VerticalOptions="CenterAndExpand"
+                   HeightRequest="180">
+                                <Label  x:Name="login" Text="Redirecting to Singpass..." VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="Large"></Label>
+                            </Frame>
+                            
+                            <!--Button x:Name="login" Text="Login via singpass" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="Large" /-->
+                        </StackLayout>
                     </Grid>
-                    
+
                 </StackLayout>
             </Frame>
-        <WebView x:Name="SingpassRedirect" IsVisible="false"/>
-
         </Grid>
+
     </ContentPage.Content>
 </ContentPage>

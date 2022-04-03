@@ -13,6 +13,7 @@ namespace BTOAssistApp.Data
         {
             var instance = new BTOAssistDatabase();
             CreateTableResult result = await Database.CreateTableAsync<BTO>();
+            CreateTableResult dataTable = await Database.CreateTableAsync<PhoneInfo>();
             return instance;
         });
 
@@ -39,6 +40,28 @@ namespace BTOAssistApp.Data
         public Task<int> AddBTOAsync(BTO item)
         {
             return Database.InsertAsync(item);
+        }
+
+        public Task<int> AddDataAsync(PhoneInfo item)
+        {
+            var get = Database.Table<PhoneInfo>().Where(i => item.deviceID == item.deviceID).FirstOrDefaultAsync();
+            if (get == null){
+                return Database.InsertAsync(item);
+            }
+            else
+            {
+                return Database.UpdateAsync(item);
+            }
+        }
+
+        public Task<PhoneInfo> GetBTODataAsync(string id)
+        {
+            return Database.Table<PhoneInfo>().Where(i => i.deviceID == id).FirstOrDefaultAsync();
+        }
+
+        public Task<List<PhoneInfo>> GetAllPhoneInfoAsync()
+        {
+            return Database.Table<PhoneInfo>().ToListAsync();
         }
     }
 }

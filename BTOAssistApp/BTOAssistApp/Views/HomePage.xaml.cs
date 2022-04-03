@@ -12,25 +12,61 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Plugin.DeviceInfo;
 
 namespace BTOAssistApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
+        private string devID;
+        private string id;
+        private string accesstoken;
+
+        public string DevID
+        {
+            get { return devID; }
+            set
+            {
+                devID = value;
+                OnPropertyChanged(nameof(DevID)); // Notify that there was a change on this property
+            }
+        }
+        public string Id
+        {
+            get { return id; }
+            set
+            {
+                id = value;
+                OnPropertyChanged(nameof(Id)); // Notify that there was a change on this property
+            }
+        }
+        public string AccessToken
+        {
+            get { return accesstoken; }
+            set
+            {
+                accesstoken = value;
+                OnPropertyChanged(nameof(AccessToken)); // Notify that there was a change on this property
+            }
+        }
 
         public ObservableCollection<BTO> AllBTO { get; set; } = new ObservableCollection<BTO>();
         public ObservableCollection<BTO> BTOSorted { get; set; } = new ObservableCollection<BTO>();
         public HomePage()
         {
             InitializeComponent();
+            var deviceId = CrossDeviceInfo.Current.Id;
 
+
+            
         }
 
         protected override async void OnAppearing()
         {
 
             base.OnAppearing();
+         
 
             BTOAssistDatabase database = await BTOAssistDatabase.Instance;
             List<BTO> listofBTO = await database.GetBTOAsync();
@@ -39,6 +75,19 @@ namespace BTOAssistApp.Views
             AllBTO.Clear();
             BTOSorted.Clear();
 
+            var deviceId = CrossDeviceInfo.Current.Id.ToString();
+
+
+            PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
+            DevID = BTODataDetails.deviceID;
+            AccessToken = BTODataDetails.accessToken;
+            Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
+            Trace.WriteLine(">>>>>>>>>>>>> AccessToken:" + AccessToken);
+            /*var BTODataDetails = new PhoneInfo();
+            
+            //;
+            BTODataDetails.accessToken = accessToken;*/
+            //Trace.WriteLine(">>>>>>>>>>>>>> "+BTODataDetails.deviceID.ToString());
             foreach (var eachBTO in listofBTO)
             {
                 eachBTO.Block = "Block " + eachBTO.Block;
