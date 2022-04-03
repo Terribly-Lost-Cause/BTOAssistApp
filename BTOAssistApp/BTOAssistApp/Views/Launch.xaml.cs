@@ -159,7 +159,7 @@ namespace BTOAssistApp.Views
                         //string str = "" + response.Content.ToString() + " : " + response.StatusCode;
                         var responseString = await response.Content.ReadAsStringAsync();
                         dynamic gibberish = JObject.Parse(responseString);
-
+                         
                         //accessToken 
                         Trace.WriteLine(gibberish);
                         //var accessToken = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(responseString);
