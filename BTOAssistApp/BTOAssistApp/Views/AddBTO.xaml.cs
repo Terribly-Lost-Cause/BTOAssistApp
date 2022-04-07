@@ -40,7 +40,7 @@ namespace BTOAssistApp.Views
             newBto.ID = uuid;
             newBto.Image = "https://resources.homes.hdb.gov.sg/nf/2022-03/obf/tg_d1c1/carousel/01_perspective_tg_d1c1.jpg";
             newBto.Location = "Punggol";
-            newBto.Block = "120";
+            newBto.Block = "120";//<make diff
             newBto.YearsLeft = 5;
             newBto.MinLeaseLeft = 15;
             newBto.MaxLeaseLeft = 99;

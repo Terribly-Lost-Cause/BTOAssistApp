@@ -44,8 +44,16 @@ namespace BTOAssistApp.Data
 
         public Task<int> AddDataAsync(PhoneInfo item)
         {
+            return Database.InsertAsync(item);
+            
+            
+        }
+        public Task<int> CheckDataAsync(PhoneInfo item)
+        {
             var get = Database.Table<PhoneInfo>().Where(i => item.deviceID == item.deviceID).FirstOrDefaultAsync();
-            if (get == null){
+
+            if (get.Id == 1)
+            {
                 return Database.InsertAsync(item);
             }
             else
@@ -62,6 +70,11 @@ namespace BTOAssistApp.Data
         public Task<List<PhoneInfo>> GetAllPhoneInfoAsync()
         {
             return Database.Table<PhoneInfo>().ToListAsync();
+        }
+
+        public Task<int> DeleteAllPhoneInfoAsync()
+        {
+            return Database.DeleteAllAsync<PhoneInfo>();
         }
     }
 }

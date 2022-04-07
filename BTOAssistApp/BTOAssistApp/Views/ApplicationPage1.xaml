@@ -37,18 +37,18 @@
             <Grid Margin="0,0,0,20">
                 <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
-                    <Entry Placeholder="NRIC" IsReadOnly="true"/>
+                    <Entry Placeholder="NRIC" IsReadOnly="false"/>
                 </Frame>
                 <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">
-                    <Entry Placeholder="Mobile No." IsReadOnly="true"/>
+                    <Entry Placeholder="Mobile No." IsReadOnly="false"/>
                 </Frame>
             </Grid>
 
             <Grid Margin="0,0,0,20">
                 <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
-                    <Entry Placeholder="Gender" IsReadOnly="true"/>
+                    <Entry Placeholder="Gender" IsReadOnly="false"/>
                 </Frame>
                 <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">

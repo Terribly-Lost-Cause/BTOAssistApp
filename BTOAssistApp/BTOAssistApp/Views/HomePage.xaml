@@ -8,11 +8,14 @@
     </ContentPage.ToolbarItems>
     <ScrollView>
             <StackLayout Margin="20,20,30,10">
-            <SearchBar Placeholder="Search" Margin="0"/>
+            <Frame BorderColor="Black" Padding="0">
+                <!--SearchBar Placeholder="Search" Margin="0" TextColor="Black" BackgroundColor="#f7f7f7" PlaceholderColor="Black" /-->
+                <Entry Placeholder="Search" Margin="0" TextColor="Black" BackgroundColor="#f7f7f7" PlaceholderColor="Black" />
+            </Frame>
 
             <Frame HeightRequest="250" Padding="0" BackgroundColor="Transparent">
                 <StackLayout Padding="0" Margin="0">
-                    <Label Text="Nearby You" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18"></Label>
+                    <Label TextColor="Black" Text="Nearby You" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18"/>
                     <CarouselView ItemsSource="{Binding AllBTO}" PeekAreaInsets="60" Loop="False" EmptyView="No BTO to display.">
                         <CarouselView.ItemsLayout>
                             <LinearItemsLayout Orientation="Horizontal"
@@ -43,15 +46,15 @@
 
                                             </StackLayout>
                                             <StackLayout Margin="10,5,10,5">
-                                                <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold"/>
+                                                <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
                                                 <StackLayout Orientation="Horizontal">
                                                     <Image Source="spanner.jpg" WidthRequest="15" HeightRequest="15"/>
-                                                    <Label Text="Complete In" FontFamily="Verdana" FontSize="12"/>
-                                                    <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="12"/>
-                                                    <Label Text="Years" FontFamily="Verdana" FontSize="12"/>
+                                                    <Label Text="Complete In" FontFamily="Verdana" FontSize="12" TextColor="Black"/>
+                                                    <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="12" TextColor="Black"/>
+                                                    <Label Text="Years" FontFamily="Verdana" FontSize="12" TextColor="Black"/>
                                                 </StackLayout>
                                                 <StackLayout Orientation="Horizontal">
-                                                    <Image Source="bluedot.png" WidthRequest="15" HeightRequest="15"/>
+                                                    <Image Source="bluedot.png" WidthRequest="15" HeightRequest="15" />
                                                     <Label Text="{Binding Applicants}" FontFamily="Verdana" FontSize="12" TextColor="#0C8188"/>
                                                     <Label Text="People Applied" FontFamily="Verdana" FontSize="12" TextColor="#0C8188"/>
                                                 </StackLayout>
@@ -68,7 +71,7 @@
 
             <Frame HeightRequest="250" Padding="0" BackgroundColor="Transparent">
                 <StackLayout Padding="0" Margin="0">
-                    <Label Text="Popular" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18"></Label>
+                    <Label Text="Popular" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18" TextColor="Black"></Label>
                     <CarouselView ItemsSource="{Binding BTOSorted}" PeekAreaInsets="60" Loop="False" EmptyView="No BTO to display.">
                         <CarouselView.ItemsLayout>
                             <LinearItemsLayout Orientation="Horizontal"
@@ -99,12 +102,12 @@
                                                 
                                             </StackLayout>
                                             <StackLayout Margin="10,5,10,5">
-                                                <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold"/>
+                                                <Label Text="{Binding Block}" FontFamily="Verdana" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
                                                 <StackLayout Orientation="Horizontal">
                                                     <Image Source="spanner.jpg" WidthRequest="15" HeightRequest="15"/>
-                                                    <Label Text="Complete In" FontFamily="Verdana" FontSize="12"/>
-                                                    <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="12"/>
-                                                    <Label Text="Years" FontFamily="Verdana" FontSize="12"/>
+                                                    <Label Text="Complete In" FontFamily="Verdana" FontSize="12" TextColor="Black"/>
+                                                    <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="12" TextColor="Black"/>
+                                                    <Label Text="Years" FontFamily="Verdana" FontSize="12" TextColor="Black"/>
                                                 </StackLayout>
                                                 <StackLayout Orientation="Horizontal">
                                                     <Image Source="bluedot.png" WidthRequest="15" HeightRequest="15"/>

@@ -56,45 +56,56 @@ namespace BTOAssistApp.Views
         public HomePage()
         {
             InitializeComponent();
-            var deviceId = CrossDeviceInfo.Current.Id;
+            //var deviceId = CrossDeviceInfo.Current.Id;
+            //Task.Run(async () =>
+            //{
+
+            //    BTOAssistDatabase database = await BTOAssistDatabase.Instance;
+            //    //await database.DeleteAllPhoneInfoAsync();
+            //    PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
+            //    List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
+                
+            //    foreach (var i in allPhoneInfo)
+            //    {
+            //        Trace.WriteLine("deviceID: " + i.deviceID);
+            //        Trace.WriteLine("accessToken: " + i.accessToken);
+            //    }
+            //    DevID = BTODataDetails.deviceID;
+            //    //Sub = BTODataDetails.sub;
+            //    AccessToken = BTODataDetails.accessToken;
+            //    //Trace.WriteLine(">>>>>>>>>>>>> Sub:" + Sub);
+            //    Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
+            //    Trace.WriteLine("AccessToken: " + AccessToken);
+            //});
 
 
-            
-        }
+            }
+
+
 
         protected override async void OnAppearing()
         {
 
             base.OnAppearing();
-         
 
-            BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            List<BTO> listofBTO = await database.GetBTOAsync();
-            List<BTO> listofBTOSorted = await database.GetBTOPopularityAsync();
+            
+
 
             AllBTO.Clear();
             BTOSorted.Clear();
 
-            var deviceId = CrossDeviceInfo.Current.Id.ToString();
 
+            PostGre postGre = new PostGre();
+            List<BTO> dbBto = postGre.GetAllBTOAsync();
+            List<BTO> dbBtoPopular = postGre.GetBTOPopularityAsync();
 
-            PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
-            DevID = BTODataDetails.deviceID;
-            AccessToken = BTODataDetails.accessToken;
-            Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
-            Trace.WriteLine(">>>>>>>>>>>>> AccessToken:" + AccessToken);
-            /*var BTODataDetails = new PhoneInfo();
-            
-            //;
-            BTODataDetails.accessToken = accessToken;*/
-            //Trace.WriteLine(">>>>>>>>>>>>>> "+BTODataDetails.deviceID.ToString());
-            foreach (var eachBTO in listofBTO)
+            foreach (var eachBTO in dbBto)
             {
                 eachBTO.Block = "Block " + eachBTO.Block;
                 AllBTO.Add(eachBTO);
             }
 
-            foreach (var eachBTOSorted in listofBTOSorted)
+            foreach (var eachBTOSorted in dbBtoPopular)
             {
                 eachBTOSorted.Block = "Block " + eachBTOSorted.Block;
                 BTOSorted.Add(eachBTOSorted);

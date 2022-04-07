@@ -10,6 +10,9 @@ namespace BTOAssistApp.Models
         [PrimaryKey]
         public string deviceID { get; set; }
 
+        
         public string accessToken { get; set; }
+        
+        public string sub { get; set; }
     }
 }

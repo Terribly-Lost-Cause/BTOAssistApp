@@ -32,10 +32,10 @@ namespace BTOAssistApp.Views
         private string pagegrid;
         private string webgrid;
 
-        
 
 
-    public string Redirect
+
+        public string Redirect
         {
             get { return redirect; }
             set
@@ -122,94 +122,102 @@ namespace BTOAssistApp.Views
         //    //await Shell.Current.GoToAsync("//HomePage");
 
         //}
-        
 
-        
+
+
 
         void webviewNavigating(object sender, WebNavigatedEventArgs e)
         {
             //labelLoading.IsVisible = false;
             var Singpass = e.Url;
-            if(Singpass.Contains("callback?code=") == true)
+            if (Singpass.Contains("callback?code=") == true)
             {
-                Trace.WriteLine(Singpass);
+                Trace.WriteLine("Callback>>>> "+Singpass);
                 var authCode = Singpass.Split('=');
                 authCode = authCode[1].Split('&');
 
-                
+
                 client = new HttpClient();
                 Uri getToken = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonData");
 
                 Task.Run(async () =>
                 {
                     //string code = "code";
-                    Trace.WriteLine("authCode[0] "+authCode[0]);
+                    Trace.WriteLine("authCode[0] " + authCode[0]);
                     //string parametersJson = JsonConvert.SerializeObject(new { coded = "authCode[0].ToString()" });
                     var values = new Dictionary<string, string>
                       {
                           { "code", authCode[0].ToString() },
-  
+
                       };
                     //string json = JsonConvert.SerializeObject(new { "PropertyA" = obj.PropertyA });
                     var stringContent = new FormUrlEncodedContent(values);
-                    
+
                     try
                     {
                         HttpResponseMessage response = await client.PostAsync(getToken, stringContent);
                         //string str = "" + response.Content.ToString() + " : " + response.StatusCode;
                         var responseString = await response.Content.ReadAsStringAsync();
-                        dynamic gibberish = JObject.Parse(responseString);
+                        string content = await response.Content.ReadAsStringAsync();
+                        Trace.WriteLine("content: " + content.ToString());
+                        /*dynamic gibberish = JObject.Parse(responseString);
                          
                         //accessToken 
-                        Trace.WriteLine(gibberish);
-                        //var accessToken = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(responseString);
-                        //dynamic data = JObject.Parse(responseString);
-                        
+                        Trace.WriteLine(gibberish);*/
+                        JObject json = JObject.Parse(responseString);
+                        Console.WriteLine("full thing >>>> " + json);
+                        Console.WriteLine("accessToken >>>> " + json["accessToken"]);
+                        Console.WriteLine("decokedToken >>>> " + json["decodedToken"]["sub"]);
 
-                        var uwu = JObject.Parse(responseString);
-                        JArray uwu1 = (JArray)uwu[0];
-                        Trace.WriteLine((string)uwu1["sub"]);
-                        Trace.WriteLine(">>>>>>>>>>>>>>>>> AuthCode"+ authCode[0].ToString());
-                        //Trace.WriteLine(">>>>>>>>>>>>>>>>> Access Token" + accessToken["accessToken"]);
-
-
-
+                       
                         var newPhoneInfo = new PhoneInfo();
-                        Guid myuuid = Guid.NewGuid();
-                        var uuid = myuuid.ToString();
-                        //newPhoneInfo.deviceID = CrossDeviceInfo.Current.Id.ToString();
-                        //newPhoneInfo.accessToken = accessToken["accessToken"];
+                        PostGre postGre = new PostGre();
+                        postGre.CheckDataAsync("d");
 
+                        newPhoneInfo.deviceID = CrossDeviceInfo.Current.Id.ToString();
+                        Console.WriteLine("stored deviceID >>>> " + newPhoneInfo.deviceID);
+                        newPhoneInfo.accessToken = json["accessToken"].ToString();
+                        Console.WriteLine("stored accessToken >>>> " +newPhoneInfo.accessToken);
+                        newPhoneInfo.sub = json["decodedToken"]["sub"].ToString();
                         BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-                        await database.AddDataAsync(newPhoneInfo);
+
+                        await database.DeleteAllPhoneInfoAsync();
+                        var count1 = await database.GetAllPhoneInfoAsync();
+                        Console.WriteLine(">>>> Here 1");
+                        await database.CheckDataAsync(newPhoneInfo);
+                        Console.WriteLine(">>>> Here 2");
+                        //await database.CheckDataAsync(newPhoneInfo);//<-----
+                        Console.WriteLine(">>>> Here 3");
+                        var count2 = await database.GetAllPhoneInfoAsync();
+                        Console.WriteLine(">>>> Here 4");
+                        await database.CheckDataAsync(newPhoneInfo);
+                        Console.WriteLine(">>>> Here 5");
+                        var count3 = await database.GetAllPhoneInfoAsync();
                     }
-                    catch (Exception ehdhfg){
+                    catch (Exception ehdhfg)
+                    {
                         Trace.WriteLine(ehdhfg);
                     }
-                    
+
                 });
 
                 //WebGrid = "false";
                 //Shell.Current.GoToAsync("//HomePage");
             }
-            else
-            {
 
-            }
-            
-            
-            
+
+
         }
 
 
         public Launch()
         {
 
-            
+
 
             InitializeComponent();
 
-            
+
 
             BindingContext = this;
 
@@ -251,12 +259,12 @@ namespace BTOAssistApp.Views
                                 ButtonGrid = "true";
                                 stat = false;
                                 Redirect = "true";
-                                if(Progress == "100%")
+                                if (Progress == "100%")
                                 {
                                     await Task.Delay(1000);
                                     PageGrid = "false";
                                     WebGrid = "true";
-                                    
+
                                 }
                             }
                             else

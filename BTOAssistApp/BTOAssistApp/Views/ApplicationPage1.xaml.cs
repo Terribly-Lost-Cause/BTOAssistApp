@@ -9,15 +9,21 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Collections.Generic;
 using System;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.WebUtilities;
 
 namespace BTOAssistApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ApplicationPage1 : ContentPage
     {
+
+        
+
         private string devID;
-        private string id;
+        
         private string accesstoken;
+        private string sub;
         HttpClient client;
         public string DevID
         {
@@ -28,13 +34,13 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(DevID)); // Notify that there was a change on this property
             }
         }
-        public string Id
+        public string Sub
         {
-            get { return id; }
+            get { return sub; }
             set
             {
-                id = value;
-                OnPropertyChanged(nameof(Id)); // Notify that there was a change on this property
+                sub = value;
+                OnPropertyChanged(nameof(Sub)); // Notify that there was a change on this property
             }
         }
         public string AccessToken
@@ -46,56 +52,63 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(AccessToken)); // Notify that there was a change on this property
             }
         }
-        protected override async void OnAppearing()
-        {
-            var deviceId = CrossDeviceInfo.Current.Id;
-
-            Trace.WriteLine(deviceId);
-            BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
-            List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
-            foreach(var i in allPhoneInfo)
-            {
-                Trace.WriteLine("deviceID: "+i.deviceID);
-                Trace.WriteLine("accessToken: "+i.accessToken);
-            }
-            DevID = BTODataDetails.deviceID;
-            AccessToken = BTODataDetails.accessToken;
-            Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
-            Trace.WriteLine(">>>>>>>>>>>>> AccessToken:" + AccessToken);
-            
-        }
         public ApplicationPage1()
         {
             InitializeComponent();
 
-            
-            
-        Task.Run(async () =>
+            var deviceId = CrossDeviceInfo.Current.Id;
+
+
+            Task.Run(async () =>
         {
+
+            BTOAssistDatabase database = await BTOAssistDatabase.Instance;
+            //await database.DeleteAllPhoneInfoAsync();
+            PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
+            List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
+
+            foreach (var i in allPhoneInfo)
+            {
+                Trace.WriteLine("deviceID: " + i.deviceID);
+                Trace.WriteLine("appPageAccessToken: " + i.accessToken);
+            }
+            DevID = BTODataDetails.deviceID;
+            Sub = BTODataDetails.sub;
+            AccessToken = BTODataDetails.accessToken;
+            Trace.WriteLine(">>>>>>>>>>>>> Sub:" + Sub);
+            Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
+            Trace.WriteLine("AccessToken: " + AccessToken);
+
+            //const string url = "https://customer-information.azure-api.net/customers/search/taxnbr";
+            //var param = new Dictionary<string, string>() { { "CIKey", "123456789" } };
+
 
             client = new HttpClient();
 
             //string code = "code";
-            Uri getToken = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonData");
+            const string getToken = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/testRoute/";
             //string parametersJson = JsonConvert.SerializeObject(new { coded = "authCode[0].ToString()" });
             var values = new Dictionary<string, string>
                   {
-                      { "code", accesstoken },
+                      {"Sub", Sub},
+                      {"AccessToken", AccessToken},
 
                   };
+            Trace.WriteLine("SEESEESEESEESEESEESEESEE");
+            var newUrl = new Uri(QueryHelpers.AddQueryString(getToken, values));
+
             //string json = JsonConvert.SerializeObject(new { "PropertyA" = obj.PropertyA });
             var stringContent = new FormUrlEncodedContent(values);
 
-            Trace.WriteLine("<><><><><><><><><><>");
+            Trace.WriteLine("<><><><><><><><><><>"+newUrl);
             try
             {
-                HttpResponseMessage response = await client.PostAsync(getToken, stringContent);
-                Trace.WriteLine(">>>>>><<<<<<");
-                var stat = response.EnsureSuccessStatusCode();
+                HttpResponseMessage response = await client.GetAsync(newUrl);
+                Trace.WriteLine(">>>>>>>>>>>>>>>>>>"+response);
+                //var stat = response.EnsureSuccessStatusCode();
                 string content = await response.Content.ReadAsStringAsync();
                 Trace.WriteLine("content: " + content.ToString());
-                Trace.WriteLine("stat: " + stat.ToString());
+                //Trace.WriteLine("stat: " + stat.ToString());
             }
             catch (Exception ehdhfg)
             {

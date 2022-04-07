@@ -169,15 +169,28 @@ namespace BTOAssistApp.Views
             InitializeComponent();
 
             BTOId = id;
+
+            Task.Run(async () =>
+            {
+                BTOAssistDatabase database = await BTOAssistDatabase.Instance;
+                List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
+
+                foreach (var i in allPhoneInfo)
+                {
+                    Trace.WriteLine("homePageDeviceID: " + i.deviceID);
+                    Trace.WriteLine("homePageAccessToken: " + i.accessToken);
+                }
+            });
+
         }
 
         protected override async void OnAppearing()
         {
 
             base.OnAppearing();
-
+            PostGre postGre = new PostGre();
             BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            BTO BTODetails = await database.GetBTODetailAsync(BTOId);
+            BTO BTODetails = postGre.GetBTODetailsAsync(BTOId);
 
             Id = BTODetails.ID;
             Image = BTODetails.Image;
@@ -201,7 +214,8 @@ namespace BTOAssistApp.Views
             var BTODeets = (Button)sender;
             string id = BTODeets.AutomationId;
 
-            await Shell.Current.GoToAsync("//ApplicationPage1");
+            await Navigation.PushAsync(new ApplicationPage1());
+            //await Shell.Current.GoToAsync("//ApplicationPage1");
 
             Trace.WriteLine(id);
         }
