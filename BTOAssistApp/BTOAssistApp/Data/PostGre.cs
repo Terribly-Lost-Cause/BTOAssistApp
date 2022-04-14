@@ -75,7 +75,7 @@ namespace BTOAssistApp.Data
                 Console.WriteLine("{0}={1}", name, value);
             }
 
-            string cmdPath = System.IO.Path.Combine(Environment.SystemDirectory, "cmd.exe");
+            string cmdPath = System.IO.Path.Combine(Environment.SystemDirectory, "cmd.exe"); 
             
 
             Console.WriteLine(">>>>>>>>>>>>>>>>>>>", Environment.SystemDirectory.ToString());
