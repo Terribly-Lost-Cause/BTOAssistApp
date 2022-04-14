@@ -1,9 +1,12 @@
 ﻿using BTOAssistApp.Data;
 using BTOAssistApp.Models;
+using Microsoft.AspNetCore.WebUtilities;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,6 +33,8 @@ namespace BTOAssistApp.Views
         private string longdescription;
         private double downpayment;
         private double fullpayment;
+        HttpClient client = new HttpClient();
+
         public string Id
         {
             get { return id; }
@@ -188,24 +193,40 @@ namespace BTOAssistApp.Views
         {
 
             base.OnAppearing();
-            PostGre postGre = new PostGre();
-            BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            BTO BTODetails = postGre.GetBTODetailsAsync(BTOId);
 
-            Id = BTODetails.ID;
-            Image = BTODetails.Image;
-            Location = BTODetails.Location;
-            Block = BTODetails.Block.ToString();
-            SQM = BTODetails.SQM.ToString();
-            Bus = BTODetails.Bus.ToString();
-            Mrt = BTODetails.MRT.ToString();
-            Direction = BTODetails.Direction.ToString();
-            RoomType = BTODetails.RoomType;
-            YearsLeft = BTODetails.YearsLeft;
-            Applicants = BTODetails.Applicants;
-            LongDescription = BTODetails.LongDescription.ToString();
-            DownPayment = BTODetails.DownPayment;
-            FullPayment = BTODetails.FullPayment;
+            const string getHouseInfo = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getOneBTOInfo";
+            var values = new Dictionary<string, string>
+                      {
+                          { "id", BTOId},
+
+                      };
+            var newUrl = new Uri(QueryHelpers.AddQueryString(getHouseInfo, values));
+            //var stringContent = new FormUrlEncodedContent(values);
+            HttpResponseMessage getHouseInfoResponse = await client.GetAsync(newUrl);
+            var responseString = await getHouseInfoResponse.Content.ReadAsStringAsync();
+            JObject data = JObject.Parse(responseString);
+            var array = data["result"] as JArray;
+            var details = array[0];
+
+            Console.WriteLine("array: " + array[0]);
+            //PostGre postGre = new PostGre();
+            //BTOAssistDatabase database = await BTOAssistDatabase.Instance;
+            //BTO BTODetails = postGre.GetBTODetailsAsync(array[0]["id"]);
+
+            Id = details["id"].ToString();
+            Image = details["image"].ToString();
+            Location = details["location"].ToString();
+            Block = details["block"].ToString();
+            SQM = details["sqm"].ToString();
+            Bus = details["bus"].ToString();
+            Mrt = details["mrt"].ToString();
+            Direction = details["direction"].ToString();
+            RoomType = Int32.Parse(details["roomtype"].ToString());
+            YearsLeft = Int32.Parse(details["yearsleft"].ToString());
+            Applicants = Int32.Parse(details["applicants"].ToString());
+            LongDescription = details["longdescription"].ToString();
+            DownPayment = Double.Parse(details["downpayment"].ToString());
+            FullPayment = Double.Parse(details["fullpayment"].ToString());
             BindingContext = this;
         }
 

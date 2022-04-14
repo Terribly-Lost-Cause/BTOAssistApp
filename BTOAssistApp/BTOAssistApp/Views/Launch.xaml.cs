@@ -14,6 +14,8 @@ using Plugin.DeviceInfo;
 using BTOAssistApp.Data;
 using Newtonsoft.Json.Linq;
 using Microsoft.CSharp;
+using System.IO;
+
 namespace BTOAssistApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -139,18 +141,24 @@ namespace BTOAssistApp.Views
 
                 client = new HttpClient();
                 Uri getToken = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonData");
-
+                Uri insertData = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPhoneInfo");
+                /*string[] dirs = Directory.GetDirectories(rootpath, "*", SearchOption.AllDirectories);
+                foreach (string files in dirs)
+                {
+                    Console.WriteLine(files);
+                }*/
                 Task.Run(async () =>
                 {
                     //string code = "code";
                     Trace.WriteLine("authCode[0] " + authCode[0]);
                     //string parametersJson = JsonConvert.SerializeObject(new { coded = "authCode[0].ToString()" });
+                    //string json = JsonConvert.SerializeObject(new { "PropertyA" = obj.PropertyA });
+
                     var values = new Dictionary<string, string>
                       {
                           { "code", authCode[0].ToString() },
 
                       };
-                    //string json = JsonConvert.SerializeObject(new { "PropertyA" = obj.PropertyA });
                     var stringContent = new FormUrlEncodedContent(values);
 
                     try
@@ -172,13 +180,43 @@ namespace BTOAssistApp.Views
                        
                         var newPhoneInfo = new PhoneInfo();
                         PostGre postGre = new PostGre();
-                        postGre.CheckDataAsync("d");
+                        var phoneID = CrossDeviceInfo.Current.Id.ToString();
+                        var accessToken = json["accessToken"].ToString();
+                        var sub = json["decodedToken"]["sub"].ToString();
+                        
+                        var phoneValues = new Dictionary<string, string>
+                      {
+                          { "id", phoneID },
+                          { "accesstoken", accessToken },
+                          { "sub", sub }
 
+                      };
+                        var phoneStringContent = new FormUrlEncodedContent(phoneValues);
+                        HttpResponseMessage insertIntoPhoneTable = await client.PostAsync(insertData, phoneStringContent);//<--
+
+
+                        var phoneInfoResponseString = await insertIntoPhoneTable.Content.ReadAsStringAsync();
+                        
+
+
+                        Uri getBTOInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPhoneInfo");
+
+                        HttpResponseMessage phoneInfoResponse = await client.GetAsync(getBTOInfo);
+
+
+                        string phoneContent = await phoneInfoResponse.Content.ReadAsStringAsync();
+                        JObject data = JObject.Parse(phoneContent);
+
+                        Console.WriteLine(">>>>>>>>>>>"+ data);
+                        /*
                         newPhoneInfo.deviceID = CrossDeviceInfo.Current.Id.ToString();
                         Console.WriteLine("stored deviceID >>>> " + newPhoneInfo.deviceID);
                         newPhoneInfo.accessToken = json["accessToken"].ToString();
                         Console.WriteLine("stored accessToken >>>> " +newPhoneInfo.accessToken);
                         newPhoneInfo.sub = json["decodedToken"]["sub"].ToString();
+                        postGre.CheckDataAsync(newPhoneInfo);
+                        */
+                        /*
                         BTOAssistDatabase database = await BTOAssistDatabase.Instance;
 
                         await database.DeleteAllPhoneInfoAsync();
@@ -193,16 +231,17 @@ namespace BTOAssistApp.Views
                         await database.CheckDataAsync(newPhoneInfo);
                         Console.WriteLine(">>>> Here 5");
                         var count3 = await database.GetAllPhoneInfoAsync();
+                        */
                     }
                     catch (Exception ehdhfg)
                     {
-                        Trace.WriteLine(ehdhfg);
+                        Console.WriteLine(ehdhfg);
                     }
 
                 });
 
-                //WebGrid = "false";
-                //Shell.Current.GoToAsync("//HomePage");
+                WebGrid = "false";
+                Shell.Current.GoToAsync("//HomePage");
             }
 
 

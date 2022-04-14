@@ -54,9 +54,9 @@
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="spanner.jpg" WidthRequest="20" HeightRequest="20"/>
-                        <Label Text="Complete In" FontFamily="Verdana" FontSize="15"/>
-                        <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="15"/>
-                        <Label Text="Years" FontFamily="Verdana" FontSize="15"/>
+                        <Label Text="Complete In" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                        <Label Text="{Binding YearsLeft}" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
+                        <Label Text="Years" FontFamily="Verdana" FontSize="15" TextColor="Black"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="bluedot.png" WidthRequest="20" HeightRequest="20"/>

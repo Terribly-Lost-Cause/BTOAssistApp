@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Plugin.DeviceInfo;
+using Newtonsoft.Json.Linq;
 
 namespace BTOAssistApp.Views
 {
@@ -22,7 +23,7 @@ namespace BTOAssistApp.Views
         private string devID;
         private string id;
         private string accesstoken;
-
+        HttpClient client = new HttpClient();
         public string DevID
         {
             get { return devID; }
@@ -56,27 +57,7 @@ namespace BTOAssistApp.Views
         public HomePage()
         {
             InitializeComponent();
-            //var deviceId = CrossDeviceInfo.Current.Id;
-            //Task.Run(async () =>
-            //{
-
-            //    BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            //    //await database.DeleteAllPhoneInfoAsync();
-            //    PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
-            //    List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
-                
-            //    foreach (var i in allPhoneInfo)
-            //    {
-            //        Trace.WriteLine("deviceID: " + i.deviceID);
-            //        Trace.WriteLine("accessToken: " + i.accessToken);
-            //    }
-            //    DevID = BTODataDetails.deviceID;
-            //    //Sub = BTODataDetails.sub;
-            //    AccessToken = BTODataDetails.accessToken;
-            //    //Trace.WriteLine(">>>>>>>>>>>>> Sub:" + Sub);
-            //    Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
-            //    Trace.WriteLine("AccessToken: " + AccessToken);
-            //});
+            
 
 
             }
@@ -87,28 +68,31 @@ namespace BTOAssistApp.Views
         {
 
             base.OnAppearing();
+            Uri getBTOInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getBTOInfo");
 
-            
+            HttpResponseMessage response = await client.GetAsync(getBTOInfo);
 
+
+            string content = await response.Content.ReadAsStringAsync();
+            JObject data = JObject.Parse(content);
+            var array = data["result"] as JArray;
+            var sortarray = data["sorted"] as JArray;
 
             AllBTO.Clear();
             BTOSorted.Clear();
 
-
-            PostGre postGre = new PostGre();
-            List<BTO> dbBto = postGre.GetAllBTOAsync();
-            List<BTO> dbBtoPopular = postGre.GetBTOPopularityAsync();
-
-            foreach (var eachBTO in dbBto)
+            foreach (var house in array)
             {
-                eachBTO.Block = "Block " + eachBTO.Block;
-                AllBTO.Add(eachBTO);
+                var classhouse = house.ToObject<BTO>();
+                classhouse.Block = "Block " + classhouse.Block;
+                AllBTO.Add(classhouse);
             }
 
-            foreach (var eachBTOSorted in dbBtoPopular)
+            foreach (var sorthouse in sortarray)
             {
-                eachBTOSorted.Block = "Block " + eachBTOSorted.Block;
-                BTOSorted.Add(eachBTOSorted);
+                var sortclasshouse = sorthouse.ToObject<BTO>();
+                sortclasshouse.Block = "Block " + sortclasshouse.Block;
+                BTOSorted.Add(sortclasshouse);
             }
 
             BindingContext = this;
@@ -125,9 +109,10 @@ namespace BTOAssistApp.Views
         async void ViewDetail(object sender, EventArgs args)
         {
             var BTO = (Frame)sender;
+            Console.WriteLine(">>>>>>>>>>>>>>", BTO);
             string id = BTO.AutomationId;
 
-            Trace.WriteLine(id);
+            Trace.WriteLine(">>>>>> "+id);
             await Navigation.PushAsync(new BTODetail(id));
         }
     }

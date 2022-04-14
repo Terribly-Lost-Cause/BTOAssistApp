@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BTOAssistApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value",
+        "DATABASE_VAR": "Host=ec2-34-231-63-30.compute-1.amazonaws.com;Username=lpteuvuyvbcmqq;Password=fa09dd6a4daded9cc86272f4720db64315845753904cf049d5fdebbc8d7fa8ea;Database=d1mup2m4442d7t"
+      }
+    }
+  }
+}

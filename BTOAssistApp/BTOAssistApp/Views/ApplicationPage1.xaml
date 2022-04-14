@@ -4,7 +4,10 @@
              x:Class="BTOAssistApp.Views.ApplicationPage1"
              Title="Fill Application">
     <ContentPage.Content>
-        <StackLayout Margin="20,30,20,0">
+        <ScrollView>
+        <StackLayout>
+
+                <StackLayout Margin="5,15,15,0" IsVisible="{Binding Page1Vis}">
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
@@ -12,71 +15,351 @@
                 </Frame>
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
-                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">2</Label>
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">2</Label>
                 </Frame>
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
-                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">3</Label>
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">3</Label>
                 </Frame>
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
-                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">4</Label>
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">4</Label>
                 </Frame>
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
-                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">5</Label>
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">5</Label>
                 </Frame>
             </StackLayout>
-            <Label FontSize="25" FontAttributes="Bold">Applicant's Particular</Label>
+                    <Label FontSize="25" FontAttributes="Bold" TextColor="Black">Applicant's Particular</Label>
+
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
+                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" >
+                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                    </Grid>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                    </Grid>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+
+                    </Grid>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
+                        <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+
+                    <Grid Margin="0,0,0,20" >
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="1" Clicked="Button_Clicked"/>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+<!--> ################################################### Page 2 ################################################################## <-->
+                <StackLayout Margin="30,40,40,0" IsVisible="{Binding Page2Vis}">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
+                    </Frame>
+                    <Frame
+               BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">2</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">3</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">4</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">5</Label>
+                    </Frame>
+                </StackLayout>
+                    <Label FontSize="25" FontAttributes="Bold" TextColor="Black">Sub-Applicant's Particular</Label>
+
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
+                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" >
+                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                    </Grid>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                    </Grid>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+
+                    </Grid>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
+                        <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Grid Margin="0,0,0,20">
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Relationship With Applicant" PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+
+                    </Grid>
+                    <Grid Margin="0,0,0,20" >
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="2" Clicked="Button_Clicked"/>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
             
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Margin="0,0,0,20">
-                <Entry Placeholder="Full Name" IsReadOnly="true"/>
-            </Frame>
+            <!--> ################################################### Page 3 ################################################################## <-->
+                <StackLayout Margin="30,40,40,0" IsVisible="{Binding Page3Vis}">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
+                    </Frame>
+                    <Frame
+               BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">2</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">3</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">4</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">5</Label>
+                    </Frame>
+                </StackLayout>
+                    <Label FontSize="25" FontAttributes="Bold" TextColor="Black">Applicant's Mother's Particular</Label>
 
-            <Grid Margin="0,0,0,20">
                 <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
-                    <Entry Placeholder="NRIC" IsReadOnly="false"/>
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
+                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black"/>
                 </Frame>
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">
-                    <Entry Placeholder="Mobile No." IsReadOnly="false"/>
-                </Frame>
-            </Grid>
 
-            <Grid Margin="0,0,0,20">
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
-                    <Entry Placeholder="Gender" IsReadOnly="false"/>
-                </Frame>
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">
-                    <Entry Placeholder="Age" IsReadOnly="true"/>
-                </Frame>
-            </Grid>
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" >
+                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
 
-            <Grid Margin="0,0,0,20">
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
-                    <Entry Placeholder="Marital Status" IsReadOnly="true"/>
-                </Frame>
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">
-                    <Entry Placeholder="Citizenship" IsReadOnly="true"/>
-                </Frame>
-            </Grid>
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Text="Female" IsReadOnly="true" BackgroundColor="#e0e0e0" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
 
-            <Grid Margin="0,0,0,20">
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                        
+                </Grid>
+
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                        
+                    </Grid>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
+                            <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black"/>
+                        </Frame>
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Editor Placeholder="Address" HeightRequest="85"  MaxLength="1800" AutoSize="TextChanges" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    
+                </Grid>
+                    <Grid Margin="0,0,0,20" >
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="3" Clicked="Button_Clicked"/>
+                        </Frame>
+                    </Grid>
+            </StackLayout>
+            <!--> ################################################### Page 4 ################################################################## <-->
+                <StackLayout Margin="30,40,40,0" IsVisible="{Binding Page4Vis}">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
+                    </Frame>
+                    <Frame
+               BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">2</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">3</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">4</Label>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">5</Label>
+                    </Frame>
+                </StackLayout>
+                    <Label FontSize="25" FontAttributes="Bold" TextColor="Black" Margin="10,10,0,20">Applicant's Father's Particular</Label>
+
                 <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="0">
-                    <Entry Placeholder="Occupation" IsReadOnly="true"/>
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
+                        <Entry Placeholder="Full Name" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
                 </Frame>
-                <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="10" Grid.Row="0" Grid.Column="1">
-                    <Entry Placeholder="Monthly CPF" IsReadOnly="true"/>
-                </Frame>
-            </Grid>
+
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="3" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="NRIC" IsReadOnly="false" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Mobile No." IsReadOnly="false" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
+
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0" BackgroundColor="#e0e0e0">
+                            <Entry Text="Male" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Age" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
+
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Marital Status" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Citizenship" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
+
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Entry Placeholder="Occupation" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                            <Entry Placeholder="Monthly CPF" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
+                <Grid Margin="0,0,0,20">
+                    <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                            <Editor Placeholder="Address" IsReadOnly="true" HeightRequest="85"  MaxLength="1800" AutoSize="TextChanges" PlaceholderColor="Gray" TextColor="Black"/>
+                    </Frame>
+                </Grid>
+                    <Grid Margin="0,0,0,20" >
+                        <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="4" Clicked="Button_Clicked"/>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+            
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

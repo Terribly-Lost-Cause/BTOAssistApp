@@ -6,8 +6,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netstandard2.0\.NETStandard,Version=v2.0.AssemblyAttributes.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\BTOAssistApp.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netstandard2.0\BTOAssistApp.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\BTOAssistApp.csproj.nuget.g.props" />
+    <None Include="obj\BTOAssistApp.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netstandard2.0\BTOAssistApp.assets.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Mobile.BuildTools" Version="2.0.245" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Npgsql" Version="6.0.3" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
@@ -45,5 +68,10 @@
     <EmbeddedResource Update="Views\Launch.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\netstandard2.0\ref\" />
+    <Folder Include="obj\Debug\netstandard2.0\Views\" />
   </ItemGroup>
 </Project>
