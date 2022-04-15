@@ -15,6 +15,8 @@ using BTOAssistApp.Data;
 using Newtonsoft.Json.Linq;
 using Microsoft.CSharp;
 using System.IO;
+using System.Security.Cryptography;
+
 
 namespace BTOAssistApp.Views
 {
@@ -33,7 +35,8 @@ namespace BTOAssistApp.Views
         private string redirect;
         private string pagegrid;
         private string webgrid;
-
+        byte[] Key;
+        byte[] IV;
 
 
 
@@ -134,7 +137,7 @@ namespace BTOAssistApp.Views
             var Singpass = e.Url;
             if (Singpass.Contains("callback?code=") == true)
             {
-                Trace.WriteLine("Callback>>>> "+Singpass);
+                Trace.WriteLine("Callback>>>> " + Singpass);
                 var authCode = Singpass.Split('=');
                 authCode = authCode[1].Split('&');
 
@@ -142,6 +145,7 @@ namespace BTOAssistApp.Views
                 client = new HttpClient();
                 Uri getToken = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonData");
                 Uri insertData = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPhoneInfo");
+                Uri insertPersonData = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPersonInfo");
                 /*string[] dirs = Directory.GetDirectories(rootpath, "*", SearchOption.AllDirectories);
                 foreach (string files in dirs)
                 {
@@ -168,54 +172,102 @@ namespace BTOAssistApp.Views
                         var responseString = await response.Content.ReadAsStringAsync();
                         string content = await response.Content.ReadAsStringAsync();
                         Trace.WriteLine("content: " + content.ToString());
+
+                        //responseString = responseString.Replace(null, "-");
                         /*dynamic gibberish = JObject.Parse(responseString);
                          
                         //accessToken 
                         Trace.WriteLine(gibberish);*/
                         JObject json = JObject.Parse(responseString);
-                        Console.WriteLine("full thing >>>> " + json);
-                        Console.WriteLine("accessToken >>>> " + json["accessToken"]);
-                        Console.WriteLine("decokedToken >>>> " + json["decodedToken"]["sub"]);
+                        /*var jsonString = JsonConvert.SerializeObject(json);
+                        var look = "";
+                        jsonString = jsonString.Replace(null, "-");*/
+                        //Console.WriteLine(json);
+                        Console.WriteLine("full thing >>>> " + json["personData"]["mobileno"]["nbr"]["value"]);
+                        Console.WriteLine("full thing >>>> " + json["personData"]["sex"]["desc"]);
+                        Console.WriteLine("full thing >>>> " + nullChecker(json["personData"]["marital"]["desc"].ToString()));
+                        Console.WriteLine("full thing >>>> " + json["personData"]["nationality"]["desc"]);
+                        Console.WriteLine("full thing >>>> " + json["personData"]["occupation"]["desc"]);
 
-                       
-                        var newPhoneInfo = new PhoneInfo();
-                        PostGre postGre = new PostGre();
-                        var phoneID = CrossDeviceInfo.Current.Id.ToString();
-                        var accessToken = json["accessToken"].ToString();
-                        var sub = json["decodedToken"]["sub"].ToString();
-                        
-                        var phoneValues = new Dictionary<string, string>
+                        if (json["personData"]["marital"]["desc"].ToString() == "")
+                        {
+                            Console.WriteLine("BLEGH");
+                        }
+
+
+                        var cpf = json["personData"]["cpfcontributions"];
+
+                        var cpfAmount = cpf["history"] as JArray;
+                        var count = 0;
+                        var amount = 0.0;
+                        var math = "";
+                        var average = 0.0;
+                        foreach (var i in cpfAmount)
+                        {
+                            if (Double.Parse(i["amount"]["value"].ToString()) == 0 && count == 0)
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                amount += Double.Parse(i["amount"]["value"].ToString());
+                                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>> amount in for loop " + i["amount"]["value"].ToString());
+                                math = math + i["amount"]["value"].ToString() + "+";
+                                count += 1;
+                            }
+                        }
+                        if (amount == 0 || math == "")
+                        {
+                            average = 0;
+                        }
+                        else
+                        {
+                            average = amount / count;
+                        }
+                        var test = json["personData"]["name"]["value"].ToString();
+
+                        //EncryptStringToBytes_Aes(json["personData"]["name"]["value"].ToString());
+                        Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>",Key);
+
+                        using (Aes myAes = Aes.Create())
+                        {
+
+                            var personValues = new Dictionary<string, string>
                       {
-                          { "id", phoneID },
-                          { "accesstoken", accessToken },
-                          { "sub", sub }
+                          { "phoneid", CrossDeviceInfo.Current.Id.ToString() },
+                          { "name", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["name"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "uinfin", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["uinfin"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "mobileno", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["mobileno"]["nbr"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "sex", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["sex"]["desc"].ToString(), myAes.Key, myAes.IV))+","+ Convert.ToBase64String(myAes.Key)+","+ Convert.ToBase64String(myAes.IV) },
+                          { "dob", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["dob"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "marital", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["marital"]["desc"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "nationality", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["nationality"]["desc"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "occupation",Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["occupation"]["desc"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
+                          { "cpfcontributions", Convert.ToBase64String(EncryptStringToBytes_Aes(average.ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) }
 
-                      };
-                        var phoneStringContent = new FormUrlEncodedContent(phoneValues);
-                        HttpResponseMessage insertIntoPhoneTable = await client.PostAsync(insertData, phoneStringContent);//<--
-
-
-                        var phoneInfoResponseString = await insertIntoPhoneTable.Content.ReadAsStringAsync();
-                        
-
-
-                        Uri getBTOInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPhoneInfo");
-
-                        HttpResponseMessage phoneInfoResponse = await client.GetAsync(getBTOInfo);
+                            };
+                            
 
 
-                        string phoneContent = await phoneInfoResponse.Content.ReadAsStringAsync();
-                        JObject data = JObject.Parse(phoneContent);
 
-                        Console.WriteLine(">>>>>>>>>>>"+ data);
-                        /*
-                        newPhoneInfo.deviceID = CrossDeviceInfo.Current.Id.ToString();
-                        Console.WriteLine("stored deviceID >>>> " + newPhoneInfo.deviceID);
-                        newPhoneInfo.accessToken = json["accessToken"].ToString();
-                        Console.WriteLine("stored accessToken >>>> " +newPhoneInfo.accessToken);
-                        newPhoneInfo.sub = json["decodedToken"]["sub"].ToString();
-                        postGre.CheckDataAsync(newPhoneInfo);
-                        */
+
+
+
+
+                        var personStringContent = new FormUrlEncodedContent(personValues);
+                        HttpResponseMessage insertIntoPersonTable = await client.PostAsync(insertPersonData, personStringContent);
+                        var personInfoResponseString = await insertIntoPersonTable.Content.ReadAsStringAsync();
+                        Uri getPersonInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPersonInfo");
+                        HttpResponseMessage personInfoResponse = await client.GetAsync(getPersonInfo);
+                        string personContent = await personInfoResponse.Content.ReadAsStringAsync();
+                        JObject data = JObject.Parse(personContent);
+                        Console.WriteLine(">>>>>>>>>>>" + data);
+                        }
+                        ////////////////////////////////////////////////////
+
+
+
+
                         /*
                         BTOAssistDatabase database = await BTOAssistDatabase.Instance;
 
@@ -248,7 +300,110 @@ namespace BTOAssistApp.Views
 
         }
 
+        public string nullChecker(string jsonObject)
+        {
+            if (jsonObject == "")
+            {
+                jsonObject = "!";
+            }
+            else
+            {
+                jsonObject = jsonObject + "!";
+            }
+            Console.WriteLine(jsonObject);
+            return jsonObject;
 
+        }
+
+        static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
+        {
+            // Check arguments.
+            
+
+            if (plainText == "")
+            {
+                plainText = "!";
+            }
+            else
+            {
+                plainText = plainText + "!";
+            }
+
+            byte[] encrypted;
+            Console.WriteLine("Key >>>>>>>>>>>>> "+ Convert.ToBase64String(Key));
+            Console.WriteLine("Key >>>>>>>>>>>>> " + Convert.ToBase64String(IV));
+            // Create an Aes object
+            // with the specified key and IV.
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Key;
+                aesAlg.IV = IV;
+            
+                // Create an encryptor to perform the stream transform.
+                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+                // Create the streams used for encryption.
+                using (MemoryStream msEncrypt = new MemoryStream())
+                {
+                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                    {
+                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
+                        {
+                            //Write all data to the stream.
+                            swEncrypt.Write(plainText);
+                        }
+                        encrypted = msEncrypt.ToArray();
+                    }
+                }
+            }
+
+            // Return the encrypted bytes from the memory stream.
+            return encrypted;
+        }
+        /*
+        static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key, byte[] IV)
+        {
+            // Check arguments.
+            if (cipherText == null || cipherText.Length <= 0)
+                throw new ArgumentNullException("cipherText");
+            if (Key == null || Key.Length <= 0)
+                throw new ArgumentNullException("Key");
+            if (IV == null || IV.Length <= 0)
+                throw new ArgumentNullException("IV");
+
+            // Declare the string used to hold
+            // the decrypted text.
+            string plaintext = null;
+
+            // Create an Aes object
+            // with the specified key and IV.
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Key;
+                aesAlg.IV = IV;
+
+                // Create a decryptor to perform the stream transform.
+                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+
+                // Create the streams used for decryption.
+                using (MemoryStream msDecrypt = new MemoryStream(cipherText))
+                {
+                    using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
+                    {
+                        using (StreamReader srDecrypt = new StreamReader(csDecrypt))
+                        {
+
+                            // Read the decrypted bytes from the decrypting stream
+                            // and place them in a string.
+                            plaintext = srDecrypt.ReadToEnd();
+                        }
+                    }
+                }
+            }
+
+            return plaintext;
+        }
+        */
         public Launch()
         {
 
