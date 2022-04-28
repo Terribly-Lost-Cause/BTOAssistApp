@@ -71,7 +71,7 @@ namespace BTOAssistApp.Views
             Uri getBTOInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getBTOInfo");
 
             HttpResponseMessage response = await client.GetAsync(getBTOInfo);
-
+            Console.WriteLine("{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}");
 
             string content = await response.Content.ReadAsStringAsync();
             JObject data = JObject.Parse(content);

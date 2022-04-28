@@ -33,8 +33,19 @@ namespace BTOAssistApp.Views
         private string longdescription;
         private double downpayment;
         private double fullpayment;
+        private string test;
+
         HttpClient client = new HttpClient();
 
+        public string Test
+        {
+            get { return test; }
+            set
+            {
+                test = value;
+                OnPropertyChanged(nameof(Test)); // Notify that there was a change on this property
+            }
+        }
         public string Id
         {
             get { return id; }
@@ -227,6 +238,7 @@ namespace BTOAssistApp.Views
             LongDescription = details["longdescription"].ToString();
             DownPayment = Double.Parse(details["downpayment"].ToString());
             FullPayment = Double.Parse(details["fullpayment"].ToString());
+            Test = "sssssssssssssss";
             BindingContext = this;
         }
 
@@ -235,9 +247,8 @@ namespace BTOAssistApp.Views
             var BTODeets = (Button)sender;
             string id = BTODeets.AutomationId;
 
-            await Navigation.PushAsync(new ApplicationPage1());
+            await Navigation.PushAsync(new ApplicationPage1(id));
             //await Shell.Current.GoToAsync("//ApplicationPage1");
-
             Trace.WriteLine(id);
         }
     }

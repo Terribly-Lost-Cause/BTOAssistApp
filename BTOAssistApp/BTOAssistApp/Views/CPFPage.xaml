@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
+             xmlns:local="clr-namespace:BTOAssistApp.Views"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms" 
+            x:Class="BTOAssistApp.Views.CPFPage"
+             Title="Your CPF">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="" Icon="bell_logo.png"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Target Amount:"
+                   Margin="0,20,0,0"
+                HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="Center" 
+                   FontSize="18"/>
+            <Label Text="{Binding CPFAmount}"
+                HorizontalOptions="CenterAndExpand" 
+                Margin="0,0,0,65"
+                   FontSize="30"
+                   FontAttributes="Bold"/>
+
+            <Grid>
+                <control:ProgressRing  HeightRequest="90" RingProgressColor="DarkCyan" Scale="2" RingThickness="5" Margin="2" Progress="{Binding CPFProgressRing}" RingBaseColor="LightGray" />
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    <Label FontSize="28" VerticalOptions="Center" HorizontalOptions="Center" TextColor="DarkCyan" Text="{Binding CPFPercentage}"/>
+                </StackLayout>
+            </Grid>
+                <Grid>
+                    <Label Text="{Binding CurrentCPF}"
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="CenterAndExpand" 
+                   Margin="0,50,0,10"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+                
+            </Grid>
+            <Grid>
+                <Picker x:Name="picker"
+        Title="Select a year"
+        TitleColor="Red"
+                        SelectedIndexChanged="Picker_SelectedIndexChanged">
+
+                </Picker>
+            </Grid>
+            
+                <chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+
+                <chart:SfChart.BindingContext>
+                    <local:ViewModel/>
+                </chart:SfChart.BindingContext>
+
+                
+
+                <chart:SfChart.Title>
+                    <chart:ChartTitle Text="Chart"/>
+                </chart:SfChart.Title>
+
+                <chart:SfChart.PrimaryAxis>
+                    <chart:CategoryAxis>
+                        <chart:CategoryAxis.Title>
+                            <chart:ChartAxisTitle Text="Date"/>
+                        </chart:CategoryAxis.Title>
+                    </chart:CategoryAxis>
+                </chart:SfChart.PrimaryAxis>
+
+                <chart:SfChart.SecondaryAxis>
+                    <chart:NumericalAxis>
+                        <chart:NumericalAxis.Title>
+                            <chart:ChartAxisTitle Text="Amount ($)"/>
+                        </chart:NumericalAxis.Title>
+                    </chart:NumericalAxis>
+                </chart:SfChart.SecondaryAxis>
+
+                <chart:SfChart.Series>
+                    <chart:ColumnSeries ItemsSource="{Binding Data}"   XBindingPath="Month" YBindingPath="Amount" EnableTooltip="True" ListenPropertyChange="True">
+                        
+                    </chart:ColumnSeries>
+                </chart:SfChart.Series>
+            </chart:SfChart>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

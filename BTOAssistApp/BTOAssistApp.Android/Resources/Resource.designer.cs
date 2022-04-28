@@ -1800,6 +1800,4034 @@ namespace BTOAssistApp.Droid
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::BTOAssistApp.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::BTOAssistApp.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::BTOAssistApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::BTOAssistApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::BTOAssistApp.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.SfChart_Fade_In = global::BTOAssistApp.Droid.Resource.Animation.SfChart_Fade_In;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.SfChart_Scale_In = global::BTOAssistApp.Droid.Resource.Animation.SfChart_Scale_In;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.SfChart_Fade_Out = global::BTOAssistApp.Droid.Resource.Animation.SfChart_Fade_Out;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.SfChart_Scale_Out = global::BTOAssistApp.Droid.Resource.Animation.SfChart_Scale_Out;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.annotationLayout = global::BTOAssistApp.Droid.Resource.Id.annotationLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.axisLayout = global::BTOAssistApp.Droid.Resource.Id.axisLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.bottom_labels = global::BTOAssistApp.Droid.Resource.Id.bottom_labels;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartBehaviorLayout = global::BTOAssistApp.Droid.Resource.Id.chartBehaviorLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartLegendScrollView = global::BTOAssistApp.Droid.Resource.Id.chartLegendScrollView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.content = global::BTOAssistApp.Droid.Resource.Id.content;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.dataMarkerLayout = global::BTOAssistApp.Droid.Resource.Id.dataMarkerLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLineLayout = global::BTOAssistApp.Droid.Resource.Id.gridLineLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLinesLayout = global::BTOAssistApp.Droid.Resource.Id.gridLinesLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.iconView = global::BTOAssistApp.Droid.Resource.Id.iconView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.label = global::BTOAssistApp.Droid.Resource.Id.label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendHeader = global::BTOAssistApp.Droid.Resource.Id.legendHeader;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendItemsLayout = global::BTOAssistApp.Droid.Resource.Id.legendItemsLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendLayout = global::BTOAssistApp.Droid.Resource.Id.legendLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendScrollView = global::BTOAssistApp.Droid.Resource.Id.legendScrollView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendViewGroup = global::BTOAssistApp.Droid.Resource.Id.legendViewGroup;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.rootLayout = global::BTOAssistApp.Droid.Resource.Id.rootLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.seriesLayout = global::BTOAssistApp.Droid.Resource.Id.seriesLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.stripLinesLayout = global::BTOAssistApp.Droid.Resource.Id.stripLinesLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.technicalIndicatorLayout = global::BTOAssistApp.Droid.Resource.Id.technicalIndicatorLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.thumbLayout = global::BTOAssistApp.Droid.Resource.Id.thumbLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.titleLayout = global::BTOAssistApp.Droid.Resource.Id.titleLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.top_labels = global::BTOAssistApp.Droid.Resource.Id.top_labels;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_layout = global::BTOAssistApp.Droid.Resource.Layout.chart_layout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend = global::BTOAssistApp.Droid.Resource.Layout.chart_legend;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend_item = global::BTOAssistApp.Droid.Resource.Layout.chart_legend_item;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.range_navigator_layout = global::BTOAssistApp.Droid.Resource.Layout.range_navigator_layout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.q = global::BTOAssistApp.Droid.Resource.String.q;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.quarter = global::BTOAssistApp.Droid.Resource.String.quarter;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_close_label = global::BTOAssistApp.Droid.Resource.String.sfchart_close_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_high_label = global::BTOAssistApp.Droid.Resource.String.sfchart_high_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_low_label = global::BTOAssistApp.Droid.Resource.String.sfchart_low_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_open_label = global::BTOAssistApp.Droid.Resource.String.sfchart_open_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.w = global::BTOAssistApp.Droid.Resource.String.w;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.week = global::BTOAssistApp.Droid.Resource.String.week;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_others_label = global::BTOAssistApp.Droid.Resource.String.sfchart_others_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_increase_label = global::BTOAssistApp.Droid.Resource.String.sfchart_increase_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_decrease_label = global::BTOAssistApp.Droid.Resource.String.sfchart_decrease_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_total_label = global::BTOAssistApp.Droid.Resource.String.sfchart_total_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_maximum_label = global::BTOAssistApp.Droid.Resource.String.sfchart_maximum_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_minimum_label = global::BTOAssistApp.Droid.Resource.String.sfchart_minimum_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_Q1_label = global::BTOAssistApp.Droid.Resource.String.sfchart_Q1_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_Q3_label = global::BTOAssistApp.Droid.Resource.String.sfchart_Q3_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_Median_label = global::BTOAssistApp.Droid.Resource.String.sfchart_Median_label;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_fade_in = global::BTOAssistApp.Droid.Resource.Animation.abc_fade_in;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_fade_out = global::BTOAssistApp.Droid.Resource.Animation.abc_fade_out;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::BTOAssistApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_popup_enter = global::BTOAssistApp.Droid.Resource.Animation.abc_popup_enter;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_popup_exit = global::BTOAssistApp.Droid.Resource.Animation.abc_popup_exit;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BTOAssistApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_slide_in_bottom = global::BTOAssistApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_slide_in_top = global::BTOAssistApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_slide_out_bottom = global::BTOAssistApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_slide_out_top = global::BTOAssistApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_tooltip_enter = global::BTOAssistApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::TeeChart.PCL.Droid.Resource.Animation.abc_tooltip_exit = global::BTOAssistApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::BTOAssistApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::TeeChart.PCL.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::BTOAssistApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::TeeChart.PCL.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::BTOAssistApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::TeeChart.PCL.Droid.Resource.Animation.design_snackbar_in = global::BTOAssistApp.Droid.Resource.Animation.design_snackbar_in;
+			global::TeeChart.PCL.Droid.Resource.Animation.design_snackbar_out = global::BTOAssistApp.Droid.Resource.Animation.design_snackbar_out;
+			global::TeeChart.PCL.Droid.Resource.Animation.EnterFromLeft = global::BTOAssistApp.Droid.Resource.Animation.EnterFromLeft;
+			global::TeeChart.PCL.Droid.Resource.Animation.EnterFromRight = global::BTOAssistApp.Droid.Resource.Animation.EnterFromRight;
+			global::TeeChart.PCL.Droid.Resource.Animation.ExitToLeft = global::BTOAssistApp.Droid.Resource.Animation.ExitToLeft;
+			global::TeeChart.PCL.Droid.Resource.Animation.ExitToRight = global::BTOAssistApp.Droid.Resource.Animation.ExitToRight;
+			global::TeeChart.PCL.Droid.Resource.Animation.fragment_fast_out_extra_slow_in = global::BTOAssistApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::TeeChart.PCL.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in = global::BTOAssistApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::TeeChart.PCL.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out = global::BTOAssistApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::TeeChart.PCL.Droid.Resource.Animation.mtrl_card_lowers_interpolator = global::BTOAssistApp.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::TeeChart.PCL.Droid.Resource.Animation.nav_default_enter_anim = global::BTOAssistApp.Droid.Resource.Animation.nav_default_enter_anim;
+			global::TeeChart.PCL.Droid.Resource.Animation.nav_default_exit_anim = global::BTOAssistApp.Droid.Resource.Animation.nav_default_exit_anim;
+			global::TeeChart.PCL.Droid.Resource.Animation.nav_default_pop_enter_anim = global::BTOAssistApp.Droid.Resource.Animation.nav_default_pop_enter_anim;
+			global::TeeChart.PCL.Droid.Resource.Animation.nav_default_pop_exit_anim = global::BTOAssistApp.Droid.Resource.Animation.nav_default_pop_exit_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.design_appbar_state_list_animator = global::BTOAssistApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::TeeChart.PCL.Droid.Resource.Animator.design_fab_hide_motion_spec = global::BTOAssistApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.design_fab_show_motion_spec = global::BTOAssistApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.fragment_close_enter = global::BTOAssistApp.Droid.Resource.Animator.fragment_close_enter;
+			global::TeeChart.PCL.Droid.Resource.Animator.fragment_close_exit = global::BTOAssistApp.Droid.Resource.Animator.fragment_close_exit;
+			global::TeeChart.PCL.Droid.Resource.Animator.fragment_fade_enter = global::BTOAssistApp.Droid.Resource.Animator.fragment_fade_enter;
+			global::TeeChart.PCL.Droid.Resource.Animator.fragment_fade_exit = global::BTOAssistApp.Droid.Resource.Animator.fragment_fade_exit;
+			global::TeeChart.PCL.Droid.Resource.Animator.fragment_open_enter = global::BTOAssistApp.Droid.Resource.Animator.fragment_open_enter;
+			global::TeeChart.PCL.Droid.Resource.Animator.fragment_open_exit = global::BTOAssistApp.Droid.Resource.Animator.fragment_open_exit;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::BTOAssistApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::BTOAssistApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_card_state_list_anim = global::BTOAssistApp.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::BTOAssistApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::BTOAssistApp.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::BTOAssistApp.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator = global::BTOAssistApp.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::BTOAssistApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::BTOAssistApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::BTOAssistApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::BTOAssistApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::TeeChart.PCL.Droid.Resource.Animator.nav_default_enter_anim = global::BTOAssistApp.Droid.Resource.Animator.nav_default_enter_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.nav_default_exit_anim = global::BTOAssistApp.Droid.Resource.Animator.nav_default_exit_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.nav_default_pop_enter_anim = global::BTOAssistApp.Droid.Resource.Animator.nav_default_pop_enter_anim;
+			global::TeeChart.PCL.Droid.Resource.Animator.nav_default_pop_exit_anim = global::BTOAssistApp.Droid.Resource.Animator.nav_default_pop_exit_anim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.action = global::BTOAssistApp.Droid.Resource.Attribute.action;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarDivider = global::BTOAssistApp.Droid.Resource.Attribute.actionBarDivider;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarItemBackground = global::BTOAssistApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarPopupTheme = global::BTOAssistApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarSize = global::BTOAssistApp.Droid.Resource.Attribute.actionBarSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarSplitStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarTabBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarTabStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarTabTextStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarTheme = global::BTOAssistApp.Droid.Resource.Attribute.actionBarTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionBarWidgetTheme = global::BTOAssistApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionDropDownStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionLayout = global::BTOAssistApp.Droid.Resource.Attribute.actionLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionMenuTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionMenuTextColor = global::BTOAssistApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeBackground = global::BTOAssistApp.Droid.Resource.Attribute.actionModeBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeCloseDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeCopyDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeCutDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeFindDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModePasteDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModePopupWindowStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeShareDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeSplitBackground = global::BTOAssistApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionModeStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::BTOAssistApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionOverflowButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionOverflowMenuStyle = global::BTOAssistApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionProviderClass = global::BTOAssistApp.Droid.Resource.Attribute.actionProviderClass;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionTextColorAlpha = global::BTOAssistApp.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::TeeChart.PCL.Droid.Resource.Attribute.actionViewClass = global::BTOAssistApp.Droid.Resource.Attribute.actionViewClass;
+			global::TeeChart.PCL.Droid.Resource.Attribute.activityChooserViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.adjustable = global::BTOAssistApp.Droid.Resource.Attribute.adjustable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::BTOAssistApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.alertDialogCenterButtons = global::BTOAssistApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::TeeChart.PCL.Droid.Resource.Attribute.alertDialogStyle = global::BTOAssistApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.alertDialogTheme = global::BTOAssistApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.allowDividerAbove = global::BTOAssistApp.Droid.Resource.Attribute.allowDividerAbove;
+			global::TeeChart.PCL.Droid.Resource.Attribute.allowDividerAfterLastItem = global::BTOAssistApp.Droid.Resource.Attribute.allowDividerAfterLastItem;
+			global::TeeChart.PCL.Droid.Resource.Attribute.allowDividerBelow = global::BTOAssistApp.Droid.Resource.Attribute.allowDividerBelow;
+			global::TeeChart.PCL.Droid.Resource.Attribute.allowStacking = global::BTOAssistApp.Droid.Resource.Attribute.allowStacking;
+			global::TeeChart.PCL.Droid.Resource.Attribute.alpha = global::BTOAssistApp.Droid.Resource.Attribute.alpha;
+			global::TeeChart.PCL.Droid.Resource.Attribute.alphabeticModifiers = global::BTOAssistApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::TeeChart.PCL.Droid.Resource.Attribute.animationMode = global::BTOAssistApp.Droid.Resource.Attribute.animationMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.appBarLayoutStyle = global::BTOAssistApp.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.argType = global::BTOAssistApp.Droid.Resource.Attribute.argType;
+			global::TeeChart.PCL.Droid.Resource.Attribute.arrowHeadLength = global::BTOAssistApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::TeeChart.PCL.Droid.Resource.Attribute.arrowShaftLength = global::BTOAssistApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::TeeChart.PCL.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.autoSizeMaxTextSize = global::BTOAssistApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.autoSizeMinTextSize = global::BTOAssistApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.autoSizePresetSizes = global::BTOAssistApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::TeeChart.PCL.Droid.Resource.Attribute.autoSizeStepGranularity = global::BTOAssistApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.autoSizeTextType = global::BTOAssistApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::TeeChart.PCL.Droid.Resource.Attribute.background = global::BTOAssistApp.Droid.Resource.Attribute.background;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundColor = global::BTOAssistApp.Droid.Resource.Attribute.backgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundInsetBottom = global::BTOAssistApp.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundInsetEnd = global::BTOAssistApp.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundInsetStart = global::BTOAssistApp.Droid.Resource.Attribute.backgroundInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundInsetTop = global::BTOAssistApp.Droid.Resource.Attribute.backgroundInsetTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundOverlayColorAlpha = global::BTOAssistApp.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundSplit = global::BTOAssistApp.Droid.Resource.Attribute.backgroundSplit;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundStacked = global::BTOAssistApp.Droid.Resource.Attribute.backgroundStacked;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundTint = global::BTOAssistApp.Droid.Resource.Attribute.backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.backgroundTintMode = global::BTOAssistApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.badgeGravity = global::BTOAssistApp.Droid.Resource.Attribute.badgeGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.badgeStyle = global::BTOAssistApp.Droid.Resource.Attribute.badgeStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.badgeTextColor = global::BTOAssistApp.Droid.Resource.Attribute.badgeTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.barLength = global::BTOAssistApp.Droid.Resource.Attribute.barLength;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_autoHide = global::BTOAssistApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_autoShrink = global::BTOAssistApp.Droid.Resource.Attribute.behavior_autoShrink;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_draggable = global::BTOAssistApp.Droid.Resource.Attribute.behavior_draggable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_expandedOffset = global::BTOAssistApp.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_fitToContents = global::BTOAssistApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_halfExpandedRatio = global::BTOAssistApp.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_hideable = global::BTOAssistApp.Droid.Resource.Attribute.behavior_hideable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_overlapTop = global::BTOAssistApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_peekHeight = global::BTOAssistApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_saveFlags = global::BTOAssistApp.Droid.Resource.Attribute.behavior_saveFlags;
+			global::TeeChart.PCL.Droid.Resource.Attribute.behavior_skipCollapsed = global::BTOAssistApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::TeeChart.PCL.Droid.Resource.Attribute.borderlessButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.borderWidth = global::BTOAssistApp.Droid.Resource.Attribute.borderWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.bottomAppBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.bottomNavigationStyle = global::BTOAssistApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.bottomSheetDialogTheme = global::BTOAssistApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.bottomSheetStyle = global::BTOAssistApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxBackgroundColor = global::BTOAssistApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxBackgroundMode = global::BTOAssistApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::BTOAssistApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::BTOAssistApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::BTOAssistApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::BTOAssistApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::BTOAssistApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxStrokeColor = global::BTOAssistApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxStrokeErrorColor = global::BTOAssistApp.Droid.Resource.Attribute.boxStrokeErrorColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxStrokeWidth = global::BTOAssistApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.boxStrokeWidthFocused = global::BTOAssistApp.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonBarButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonCompat = global::BTOAssistApp.Droid.Resource.Attribute.buttonCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonGravity = global::BTOAssistApp.Droid.Resource.Attribute.buttonGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonIconDimen = global::BTOAssistApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonPanelSideLayout = global::BTOAssistApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonStyle = global::BTOAssistApp.Droid.Resource.Attribute.buttonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonStyleSmall = global::BTOAssistApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonTint = global::BTOAssistApp.Droid.Resource.Attribute.buttonTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.buttonTintMode = global::BTOAssistApp.Droid.Resource.Attribute.buttonTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardBackgroundColor = global::BTOAssistApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardCornerRadius = global::BTOAssistApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardElevation = global::BTOAssistApp.Droid.Resource.Attribute.cardElevation;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardForegroundColor = global::BTOAssistApp.Droid.Resource.Attribute.cardForegroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardMaxElevation = global::BTOAssistApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardPreventCornerOverlap = global::BTOAssistApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardUseCompatPadding = global::BTOAssistApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cardViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.cardViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkBoxPreferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.checkBoxPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkboxStyle = global::BTOAssistApp.Droid.Resource.Attribute.checkboxStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedButton = global::BTOAssistApp.Droid.Resource.Attribute.checkedButton;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedChip = global::BTOAssistApp.Droid.Resource.Attribute.checkedChip;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedIcon = global::BTOAssistApp.Droid.Resource.Attribute.checkedIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedIconEnabled = global::BTOAssistApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedIconTint = global::BTOAssistApp.Droid.Resource.Attribute.checkedIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedIconVisible = global::BTOAssistApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::TeeChart.PCL.Droid.Resource.Attribute.checkedTextViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipBackgroundColor = global::BTOAssistApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipCornerRadius = global::BTOAssistApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipEndPadding = global::BTOAssistApp.Droid.Resource.Attribute.chipEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipGroupStyle = global::BTOAssistApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipIcon = global::BTOAssistApp.Droid.Resource.Attribute.chipIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipIconEnabled = global::BTOAssistApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipIconSize = global::BTOAssistApp.Droid.Resource.Attribute.chipIconSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipIconTint = global::BTOAssistApp.Droid.Resource.Attribute.chipIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipIconVisible = global::BTOAssistApp.Droid.Resource.Attribute.chipIconVisible;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipMinHeight = global::BTOAssistApp.Droid.Resource.Attribute.chipMinHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipMinTouchTargetSize = global::BTOAssistApp.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipSpacing = global::BTOAssistApp.Droid.Resource.Attribute.chipSpacing;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipSpacingHorizontal = global::BTOAssistApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipSpacingVertical = global::BTOAssistApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipStandaloneStyle = global::BTOAssistApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipStartPadding = global::BTOAssistApp.Droid.Resource.Attribute.chipStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipStrokeColor = global::BTOAssistApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipStrokeWidth = global::BTOAssistApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipStyle = global::BTOAssistApp.Droid.Resource.Attribute.chipStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.chipSurfaceColor = global::BTOAssistApp.Droid.Resource.Attribute.chipSurfaceColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIcon = global::BTOAssistApp.Droid.Resource.Attribute.closeIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIconEnabled = global::BTOAssistApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIconEndPadding = global::BTOAssistApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIconSize = global::BTOAssistApp.Droid.Resource.Attribute.closeIconSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIconStartPadding = global::BTOAssistApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIconTint = global::BTOAssistApp.Droid.Resource.Attribute.closeIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeIconVisible = global::BTOAssistApp.Droid.Resource.Attribute.closeIconVisible;
+			global::TeeChart.PCL.Droid.Resource.Attribute.closeItemLayout = global::BTOAssistApp.Droid.Resource.Attribute.closeItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.collapseContentDescription = global::BTOAssistApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.collapsedTitleGravity = global::BTOAssistApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.collapseIcon = global::BTOAssistApp.Droid.Resource.Attribute.collapseIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.collectionViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.collectionViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.color = global::BTOAssistApp.Droid.Resource.Attribute.color;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorAccent = global::BTOAssistApp.Droid.Resource.Attribute.colorAccent;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorBackgroundFloating = global::BTOAssistApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorButtonNormal = global::BTOAssistApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorControlActivated = global::BTOAssistApp.Droid.Resource.Attribute.colorControlActivated;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorControlHighlight = global::BTOAssistApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorControlNormal = global::BTOAssistApp.Droid.Resource.Attribute.colorControlNormal;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorError = global::BTOAssistApp.Droid.Resource.Attribute.colorError;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorOnBackground = global::BTOAssistApp.Droid.Resource.Attribute.colorOnBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorOnError = global::BTOAssistApp.Droid.Resource.Attribute.colorOnError;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorOnPrimary = global::BTOAssistApp.Droid.Resource.Attribute.colorOnPrimary;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorOnPrimarySurface = global::BTOAssistApp.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorOnSecondary = global::BTOAssistApp.Droid.Resource.Attribute.colorOnSecondary;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorOnSurface = global::BTOAssistApp.Droid.Resource.Attribute.colorOnSurface;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorPrimary = global::BTOAssistApp.Droid.Resource.Attribute.colorPrimary;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorPrimaryDark = global::BTOAssistApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorPrimarySurface = global::BTOAssistApp.Droid.Resource.Attribute.colorPrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorPrimaryVariant = global::BTOAssistApp.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorSecondary = global::BTOAssistApp.Droid.Resource.Attribute.colorSecondary;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorSecondaryVariant = global::BTOAssistApp.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorSurface = global::BTOAssistApp.Droid.Resource.Attribute.colorSurface;
+			global::TeeChart.PCL.Droid.Resource.Attribute.colorSwitchThumbNormal = global::BTOAssistApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::TeeChart.PCL.Droid.Resource.Attribute.commitIcon = global::BTOAssistApp.Droid.Resource.Attribute.commitIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentDescription = global::BTOAssistApp.Droid.Resource.Attribute.contentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentInsetEnd = global::BTOAssistApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentInsetEndWithActions = global::BTOAssistApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentInsetLeft = global::BTOAssistApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentInsetRight = global::BTOAssistApp.Droid.Resource.Attribute.contentInsetRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentInsetStart = global::BTOAssistApp.Droid.Resource.Attribute.contentInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::BTOAssistApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentPadding = global::BTOAssistApp.Droid.Resource.Attribute.contentPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentPaddingBottom = global::BTOAssistApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentPaddingLeft = global::BTOAssistApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentPaddingRight = global::BTOAssistApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentPaddingTop = global::BTOAssistApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.contentScrim = global::BTOAssistApp.Droid.Resource.Attribute.contentScrim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.controlBackground = global::BTOAssistApp.Droid.Resource.Attribute.controlBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.coordinatorLayoutStyle = global::BTOAssistApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerFamily = global::BTOAssistApp.Droid.Resource.Attribute.cornerFamily;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerFamilyBottomLeft = global::BTOAssistApp.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerFamilyBottomRight = global::BTOAssistApp.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerFamilyTopLeft = global::BTOAssistApp.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerFamilyTopRight = global::BTOAssistApp.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerRadius = global::BTOAssistApp.Droid.Resource.Attribute.cornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerSize = global::BTOAssistApp.Droid.Resource.Attribute.cornerSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerSizeBottomLeft = global::BTOAssistApp.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerSizeBottomRight = global::BTOAssistApp.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerSizeTopLeft = global::BTOAssistApp.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.cornerSizeTopRight = global::BTOAssistApp.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.counterEnabled = global::BTOAssistApp.Droid.Resource.Attribute.counterEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.counterMaxLength = global::BTOAssistApp.Droid.Resource.Attribute.counterMaxLength;
+			global::TeeChart.PCL.Droid.Resource.Attribute.counterOverflowTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.counterOverflowTextColor = global::BTOAssistApp.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.counterTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.counterTextColor = global::BTOAssistApp.Droid.Resource.Attribute.counterTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.customNavigationLayout = global::BTOAssistApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.data = global::BTOAssistApp.Droid.Resource.Attribute.data;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dataPattern = global::BTOAssistApp.Droid.Resource.Attribute.dataPattern;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dayInvalidStyle = global::BTOAssistApp.Droid.Resource.Attribute.dayInvalidStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.daySelectedStyle = global::BTOAssistApp.Droid.Resource.Attribute.daySelectedStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dayStyle = global::BTOAssistApp.Droid.Resource.Attribute.dayStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dayTodayStyle = global::BTOAssistApp.Droid.Resource.Attribute.dayTodayStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.defaultQueryHint = global::BTOAssistApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.defaultValue = global::BTOAssistApp.Droid.Resource.Attribute.defaultValue;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dependency = global::BTOAssistApp.Droid.Resource.Attribute.dependency;
+			global::TeeChart.PCL.Droid.Resource.Attribute.destination = global::BTOAssistApp.Droid.Resource.Attribute.destination;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogCornerRadius = global::BTOAssistApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogIcon = global::BTOAssistApp.Droid.Resource.Attribute.dialogIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogLayout = global::BTOAssistApp.Droid.Resource.Attribute.dialogLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogMessage = global::BTOAssistApp.Droid.Resource.Attribute.dialogMessage;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogPreferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.dialogPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogPreferredPadding = global::BTOAssistApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogTheme = global::BTOAssistApp.Droid.Resource.Attribute.dialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dialogTitle = global::BTOAssistApp.Droid.Resource.Attribute.dialogTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.disableDependentsState = global::BTOAssistApp.Droid.Resource.Attribute.disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Attribute.displayOptions = global::BTOAssistApp.Droid.Resource.Attribute.displayOptions;
+			global::TeeChart.PCL.Droid.Resource.Attribute.divider = global::BTOAssistApp.Droid.Resource.Attribute.divider;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dividerHorizontal = global::BTOAssistApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dividerPadding = global::BTOAssistApp.Droid.Resource.Attribute.dividerPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dividerVertical = global::BTOAssistApp.Droid.Resource.Attribute.dividerVertical;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableBottomCompat = global::BTOAssistApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableEndCompat = global::BTOAssistApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableLeftCompat = global::BTOAssistApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableRightCompat = global::BTOAssistApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableSize = global::BTOAssistApp.Droid.Resource.Attribute.drawableSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableStartCompat = global::BTOAssistApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableTint = global::BTOAssistApp.Droid.Resource.Attribute.drawableTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableTintMode = global::BTOAssistApp.Droid.Resource.Attribute.drawableTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawableTopCompat = global::BTOAssistApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawerArrowStyle = global::BTOAssistApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.drawerLayoutStyle = global::BTOAssistApp.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::BTOAssistApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dropDownListViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.dropdownPreferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.dropdownPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.editTextBackground = global::BTOAssistApp.Droid.Resource.Attribute.editTextBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.editTextColor = global::BTOAssistApp.Droid.Resource.Attribute.editTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.editTextPreferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.editTextPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.editTextStyle = global::BTOAssistApp.Droid.Resource.Attribute.editTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.elevation = global::BTOAssistApp.Droid.Resource.Attribute.elevation;
+			global::TeeChart.PCL.Droid.Resource.Attribute.elevationOverlayColor = global::BTOAssistApp.Droid.Resource.Attribute.elevationOverlayColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.elevationOverlayEnabled = global::BTOAssistApp.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.enableCopying = global::BTOAssistApp.Droid.Resource.Attribute.enableCopying;
+			global::TeeChart.PCL.Droid.Resource.Attribute.enabled = global::BTOAssistApp.Droid.Resource.Attribute.enabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.endIconCheckable = global::BTOAssistApp.Droid.Resource.Attribute.endIconCheckable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.endIconContentDescription = global::BTOAssistApp.Droid.Resource.Attribute.endIconContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.endIconDrawable = global::BTOAssistApp.Droid.Resource.Attribute.endIconDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.endIconMode = global::BTOAssistApp.Droid.Resource.Attribute.endIconMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.endIconTint = global::BTOAssistApp.Droid.Resource.Attribute.endIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.endIconTintMode = global::BTOAssistApp.Droid.Resource.Attribute.endIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.enforceMaterialTheme = global::BTOAssistApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.enforceTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.ensureMinTouchTargetSize = global::BTOAssistApp.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.enterAnim = global::BTOAssistApp.Droid.Resource.Attribute.enterAnim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.entries = global::BTOAssistApp.Droid.Resource.Attribute.entries;
+			global::TeeChart.PCL.Droid.Resource.Attribute.entryValues = global::BTOAssistApp.Droid.Resource.Attribute.entryValues;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorContentDescription = global::BTOAssistApp.Droid.Resource.Attribute.errorContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorEnabled = global::BTOAssistApp.Droid.Resource.Attribute.errorEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorIconDrawable = global::BTOAssistApp.Droid.Resource.Attribute.errorIconDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorIconTint = global::BTOAssistApp.Droid.Resource.Attribute.errorIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorIconTintMode = global::BTOAssistApp.Droid.Resource.Attribute.errorIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.errorTextColor = global::BTOAssistApp.Droid.Resource.Attribute.errorTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.exitAnim = global::BTOAssistApp.Droid.Resource.Attribute.exitAnim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BTOAssistApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expanded = global::BTOAssistApp.Droid.Resource.Attribute.expanded;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleGravity = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleMargin = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleMarginBottom = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleMarginEnd = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleMarginStart = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleMarginTop = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.expandedTitleTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.extendedFloatingActionButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.extendMotionSpec = global::BTOAssistApp.Droid.Resource.Attribute.extendMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabAlignmentMode = global::BTOAssistApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabAnimationMode = global::BTOAssistApp.Droid.Resource.Attribute.fabAnimationMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabCradleMargin = global::BTOAssistApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::BTOAssistApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabCradleVerticalOffset = global::BTOAssistApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabCustomSize = global::BTOAssistApp.Droid.Resource.Attribute.fabCustomSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fabSize = global::BTOAssistApp.Droid.Resource.Attribute.fabSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fastScrollEnabled = global::BTOAssistApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::BTOAssistApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::BTOAssistApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::BTOAssistApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::BTOAssistApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.firstBaselineToTopHeight = global::BTOAssistApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.floatingActionButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.font = global::BTOAssistApp.Droid.Resource.Attribute.font;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontFamily = global::BTOAssistApp.Droid.Resource.Attribute.fontFamily;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontProviderAuthority = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontProviderCerts = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontProviderFetchStrategy = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontProviderFetchTimeout = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontProviderPackage = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontProviderQuery = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontStyle = global::BTOAssistApp.Droid.Resource.Attribute.fontStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontVariationSettings = global::BTOAssistApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fontWeight = global::BTOAssistApp.Droid.Resource.Attribute.fontWeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.foregroundInsidePadding = global::BTOAssistApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.fragment = global::BTOAssistApp.Droid.Resource.Attribute.fragment;
+			global::TeeChart.PCL.Droid.Resource.Attribute.gapBetweenBars = global::BTOAssistApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::TeeChart.PCL.Droid.Resource.Attribute.gestureInsetBottomIgnored = global::BTOAssistApp.Droid.Resource.Attribute.gestureInsetBottomIgnored;
+			global::TeeChart.PCL.Droid.Resource.Attribute.goIcon = global::BTOAssistApp.Droid.Resource.Attribute.goIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.graph = global::BTOAssistApp.Droid.Resource.Attribute.graph;
+			global::TeeChart.PCL.Droid.Resource.Attribute.haloColor = global::BTOAssistApp.Droid.Resource.Attribute.haloColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.haloRadius = global::BTOAssistApp.Droid.Resource.Attribute.haloRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.headerLayout = global::BTOAssistApp.Droid.Resource.Attribute.headerLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.height = global::BTOAssistApp.Droid.Resource.Attribute.height;
+			global::TeeChart.PCL.Droid.Resource.Attribute.helperText = global::BTOAssistApp.Droid.Resource.Attribute.helperText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.helperTextEnabled = global::BTOAssistApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.helperTextTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.helperTextTextColor = global::BTOAssistApp.Droid.Resource.Attribute.helperTextTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hideMotionSpec = global::BTOAssistApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hideOnContentScroll = global::BTOAssistApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hideOnScroll = global::BTOAssistApp.Droid.Resource.Attribute.hideOnScroll;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hintAnimationEnabled = global::BTOAssistApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hintEnabled = global::BTOAssistApp.Droid.Resource.Attribute.hintEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hintTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hintTextColor = global::BTOAssistApp.Droid.Resource.Attribute.hintTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.homeAsUpIndicator = global::BTOAssistApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::TeeChart.PCL.Droid.Resource.Attribute.homeLayout = global::BTOAssistApp.Droid.Resource.Attribute.homeLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.horizontalOffset = global::BTOAssistApp.Droid.Resource.Attribute.horizontalOffset;
+			global::TeeChart.PCL.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::BTOAssistApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::TeeChart.PCL.Droid.Resource.Attribute.icon = global::BTOAssistApp.Droid.Resource.Attribute.icon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconEndPadding = global::BTOAssistApp.Droid.Resource.Attribute.iconEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconGravity = global::BTOAssistApp.Droid.Resource.Attribute.iconGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconifiedByDefault = global::BTOAssistApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconPadding = global::BTOAssistApp.Droid.Resource.Attribute.iconPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconSize = global::BTOAssistApp.Droid.Resource.Attribute.iconSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconSpaceReserved = global::BTOAssistApp.Droid.Resource.Attribute.iconSpaceReserved;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconStartPadding = global::BTOAssistApp.Droid.Resource.Attribute.iconStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconTint = global::BTOAssistApp.Droid.Resource.Attribute.iconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.iconTintMode = global::BTOAssistApp.Droid.Resource.Attribute.iconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.imageButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.indeterminateProgressStyle = global::BTOAssistApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.initialActivityCount = global::BTOAssistApp.Droid.Resource.Attribute.initialActivityCount;
+			global::TeeChart.PCL.Droid.Resource.Attribute.initialExpandedChildrenCount = global::BTOAssistApp.Droid.Resource.Attribute.initialExpandedChildrenCount;
+			global::TeeChart.PCL.Droid.Resource.Attribute.insetForeground = global::BTOAssistApp.Droid.Resource.Attribute.insetForeground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.isLightTheme = global::BTOAssistApp.Droid.Resource.Attribute.isLightTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.isMaterialTheme = global::BTOAssistApp.Droid.Resource.Attribute.isMaterialTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.isPreferenceVisible = global::BTOAssistApp.Droid.Resource.Attribute.isPreferenceVisible;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemBackground = global::BTOAssistApp.Droid.Resource.Attribute.itemBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemFillColor = global::BTOAssistApp.Droid.Resource.Attribute.itemFillColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemHorizontalPadding = global::BTOAssistApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::BTOAssistApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemIconPadding = global::BTOAssistApp.Droid.Resource.Attribute.itemIconPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemIconSize = global::BTOAssistApp.Droid.Resource.Attribute.itemIconSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemIconTint = global::BTOAssistApp.Droid.Resource.Attribute.itemIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemMaxLines = global::BTOAssistApp.Droid.Resource.Attribute.itemMaxLines;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemPadding = global::BTOAssistApp.Droid.Resource.Attribute.itemPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemRippleColor = global::BTOAssistApp.Droid.Resource.Attribute.itemRippleColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeAppearance = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeFillColor = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeFillColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeInsetBottom = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeInsetEnd = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeInsetStart = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemShapeInsetTop = global::BTOAssistApp.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemSpacing = global::BTOAssistApp.Droid.Resource.Attribute.itemSpacing;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemStrokeColor = global::BTOAssistApp.Droid.Resource.Attribute.itemStrokeColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemStrokeWidth = global::BTOAssistApp.Droid.Resource.Attribute.itemStrokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemTextAppearanceActive = global::BTOAssistApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemTextAppearanceInactive = global::BTOAssistApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.itemTextColor = global::BTOAssistApp.Droid.Resource.Attribute.itemTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.key = global::BTOAssistApp.Droid.Resource.Attribute.key;
+			global::TeeChart.PCL.Droid.Resource.Attribute.keylines = global::BTOAssistApp.Droid.Resource.Attribute.keylines;
+			global::TeeChart.PCL.Droid.Resource.Attribute.labelBehavior = global::BTOAssistApp.Droid.Resource.Attribute.labelBehavior;
+			global::TeeChart.PCL.Droid.Resource.Attribute.labelStyle = global::BTOAssistApp.Droid.Resource.Attribute.labelStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.labelVisibilityMode = global::BTOAssistApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::BTOAssistApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.launchSingleTop = global::BTOAssistApp.Droid.Resource.Attribute.launchSingleTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout = global::BTOAssistApp.Droid.Resource.Attribute.layout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layoutManager = global::BTOAssistApp.Droid.Resource.Attribute.layoutManager;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_anchor = global::BTOAssistApp.Droid.Resource.Attribute.layout_anchor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_anchorGravity = global::BTOAssistApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_behavior = global::BTOAssistApp.Droid.Resource.Attribute.layout_behavior;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_collapseMode = global::BTOAssistApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::BTOAssistApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::BTOAssistApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_insetEdge = global::BTOAssistApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_keyline = global::BTOAssistApp.Droid.Resource.Attribute.layout_keyline;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_scrollFlags = global::BTOAssistApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::TeeChart.PCL.Droid.Resource.Attribute.layout_scrollInterpolator = global::BTOAssistApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::TeeChart.PCL.Droid.Resource.Attribute.liftOnScroll = global::BTOAssistApp.Droid.Resource.Attribute.liftOnScroll;
+			global::TeeChart.PCL.Droid.Resource.Attribute.liftOnScrollTargetViewId = global::BTOAssistApp.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::TeeChart.PCL.Droid.Resource.Attribute.lineHeight = global::BTOAssistApp.Droid.Resource.Attribute.lineHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.lineSpacing = global::BTOAssistApp.Droid.Resource.Attribute.lineSpacing;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::BTOAssistApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::BTOAssistApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::BTOAssistApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listDividerAlertDialog = global::BTOAssistApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listItemLayout = global::BTOAssistApp.Droid.Resource.Attribute.listItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listLayout = global::BTOAssistApp.Droid.Resource.Attribute.listLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listMenuViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPopupWindowStyle = global::BTOAssistApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemHeight = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemPaddingEnd = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.listPreferredItemPaddingStart = global::BTOAssistApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.logo = global::BTOAssistApp.Droid.Resource.Attribute.logo;
+			global::TeeChart.PCL.Droid.Resource.Attribute.logoDescription = global::BTOAssistApp.Droid.Resource.Attribute.logoDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialAlertDialogTheme = global::BTOAssistApp.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialButtonOutlinedStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialButtonToggleGroupStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarDay = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarDay;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarFullscreenTheme = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarHeaderDivider = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarHeaderLayout = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarHeaderSelection = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarHeaderTitle = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarHeaderToggleButton = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCalendarTheme = global::BTOAssistApp.Droid.Resource.Attribute.materialCalendarTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialCardViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.materialThemeOverlay = global::BTOAssistApp.Droid.Resource.Attribute.materialThemeOverlay;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxActionInlineWidth = global::BTOAssistApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxButtonHeight = global::BTOAssistApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxCharacterCount = global::BTOAssistApp.Droid.Resource.Attribute.maxCharacterCount;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxHeight = global::BTOAssistApp.Droid.Resource.Attribute.maxHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxImageSize = global::BTOAssistApp.Droid.Resource.Attribute.maxImageSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxLines = global::BTOAssistApp.Droid.Resource.Attribute.maxLines;
+			global::TeeChart.PCL.Droid.Resource.Attribute.maxWidth = global::BTOAssistApp.Droid.Resource.Attribute.maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.measureWithLargestChild = global::BTOAssistApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::TeeChart.PCL.Droid.Resource.Attribute.menu = global::BTOAssistApp.Droid.Resource.Attribute.menu;
+			global::TeeChart.PCL.Droid.Resource.Attribute.mimeType = global::BTOAssistApp.Droid.Resource.Attribute.mimeType;
+			global::TeeChart.PCL.Droid.Resource.Attribute.min = global::BTOAssistApp.Droid.Resource.Attribute.min;
+			global::TeeChart.PCL.Droid.Resource.Attribute.minTouchTargetSize = global::BTOAssistApp.Droid.Resource.Attribute.minTouchTargetSize;
+			global::TeeChart.PCL.Droid.Resource.Attribute.multiChoiceItemLayout = global::BTOAssistApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.navGraph = global::BTOAssistApp.Droid.Resource.Attribute.navGraph;
+			global::TeeChart.PCL.Droid.Resource.Attribute.navigationContentDescription = global::BTOAssistApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.navigationIcon = global::BTOAssistApp.Droid.Resource.Attribute.navigationIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.navigationMode = global::BTOAssistApp.Droid.Resource.Attribute.navigationMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.navigationViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.negativeButtonText = global::BTOAssistApp.Droid.Resource.Attribute.negativeButtonText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.nullable = global::BTOAssistApp.Droid.Resource.Attribute.nullable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.number = global::BTOAssistApp.Droid.Resource.Attribute.number;
+			global::TeeChart.PCL.Droid.Resource.Attribute.numericModifiers = global::BTOAssistApp.Droid.Resource.Attribute.numericModifiers;
+			global::TeeChart.PCL.Droid.Resource.Attribute.order = global::BTOAssistApp.Droid.Resource.Attribute.order;
+			global::TeeChart.PCL.Droid.Resource.Attribute.orderingFromXml = global::BTOAssistApp.Droid.Resource.Attribute.orderingFromXml;
+			global::TeeChart.PCL.Droid.Resource.Attribute.overlapAnchor = global::BTOAssistApp.Droid.Resource.Attribute.overlapAnchor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingBottomNoButtons = global::BTOAssistApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingBottomSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingEnd = global::BTOAssistApp.Droid.Resource.Attribute.paddingEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingLeftSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingRightSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingStart = global::BTOAssistApp.Droid.Resource.Attribute.paddingStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.paddingTopNoTitle = global::BTOAssistApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.panelBackground = global::BTOAssistApp.Droid.Resource.Attribute.panelBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.panelMenuListTheme = global::BTOAssistApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.panelMenuListWidth = global::BTOAssistApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.passwordToggleContentDescription = global::BTOAssistApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.passwordToggleDrawable = global::BTOAssistApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.passwordToggleEnabled = global::BTOAssistApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.passwordToggleTint = global::BTOAssistApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.passwordToggleTintMode = global::BTOAssistApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.persistent = global::BTOAssistApp.Droid.Resource.Attribute.persistent;
+			global::TeeChart.PCL.Droid.Resource.Attribute.placeholderText = global::BTOAssistApp.Droid.Resource.Attribute.placeholderText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.placeholderTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.placeholderTextColor = global::BTOAssistApp.Droid.Resource.Attribute.placeholderTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popEnterAnim = global::BTOAssistApp.Droid.Resource.Attribute.popEnterAnim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popExitAnim = global::BTOAssistApp.Droid.Resource.Attribute.popExitAnim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popupMenuBackground = global::BTOAssistApp.Droid.Resource.Attribute.popupMenuBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popupMenuStyle = global::BTOAssistApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popupTheme = global::BTOAssistApp.Droid.Resource.Attribute.popupTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popUpTo = global::BTOAssistApp.Droid.Resource.Attribute.popUpTo;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popUpToInclusive = global::BTOAssistApp.Droid.Resource.Attribute.popUpToInclusive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.popupWindowStyle = global::BTOAssistApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.positiveButtonText = global::BTOAssistApp.Droid.Resource.Attribute.positiveButtonText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceCategoryStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceCategoryStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceFragmentCompatStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceFragmentListStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceFragmentListStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceFragmentStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceFragmentStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceInformationStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceInformationStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceScreenStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceScreenStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.preferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preferenceTheme = global::BTOAssistApp.Droid.Resource.Attribute.preferenceTheme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.prefixText = global::BTOAssistApp.Droid.Resource.Attribute.prefixText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.prefixTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.prefixTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.prefixTextColor = global::BTOAssistApp.Droid.Resource.Attribute.prefixTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.preserveIconSpacing = global::BTOAssistApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::TeeChart.PCL.Droid.Resource.Attribute.pressedTranslationZ = global::BTOAssistApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::TeeChart.PCL.Droid.Resource.Attribute.progressBarPadding = global::BTOAssistApp.Droid.Resource.Attribute.progressBarPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.progressBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.progressBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.queryBackground = global::BTOAssistApp.Droid.Resource.Attribute.queryBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.queryHint = global::BTOAssistApp.Droid.Resource.Attribute.queryHint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.radioButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.rangeFillColor = global::BTOAssistApp.Droid.Resource.Attribute.rangeFillColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.ratingBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.ratingBarStyleIndicator = global::BTOAssistApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::TeeChart.PCL.Droid.Resource.Attribute.ratingBarStyleSmall = global::BTOAssistApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::TeeChart.PCL.Droid.Resource.Attribute.recyclerViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.recyclerViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.reverseLayout = global::BTOAssistApp.Droid.Resource.Attribute.reverseLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.rippleColor = global::BTOAssistApp.Droid.Resource.Attribute.rippleColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.scrimAnimationDuration = global::BTOAssistApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::TeeChart.PCL.Droid.Resource.Attribute.scrimBackground = global::BTOAssistApp.Droid.Resource.Attribute.scrimBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::BTOAssistApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::TeeChart.PCL.Droid.Resource.Attribute.scrollViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.scrollViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.searchHintIcon = global::BTOAssistApp.Droid.Resource.Attribute.searchHintIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.searchIcon = global::BTOAssistApp.Droid.Resource.Attribute.searchIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.searchViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.searchViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.seekBarIncrement = global::BTOAssistApp.Droid.Resource.Attribute.seekBarIncrement;
+			global::TeeChart.PCL.Droid.Resource.Attribute.seekBarPreferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.seekBarPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.seekBarStyle = global::BTOAssistApp.Droid.Resource.Attribute.seekBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.selectable = global::BTOAssistApp.Droid.Resource.Attribute.selectable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.selectableItemBackground = global::BTOAssistApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::BTOAssistApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::TeeChart.PCL.Droid.Resource.Attribute.selectionRequired = global::BTOAssistApp.Droid.Resource.Attribute.selectionRequired;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shapeAppearance = global::BTOAssistApp.Droid.Resource.Attribute.shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shapeAppearanceLargeComponent = global::BTOAssistApp.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shapeAppearanceMediumComponent = global::BTOAssistApp.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shapeAppearanceSmallComponent = global::BTOAssistApp.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shouldDisableView = global::BTOAssistApp.Droid.Resource.Attribute.shouldDisableView;
+			global::TeeChart.PCL.Droid.Resource.Attribute.showAsAction = global::BTOAssistApp.Droid.Resource.Attribute.showAsAction;
+			global::TeeChart.PCL.Droid.Resource.Attribute.showDividers = global::BTOAssistApp.Droid.Resource.Attribute.showDividers;
+			global::TeeChart.PCL.Droid.Resource.Attribute.showMotionSpec = global::BTOAssistApp.Droid.Resource.Attribute.showMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Attribute.showSeekBarValue = global::BTOAssistApp.Droid.Resource.Attribute.showSeekBarValue;
+			global::TeeChart.PCL.Droid.Resource.Attribute.showText = global::BTOAssistApp.Droid.Resource.Attribute.showText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.showTitle = global::BTOAssistApp.Droid.Resource.Attribute.showTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.shrinkMotionSpec = global::BTOAssistApp.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Attribute.singleChoiceItemLayout = global::BTOAssistApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.singleLine = global::BTOAssistApp.Droid.Resource.Attribute.singleLine;
+			global::TeeChart.PCL.Droid.Resource.Attribute.singleLineTitle = global::BTOAssistApp.Droid.Resource.Attribute.singleLineTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.singleSelection = global::BTOAssistApp.Droid.Resource.Attribute.singleSelection;
+			global::TeeChart.PCL.Droid.Resource.Attribute.sliderStyle = global::BTOAssistApp.Droid.Resource.Attribute.sliderStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.snackbarButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.snackbarStyle = global::BTOAssistApp.Droid.Resource.Attribute.snackbarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.snackbarTextViewStyle = global::BTOAssistApp.Droid.Resource.Attribute.snackbarTextViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.spanCount = global::BTOAssistApp.Droid.Resource.Attribute.spanCount;
+			global::TeeChart.PCL.Droid.Resource.Attribute.spinBars = global::BTOAssistApp.Droid.Resource.Attribute.spinBars;
+			global::TeeChart.PCL.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::BTOAssistApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.spinnerStyle = global::BTOAssistApp.Droid.Resource.Attribute.spinnerStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.splitTrack = global::BTOAssistApp.Droid.Resource.Attribute.splitTrack;
+			global::TeeChart.PCL.Droid.Resource.Attribute.srcCompat = global::BTOAssistApp.Droid.Resource.Attribute.srcCompat;
+			global::TeeChart.PCL.Droid.Resource.Attribute.stackFromEnd = global::BTOAssistApp.Droid.Resource.Attribute.stackFromEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.startDestination = global::BTOAssistApp.Droid.Resource.Attribute.startDestination;
+			global::TeeChart.PCL.Droid.Resource.Attribute.startIconCheckable = global::BTOAssistApp.Droid.Resource.Attribute.startIconCheckable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.startIconContentDescription = global::BTOAssistApp.Droid.Resource.Attribute.startIconContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Attribute.startIconDrawable = global::BTOAssistApp.Droid.Resource.Attribute.startIconDrawable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.startIconTint = global::BTOAssistApp.Droid.Resource.Attribute.startIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.startIconTintMode = global::BTOAssistApp.Droid.Resource.Attribute.startIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.state_above_anchor = global::BTOAssistApp.Droid.Resource.Attribute.state_above_anchor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.state_collapsed = global::BTOAssistApp.Droid.Resource.Attribute.state_collapsed;
+			global::TeeChart.PCL.Droid.Resource.Attribute.state_collapsible = global::BTOAssistApp.Droid.Resource.Attribute.state_collapsible;
+			global::TeeChart.PCL.Droid.Resource.Attribute.state_dragged = global::BTOAssistApp.Droid.Resource.Attribute.state_dragged;
+			global::TeeChart.PCL.Droid.Resource.Attribute.state_liftable = global::BTOAssistApp.Droid.Resource.Attribute.state_liftable;
+			global::TeeChart.PCL.Droid.Resource.Attribute.state_lifted = global::BTOAssistApp.Droid.Resource.Attribute.state_lifted;
+			global::TeeChart.PCL.Droid.Resource.Attribute.statusBarBackground = global::BTOAssistApp.Droid.Resource.Attribute.statusBarBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.statusBarForeground = global::BTOAssistApp.Droid.Resource.Attribute.statusBarForeground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.statusBarScrim = global::BTOAssistApp.Droid.Resource.Attribute.statusBarScrim;
+			global::TeeChart.PCL.Droid.Resource.Attribute.strokeColor = global::BTOAssistApp.Droid.Resource.Attribute.strokeColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.strokeWidth = global::BTOAssistApp.Droid.Resource.Attribute.strokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.subMenuArrow = global::BTOAssistApp.Droid.Resource.Attribute.subMenuArrow;
+			global::TeeChart.PCL.Droid.Resource.Attribute.submitBackground = global::BTOAssistApp.Droid.Resource.Attribute.submitBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.subtitle = global::BTOAssistApp.Droid.Resource.Attribute.subtitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.subtitleTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.subtitleTextColor = global::BTOAssistApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.subtitleTextStyle = global::BTOAssistApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.suffixText = global::BTOAssistApp.Droid.Resource.Attribute.suffixText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.suffixTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.suffixTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.suffixTextColor = global::BTOAssistApp.Droid.Resource.Attribute.suffixTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.suggestionRowLayout = global::BTOAssistApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.summary = global::BTOAssistApp.Droid.Resource.Attribute.summary;
+			global::TeeChart.PCL.Droid.Resource.Attribute.summaryOff = global::BTOAssistApp.Droid.Resource.Attribute.summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Attribute.summaryOn = global::BTOAssistApp.Droid.Resource.Attribute.summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::BTOAssistApp.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchMinWidth = global::BTOAssistApp.Droid.Resource.Attribute.switchMinWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchPadding = global::BTOAssistApp.Droid.Resource.Attribute.switchPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchPreferenceCompatStyle = global::BTOAssistApp.Droid.Resource.Attribute.switchPreferenceCompatStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchPreferenceStyle = global::BTOAssistApp.Droid.Resource.Attribute.switchPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchStyle = global::BTOAssistApp.Droid.Resource.Attribute.switchStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchTextOff = global::BTOAssistApp.Droid.Resource.Attribute.switchTextOff;
+			global::TeeChart.PCL.Droid.Resource.Attribute.switchTextOn = global::BTOAssistApp.Droid.Resource.Attribute.switchTextOn;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabBackground = global::BTOAssistApp.Droid.Resource.Attribute.tabBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabContentStart = global::BTOAssistApp.Droid.Resource.Attribute.tabContentStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabGravity = global::BTOAssistApp.Droid.Resource.Attribute.tabGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIconTint = global::BTOAssistApp.Droid.Resource.Attribute.tabIconTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIconTintMode = global::BTOAssistApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIndicator = global::BTOAssistApp.Droid.Resource.Attribute.tabIndicator;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::BTOAssistApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIndicatorColor = global::BTOAssistApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIndicatorFullWidth = global::BTOAssistApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIndicatorGravity = global::BTOAssistApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabIndicatorHeight = global::BTOAssistApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabInlineLabel = global::BTOAssistApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabMaxWidth = global::BTOAssistApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabMinWidth = global::BTOAssistApp.Droid.Resource.Attribute.tabMinWidth;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabMode = global::BTOAssistApp.Droid.Resource.Attribute.tabMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabPadding = global::BTOAssistApp.Droid.Resource.Attribute.tabPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabPaddingBottom = global::BTOAssistApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabPaddingEnd = global::BTOAssistApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabPaddingStart = global::BTOAssistApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabPaddingTop = global::BTOAssistApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabRippleColor = global::BTOAssistApp.Droid.Resource.Attribute.tabRippleColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabSelectedTextColor = global::BTOAssistApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabStyle = global::BTOAssistApp.Droid.Resource.Attribute.tabStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabTextColor = global::BTOAssistApp.Droid.Resource.Attribute.tabTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tabUnboundedRipple = global::BTOAssistApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::TeeChart.PCL.Droid.Resource.Attribute.targetPackage = global::BTOAssistApp.Droid.Resource.Attribute.targetPackage;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAllCaps = global::BTOAssistApp.Droid.Resource.Attribute.textAllCaps;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceBody1 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceBody2 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceButton = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceCaption = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceHeadline1 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceHeadline2 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceHeadline3 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceHeadline4 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceHeadline5 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceHeadline6 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceLineHeightEnabled = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceListItem = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceListItemSmall = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceOverline = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::BTOAssistApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::BTOAssistApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textColorAlertDialogListItem = global::BTOAssistApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textColorSearchUrl = global::BTOAssistApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textEndPadding = global::BTOAssistApp.Droid.Resource.Attribute.textEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::BTOAssistApp.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textInputStyle = global::BTOAssistApp.Droid.Resource.Attribute.textInputStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textLocale = global::BTOAssistApp.Droid.Resource.Attribute.textLocale;
+			global::TeeChart.PCL.Droid.Resource.Attribute.textStartPadding = global::BTOAssistApp.Droid.Resource.Attribute.textStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.theme = global::BTOAssistApp.Droid.Resource.Attribute.theme;
+			global::TeeChart.PCL.Droid.Resource.Attribute.themeLineHeight = global::BTOAssistApp.Droid.Resource.Attribute.themeLineHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thickness = global::BTOAssistApp.Droid.Resource.Attribute.thickness;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thumbColor = global::BTOAssistApp.Droid.Resource.Attribute.thumbColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thumbElevation = global::BTOAssistApp.Droid.Resource.Attribute.thumbElevation;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thumbRadius = global::BTOAssistApp.Droid.Resource.Attribute.thumbRadius;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thumbTextPadding = global::BTOAssistApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thumbTint = global::BTOAssistApp.Droid.Resource.Attribute.thumbTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.thumbTintMode = global::BTOAssistApp.Droid.Resource.Attribute.thumbTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tickColor = global::BTOAssistApp.Droid.Resource.Attribute.tickColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tickColorActive = global::BTOAssistApp.Droid.Resource.Attribute.tickColorActive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tickColorInactive = global::BTOAssistApp.Droid.Resource.Attribute.tickColorInactive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tickMark = global::BTOAssistApp.Droid.Resource.Attribute.tickMark;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tickMarkTint = global::BTOAssistApp.Droid.Resource.Attribute.tickMarkTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tickMarkTintMode = global::BTOAssistApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tint = global::BTOAssistApp.Droid.Resource.Attribute.tint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tintMode = global::BTOAssistApp.Droid.Resource.Attribute.tintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.title = global::BTOAssistApp.Droid.Resource.Attribute.title;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleEnabled = global::BTOAssistApp.Droid.Resource.Attribute.titleEnabled;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleMargin = global::BTOAssistApp.Droid.Resource.Attribute.titleMargin;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleMarginBottom = global::BTOAssistApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleMarginEnd = global::BTOAssistApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleMargins = global::BTOAssistApp.Droid.Resource.Attribute.titleMargins;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleMarginStart = global::BTOAssistApp.Droid.Resource.Attribute.titleMarginStart;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleMarginTop = global::BTOAssistApp.Droid.Resource.Attribute.titleMarginTop;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleTextAppearance = global::BTOAssistApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleTextColor = global::BTOAssistApp.Droid.Resource.Attribute.titleTextColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.titleTextStyle = global::BTOAssistApp.Droid.Resource.Attribute.titleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.toolbarId = global::BTOAssistApp.Droid.Resource.Attribute.toolbarId;
+			global::TeeChart.PCL.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::BTOAssistApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.toolbarStyle = global::BTOAssistApp.Droid.Resource.Attribute.toolbarStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tooltipForegroundColor = global::BTOAssistApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tooltipFrameBackground = global::BTOAssistApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tooltipStyle = global::BTOAssistApp.Droid.Resource.Attribute.tooltipStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.tooltipText = global::BTOAssistApp.Droid.Resource.Attribute.tooltipText;
+			global::TeeChart.PCL.Droid.Resource.Attribute.track = global::BTOAssistApp.Droid.Resource.Attribute.track;
+			global::TeeChart.PCL.Droid.Resource.Attribute.trackColor = global::BTOAssistApp.Droid.Resource.Attribute.trackColor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.trackColorActive = global::BTOAssistApp.Droid.Resource.Attribute.trackColorActive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.trackColorInactive = global::BTOAssistApp.Droid.Resource.Attribute.trackColorInactive;
+			global::TeeChart.PCL.Droid.Resource.Attribute.trackHeight = global::BTOAssistApp.Droid.Resource.Attribute.trackHeight;
+			global::TeeChart.PCL.Droid.Resource.Attribute.trackTint = global::BTOAssistApp.Droid.Resource.Attribute.trackTint;
+			global::TeeChart.PCL.Droid.Resource.Attribute.trackTintMode = global::BTOAssistApp.Droid.Resource.Attribute.trackTintMode;
+			global::TeeChart.PCL.Droid.Resource.Attribute.transitionShapeAppearance = global::BTOAssistApp.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Attribute.ttcIndex = global::BTOAssistApp.Droid.Resource.Attribute.ttcIndex;
+			global::TeeChart.PCL.Droid.Resource.Attribute.updatesContinuously = global::BTOAssistApp.Droid.Resource.Attribute.updatesContinuously;
+			global::TeeChart.PCL.Droid.Resource.Attribute.uri = global::BTOAssistApp.Droid.Resource.Attribute.uri;
+			global::TeeChart.PCL.Droid.Resource.Attribute.useCompatPadding = global::BTOAssistApp.Droid.Resource.Attribute.useCompatPadding;
+			global::TeeChart.PCL.Droid.Resource.Attribute.useMaterialThemeColors = global::BTOAssistApp.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::TeeChart.PCL.Droid.Resource.Attribute.useSimpleSummaryProvider = global::BTOAssistApp.Droid.Resource.Attribute.useSimpleSummaryProvider;
+			global::TeeChart.PCL.Droid.Resource.Attribute.values = global::BTOAssistApp.Droid.Resource.Attribute.values;
+			global::TeeChart.PCL.Droid.Resource.Attribute.verticalOffset = global::BTOAssistApp.Droid.Resource.Attribute.verticalOffset;
+			global::TeeChart.PCL.Droid.Resource.Attribute.viewInflaterClass = global::BTOAssistApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::TeeChart.PCL.Droid.Resource.Attribute.voiceIcon = global::BTOAssistApp.Droid.Resource.Attribute.voiceIcon;
+			global::TeeChart.PCL.Droid.Resource.Attribute.widgetLayout = global::BTOAssistApp.Droid.Resource.Attribute.widgetLayout;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowActionBar = global::BTOAssistApp.Droid.Resource.Attribute.windowActionBar;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowActionBarOverlay = global::BTOAssistApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowActionModeOverlay = global::BTOAssistApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowFixedHeightMajor = global::BTOAssistApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowFixedHeightMinor = global::BTOAssistApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowFixedWidthMajor = global::BTOAssistApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowFixedWidthMinor = global::BTOAssistApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowMinWidthMajor = global::BTOAssistApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowMinWidthMinor = global::BTOAssistApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::TeeChart.PCL.Droid.Resource.Attribute.windowNoTitle = global::BTOAssistApp.Droid.Resource.Attribute.windowNoTitle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.yearSelectedStyle = global::BTOAssistApp.Droid.Resource.Attribute.yearSelectedStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.yearStyle = global::BTOAssistApp.Droid.Resource.Attribute.yearStyle;
+			global::TeeChart.PCL.Droid.Resource.Attribute.yearTodayStyle = global::BTOAssistApp.Droid.Resource.Attribute.yearTodayStyle;
+			global::TeeChart.PCL.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::BTOAssistApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::TeeChart.PCL.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BTOAssistApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::TeeChart.PCL.Droid.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::BTOAssistApp.Droid.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::TeeChart.PCL.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::BTOAssistApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BTOAssistApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::BTOAssistApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::BTOAssistApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_btn_colored_text_material = global::BTOAssistApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_color_highlight_material = global::BTOAssistApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_decor_view_status_guard = global::BTOAssistApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_decor_view_status_guard_light = global::BTOAssistApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_hint_foreground_material_dark = global::BTOAssistApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_hint_foreground_material_light = global::BTOAssistApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::BTOAssistApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::BTOAssistApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_primary_text_material_dark = global::BTOAssistApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_primary_text_material_light = global::BTOAssistApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_search_url_text = global::BTOAssistApp.Droid.Resource.Color.abc_search_url_text;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_search_url_text_normal = global::BTOAssistApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_search_url_text_pressed = global::BTOAssistApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_search_url_text_selected = global::BTOAssistApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_secondary_text_material_dark = global::BTOAssistApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_secondary_text_material_light = global::BTOAssistApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_tint_btn_checkable = global::BTOAssistApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_tint_default = global::BTOAssistApp.Droid.Resource.Color.abc_tint_default;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_tint_edittext = global::BTOAssistApp.Droid.Resource.Color.abc_tint_edittext;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_tint_seek_thumb = global::BTOAssistApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_tint_spinner = global::BTOAssistApp.Droid.Resource.Color.abc_tint_spinner;
+			global::TeeChart.PCL.Droid.Resource.Color.abc_tint_switch_track = global::BTOAssistApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::TeeChart.PCL.Droid.Resource.Color.accent_material_dark = global::BTOAssistApp.Droid.Resource.Color.accent_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.accent_material_light = global::BTOAssistApp.Droid.Resource.Color.accent_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.androidx_core_ripple_material_light = global::BTOAssistApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.androidx_core_secondary_text_default_material_light = global::BTOAssistApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.background_floating_material_dark = global::BTOAssistApp.Droid.Resource.Color.background_floating_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.background_floating_material_light = global::BTOAssistApp.Droid.Resource.Color.background_floating_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.background_material_dark = global::BTOAssistApp.Droid.Resource.Color.background_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.background_material_light = global::BTOAssistApp.Droid.Resource.Color.background_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::BTOAssistApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.bright_foreground_disabled_material_light = global::BTOAssistApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::BTOAssistApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.bright_foreground_inverse_material_light = global::BTOAssistApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.bright_foreground_material_dark = global::BTOAssistApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.bright_foreground_material_light = global::BTOAssistApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.browser_actions_bg_grey = global::BTOAssistApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::TeeChart.PCL.Droid.Resource.Color.browser_actions_divider_color = global::BTOAssistApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::TeeChart.PCL.Droid.Resource.Color.browser_actions_text_color = global::BTOAssistApp.Droid.Resource.Color.browser_actions_text_color;
+			global::TeeChart.PCL.Droid.Resource.Color.browser_actions_title_color = global::BTOAssistApp.Droid.Resource.Color.browser_actions_title_color;
+			global::TeeChart.PCL.Droid.Resource.Color.button_material_dark = global::BTOAssistApp.Droid.Resource.Color.button_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.button_material_light = global::BTOAssistApp.Droid.Resource.Color.button_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.cardview_dark_background = global::BTOAssistApp.Droid.Resource.Color.cardview_dark_background;
+			global::TeeChart.PCL.Droid.Resource.Color.cardview_light_background = global::BTOAssistApp.Droid.Resource.Color.cardview_light_background;
+			global::TeeChart.PCL.Droid.Resource.Color.cardview_shadow_end_color = global::BTOAssistApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::TeeChart.PCL.Droid.Resource.Color.cardview_shadow_start_color = global::BTOAssistApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::TeeChart.PCL.Droid.Resource.Color.checkbox_themeable_attribute_color = global::BTOAssistApp.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::BTOAssistApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_box_stroke_color = global::BTOAssistApp.Droid.Resource.Color.design_box_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_background = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_background;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_error = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_error;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_on_background = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_on_error = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_on_primary = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_on_secondary = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_on_surface = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_primary = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_primary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_primary_dark = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_primary_variant = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_secondary = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_secondary_variant = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::TeeChart.PCL.Droid.Resource.Color.design_dark_default_color_surface = global::BTOAssistApp.Droid.Resource.Color.design_dark_default_color_surface;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_background = global::BTOAssistApp.Droid.Resource.Color.design_default_color_background;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_error = global::BTOAssistApp.Droid.Resource.Color.design_default_color_error;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_on_background = global::BTOAssistApp.Droid.Resource.Color.design_default_color_on_background;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_on_error = global::BTOAssistApp.Droid.Resource.Color.design_default_color_on_error;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_on_primary = global::BTOAssistApp.Droid.Resource.Color.design_default_color_on_primary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_on_secondary = global::BTOAssistApp.Droid.Resource.Color.design_default_color_on_secondary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_on_surface = global::BTOAssistApp.Droid.Resource.Color.design_default_color_on_surface;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_primary = global::BTOAssistApp.Droid.Resource.Color.design_default_color_primary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_primary_dark = global::BTOAssistApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_primary_variant = global::BTOAssistApp.Droid.Resource.Color.design_default_color_primary_variant;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_secondary = global::BTOAssistApp.Droid.Resource.Color.design_default_color_secondary;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_secondary_variant = global::BTOAssistApp.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::TeeChart.PCL.Droid.Resource.Color.design_default_color_surface = global::BTOAssistApp.Droid.Resource.Color.design_default_color_surface;
+			global::TeeChart.PCL.Droid.Resource.Color.design_error = global::BTOAssistApp.Droid.Resource.Color.design_error;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_shadow_end_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_shadow_mid_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_shadow_start_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::BTOAssistApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::TeeChart.PCL.Droid.Resource.Color.design_icon_tint = global::BTOAssistApp.Droid.Resource.Color.design_icon_tint;
+			global::TeeChart.PCL.Droid.Resource.Color.design_snackbar_background_color = global::BTOAssistApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::TeeChart.PCL.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::BTOAssistApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.dim_foreground_disabled_material_light = global::BTOAssistApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.dim_foreground_material_dark = global::BTOAssistApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.dim_foreground_material_light = global::BTOAssistApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.error_color_material_dark = global::BTOAssistApp.Droid.Resource.Color.error_color_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.error_color_material_light = global::BTOAssistApp.Droid.Resource.Color.error_color_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.foreground_material_dark = global::BTOAssistApp.Droid.Resource.Color.foreground_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.foreground_material_light = global::BTOAssistApp.Droid.Resource.Color.foreground_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.highlighted_text_material_dark = global::BTOAssistApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.highlighted_text_material_light = global::BTOAssistApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.material_blue_grey_800 = global::BTOAssistApp.Droid.Resource.Color.material_blue_grey_800;
+			global::TeeChart.PCL.Droid.Resource.Color.material_blue_grey_900 = global::BTOAssistApp.Droid.Resource.Color.material_blue_grey_900;
+			global::TeeChart.PCL.Droid.Resource.Color.material_blue_grey_950 = global::BTOAssistApp.Droid.Resource.Color.material_blue_grey_950;
+			global::TeeChart.PCL.Droid.Resource.Color.material_deep_teal_200 = global::BTOAssistApp.Droid.Resource.Color.material_deep_teal_200;
+			global::TeeChart.PCL.Droid.Resource.Color.material_deep_teal_500 = global::BTOAssistApp.Droid.Resource.Color.material_deep_teal_500;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_100 = global::BTOAssistApp.Droid.Resource.Color.material_grey_100;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_300 = global::BTOAssistApp.Droid.Resource.Color.material_grey_300;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_50 = global::BTOAssistApp.Droid.Resource.Color.material_grey_50;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_600 = global::BTOAssistApp.Droid.Resource.Color.material_grey_600;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_800 = global::BTOAssistApp.Droid.Resource.Color.material_grey_800;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_850 = global::BTOAssistApp.Droid.Resource.Color.material_grey_850;
+			global::TeeChart.PCL.Droid.Resource.Color.material_grey_900 = global::BTOAssistApp.Droid.Resource.Color.material_grey_900;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_background_disabled = global::BTOAssistApp.Droid.Resource.Color.material_on_background_disabled;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_background_emphasis_high_type = global::BTOAssistApp.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_background_emphasis_medium = global::BTOAssistApp.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_primary_disabled = global::BTOAssistApp.Droid.Resource.Color.material_on_primary_disabled;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_primary_emphasis_high_type = global::BTOAssistApp.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_primary_emphasis_medium = global::BTOAssistApp.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_surface_disabled = global::BTOAssistApp.Droid.Resource.Color.material_on_surface_disabled;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_surface_emphasis_high_type = global::BTOAssistApp.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_surface_emphasis_medium = global::BTOAssistApp.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::TeeChart.PCL.Droid.Resource.Color.material_on_surface_stroke = global::BTOAssistApp.Droid.Resource.Color.material_on_surface_stroke;
+			global::TeeChart.PCL.Droid.Resource.Color.material_slider_active_tick_marks_color = global::BTOAssistApp.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::TeeChart.PCL.Droid.Resource.Color.material_slider_active_track_color = global::BTOAssistApp.Droid.Resource.Color.material_slider_active_track_color;
+			global::TeeChart.PCL.Droid.Resource.Color.material_slider_halo_color = global::BTOAssistApp.Droid.Resource.Color.material_slider_halo_color;
+			global::TeeChart.PCL.Droid.Resource.Color.material_slider_inactive_tick_marks_color = global::BTOAssistApp.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::TeeChart.PCL.Droid.Resource.Color.material_slider_inactive_track_color = global::BTOAssistApp.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::TeeChart.PCL.Droid.Resource.Color.material_slider_thumb_color = global::BTOAssistApp.Droid.Resource.Color.material_slider_thumb_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_ripple_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_text_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_calendar_item_stroke_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_calendar_selected_range = global::BTOAssistApp.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_card_view_foreground = global::BTOAssistApp.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_card_view_ripple = global::BTOAssistApp.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_chip_background_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::BTOAssistApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_chip_surface_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_chip_text_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_choice_chip_background_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_choice_chip_ripple_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_choice_chip_text_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_error = global::BTOAssistApp.Droid.Resource.Color.mtrl_error;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_fab_bg_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_fab_icon_text_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_fab_ripple_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_filled_background_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_filled_background_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_filled_icon_tint = global::BTOAssistApp.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_filled_stroke_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_indicator_text_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_navigation_item_background_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_navigation_item_icon_tint = global::BTOAssistApp.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_navigation_item_text_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_outlined_icon_tint = global::BTOAssistApp.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_outlined_stroke_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_popupmenu_overlay_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_scrim_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::BTOAssistApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_tabs_ripple_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_textinput_disabled_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::BTOAssistApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::TeeChart.PCL.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::BTOAssistApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::TeeChart.PCL.Droid.Resource.Color.notification_action_color_filter = global::BTOAssistApp.Droid.Resource.Color.notification_action_color_filter;
+			global::TeeChart.PCL.Droid.Resource.Color.notification_icon_bg_color = global::BTOAssistApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::TeeChart.PCL.Droid.Resource.Color.notification_material_background_media_default_color = global::BTOAssistApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::TeeChart.PCL.Droid.Resource.Color.preference_fallback_accent_color = global::BTOAssistApp.Droid.Resource.Color.preference_fallback_accent_color;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_dark_material_dark = global::BTOAssistApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_dark_material_light = global::BTOAssistApp.Droid.Resource.Color.primary_dark_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_material_dark = global::BTOAssistApp.Droid.Resource.Color.primary_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_material_light = global::BTOAssistApp.Droid.Resource.Color.primary_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_text_default_material_dark = global::BTOAssistApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_text_default_material_light = global::BTOAssistApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_text_disabled_material_dark = global::BTOAssistApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.primary_text_disabled_material_light = global::BTOAssistApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.radiobutton_themeable_attribute_color = global::BTOAssistApp.Droid.Resource.Color.radiobutton_themeable_attribute_color;
+			global::TeeChart.PCL.Droid.Resource.Color.ripple_material_dark = global::BTOAssistApp.Droid.Resource.Color.ripple_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.ripple_material_light = global::BTOAssistApp.Droid.Resource.Color.ripple_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.secondary_text_default_material_dark = global::BTOAssistApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.secondary_text_default_material_light = global::BTOAssistApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.secondary_text_disabled_material_dark = global::BTOAssistApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.secondary_text_disabled_material_light = global::BTOAssistApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::BTOAssistApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.switch_thumb_disabled_material_light = global::BTOAssistApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.switch_thumb_material_dark = global::BTOAssistApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.switch_thumb_material_light = global::BTOAssistApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.switch_thumb_normal_material_dark = global::BTOAssistApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.switch_thumb_normal_material_light = global::BTOAssistApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::TeeChart.PCL.Droid.Resource.Color.test_mtrl_calendar_day = global::BTOAssistApp.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::TeeChart.PCL.Droid.Resource.Color.test_mtrl_calendar_day_selected = global::BTOAssistApp.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::TeeChart.PCL.Droid.Resource.Color.tooltip_background_dark = global::BTOAssistApp.Droid.Resource.Color.tooltip_background_dark;
+			global::TeeChart.PCL.Droid.Resource.Color.tooltip_background_light = global::BTOAssistApp.Droid.Resource.Color.tooltip_background_light;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_button_min_height_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_button_min_width_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BTOAssistApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::BTOAssistApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::BTOAssistApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::BTOAssistApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_control_corner_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_control_inset_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_control_padding_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_min_width_major = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_padding_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::BTOAssistApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::BTOAssistApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::BTOAssistApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BTOAssistApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BTOAssistApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_floating_window_z = global::BTOAssistApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_list_item_height_large_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_list_item_height_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_list_item_height_small_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_panel_menu_list_width = global::BTOAssistApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_progress_bar_height_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_search_view_preferred_height = global::BTOAssistApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_search_view_preferred_width = global::BTOAssistApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_switch_padding = global::BTOAssistApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_body_1_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_body_2_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_button_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_caption_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_display_1_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_display_2_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_display_3_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_display_4_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_headline_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_large_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_medium_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_menu_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_small_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_subhead_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_title_material = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::BTOAssistApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::TeeChart.PCL.Droid.Resource.Dimension.action_bar_size = global::BTOAssistApp.Droid.Resource.Dimension.action_bar_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.appcompat_dialog_background_inset = global::BTOAssistApp.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::BTOAssistApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::BTOAssistApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::BTOAssistApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::TeeChart.PCL.Droid.Resource.Dimension.cardview_default_elevation = global::BTOAssistApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.cardview_default_radius = global::BTOAssistApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::BTOAssistApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::BTOAssistApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::BTOAssistApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::BTOAssistApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_control_corner_material = global::BTOAssistApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::BTOAssistApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::BTOAssistApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.default_dimension = global::BTOAssistApp.Droid.Resource.Dimension.default_dimension;
+			global::TeeChart.PCL.Droid.Resource.Dimension.def_drawer_elevation = global::BTOAssistApp.Droid.Resource.Dimension.def_drawer_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_appbar_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_height = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_margin = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_sheet_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::BTOAssistApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_border_width = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_image_size = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_size_mini = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_size_normal = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::BTOAssistApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_icon_padding = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_max_width = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_padding_bottom = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::BTOAssistApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_elevation = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_max_width = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_min_width = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_snackbar_text_size = global::BTOAssistApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_tab_max_width = global::BTOAssistApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::BTOAssistApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_tab_text_size = global::BTOAssistApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_tab_text_size_2line = global::BTOAssistApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::TeeChart.PCL.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::BTOAssistApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::TeeChart.PCL.Droid.Resource.Dimension.disabled_alpha_material_dark = global::BTOAssistApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Dimension.disabled_alpha_material_light = global::BTOAssistApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::TeeChart.PCL.Droid.Resource.Dimension.fastscroll_default_thickness = global::BTOAssistApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::TeeChart.PCL.Droid.Resource.Dimension.fastscroll_margin = global::BTOAssistApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.fastscroll_minimum_range = global::BTOAssistApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::TeeChart.PCL.Droid.Resource.Dimension.highlight_alpha_material_colored = global::BTOAssistApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::TeeChart.PCL.Droid.Resource.Dimension.highlight_alpha_material_dark = global::BTOAssistApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Dimension.highlight_alpha_material_light = global::BTOAssistApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::TeeChart.PCL.Droid.Resource.Dimension.hint_alpha_material_dark = global::BTOAssistApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Dimension.hint_alpha_material_light = global::BTOAssistApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::TeeChart.PCL.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::BTOAssistApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::TeeChart.PCL.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::BTOAssistApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::TeeChart.PCL.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::BTOAssistApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::TeeChart.PCL.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::BTOAssistApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::TeeChart.PCL.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::BTOAssistApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::TeeChart.PCL.Droid.Resource.Dimension.material_emphasis_disabled = global::BTOAssistApp.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::TeeChart.PCL.Droid.Resource.Dimension.material_emphasis_high_type = global::BTOAssistApp.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::TeeChart.PCL.Droid.Resource.Dimension.material_emphasis_medium = global::BTOAssistApp.Droid.Resource.Dimension.material_emphasis_medium;
+			global::TeeChart.PCL.Droid.Resource.Dimension.material_text_view_test_line_height = global::BTOAssistApp.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.material_text_view_test_line_height_override = global::BTOAssistApp.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_badge_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_badge_text_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_badge_with_text_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_focused_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_inset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_padding_left = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_padding_right = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_padding_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_text_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_btn_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_action_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_action_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_bottom_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_content_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_day_corner = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_day_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_day_width = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_content_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_text_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_navigation_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_year_corner = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_year_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_calendar_year_width = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_card_checked_icon_margin = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_card_checked_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_card_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_card_dragged_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_card_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_card_spacing = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_chip_text_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_end_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_min_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_min_width = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_start_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_top_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_fab_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_fab_min_touch_target = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_large_touch_target = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_min_touch_target_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_navigation_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_navigation_item_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_halo_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_label_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_label_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_label_square_side = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_thumb_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_thumb_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_track_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_track_side_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_track_top = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_slider_widget_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_snackbar_margin = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_switch_thumb_elevation = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_tooltip_arrowSize = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_tooltip_cornerSize = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_tooltip_minHeight = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_tooltip_minWidth = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_tooltip_padding = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::BTOAssistApp.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_action_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_action_text_size = global::BTOAssistApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_big_circle_margin = global::BTOAssistApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_content_margin_start = global::BTOAssistApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_large_icon_height = global::BTOAssistApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_large_icon_width = global::BTOAssistApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_main_column_padding_top = global::BTOAssistApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_media_narrow_margin = global::BTOAssistApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_right_icon_size = global::BTOAssistApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_right_side_padding_top = global::BTOAssistApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_small_icon_background_padding = global::BTOAssistApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::BTOAssistApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_subtext_size = global::BTOAssistApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_top_pad = global::BTOAssistApp.Droid.Resource.Dimension.notification_top_pad;
+			global::TeeChart.PCL.Droid.Resource.Dimension.notification_top_pad_large_text = global::BTOAssistApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::TeeChart.PCL.Droid.Resource.Dimension.preference_dropdown_padding_start = global::BTOAssistApp.Droid.Resource.Dimension.preference_dropdown_padding_start;
+			global::TeeChart.PCL.Droid.Resource.Dimension.preference_icon_minWidth = global::BTOAssistApp.Droid.Resource.Dimension.preference_icon_minWidth;
+			global::TeeChart.PCL.Droid.Resource.Dimension.preference_seekbar_padding_horizontal = global::BTOAssistApp.Droid.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Dimension.preference_seekbar_padding_vertical = global::BTOAssistApp.Droid.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::TeeChart.PCL.Droid.Resource.Dimension.preference_seekbar_value_minWidth = global::BTOAssistApp.Droid.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::TeeChart.PCL.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::BTOAssistApp.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_corner_radius = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_horizontal_padding = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_margin = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_margin;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_vertical_padding = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::TeeChart.PCL.Droid.Resource.Dimension.tooltip_y_offset_touch = global::BTOAssistApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_borderless_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_check_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_check_material_anim = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_colored_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_radio_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_radio_material_anim = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BTOAssistApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::BTOAssistApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_cab_background_top_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_control_background_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_dialog_material_background = global::BTOAssistApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_edit_text_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_ab_back_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_clear_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_search_api_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_item_background_holo_dark = global::BTOAssistApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_item_background_holo_light = global::BTOAssistApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_divider_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_focused_holo = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_longpressed_holo = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_list_selector_holo_light = global::BTOAssistApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BTOAssistApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::BTOAssistApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ratingbar_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_ratingbar_small_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::BTOAssistApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::BTOAssistApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_seekbar_track_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_switch_thumb_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_tab_indicator_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BTOAssistApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_textfield_search_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_text_cursor_material = global::BTOAssistApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.abc_vector_test = global::BTOAssistApp.Droid.Resource.Drawable.abc_vector_test;
+			global::TeeChart.PCL.Droid.Resource.Drawable.avd_hide_password = global::BTOAssistApp.Droid.Resource.Drawable.avd_hide_password;
+			global::TeeChart.PCL.Droid.Resource.Drawable.avd_show_password = global::BTOAssistApp.Droid.Resource.Drawable.avd_show_password;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_checkbox_checked_mtrl = global::BTOAssistApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::BTOAssistApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::BTOAssistApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::BTOAssistApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_radio_off_mtrl = global::BTOAssistApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::BTOAssistApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_radio_on_mtrl = global::BTOAssistApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::TeeChart.PCL.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::BTOAssistApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::TeeChart.PCL.Droid.Resource.Drawable.design_fab_background = global::BTOAssistApp.Droid.Resource.Drawable.design_fab_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.design_ic_visibility = global::BTOAssistApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::TeeChart.PCL.Droid.Resource.Drawable.design_ic_visibility_off = global::BTOAssistApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::TeeChart.PCL.Droid.Resource.Drawable.design_password_eye = global::BTOAssistApp.Droid.Resource.Drawable.design_password_eye;
+			global::TeeChart.PCL.Droid.Resource.Drawable.design_snackbar_background = global::BTOAssistApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.Icon = global::BTOAssistApp.Droid.Resource.Drawable.Icon;
+			global::TeeChart.PCL.Droid.Resource.Drawable.ic_arrow_down_24dp = global::BTOAssistApp.Droid.Resource.Drawable.ic_arrow_down_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.ic_mtrl_checked_circle = global::BTOAssistApp.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::TeeChart.PCL.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::BTOAssistApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::TeeChart.PCL.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::BTOAssistApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::TeeChart.PCL.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::BTOAssistApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_calendar_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_clear_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_edit_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::BTOAssistApp.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_dialog_background = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_dropdown_arrow = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_ic_cancel = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_ic_error = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_ic_error;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_popupmenu_background = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_popupmenu_background_dark = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::BTOAssistApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::TeeChart.PCL.Droid.Resource.Drawable.navigation_empty_icon = global::BTOAssistApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_action_background = global::BTOAssistApp.Droid.Resource.Drawable.notification_action_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_bg = global::BTOAssistApp.Droid.Resource.Drawable.notification_bg;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_bg_low = global::BTOAssistApp.Droid.Resource.Drawable.notification_bg_low;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_bg_low_normal = global::BTOAssistApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_bg_low_pressed = global::BTOAssistApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_bg_normal = global::BTOAssistApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_bg_normal_pressed = global::BTOAssistApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_icon_background = global::BTOAssistApp.Droid.Resource.Drawable.notification_icon_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_template_icon_bg = global::BTOAssistApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_template_icon_low_bg = global::BTOAssistApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notification_tile_bg = global::BTOAssistApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::TeeChart.PCL.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::BTOAssistApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::TeeChart.PCL.Droid.Resource.Drawable.preference_list_divider_material = global::BTOAssistApp.Droid.Resource.Drawable.preference_list_divider_material;
+			global::TeeChart.PCL.Droid.Resource.Drawable.test_custom_background = global::BTOAssistApp.Droid.Resource.Drawable.test_custom_background;
+			global::TeeChart.PCL.Droid.Resource.Drawable.tooltip_frame_dark = global::BTOAssistApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::TeeChart.PCL.Droid.Resource.Drawable.tooltip_frame_light = global::BTOAssistApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_action_clickable_span = global::BTOAssistApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_0 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_1 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_10 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_11 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_12 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_13 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_14 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_15 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_16 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_17 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_18 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_19 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_2 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_20 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_21 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_22 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_23 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_24 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_25 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_26 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_27 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_28 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_29 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_3 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_30 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_31 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_4 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_5 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_6 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_7 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_8 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::TeeChart.PCL.Droid.Resource.Id.accessibility_custom_action_9 = global::BTOAssistApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::TeeChart.PCL.Droid.Resource.Id.action0 = global::BTOAssistApp.Droid.Resource.Id.action0;
+			global::TeeChart.PCL.Droid.Resource.Id.actions = global::BTOAssistApp.Droid.Resource.Id.actions;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar = global::BTOAssistApp.Droid.Resource.Id.action_bar;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar_activity_content = global::BTOAssistApp.Droid.Resource.Id.action_bar_activity_content;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar_container = global::BTOAssistApp.Droid.Resource.Id.action_bar_container;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar_root = global::BTOAssistApp.Droid.Resource.Id.action_bar_root;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar_spinner = global::BTOAssistApp.Droid.Resource.Id.action_bar_spinner;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar_subtitle = global::BTOAssistApp.Droid.Resource.Id.action_bar_subtitle;
+			global::TeeChart.PCL.Droid.Resource.Id.action_bar_title = global::BTOAssistApp.Droid.Resource.Id.action_bar_title;
+			global::TeeChart.PCL.Droid.Resource.Id.action_container = global::BTOAssistApp.Droid.Resource.Id.action_container;
+			global::TeeChart.PCL.Droid.Resource.Id.action_context_bar = global::BTOAssistApp.Droid.Resource.Id.action_context_bar;
+			global::TeeChart.PCL.Droid.Resource.Id.action_divider = global::BTOAssistApp.Droid.Resource.Id.action_divider;
+			global::TeeChart.PCL.Droid.Resource.Id.action_image = global::BTOAssistApp.Droid.Resource.Id.action_image;
+			global::TeeChart.PCL.Droid.Resource.Id.action_menu_divider = global::BTOAssistApp.Droid.Resource.Id.action_menu_divider;
+			global::TeeChart.PCL.Droid.Resource.Id.action_menu_presenter = global::BTOAssistApp.Droid.Resource.Id.action_menu_presenter;
+			global::TeeChart.PCL.Droid.Resource.Id.action_mode_bar = global::BTOAssistApp.Droid.Resource.Id.action_mode_bar;
+			global::TeeChart.PCL.Droid.Resource.Id.action_mode_bar_stub = global::BTOAssistApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::TeeChart.PCL.Droid.Resource.Id.action_mode_close_button = global::BTOAssistApp.Droid.Resource.Id.action_mode_close_button;
+			global::TeeChart.PCL.Droid.Resource.Id.action_text = global::BTOAssistApp.Droid.Resource.Id.action_text;
+			global::TeeChart.PCL.Droid.Resource.Id.activity_chooser_view_content = global::BTOAssistApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::TeeChart.PCL.Droid.Resource.Id.add = global::BTOAssistApp.Droid.Resource.Id.add;
+			global::TeeChart.PCL.Droid.Resource.Id.alertTitle = global::BTOAssistApp.Droid.Resource.Id.alertTitle;
+			global::TeeChart.PCL.Droid.Resource.Id.all = global::BTOAssistApp.Droid.Resource.Id.all;
+			global::TeeChart.PCL.Droid.Resource.Id.ALT = global::BTOAssistApp.Droid.Resource.Id.ALT;
+			global::TeeChart.PCL.Droid.Resource.Id.always = global::BTOAssistApp.Droid.Resource.Id.always;
+			global::TeeChart.PCL.Droid.Resource.Id.async = global::BTOAssistApp.Droid.Resource.Id.async;
+			global::TeeChart.PCL.Droid.Resource.Id.auto = global::BTOAssistApp.Droid.Resource.Id.auto;
+			global::TeeChart.PCL.Droid.Resource.Id.beginning = global::BTOAssistApp.Droid.Resource.Id.beginning;
+			global::TeeChart.PCL.Droid.Resource.Id.blocking = global::BTOAssistApp.Droid.Resource.Id.blocking;
+			global::TeeChart.PCL.Droid.Resource.Id.bottom = global::BTOAssistApp.Droid.Resource.Id.bottom;
+			global::TeeChart.PCL.Droid.Resource.Id.bottomtab_navarea = global::BTOAssistApp.Droid.Resource.Id.bottomtab_navarea;
+			global::TeeChart.PCL.Droid.Resource.Id.bottomtab_tabbar = global::BTOAssistApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::TeeChart.PCL.Droid.Resource.Id.BOTTOM_END = global::BTOAssistApp.Droid.Resource.Id.BOTTOM_END;
+			global::TeeChart.PCL.Droid.Resource.Id.BOTTOM_START = global::BTOAssistApp.Droid.Resource.Id.BOTTOM_START;
+			global::TeeChart.PCL.Droid.Resource.Id.browser_actions_header_text = global::BTOAssistApp.Droid.Resource.Id.browser_actions_header_text;
+			global::TeeChart.PCL.Droid.Resource.Id.browser_actions_menu_items = global::BTOAssistApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::TeeChart.PCL.Droid.Resource.Id.browser_actions_menu_item_icon = global::BTOAssistApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::TeeChart.PCL.Droid.Resource.Id.browser_actions_menu_item_text = global::BTOAssistApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::TeeChart.PCL.Droid.Resource.Id.browser_actions_menu_view = global::BTOAssistApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::TeeChart.PCL.Droid.Resource.Id.buttonPanel = global::BTOAssistApp.Droid.Resource.Id.buttonPanel;
+			global::TeeChart.PCL.Droid.Resource.Id.cancel_action = global::BTOAssistApp.Droid.Resource.Id.cancel_action;
+			global::TeeChart.PCL.Droid.Resource.Id.cancel_button = global::BTOAssistApp.Droid.Resource.Id.cancel_button;
+			global::TeeChart.PCL.Droid.Resource.Id.center = global::BTOAssistApp.Droid.Resource.Id.center;
+			global::TeeChart.PCL.Droid.Resource.Id.center_horizontal = global::BTOAssistApp.Droid.Resource.Id.center_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Id.center_vertical = global::BTOAssistApp.Droid.Resource.Id.center_vertical;
+			global::TeeChart.PCL.Droid.Resource.Id.checkbox = global::BTOAssistApp.Droid.Resource.Id.checkbox;
+			global::TeeChart.PCL.Droid.Resource.Id.@checked = global::BTOAssistApp.Droid.Resource.Id.@checked;
+			global::TeeChart.PCL.Droid.Resource.Id.chip = global::BTOAssistApp.Droid.Resource.Id.chip;
+			global::TeeChart.PCL.Droid.Resource.Id.chip1 = global::BTOAssistApp.Droid.Resource.Id.chip1;
+			global::TeeChart.PCL.Droid.Resource.Id.chip2 = global::BTOAssistApp.Droid.Resource.Id.chip2;
+			global::TeeChart.PCL.Droid.Resource.Id.chip3 = global::BTOAssistApp.Droid.Resource.Id.chip3;
+			global::TeeChart.PCL.Droid.Resource.Id.chip_group = global::BTOAssistApp.Droid.Resource.Id.chip_group;
+			global::TeeChart.PCL.Droid.Resource.Id.chronometer = global::BTOAssistApp.Droid.Resource.Id.chronometer;
+			global::TeeChart.PCL.Droid.Resource.Id.clear_text = global::BTOAssistApp.Droid.Resource.Id.clear_text;
+			global::TeeChart.PCL.Droid.Resource.Id.clip_horizontal = global::BTOAssistApp.Droid.Resource.Id.clip_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Id.clip_vertical = global::BTOAssistApp.Droid.Resource.Id.clip_vertical;
+			global::TeeChart.PCL.Droid.Resource.Id.collapseActionView = global::BTOAssistApp.Droid.Resource.Id.collapseActionView;
+			global::TeeChart.PCL.Droid.Resource.Id.confirm_button = global::BTOAssistApp.Droid.Resource.Id.confirm_button;
+			global::TeeChart.PCL.Droid.Resource.Id.container = global::BTOAssistApp.Droid.Resource.Id.container;
+			global::TeeChart.PCL.Droid.Resource.Id.content = global::BTOAssistApp.Droid.Resource.Id.content;
+			global::TeeChart.PCL.Droid.Resource.Id.contentPanel = global::BTOAssistApp.Droid.Resource.Id.contentPanel;
+			global::TeeChart.PCL.Droid.Resource.Id.coordinator = global::BTOAssistApp.Droid.Resource.Id.coordinator;
+			global::TeeChart.PCL.Droid.Resource.Id.CTRL = global::BTOAssistApp.Droid.Resource.Id.CTRL;
+			global::TeeChart.PCL.Droid.Resource.Id.custom = global::BTOAssistApp.Droid.Resource.Id.custom;
+			global::TeeChart.PCL.Droid.Resource.Id.customPanel = global::BTOAssistApp.Droid.Resource.Id.customPanel;
+			global::TeeChart.PCL.Droid.Resource.Id.cut = global::BTOAssistApp.Droid.Resource.Id.cut;
+			global::TeeChart.PCL.Droid.Resource.Id.date_picker_actions = global::BTOAssistApp.Droid.Resource.Id.date_picker_actions;
+			global::TeeChart.PCL.Droid.Resource.Id.decor_content_parent = global::BTOAssistApp.Droid.Resource.Id.decor_content_parent;
+			global::TeeChart.PCL.Droid.Resource.Id.default_activity_button = global::BTOAssistApp.Droid.Resource.Id.default_activity_button;
+			global::TeeChart.PCL.Droid.Resource.Id.design_bottom_sheet = global::BTOAssistApp.Droid.Resource.Id.design_bottom_sheet;
+			global::TeeChart.PCL.Droid.Resource.Id.design_menu_item_action_area = global::BTOAssistApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::TeeChart.PCL.Droid.Resource.Id.design_menu_item_action_area_stub = global::BTOAssistApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::TeeChart.PCL.Droid.Resource.Id.design_menu_item_text = global::BTOAssistApp.Droid.Resource.Id.design_menu_item_text;
+			global::TeeChart.PCL.Droid.Resource.Id.design_navigation_view = global::BTOAssistApp.Droid.Resource.Id.design_navigation_view;
+			global::TeeChart.PCL.Droid.Resource.Id.dialog_button = global::BTOAssistApp.Droid.Resource.Id.dialog_button;
+			global::TeeChart.PCL.Droid.Resource.Id.disableHome = global::BTOAssistApp.Droid.Resource.Id.disableHome;
+			global::TeeChart.PCL.Droid.Resource.Id.dropdown_menu = global::BTOAssistApp.Droid.Resource.Id.dropdown_menu;
+			global::TeeChart.PCL.Droid.Resource.Id.edit_query = global::BTOAssistApp.Droid.Resource.Id.edit_query;
+			global::TeeChart.PCL.Droid.Resource.Id.end = global::BTOAssistApp.Droid.Resource.Id.end;
+			global::TeeChart.PCL.Droid.Resource.Id.end_padder = global::BTOAssistApp.Droid.Resource.Id.end_padder;
+			global::TeeChart.PCL.Droid.Resource.Id.enterAlways = global::BTOAssistApp.Droid.Resource.Id.enterAlways;
+			global::TeeChart.PCL.Droid.Resource.Id.enterAlwaysCollapsed = global::BTOAssistApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::TeeChart.PCL.Droid.Resource.Id.exitUntilCollapsed = global::BTOAssistApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::TeeChart.PCL.Droid.Resource.Id.expanded_menu = global::BTOAssistApp.Droid.Resource.Id.expanded_menu;
+			global::TeeChart.PCL.Droid.Resource.Id.expand_activities_button = global::BTOAssistApp.Droid.Resource.Id.expand_activities_button;
+			global::TeeChart.PCL.Droid.Resource.Id.fade = global::BTOAssistApp.Droid.Resource.Id.fade;
+			global::TeeChart.PCL.Droid.Resource.Id.fill = global::BTOAssistApp.Droid.Resource.Id.fill;
+			global::TeeChart.PCL.Droid.Resource.Id.filled = global::BTOAssistApp.Droid.Resource.Id.filled;
+			global::TeeChart.PCL.Droid.Resource.Id.fill_horizontal = global::BTOAssistApp.Droid.Resource.Id.fill_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Id.fill_vertical = global::BTOAssistApp.Droid.Resource.Id.fill_vertical;
+			global::TeeChart.PCL.Droid.Resource.Id.fitToContents = global::BTOAssistApp.Droid.Resource.Id.fitToContents;
+			global::TeeChart.PCL.Droid.Resource.Id.@fixed = global::BTOAssistApp.Droid.Resource.Id.@fixed;
+			global::TeeChart.PCL.Droid.Resource.Id.floating = global::BTOAssistApp.Droid.Resource.Id.floating;
+			global::TeeChart.PCL.Droid.Resource.Id.flyoutcontent_appbar = global::BTOAssistApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::TeeChart.PCL.Droid.Resource.Id.forever = global::BTOAssistApp.Droid.Resource.Id.forever;
+			global::TeeChart.PCL.Droid.Resource.Id.fragment_container_view_tag = global::BTOAssistApp.Droid.Resource.Id.fragment_container_view_tag;
+			global::TeeChart.PCL.Droid.Resource.Id.FUNCTION = global::BTOAssistApp.Droid.Resource.Id.FUNCTION;
+			global::TeeChart.PCL.Droid.Resource.Id.ghost_view = global::BTOAssistApp.Droid.Resource.Id.ghost_view;
+			global::TeeChart.PCL.Droid.Resource.Id.ghost_view_holder = global::BTOAssistApp.Droid.Resource.Id.ghost_view_holder;
+			global::TeeChart.PCL.Droid.Resource.Id.gone = global::BTOAssistApp.Droid.Resource.Id.gone;
+			global::TeeChart.PCL.Droid.Resource.Id.group_divider = global::BTOAssistApp.Droid.Resource.Id.group_divider;
+			global::TeeChart.PCL.Droid.Resource.Id.hideable = global::BTOAssistApp.Droid.Resource.Id.hideable;
+			global::TeeChart.PCL.Droid.Resource.Id.home = global::BTOAssistApp.Droid.Resource.Id.home;
+			global::TeeChart.PCL.Droid.Resource.Id.homeAsUp = global::BTOAssistApp.Droid.Resource.Id.homeAsUp;
+			global::TeeChart.PCL.Droid.Resource.Id.icon = global::BTOAssistApp.Droid.Resource.Id.icon;
+			global::TeeChart.PCL.Droid.Resource.Id.icon_frame = global::BTOAssistApp.Droid.Resource.Id.icon_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.icon_group = global::BTOAssistApp.Droid.Resource.Id.icon_group;
+			global::TeeChart.PCL.Droid.Resource.Id.ifRoom = global::BTOAssistApp.Droid.Resource.Id.ifRoom;
+			global::TeeChart.PCL.Droid.Resource.Id.image = global::BTOAssistApp.Droid.Resource.Id.image;
+			global::TeeChart.PCL.Droid.Resource.Id.info = global::BTOAssistApp.Droid.Resource.Id.info;
+			global::TeeChart.PCL.Droid.Resource.Id.italic = global::BTOAssistApp.Droid.Resource.Id.italic;
+			global::TeeChart.PCL.Droid.Resource.Id.item_touch_helper_previous_elevation = global::BTOAssistApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::TeeChart.PCL.Droid.Resource.Id.labeled = global::BTOAssistApp.Droid.Resource.Id.labeled;
+			global::TeeChart.PCL.Droid.Resource.Id.left = global::BTOAssistApp.Droid.Resource.Id.left;
+			global::TeeChart.PCL.Droid.Resource.Id.line1 = global::BTOAssistApp.Droid.Resource.Id.line1;
+			global::TeeChart.PCL.Droid.Resource.Id.line3 = global::BTOAssistApp.Droid.Resource.Id.line3;
+			global::TeeChart.PCL.Droid.Resource.Id.listMode = global::BTOAssistApp.Droid.Resource.Id.listMode;
+			global::TeeChart.PCL.Droid.Resource.Id.list_item = global::BTOAssistApp.Droid.Resource.Id.list_item;
+			global::TeeChart.PCL.Droid.Resource.Id.main_appbar = global::BTOAssistApp.Droid.Resource.Id.main_appbar;
+			global::TeeChart.PCL.Droid.Resource.Id.main_tablayout = global::BTOAssistApp.Droid.Resource.Id.main_tablayout;
+			global::TeeChart.PCL.Droid.Resource.Id.main_toolbar = global::BTOAssistApp.Droid.Resource.Id.main_toolbar;
+			global::TeeChart.PCL.Droid.Resource.Id.main_viewpager = global::BTOAssistApp.Droid.Resource.Id.main_viewpager;
+			global::TeeChart.PCL.Droid.Resource.Id.masked = global::BTOAssistApp.Droid.Resource.Id.masked;
+			global::TeeChart.PCL.Droid.Resource.Id.media_actions = global::BTOAssistApp.Droid.Resource.Id.media_actions;
+			global::TeeChart.PCL.Droid.Resource.Id.media_controller_compat_view_tag = global::BTOAssistApp.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::TeeChart.PCL.Droid.Resource.Id.message = global::BTOAssistApp.Droid.Resource.Id.message;
+			global::TeeChart.PCL.Droid.Resource.Id.META = global::BTOAssistApp.Droid.Resource.Id.META;
+			global::TeeChart.PCL.Droid.Resource.Id.middle = global::BTOAssistApp.Droid.Resource.Id.middle;
+			global::TeeChart.PCL.Droid.Resource.Id.mini = global::BTOAssistApp.Droid.Resource.Id.mini;
+			global::TeeChart.PCL.Droid.Resource.Id.month_grid = global::BTOAssistApp.Droid.Resource.Id.month_grid;
+			global::TeeChart.PCL.Droid.Resource.Id.month_navigation_bar = global::BTOAssistApp.Droid.Resource.Id.month_navigation_bar;
+			global::TeeChart.PCL.Droid.Resource.Id.month_navigation_fragment_toggle = global::BTOAssistApp.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::TeeChart.PCL.Droid.Resource.Id.month_navigation_next = global::BTOAssistApp.Droid.Resource.Id.month_navigation_next;
+			global::TeeChart.PCL.Droid.Resource.Id.month_navigation_previous = global::BTOAssistApp.Droid.Resource.Id.month_navigation_previous;
+			global::TeeChart.PCL.Droid.Resource.Id.month_title = global::BTOAssistApp.Droid.Resource.Id.month_title;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_days_of_week = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_day_selector_frame = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_frame = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_main_pane = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_months = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_months;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_selection_frame = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_text_input_frame = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_calendar_year_selector_frame = global::BTOAssistApp.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_card_checked_layer_id = global::BTOAssistApp.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_child_content_container = global::BTOAssistApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::BTOAssistApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_motion_snapshot_view = global::BTOAssistApp.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_fullscreen = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_header = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_header;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_header_selection_text = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_header_title_and_selection = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_header_toggle = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_text_input_date = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_text_input_range_end = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_text_input_range_start = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::TeeChart.PCL.Droid.Resource.Id.mtrl_picker_title_text = global::BTOAssistApp.Droid.Resource.Id.mtrl_picker_title_text;
+			global::TeeChart.PCL.Droid.Resource.Id.multiply = global::BTOAssistApp.Droid.Resource.Id.multiply;
+			global::TeeChart.PCL.Droid.Resource.Id.navigation_header_container = global::BTOAssistApp.Droid.Resource.Id.navigation_header_container;
+			global::TeeChart.PCL.Droid.Resource.Id.nav_controller_view_tag = global::BTOAssistApp.Droid.Resource.Id.nav_controller_view_tag;
+			global::TeeChart.PCL.Droid.Resource.Id.never = global::BTOAssistApp.Droid.Resource.Id.never;
+			global::TeeChart.PCL.Droid.Resource.Id.none = global::BTOAssistApp.Droid.Resource.Id.none;
+			global::TeeChart.PCL.Droid.Resource.Id.normal = global::BTOAssistApp.Droid.Resource.Id.normal;
+			global::TeeChart.PCL.Droid.Resource.Id.noScroll = global::BTOAssistApp.Droid.Resource.Id.noScroll;
+			global::TeeChart.PCL.Droid.Resource.Id.notification_background = global::BTOAssistApp.Droid.Resource.Id.notification_background;
+			global::TeeChart.PCL.Droid.Resource.Id.notification_main_column = global::BTOAssistApp.Droid.Resource.Id.notification_main_column;
+			global::TeeChart.PCL.Droid.Resource.Id.notification_main_column_container = global::BTOAssistApp.Droid.Resource.Id.notification_main_column_container;
+			global::TeeChart.PCL.Droid.Resource.Id.off = global::BTOAssistApp.Droid.Resource.Id.off;
+			global::TeeChart.PCL.Droid.Resource.Id.on = global::BTOAssistApp.Droid.Resource.Id.on;
+			global::TeeChart.PCL.Droid.Resource.Id.outline = global::BTOAssistApp.Droid.Resource.Id.outline;
+			global::TeeChart.PCL.Droid.Resource.Id.parallax = global::BTOAssistApp.Droid.Resource.Id.parallax;
+			global::TeeChart.PCL.Droid.Resource.Id.parentPanel = global::BTOAssistApp.Droid.Resource.Id.parentPanel;
+			global::TeeChart.PCL.Droid.Resource.Id.parent_matrix = global::BTOAssistApp.Droid.Resource.Id.parent_matrix;
+			global::TeeChart.PCL.Droid.Resource.Id.password_toggle = global::BTOAssistApp.Droid.Resource.Id.password_toggle;
+			global::TeeChart.PCL.Droid.Resource.Id.peekHeight = global::BTOAssistApp.Droid.Resource.Id.peekHeight;
+			global::TeeChart.PCL.Droid.Resource.Id.pin = global::BTOAssistApp.Droid.Resource.Id.pin;
+			global::TeeChart.PCL.Droid.Resource.Id.progress_circular = global::BTOAssistApp.Droid.Resource.Id.progress_circular;
+			global::TeeChart.PCL.Droid.Resource.Id.progress_horizontal = global::BTOAssistApp.Droid.Resource.Id.progress_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Id.radio = global::BTOAssistApp.Droid.Resource.Id.radio;
+			global::TeeChart.PCL.Droid.Resource.Id.recycler_view = global::BTOAssistApp.Droid.Resource.Id.recycler_view;
+			global::TeeChart.PCL.Droid.Resource.Id.right = global::BTOAssistApp.Droid.Resource.Id.right;
+			global::TeeChart.PCL.Droid.Resource.Id.right_icon = global::BTOAssistApp.Droid.Resource.Id.right_icon;
+			global::TeeChart.PCL.Droid.Resource.Id.right_side = global::BTOAssistApp.Droid.Resource.Id.right_side;
+			global::TeeChart.PCL.Droid.Resource.Id.rounded = global::BTOAssistApp.Droid.Resource.Id.rounded;
+			global::TeeChart.PCL.Droid.Resource.Id.row_index_key = global::BTOAssistApp.Droid.Resource.Id.row_index_key;
+			global::TeeChart.PCL.Droid.Resource.Id.save_non_transition_alpha = global::BTOAssistApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::TeeChart.PCL.Droid.Resource.Id.save_overlay_view = global::BTOAssistApp.Droid.Resource.Id.save_overlay_view;
+			global::TeeChart.PCL.Droid.Resource.Id.scale = global::BTOAssistApp.Droid.Resource.Id.scale;
+			global::TeeChart.PCL.Droid.Resource.Id.screen = global::BTOAssistApp.Droid.Resource.Id.screen;
+			global::TeeChart.PCL.Droid.Resource.Id.scroll = global::BTOAssistApp.Droid.Resource.Id.scroll;
+			global::TeeChart.PCL.Droid.Resource.Id.scrollable = global::BTOAssistApp.Droid.Resource.Id.scrollable;
+			global::TeeChart.PCL.Droid.Resource.Id.scrollIndicatorDown = global::BTOAssistApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::TeeChart.PCL.Droid.Resource.Id.scrollIndicatorUp = global::BTOAssistApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::TeeChart.PCL.Droid.Resource.Id.scrollView = global::BTOAssistApp.Droid.Resource.Id.scrollView;
+			global::TeeChart.PCL.Droid.Resource.Id.search_badge = global::BTOAssistApp.Droid.Resource.Id.search_badge;
+			global::TeeChart.PCL.Droid.Resource.Id.search_bar = global::BTOAssistApp.Droid.Resource.Id.search_bar;
+			global::TeeChart.PCL.Droid.Resource.Id.search_button = global::BTOAssistApp.Droid.Resource.Id.search_button;
+			global::TeeChart.PCL.Droid.Resource.Id.search_close_btn = global::BTOAssistApp.Droid.Resource.Id.search_close_btn;
+			global::TeeChart.PCL.Droid.Resource.Id.search_edit_frame = global::BTOAssistApp.Droid.Resource.Id.search_edit_frame;
+			global::TeeChart.PCL.Droid.Resource.Id.search_go_btn = global::BTOAssistApp.Droid.Resource.Id.search_go_btn;
+			global::TeeChart.PCL.Droid.Resource.Id.search_mag_icon = global::BTOAssistApp.Droid.Resource.Id.search_mag_icon;
+			global::TeeChart.PCL.Droid.Resource.Id.search_plate = global::BTOAssistApp.Droid.Resource.Id.search_plate;
+			global::TeeChart.PCL.Droid.Resource.Id.search_src_text = global::BTOAssistApp.Droid.Resource.Id.search_src_text;
+			global::TeeChart.PCL.Droid.Resource.Id.search_voice_btn = global::BTOAssistApp.Droid.Resource.Id.search_voice_btn;
+			global::TeeChart.PCL.Droid.Resource.Id.seekbar = global::BTOAssistApp.Droid.Resource.Id.seekbar;
+			global::TeeChart.PCL.Droid.Resource.Id.seekbar_value = global::BTOAssistApp.Droid.Resource.Id.seekbar_value;
+			global::TeeChart.PCL.Droid.Resource.Id.selected = global::BTOAssistApp.Droid.Resource.Id.selected;
+			global::TeeChart.PCL.Droid.Resource.Id.select_dialog_listview = global::BTOAssistApp.Droid.Resource.Id.select_dialog_listview;
+			global::TeeChart.PCL.Droid.Resource.Id.shellcontent_appbar = global::BTOAssistApp.Droid.Resource.Id.shellcontent_appbar;
+			global::TeeChart.PCL.Droid.Resource.Id.shellcontent_toolbar = global::BTOAssistApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::TeeChart.PCL.Droid.Resource.Id.SHIFT = global::BTOAssistApp.Droid.Resource.Id.SHIFT;
+			global::TeeChart.PCL.Droid.Resource.Id.shortcut = global::BTOAssistApp.Droid.Resource.Id.shortcut;
+			global::TeeChart.PCL.Droid.Resource.Id.showCustom = global::BTOAssistApp.Droid.Resource.Id.showCustom;
+			global::TeeChart.PCL.Droid.Resource.Id.showHome = global::BTOAssistApp.Droid.Resource.Id.showHome;
+			global::TeeChart.PCL.Droid.Resource.Id.showTitle = global::BTOAssistApp.Droid.Resource.Id.showTitle;
+			global::TeeChart.PCL.Droid.Resource.Id.skipCollapsed = global::BTOAssistApp.Droid.Resource.Id.skipCollapsed;
+			global::TeeChart.PCL.Droid.Resource.Id.slide = global::BTOAssistApp.Droid.Resource.Id.slide;
+			global::TeeChart.PCL.Droid.Resource.Id.sliding_tabs = global::BTOAssistApp.Droid.Resource.Id.sliding_tabs;
+			global::TeeChart.PCL.Droid.Resource.Id.snackbar_action = global::BTOAssistApp.Droid.Resource.Id.snackbar_action;
+			global::TeeChart.PCL.Droid.Resource.Id.snackbar_text = global::BTOAssistApp.Droid.Resource.Id.snackbar_text;
+			global::TeeChart.PCL.Droid.Resource.Id.snap = global::BTOAssistApp.Droid.Resource.Id.snap;
+			global::TeeChart.PCL.Droid.Resource.Id.snapMargins = global::BTOAssistApp.Droid.Resource.Id.snapMargins;
+			global::TeeChart.PCL.Droid.Resource.Id.spacer = global::BTOAssistApp.Droid.Resource.Id.spacer;
+			global::TeeChart.PCL.Droid.Resource.Id.special_effects_controller_view_tag = global::BTOAssistApp.Droid.Resource.Id.special_effects_controller_view_tag;
+			global::TeeChart.PCL.Droid.Resource.Id.spinner = global::BTOAssistApp.Droid.Resource.Id.spinner;
+			global::TeeChart.PCL.Droid.Resource.Id.split_action_bar = global::BTOAssistApp.Droid.Resource.Id.split_action_bar;
+			global::TeeChart.PCL.Droid.Resource.Id.src_atop = global::BTOAssistApp.Droid.Resource.Id.src_atop;
+			global::TeeChart.PCL.Droid.Resource.Id.src_in = global::BTOAssistApp.Droid.Resource.Id.src_in;
+			global::TeeChart.PCL.Droid.Resource.Id.src_over = global::BTOAssistApp.Droid.Resource.Id.src_over;
+			global::TeeChart.PCL.Droid.Resource.Id.start = global::BTOAssistApp.Droid.Resource.Id.start;
+			global::TeeChart.PCL.Droid.Resource.Id.status_bar_latest_event_content = global::BTOAssistApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::TeeChart.PCL.Droid.Resource.Id.stretch = global::BTOAssistApp.Droid.Resource.Id.stretch;
+			global::TeeChart.PCL.Droid.Resource.Id.submenuarrow = global::BTOAssistApp.Droid.Resource.Id.submenuarrow;
+			global::TeeChart.PCL.Droid.Resource.Id.submit_area = global::BTOAssistApp.Droid.Resource.Id.submit_area;
+			global::TeeChart.PCL.Droid.Resource.Id.switchWidget = global::BTOAssistApp.Droid.Resource.Id.switchWidget;
+			global::TeeChart.PCL.Droid.Resource.Id.SYM = global::BTOAssistApp.Droid.Resource.Id.SYM;
+			global::TeeChart.PCL.Droid.Resource.Id.tabMode = global::BTOAssistApp.Droid.Resource.Id.tabMode;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_accessibility_actions = global::BTOAssistApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_accessibility_clickable_spans = global::BTOAssistApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_accessibility_heading = global::BTOAssistApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_accessibility_pane_title = global::BTOAssistApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_screen_reader_focusable = global::BTOAssistApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_transition_group = global::BTOAssistApp.Droid.Resource.Id.tag_transition_group;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_unhandled_key_event_manager = global::BTOAssistApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::TeeChart.PCL.Droid.Resource.Id.tag_unhandled_key_listeners = global::BTOAssistApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::TeeChart.PCL.Droid.Resource.Id.test_checkbox_android_button_tint = global::BTOAssistApp.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::TeeChart.PCL.Droid.Resource.Id.test_checkbox_app_button_tint = global::BTOAssistApp.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::TeeChart.PCL.Droid.Resource.Id.test_radiobutton_android_button_tint = global::BTOAssistApp.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::TeeChart.PCL.Droid.Resource.Id.test_radiobutton_app_button_tint = global::BTOAssistApp.Droid.Resource.Id.test_radiobutton_app_button_tint;
+			global::TeeChart.PCL.Droid.Resource.Id.text = global::BTOAssistApp.Droid.Resource.Id.text;
+			global::TeeChart.PCL.Droid.Resource.Id.text2 = global::BTOAssistApp.Droid.Resource.Id.text2;
+			global::TeeChart.PCL.Droid.Resource.Id.textEnd = global::BTOAssistApp.Droid.Resource.Id.textEnd;
+			global::TeeChart.PCL.Droid.Resource.Id.textinput_counter = global::BTOAssistApp.Droid.Resource.Id.textinput_counter;
+			global::TeeChart.PCL.Droid.Resource.Id.textinput_error = global::BTOAssistApp.Droid.Resource.Id.textinput_error;
+			global::TeeChart.PCL.Droid.Resource.Id.textinput_helper_text = global::BTOAssistApp.Droid.Resource.Id.textinput_helper_text;
+			global::TeeChart.PCL.Droid.Resource.Id.textinput_placeholder = global::BTOAssistApp.Droid.Resource.Id.textinput_placeholder;
+			global::TeeChart.PCL.Droid.Resource.Id.textinput_prefix_text = global::BTOAssistApp.Droid.Resource.Id.textinput_prefix_text;
+			global::TeeChart.PCL.Droid.Resource.Id.textinput_suffix_text = global::BTOAssistApp.Droid.Resource.Id.textinput_suffix_text;
+			global::TeeChart.PCL.Droid.Resource.Id.textSpacerNoButtons = global::BTOAssistApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::TeeChart.PCL.Droid.Resource.Id.textSpacerNoTitle = global::BTOAssistApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::TeeChart.PCL.Droid.Resource.Id.textStart = global::BTOAssistApp.Droid.Resource.Id.textStart;
+			global::TeeChart.PCL.Droid.Resource.Id.text_input_end_icon = global::BTOAssistApp.Droid.Resource.Id.text_input_end_icon;
+			global::TeeChart.PCL.Droid.Resource.Id.text_input_start_icon = global::BTOAssistApp.Droid.Resource.Id.text_input_start_icon;
+			global::TeeChart.PCL.Droid.Resource.Id.time = global::BTOAssistApp.Droid.Resource.Id.time;
+			global::TeeChart.PCL.Droid.Resource.Id.title = global::BTOAssistApp.Droid.Resource.Id.title;
+			global::TeeChart.PCL.Droid.Resource.Id.titleDividerNoCustom = global::BTOAssistApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::TeeChart.PCL.Droid.Resource.Id.title_template = global::BTOAssistApp.Droid.Resource.Id.title_template;
+			global::TeeChart.PCL.Droid.Resource.Id.toolbar = global::BTOAssistApp.Droid.Resource.Id.toolbar;
+			global::TeeChart.PCL.Droid.Resource.Id.top = global::BTOAssistApp.Droid.Resource.Id.top;
+			global::TeeChart.PCL.Droid.Resource.Id.topPanel = global::BTOAssistApp.Droid.Resource.Id.topPanel;
+			global::TeeChart.PCL.Droid.Resource.Id.TOP_END = global::BTOAssistApp.Droid.Resource.Id.TOP_END;
+			global::TeeChart.PCL.Droid.Resource.Id.TOP_START = global::BTOAssistApp.Droid.Resource.Id.TOP_START;
+			global::TeeChart.PCL.Droid.Resource.Id.touch_outside = global::BTOAssistApp.Droid.Resource.Id.touch_outside;
+			global::TeeChart.PCL.Droid.Resource.Id.transition_current_scene = global::BTOAssistApp.Droid.Resource.Id.transition_current_scene;
+			global::TeeChart.PCL.Droid.Resource.Id.transition_layout_save = global::BTOAssistApp.Droid.Resource.Id.transition_layout_save;
+			global::TeeChart.PCL.Droid.Resource.Id.transition_position = global::BTOAssistApp.Droid.Resource.Id.transition_position;
+			global::TeeChart.PCL.Droid.Resource.Id.transition_scene_layoutid_cache = global::BTOAssistApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::TeeChart.PCL.Droid.Resource.Id.transition_transform = global::BTOAssistApp.Droid.Resource.Id.transition_transform;
+			global::TeeChart.PCL.Droid.Resource.Id.@unchecked = global::BTOAssistApp.Droid.Resource.Id.@unchecked;
+			global::TeeChart.PCL.Droid.Resource.Id.uniform = global::BTOAssistApp.Droid.Resource.Id.uniform;
+			global::TeeChart.PCL.Droid.Resource.Id.unlabeled = global::BTOAssistApp.Droid.Resource.Id.unlabeled;
+			global::TeeChart.PCL.Droid.Resource.Id.up = global::BTOAssistApp.Droid.Resource.Id.up;
+			global::TeeChart.PCL.Droid.Resource.Id.useLogo = global::BTOAssistApp.Droid.Resource.Id.useLogo;
+			global::TeeChart.PCL.Droid.Resource.Id.view_offset_helper = global::BTOAssistApp.Droid.Resource.Id.view_offset_helper;
+			global::TeeChart.PCL.Droid.Resource.Id.view_tree_lifecycle_owner = global::BTOAssistApp.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::TeeChart.PCL.Droid.Resource.Id.view_tree_saved_state_registry_owner = global::BTOAssistApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::TeeChart.PCL.Droid.Resource.Id.view_tree_view_model_store_owner = global::BTOAssistApp.Droid.Resource.Id.view_tree_view_model_store_owner;
+			global::TeeChart.PCL.Droid.Resource.Id.visible = global::BTOAssistApp.Droid.Resource.Id.visible;
+			global::TeeChart.PCL.Droid.Resource.Id.visible_removing_fragment_view_tag = global::BTOAssistApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::TeeChart.PCL.Droid.Resource.Id.withinBounds = global::BTOAssistApp.Droid.Resource.Id.withinBounds;
+			global::TeeChart.PCL.Droid.Resource.Id.withText = global::BTOAssistApp.Droid.Resource.Id.withText;
+			global::TeeChart.PCL.Droid.Resource.Id.wrap_content = global::BTOAssistApp.Droid.Resource.Id.wrap_content;
+			global::TeeChart.PCL.Droid.Resource.Id.zero_corner_chip = global::BTOAssistApp.Droid.Resource.Id.zero_corner_chip;
+			global::TeeChart.PCL.Droid.Resource.Integer.abc_config_activityDefaultDur = global::BTOAssistApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::TeeChart.PCL.Droid.Resource.Integer.abc_config_activityShortDur = global::BTOAssistApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::TeeChart.PCL.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::BTOAssistApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::TeeChart.PCL.Droid.Resource.Integer.bottom_sheet_slide_duration = global::BTOAssistApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::TeeChart.PCL.Droid.Resource.Integer.cancel_button_image_alpha = global::BTOAssistApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::TeeChart.PCL.Droid.Resource.Integer.config_navAnimTime = global::BTOAssistApp.Droid.Resource.Integer.config_navAnimTime;
+			global::TeeChart.PCL.Droid.Resource.Integer.config_tooltipAnimTime = global::BTOAssistApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::TeeChart.PCL.Droid.Resource.Integer.design_snackbar_text_max_lines = global::BTOAssistApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::TeeChart.PCL.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::BTOAssistApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::TeeChart.PCL.Droid.Resource.Integer.hide_password_duration = global::BTOAssistApp.Droid.Resource.Integer.hide_password_duration;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_badge_max_character_count = global::BTOAssistApp.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::BTOAssistApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::BTOAssistApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_calendar_header_orientation = global::BTOAssistApp.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_calendar_selection_text_lines = global::BTOAssistApp.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_calendar_year_selector_span = global::BTOAssistApp.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_card_anim_delay_ms = global::BTOAssistApp.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_card_anim_duration_ms = global::BTOAssistApp.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_chip_anim_duration = global::BTOAssistApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::TeeChart.PCL.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::BTOAssistApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::TeeChart.PCL.Droid.Resource.Integer.show_password_duration = global::BTOAssistApp.Droid.Resource.Integer.show_password_duration;
+			global::TeeChart.PCL.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::BTOAssistApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::BTOAssistApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::BTOAssistApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::BTOAssistApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::BTOAssistApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::BTOAssistApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::BTOAssistApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.fast_out_slow_in = global::BTOAssistApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::BTOAssistApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::BTOAssistApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.mtrl_linear = global::BTOAssistApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::TeeChart.PCL.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::BTOAssistApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_action_bar_title_item = global::BTOAssistApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_action_bar_up_container = global::BTOAssistApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_action_menu_item_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_action_menu_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_action_mode_bar = global::BTOAssistApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_action_mode_close_item_material = global::BTOAssistApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_activity_chooser_view = global::BTOAssistApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::BTOAssistApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::BTOAssistApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_alert_dialog_material = global::BTOAssistApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_alert_dialog_title_material = global::BTOAssistApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_dialog_title_material = global::BTOAssistApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_expanded_menu_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::BTOAssistApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_list_menu_item_icon = global::BTOAssistApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_list_menu_item_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_list_menu_item_radio = global::BTOAssistApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_popup_menu_item_layout = global::BTOAssistApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_screen_content_include = global::BTOAssistApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_screen_simple = global::BTOAssistApp.Droid.Resource.Layout.abc_screen_simple;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BTOAssistApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_screen_toolbar = global::BTOAssistApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BTOAssistApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_search_view = global::BTOAssistApp.Droid.Resource.Layout.abc_search_view;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_select_dialog_material = global::BTOAssistApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.abc_tooltip = global::BTOAssistApp.Droid.Resource.Layout.abc_tooltip;
+			global::TeeChart.PCL.Droid.Resource.Layout.BottomTabLayout = global::BTOAssistApp.Droid.Resource.Layout.BottomTabLayout;
+			global::TeeChart.PCL.Droid.Resource.Layout.browser_actions_context_menu_page = global::BTOAssistApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::TeeChart.PCL.Droid.Resource.Layout.browser_actions_context_menu_row = global::BTOAssistApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::TeeChart.PCL.Droid.Resource.Layout.custom_dialog = global::BTOAssistApp.Droid.Resource.Layout.custom_dialog;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_bottom_navigation_item = global::BTOAssistApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_bottom_sheet_dialog = global::BTOAssistApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_layout_snackbar = global::BTOAssistApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_layout_snackbar_include = global::BTOAssistApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_layout_tab_icon = global::BTOAssistApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_layout_tab_text = global::BTOAssistApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_menu_item_action_area = global::BTOAssistApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_navigation_item = global::BTOAssistApp.Droid.Resource.Layout.design_navigation_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_navigation_item_header = global::BTOAssistApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_navigation_item_separator = global::BTOAssistApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_navigation_item_subheader = global::BTOAssistApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_navigation_menu = global::BTOAssistApp.Droid.Resource.Layout.design_navigation_menu;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_navigation_menu_item = global::BTOAssistApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_text_input_end_icon = global::BTOAssistApp.Droid.Resource.Layout.design_text_input_end_icon;
+			global::TeeChart.PCL.Droid.Resource.Layout.design_text_input_start_icon = global::BTOAssistApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::TeeChart.PCL.Droid.Resource.Layout.expand_button = global::BTOAssistApp.Droid.Resource.Layout.expand_button;
+			global::TeeChart.PCL.Droid.Resource.Layout.FallbackTabbarDoNotUse = global::BTOAssistApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::TeeChart.PCL.Droid.Resource.Layout.FallbackToolbarDoNotUse = global::BTOAssistApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::TeeChart.PCL.Droid.Resource.Layout.FlyoutContent = global::BTOAssistApp.Droid.Resource.Layout.FlyoutContent;
+			global::TeeChart.PCL.Droid.Resource.Layout.image_frame = global::BTOAssistApp.Droid.Resource.Layout.image_frame;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_alert_dialog = global::BTOAssistApp.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_alert_dialog_actions = global::BTOAssistApp.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_alert_dialog_title = global::BTOAssistApp.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_alert_select_dialog_item = global::BTOAssistApp.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::BTOAssistApp.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::BTOAssistApp.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_day = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_day;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_days_of_week = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_day_of_week = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_horizontal = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_month = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_month;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_months = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_months;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_month_labeled = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_month_navigation = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_vertical = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_calendar_year = global::BTOAssistApp.Droid.Resource.Layout.mtrl_calendar_year;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_layout_snackbar = global::BTOAssistApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::BTOAssistApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_actions = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_actions;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_dialog = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_fullscreen = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_header_dialog = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_header_fullscreen = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_header_selection_text = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_header_title_text = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_header_toggle = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_text_input_date = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::TeeChart.PCL.Droid.Resource.Layout.mtrl_picker_text_input_date_range = global::BTOAssistApp.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_action = global::BTOAssistApp.Droid.Resource.Layout.notification_action;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_action_tombstone = global::BTOAssistApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_media_action = global::BTOAssistApp.Droid.Resource.Layout.notification_media_action;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_media_cancel_action = global::BTOAssistApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_big_media = global::BTOAssistApp.Droid.Resource.Layout.notification_template_big_media;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_big_media_custom = global::BTOAssistApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_big_media_narrow = global::BTOAssistApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::BTOAssistApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_custom_big = global::BTOAssistApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_icon_group = global::BTOAssistApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_lines_media = global::BTOAssistApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_media = global::BTOAssistApp.Droid.Resource.Layout.notification_template_media;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_media_custom = global::BTOAssistApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_part_chronometer = global::BTOAssistApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::TeeChart.PCL.Droid.Resource.Layout.notification_template_part_time = global::BTOAssistApp.Droid.Resource.Layout.notification_template_part_time;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference = global::BTOAssistApp.Droid.Resource.Layout.preference;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_category = global::BTOAssistApp.Droid.Resource.Layout.preference_category;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_category_material = global::BTOAssistApp.Droid.Resource.Layout.preference_category_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_dialog_edittext = global::BTOAssistApp.Droid.Resource.Layout.preference_dialog_edittext;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_dropdown = global::BTOAssistApp.Droid.Resource.Layout.preference_dropdown;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_dropdown_material = global::BTOAssistApp.Droid.Resource.Layout.preference_dropdown_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_information = global::BTOAssistApp.Droid.Resource.Layout.preference_information;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_information_material = global::BTOAssistApp.Droid.Resource.Layout.preference_information_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_list_fragment = global::BTOAssistApp.Droid.Resource.Layout.preference_list_fragment;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_material = global::BTOAssistApp.Droid.Resource.Layout.preference_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_recyclerview = global::BTOAssistApp.Droid.Resource.Layout.preference_recyclerview;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_widget_checkbox = global::BTOAssistApp.Droid.Resource.Layout.preference_widget_checkbox;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_widget_seekbar = global::BTOAssistApp.Droid.Resource.Layout.preference_widget_seekbar;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_widget_seekbar_material = global::BTOAssistApp.Droid.Resource.Layout.preference_widget_seekbar_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_widget_switch = global::BTOAssistApp.Droid.Resource.Layout.preference_widget_switch;
+			global::TeeChart.PCL.Droid.Resource.Layout.preference_widget_switch_compat = global::BTOAssistApp.Droid.Resource.Layout.preference_widget_switch_compat;
+			global::TeeChart.PCL.Droid.Resource.Layout.RootLayout = global::BTOAssistApp.Droid.Resource.Layout.RootLayout;
+			global::TeeChart.PCL.Droid.Resource.Layout.select_dialog_item_material = global::BTOAssistApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.select_dialog_multichoice_material = global::BTOAssistApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.select_dialog_singlechoice_material = global::BTOAssistApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::TeeChart.PCL.Droid.Resource.Layout.ShellContent = global::BTOAssistApp.Droid.Resource.Layout.ShellContent;
+			global::TeeChart.PCL.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::BTOAssistApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::TeeChart.PCL.Droid.Resource.Layout.Tabbar = global::BTOAssistApp.Droid.Resource.Layout.Tabbar;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_action_chip = global::BTOAssistApp.Droid.Resource.Layout.test_action_chip;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_chip_zero_corner_radius = global::BTOAssistApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_design_checkbox = global::BTOAssistApp.Droid.Resource.Layout.test_design_checkbox;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_design_radiobutton = global::BTOAssistApp.Droid.Resource.Layout.test_design_radiobutton;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_reflow_chipgroup = global::BTOAssistApp.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_toolbar = global::BTOAssistApp.Droid.Resource.Layout.test_toolbar;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_toolbar_custom_background = global::BTOAssistApp.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_toolbar_elevation = global::BTOAssistApp.Droid.Resource.Layout.test_toolbar_elevation;
+			global::TeeChart.PCL.Droid.Resource.Layout.test_toolbar_surface = global::BTOAssistApp.Droid.Resource.Layout.test_toolbar_surface;
+			global::TeeChart.PCL.Droid.Resource.Layout.text_view_without_line_height = global::BTOAssistApp.Droid.Resource.Layout.text_view_without_line_height;
+			global::TeeChart.PCL.Droid.Resource.Layout.text_view_with_line_height_from_appearance = global::BTOAssistApp.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::TeeChart.PCL.Droid.Resource.Layout.text_view_with_line_height_from_layout = global::BTOAssistApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::TeeChart.PCL.Droid.Resource.Layout.text_view_with_line_height_from_style = global::BTOAssistApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::TeeChart.PCL.Droid.Resource.Layout.text_view_with_theme_line_height = global::BTOAssistApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::TeeChart.PCL.Droid.Resource.Layout.Toolbar = global::BTOAssistApp.Droid.Resource.Layout.Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Plurals.mtrl_badge_content_description = global::BTOAssistApp.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.abc_action_bar_home_description = global::BTOAssistApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::TeeChart.PCL.Droid.Resource.String.abc_action_bar_up_description = global::BTOAssistApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::TeeChart.PCL.Droid.Resource.String.abc_action_menu_overflow_description = global::BTOAssistApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::TeeChart.PCL.Droid.Resource.String.abc_action_mode_done = global::BTOAssistApp.Droid.Resource.String.abc_action_mode_done;
+			global::TeeChart.PCL.Droid.Resource.String.abc_activitychooserview_choose_application = global::BTOAssistApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::TeeChart.PCL.Droid.Resource.String.abc_activity_chooser_view_see_all = global::BTOAssistApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::TeeChart.PCL.Droid.Resource.String.abc_capital_off = global::BTOAssistApp.Droid.Resource.String.abc_capital_off;
+			global::TeeChart.PCL.Droid.Resource.String.abc_capital_on = global::BTOAssistApp.Droid.Resource.String.abc_capital_on;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_alt_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_delete_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_enter_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_function_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_meta_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_shift_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_space_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_menu_sym_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_prepend_shortcut_label = global::BTOAssistApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::TeeChart.PCL.Droid.Resource.String.abc_searchview_description_clear = global::BTOAssistApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::TeeChart.PCL.Droid.Resource.String.abc_searchview_description_query = global::BTOAssistApp.Droid.Resource.String.abc_searchview_description_query;
+			global::TeeChart.PCL.Droid.Resource.String.abc_searchview_description_search = global::BTOAssistApp.Droid.Resource.String.abc_searchview_description_search;
+			global::TeeChart.PCL.Droid.Resource.String.abc_searchview_description_submit = global::BTOAssistApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::TeeChart.PCL.Droid.Resource.String.abc_searchview_description_voice = global::BTOAssistApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::TeeChart.PCL.Droid.Resource.String.abc_search_hint = global::BTOAssistApp.Droid.Resource.String.abc_search_hint;
+			global::TeeChart.PCL.Droid.Resource.String.abc_shareactionprovider_share_with = global::BTOAssistApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::TeeChart.PCL.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::BTOAssistApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::TeeChart.PCL.Droid.Resource.String.abc_toolbar_collapse_description = global::BTOAssistApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::TeeChart.PCL.Droid.Resource.String.appbar_scrolling_view_behavior = global::BTOAssistApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::TeeChart.PCL.Droid.Resource.String.bottom_sheet_behavior = global::BTOAssistApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::TeeChart.PCL.Droid.Resource.String.character_counter_content_description = global::BTOAssistApp.Droid.Resource.String.character_counter_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.character_counter_overflowed_content_description = global::BTOAssistApp.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.character_counter_pattern = global::BTOAssistApp.Droid.Resource.String.character_counter_pattern;
+			global::TeeChart.PCL.Droid.Resource.String.chip_text = global::BTOAssistApp.Droid.Resource.String.chip_text;
+			global::TeeChart.PCL.Droid.Resource.String.clear_text_end_icon_content_description = global::BTOAssistApp.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.copy = global::BTOAssistApp.Droid.Resource.String.copy;
+			global::TeeChart.PCL.Droid.Resource.String.copy_toast_msg = global::BTOAssistApp.Droid.Resource.String.copy_toast_msg;
+			global::TeeChart.PCL.Droid.Resource.String.error_icon_content_description = global::BTOAssistApp.Droid.Resource.String.error_icon_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.expand_button_title = global::BTOAssistApp.Droid.Resource.String.expand_button_title;
+			global::TeeChart.PCL.Droid.Resource.String.exposed_dropdown_menu_content_description = global::BTOAssistApp.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.fab_transformation_scrim_behavior = global::BTOAssistApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::TeeChart.PCL.Droid.Resource.String.fab_transformation_sheet_behavior = global::BTOAssistApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::TeeChart.PCL.Droid.Resource.String.fallback_menu_item_copy_link = global::BTOAssistApp.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::TeeChart.PCL.Droid.Resource.String.fallback_menu_item_open_in_browser = global::BTOAssistApp.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::TeeChart.PCL.Droid.Resource.String.fallback_menu_item_share_link = global::BTOAssistApp.Droid.Resource.String.fallback_menu_item_share_link;
+			global::TeeChart.PCL.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::BTOAssistApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::TeeChart.PCL.Droid.Resource.String.icon_content_description = global::BTOAssistApp.Droid.Resource.String.icon_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.item_view_role_description = global::BTOAssistApp.Droid.Resource.String.item_view_role_description;
+			global::TeeChart.PCL.Droid.Resource.String.material_slider_range_end = global::BTOAssistApp.Droid.Resource.String.material_slider_range_end;
+			global::TeeChart.PCL.Droid.Resource.String.material_slider_range_start = global::BTOAssistApp.Droid.Resource.String.material_slider_range_start;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_badge_numberless_content_description = global::BTOAssistApp.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::BTOAssistApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description = global::BTOAssistApp.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix = global::BTOAssistApp.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_a11y_next_month = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_a11y_prev_month = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_announce_current_selection = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_cancel = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_cancel;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_confirm = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_confirm;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_date_header_selected = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_date_header_title = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_date_header_unselected = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_day_of_week_column_header = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_invalid_format = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_invalid_format_example = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_invalid_format_use = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_invalid_range = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_navigate_to_year_description = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_out_of_range = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_range_header_only_end_selected = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_range_header_only_start_selected = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_range_header_selected = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_range_header_title = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_range_header_unselected = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_save = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_save;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_text_input_date_hint = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_text_input_day_abbr = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_text_input_month_abbr = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_text_input_year_abbr = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_toggle_to_day_selection = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::TeeChart.PCL.Droid.Resource.String.mtrl_picker_toggle_to_year_selection = global::BTOAssistApp.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::TeeChart.PCL.Droid.Resource.String.nav_app_bar_navigate_up_description = global::BTOAssistApp.Droid.Resource.String.nav_app_bar_navigate_up_description;
+			global::TeeChart.PCL.Droid.Resource.String.nav_app_bar_open_drawer_description = global::BTOAssistApp.Droid.Resource.String.nav_app_bar_open_drawer_description;
+			global::TeeChart.PCL.Droid.Resource.String.not_set = global::BTOAssistApp.Droid.Resource.String.not_set;
+			global::TeeChart.PCL.Droid.Resource.String.overflow_tab_title = global::BTOAssistApp.Droid.Resource.String.overflow_tab_title;
+			global::TeeChart.PCL.Droid.Resource.String.password_toggle_content_description = global::BTOAssistApp.Droid.Resource.String.password_toggle_content_description;
+			global::TeeChart.PCL.Droid.Resource.String.path_password_eye = global::BTOAssistApp.Droid.Resource.String.path_password_eye;
+			global::TeeChart.PCL.Droid.Resource.String.path_password_eye_mask_strike_through = global::BTOAssistApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::TeeChart.PCL.Droid.Resource.String.path_password_eye_mask_visible = global::BTOAssistApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::TeeChart.PCL.Droid.Resource.String.path_password_strike_through = global::BTOAssistApp.Droid.Resource.String.path_password_strike_through;
+			global::TeeChart.PCL.Droid.Resource.String.preference_copied = global::BTOAssistApp.Droid.Resource.String.preference_copied;
+			global::TeeChart.PCL.Droid.Resource.String.search_menu_title = global::BTOAssistApp.Droid.Resource.String.search_menu_title;
+			global::TeeChart.PCL.Droid.Resource.String.status_bar_notification_info_overflow = global::BTOAssistApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::TeeChart.PCL.Droid.Resource.String.summary_collapsed_preference_list = global::BTOAssistApp.Droid.Resource.String.summary_collapsed_preference_list;
+			global::TeeChart.PCL.Droid.Resource.String.v7_preference_off = global::BTOAssistApp.Droid.Resource.String.v7_preference_off;
+			global::TeeChart.PCL.Droid.Resource.String.v7_preference_on = global::BTOAssistApp.Droid.Resource.String.v7_preference_on;
+			global::TeeChart.PCL.Droid.Resource.Style.AlertDialog_AppCompat = global::BTOAssistApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.AndroidThemeColorAccentYellow = global::BTOAssistApp.Droid.Resource.Style.AndroidThemeColorAccentYellow;
+			global::TeeChart.PCL.Droid.Resource.Style.Animation_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::BTOAssistApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::TeeChart.PCL.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::BTOAssistApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.AppCompatDialogStyle = global::BTOAssistApp.Droid.Resource.Style.AppCompatDialogStyle;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BTOAssistApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::BTOAssistApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_CardView = global::BTOAssistApp.Droid.Resource.Style.Base_CardView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::BTOAssistApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::BTOAssistApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::BTOAssistApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BTOAssistApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::BTOAssistApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::BTOAssistApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::BTOAssistApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::BTOAssistApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_TextView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView = global::BTOAssistApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::TeeChart.PCL.Droid.Resource.Style.CardView = global::BTOAssistApp.Droid.Resource.Style.CardView;
+			global::TeeChart.PCL.Droid.Resource.Style.CardView_Dark = global::BTOAssistApp.Droid.Resource.Style.CardView_Dark;
+			global::TeeChart.PCL.Droid.Resource.Style.CardView_Light = global::BTOAssistApp.Droid.Resource.Style.CardView_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.collectionViewTheme = global::BTOAssistApp.Droid.Resource.Style.collectionViewTheme;
+			global::TeeChart.PCL.Droid.Resource.Style.EmptyTheme = global::BTOAssistApp.Droid.Resource.Style.EmptyTheme;
+			global::TeeChart.PCL.Droid.Resource.Style.MainTheme = global::BTOAssistApp.Droid.Resource.Style.MainTheme;
+			global::TeeChart.PCL.Droid.Resource.Style.MainTheme_Base = global::BTOAssistApp.Droid.Resource.Style.MainTheme_Base;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::TeeChart.PCL.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::BTOAssistApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Platform_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_MaterialComponents_Light = global::BTOAssistApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BTOAssistApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_V21_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_V25_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BTOAssistApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference = global::BTOAssistApp.Droid.Resource.Style.Preference;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceCategoryTitleTextStyle = global::BTOAssistApp.Droid.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceFragment = global::BTOAssistApp.Droid.Resource.Style.PreferenceFragment;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceFragmentList = global::BTOAssistApp.Droid.Resource.Style.PreferenceFragmentList;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceFragmentList_Material = global::BTOAssistApp.Droid.Resource.Style.PreferenceFragmentList_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceFragment_Material = global::BTOAssistApp.Droid.Resource.Style.PreferenceFragment_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceSummaryTextStyle = global::BTOAssistApp.Droid.Resource.Style.PreferenceSummaryTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceThemeOverlay = global::BTOAssistApp.Droid.Resource.Style.PreferenceThemeOverlay;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceThemeOverlay_v14 = global::BTOAssistApp.Droid.Resource.Style.PreferenceThemeOverlay_v14;
+			global::TeeChart.PCL.Droid.Resource.Style.PreferenceThemeOverlay_v14_Material = global::BTOAssistApp.Droid.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_Category = global::BTOAssistApp.Droid.Resource.Style.Preference_Category;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_Category_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_Category_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_CheckBoxPreference = global::BTOAssistApp.Droid.Resource.Style.Preference_CheckBoxPreference;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_CheckBoxPreference_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_DialogPreference = global::BTOAssistApp.Droid.Resource.Style.Preference_DialogPreference;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference = global::BTOAssistApp.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_DialogPreference_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_DialogPreference_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_DropDown = global::BTOAssistApp.Droid.Resource.Style.Preference_DropDown;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_DropDown_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_DropDown_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_Information = global::BTOAssistApp.Droid.Resource.Style.Preference_Information;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_Information_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_Information_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_PreferenceScreen = global::BTOAssistApp.Droid.Resource.Style.Preference_PreferenceScreen;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_PreferenceScreen_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_PreferenceScreen_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_SeekBarPreference = global::BTOAssistApp.Droid.Resource.Style.Preference_SeekBarPreference;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_SeekBarPreference_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_SeekBarPreference_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_SwitchPreference = global::BTOAssistApp.Droid.Resource.Style.Preference_SwitchPreference;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_SwitchPreferenceCompat = global::BTOAssistApp.Droid.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.Preference_SwitchPreference_Material = global::BTOAssistApp.Droid.Resource.Style.Preference_SwitchPreference_Material;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BTOAssistApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::BTOAssistApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::BTOAssistApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.scrollViewScrollBars = global::BTOAssistApp.Droid.Resource.Style.scrollViewScrollBars;
+			global::TeeChart.PCL.Droid.Resource.Style.scrollViewTheme = global::BTOAssistApp.Droid.Resource.Style.scrollViewTheme;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_Cut = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearance_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::TeeChart.PCL.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::BTOAssistApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.TestStyleWithLineHeight = global::BTOAssistApp.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::TeeChart.PCL.Droid.Resource.Style.TestStyleWithLineHeightAppearance = global::BTOAssistApp.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::TeeChart.PCL.Droid.Resource.Style.TestStyleWithoutLineHeight = global::BTOAssistApp.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::TeeChart.PCL.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::BTOAssistApp.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::TeeChart.PCL.Droid.Resource.Style.TestThemeWithLineHeight = global::BTOAssistApp.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::TeeChart.PCL.Droid.Resource.Style.TestThemeWithLineHeightDisabled = global::BTOAssistApp.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::TeeChart.PCL.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::BTOAssistApp.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::TeeChart.PCL.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::BTOAssistApp.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::TeeChart.PCL.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::BTOAssistApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::TeeChart.PCL.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::BTOAssistApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::TeeChart.PCL.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::BTOAssistApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Counter = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Error = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_HelperText = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Hint = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Placeholder = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Prefix = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Prefix;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Suffix = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Suffix;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Design_Tab = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::TeeChart.PCL.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BTOAssistApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlayColorAccentRed = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlayColorAccentRed;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::TeeChart.PCL.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::BTOAssistApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Dialog = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Empty = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_Design = global::BTOAssistApp.Droid.Resource.Style.Theme_Design;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_Design_Light = global::BTOAssistApp.Droid.Resource.Style.Theme_Design_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_Design_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::BTOAssistApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Button = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_EditText = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ListView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_SearchView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Spinner = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_TextView = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BTOAssistApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::BTOAssistApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::BTOAssistApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_AppBarLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_NavigationView = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_Snackbar = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_TabLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_TextInputEditText = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_TextInputEditText;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Design_TextInputLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Badge = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Slider = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Slider;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_TextView = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_MaterialComponents_Tooltip = global::BTOAssistApp.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::BTOAssistApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBarLayout = global::BTOAssistApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BTOAssistApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_background = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_background;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_displayOptions = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_divider = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_elevation = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_height = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_height;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_homeLayout = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_icon = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_itemPadding = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_logo = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_navigationMode = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_popupTheme = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_subtitle = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_title = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_title;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMenuItemView = global::BTOAssistApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BTOAssistApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMenuView = global::BTOAssistApp.Droid.Resource.Styleable.ActionMenuView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode_background = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode_background;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode_height = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode_height;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityChooserView = global::BTOAssistApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BTOAssistApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BTOAssistApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityNavigator = global::BTOAssistApp.Droid.Resource.Styleable.ActivityNavigator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityNavigator_action = global::BTOAssistApp.Droid.Resource.Styleable.ActivityNavigator_action;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityNavigator_android_name = global::BTOAssistApp.Droid.Resource.Styleable.ActivityNavigator_android_name;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityNavigator_data = global::BTOAssistApp.Droid.Resource.Styleable.ActivityNavigator_data;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityNavigator_dataPattern = global::BTOAssistApp.Droid.Resource.Styleable.ActivityNavigator_dataPattern;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ActivityNavigator_targetPackage = global::BTOAssistApp.Droid.Resource.Styleable.ActivityNavigator_targetPackage;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_listLayout = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_showTitle = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BTOAssistApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::BTOAssistApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayoutStates = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_android_background = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_elevation = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_expanded = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_Layout = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppBarLayout_statusBarForeground = global::BTOAssistApp.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatImageView = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatImageView_android_src = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatImageView_tint = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatSeekBar = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableTint = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTextView_textLocale = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorError = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::BTOAssistApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BackgroundStyle = global::BTOAssistApp.Droid.Resource.Styleable.BackgroundStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::BTOAssistApp.Droid.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::BTOAssistApp.Droid.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge = global::BTOAssistApp.Droid.Resource.Styleable.Badge;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_backgroundColor = global::BTOAssistApp.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_badgeGravity = global::BTOAssistApp.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_badgeTextColor = global::BTOAssistApp.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_horizontalOffset = global::BTOAssistApp.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_maxCharacterCount = global::BTOAssistApp.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_number = global::BTOAssistApp.Droid.Resource.Styleable.Badge_number;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Badge_verticalOffset = global::BTOAssistApp.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_elevation = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomNavigationView = global::BTOAssistApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::BTOAssistApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ButtonBarLayout = global::BTOAssistApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::BTOAssistApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView = global::BTOAssistApp.Droid.Resource.Styleable.CardView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_android_minHeight = global::BTOAssistApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_android_minWidth = global::BTOAssistApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::BTOAssistApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_cardCornerRadius = global::BTOAssistApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_cardElevation = global::BTOAssistApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_cardMaxElevation = global::BTOAssistApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::BTOAssistApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::BTOAssistApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_contentPadding = global::BTOAssistApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::BTOAssistApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::BTOAssistApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_contentPaddingRight = global::BTOAssistApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CardView_contentPaddingTop = global::BTOAssistApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference_summaryOff = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CheckBoxPreference_summaryOn = global::BTOAssistApp.Droid.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip = global::BTOAssistApp.Droid.Resource.Styleable.Chip;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_checkedChip = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_selectionRequired = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_selectionRequired;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_singleLine = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ChipGroup_singleSelection = global::BTOAssistApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_android_checkable = global::BTOAssistApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_android_ellipsize = global::BTOAssistApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_android_maxWidth = global::BTOAssistApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_android_text = global::BTOAssistApp.Droid.Resource.Styleable.Chip_android_text;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_android_textAppearance = global::BTOAssistApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_android_textColor = global::BTOAssistApp.Droid.Resource.Styleable.Chip_android_textColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_checkedIcon = global::BTOAssistApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::BTOAssistApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_checkedIconTint = global::BTOAssistApp.Droid.Resource.Styleable.Chip_checkedIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_checkedIconVisible = global::BTOAssistApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipCornerRadius = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipEndPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipIcon = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipIconEnabled = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipIconSize = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipIconTint = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipIconVisible = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipMinHeight = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipStartPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipStrokeColor = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_chipSurfaceColor = global::BTOAssistApp.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIcon = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIconEnabled = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIconSize = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIconTint = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_closeIconVisible = global::BTOAssistApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::BTOAssistApp.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_hideMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_iconEndPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_iconStartPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_rippleColor = global::BTOAssistApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_showMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_textEndPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Chip_textStartPadding = global::BTOAssistApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::BTOAssistApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ColorStateListItem = global::BTOAssistApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ColorStateListItem_alpha = global::BTOAssistApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::BTOAssistApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ColorStateListItem_android_color = global::BTOAssistApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CompoundButton = global::BTOAssistApp.Droid.Resource.Styleable.CompoundButton;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CompoundButton_android_button = global::BTOAssistApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::BTOAssistApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CompoundButton_buttonTint = global::BTOAssistApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::BTOAssistApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::TeeChart.PCL.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::BTOAssistApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_android_dialogIcon = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_android_dialogLayout = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_android_dialogMessage = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_android_dialogTitle = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_android_negativeButtonText = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_android_positiveButtonText = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_dialogIcon = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_dialogIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_dialogLayout = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_dialogLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_dialogMessage = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_dialogMessage;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_dialogTitle = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_dialogTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_negativeButtonText = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DialogPreference_positiveButtonText = global::BTOAssistApp.Droid.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_color = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::BTOAssistApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerLayout = global::BTOAssistApp.Droid.Resource.Styleable.DrawerLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.DrawerLayout_elevation = global::BTOAssistApp.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.EditTextPreference = global::BTOAssistApp.Droid.Resource.Styleable.EditTextPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::BTOAssistApp.Droid.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_android_enabled = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_elevation = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::BTOAssistApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FlowLayout = global::BTOAssistApp.Droid.Resource.Styleable.FlowLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::BTOAssistApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::BTOAssistApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_android_font = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_font = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::BTOAssistApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::BTOAssistApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ForegroundLinearLayout = global::BTOAssistApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::BTOAssistApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::BTOAssistApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::BTOAssistApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Fragment = global::BTOAssistApp.Droid.Resource.Styleable.Fragment;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FragmentContainerView = global::BTOAssistApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FragmentContainerView_android_name = global::BTOAssistApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::TeeChart.PCL.Droid.Resource.Styleable.FragmentContainerView_android_tag = global::BTOAssistApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Fragment_android_id = global::BTOAssistApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Fragment_android_name = global::BTOAssistApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Fragment_android_tag = global::BTOAssistApp.Droid.Resource.Styleable.Fragment_android_tag;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColorItem = global::BTOAssistApp.Droid.Resource.Styleable.GradientColorItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColorItem_android_color = global::BTOAssistApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColorItem_android_offset = global::BTOAssistApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_centerColor = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_centerX = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_centerY = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_endColor = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_endX = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_endY = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_startColor = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_startX = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_startY = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_tileMode = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.GradientColor_android_type = global::BTOAssistApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Insets = global::BTOAssistApp.Droid.Resource.Styleable.Insets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::BTOAssistApp.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ItemsViewRendererTheme = global::BTOAssistApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::TeeChart.PCL.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::BTOAssistApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPopupWindow = global::BTOAssistApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BTOAssistApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BTOAssistApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPreference = global::BTOAssistApp.Droid.Resource.Styleable.ListPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPreference_android_entries = global::BTOAssistApp.Droid.Resource.Styleable.ListPreference_android_entries;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPreference_android_entryValues = global::BTOAssistApp.Droid.Resource.Styleable.ListPreference_android_entryValues;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPreference_entries = global::BTOAssistApp.Droid.Resource.Styleable.ListPreference_entries;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPreference_entryValues = global::BTOAssistApp.Droid.Resource.Styleable.ListPreference_entryValues;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::BTOAssistApp.Droid.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialog = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialogTheme = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAutoCompleteTextView = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::BTOAssistApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButtonToggleGroup = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_android_background = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_android_checkable = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_elevation = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_icon = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_iconGravity = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_iconPadding = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_iconSize = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_iconTint = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_rippleColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_strokeColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::BTOAssistApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_dayStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_yearStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_android_checkable = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_checkedIcon = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_checkedIconTint = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_rippleColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_state_dragged = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCheckBox = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCheckBox;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCheckBox_buttonTint = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::BTOAssistApp.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialRadioButton = global::BTOAssistApp.Droid.Resource.Styleable.MaterialRadioButton;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialRadioButton_buttonTint = global::BTOAssistApp.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::BTOAssistApp.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialShape = global::BTOAssistApp.Droid.Resource.Styleable.MaterialShape;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialShape_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextView = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextView_android_lineHeight = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextView_android_textAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MaterialTextView_lineHeight = global::BTOAssistApp.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup_android_enabled = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup_android_id = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuGroup_android_visible = global::BTOAssistApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_actionLayout = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_actionViewClass = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_checkable = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_checked = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_enabled = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_icon = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_id = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_onClick = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_title = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_android_visible = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_contentDescription = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_iconTint = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_iconTintMode = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_numericModifiers = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_showAsAction = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuItem_tooltipText = global::BTOAssistApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView = global::BTOAssistApp.Droid.Resource.Styleable.MenuView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_headerBackground = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_itemBackground = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MenuView_subMenuArrow = global::BTOAssistApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MultiSelectListPreference = global::BTOAssistApp.Droid.Resource.Styleable.MultiSelectListPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MultiSelectListPreference_android_entries = global::BTOAssistApp.Droid.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::BTOAssistApp.Droid.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MultiSelectListPreference_entries = global::BTOAssistApp.Droid.Resource.Styleable.MultiSelectListPreference_entries;
+			global::TeeChart.PCL.Droid.Resource.Styleable.MultiSelectListPreference_entryValues = global::BTOAssistApp.Droid.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction = global::BTOAssistApp.Droid.Resource.Styleable.NavAction;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_android_id = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_destination = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_destination;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_enterAnim = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_enterAnim;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_exitAnim = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_exitAnim;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_launchSingleTop = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_launchSingleTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_popEnterAnim = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_popEnterAnim;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_popExitAnim = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_popExitAnim;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_popUpTo = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_popUpTo;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavAction_popUpToInclusive = global::BTOAssistApp.Droid.Resource.Styleable.NavAction_popUpToInclusive;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavArgument = global::BTOAssistApp.Droid.Resource.Styleable.NavArgument;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavArgument_android_defaultValue = global::BTOAssistApp.Droid.Resource.Styleable.NavArgument_android_defaultValue;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavArgument_android_name = global::BTOAssistApp.Droid.Resource.Styleable.NavArgument_android_name;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavArgument_argType = global::BTOAssistApp.Droid.Resource.Styleable.NavArgument_argType;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavArgument_nullable = global::BTOAssistApp.Droid.Resource.Styleable.NavArgument_nullable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavDeepLink = global::BTOAssistApp.Droid.Resource.Styleable.NavDeepLink;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavDeepLink_action = global::BTOAssistApp.Droid.Resource.Styleable.NavDeepLink_action;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavDeepLink_android_autoVerify = global::BTOAssistApp.Droid.Resource.Styleable.NavDeepLink_android_autoVerify;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavDeepLink_mimeType = global::BTOAssistApp.Droid.Resource.Styleable.NavDeepLink_mimeType;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavDeepLink_uri = global::BTOAssistApp.Droid.Resource.Styleable.NavDeepLink_uri;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavGraphNavigator = global::BTOAssistApp.Droid.Resource.Styleable.NavGraphNavigator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavGraphNavigator_startDestination = global::BTOAssistApp.Droid.Resource.Styleable.NavGraphNavigator_startDestination;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavHost = global::BTOAssistApp.Droid.Resource.Styleable.NavHost;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavHost_navGraph = global::BTOAssistApp.Droid.Resource.Styleable.NavHost_navGraph;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_android_background = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_elevation = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_headerLayout = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemBackground = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemIconSize = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemIconTint = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemMaxLines = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeFillColor = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_itemTextColor = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavigationView_menu = global::BTOAssistApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Navigator = global::BTOAssistApp.Droid.Resource.Styleable.Navigator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Navigator_android_id = global::BTOAssistApp.Droid.Resource.Styleable.Navigator_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Navigator_android_label = global::BTOAssistApp.Droid.Resource.Styleable.Navigator_android_label;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavInclude = global::BTOAssistApp.Droid.Resource.Styleable.NavInclude;
+			global::TeeChart.PCL.Droid.Resource.Styleable.NavInclude_graph = global::BTOAssistApp.Droid.Resource.Styleable.NavInclude_graph;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PopupWindow = global::BTOAssistApp.Droid.Resource.Styleable.PopupWindow;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PopupWindowBackgroundState = global::BTOAssistApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BTOAssistApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::BTOAssistApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::BTOAssistApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::BTOAssistApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference = global::BTOAssistApp.Droid.Resource.Styleable.Preference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragment = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragment;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragmentCompat = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragmentCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragment_android_divider = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragment_android_divider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceFragment_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceFragment_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceGroup = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceGroup;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceGroup_orderingFromXml = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceImageView = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceImageView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceImageView_android_maxHeight = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceImageView_android_maxWidth = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceImageView_maxHeight = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceImageView_maxWidth = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_preferenceTheme = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::BTOAssistApp.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_allowDividerAbove = global::BTOAssistApp.Droid.Resource.Styleable.Preference_allowDividerAbove;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_allowDividerBelow = global::BTOAssistApp.Droid.Resource.Styleable.Preference_allowDividerBelow;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_defaultValue = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_defaultValue;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_dependency = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_dependency;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_enabled = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_fragment = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_fragment;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_icon = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_icon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_iconSpaceReserved = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_key = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_key;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_order = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_order;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_persistent = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_persistent;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_selectable = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_selectable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_shouldDisableView = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_shouldDisableView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_singleLineTitle = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_singleLineTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_summary = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_summary;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_title = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_title;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_android_widgetLayout = global::BTOAssistApp.Droid.Resource.Styleable.Preference_android_widgetLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_defaultValue = global::BTOAssistApp.Droid.Resource.Styleable.Preference_defaultValue;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_dependency = global::BTOAssistApp.Droid.Resource.Styleable.Preference_dependency;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_enableCopying = global::BTOAssistApp.Droid.Resource.Styleable.Preference_enableCopying;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_enabled = global::BTOAssistApp.Droid.Resource.Styleable.Preference_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_fragment = global::BTOAssistApp.Droid.Resource.Styleable.Preference_fragment;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_icon = global::BTOAssistApp.Droid.Resource.Styleable.Preference_icon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_iconSpaceReserved = global::BTOAssistApp.Droid.Resource.Styleable.Preference_iconSpaceReserved;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_isPreferenceVisible = global::BTOAssistApp.Droid.Resource.Styleable.Preference_isPreferenceVisible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_key = global::BTOAssistApp.Droid.Resource.Styleable.Preference_key;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_layout = global::BTOAssistApp.Droid.Resource.Styleable.Preference_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_order = global::BTOAssistApp.Droid.Resource.Styleable.Preference_order;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_persistent = global::BTOAssistApp.Droid.Resource.Styleable.Preference_persistent;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_selectable = global::BTOAssistApp.Droid.Resource.Styleable.Preference_selectable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_shouldDisableView = global::BTOAssistApp.Droid.Resource.Styleable.Preference_shouldDisableView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_singleLineTitle = global::BTOAssistApp.Droid.Resource.Styleable.Preference_singleLineTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_summary = global::BTOAssistApp.Droid.Resource.Styleable.Preference_summary;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_title = global::BTOAssistApp.Droid.Resource.Styleable.Preference_title;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Preference_widgetLayout = global::BTOAssistApp.Droid.Resource.Styleable.Preference_widgetLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RangeSlider = global::BTOAssistApp.Droid.Resource.Styleable.RangeSlider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RangeSlider_values = global::BTOAssistApp.Droid.Resource.Styleable.RangeSlider_values;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecycleListView = global::BTOAssistApp.Droid.Resource.Styleable.RecycleListView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::BTOAssistApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::BTOAssistApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_android_clipToPadding = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_android_orientation = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_layoutManager = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_spanCount = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::TeeChart.PCL.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::BTOAssistApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::BTOAssistApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::BTOAssistApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::BTOAssistApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::BTOAssistApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ScrollViewRendererTheme = global::BTOAssistApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView = global::BTOAssistApp.Droid.Resource.Styleable.SearchView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_android_focusable = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_android_imeOptions = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_android_inputType = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_android_maxWidth = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_closeIcon = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_commitIcon = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_goIcon = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_layout = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_queryBackground = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_queryHint = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_searchHintIcon = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_searchIcon = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_submitBackground = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SearchView_voiceIcon = global::BTOAssistApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_adjustable = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_adjustable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_android_max = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_android_max;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_min = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_min;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SeekBarPreference_updatesContinuously = global::BTOAssistApp.Droid.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeableImageView = global::BTOAssistApp.Droid.Resource.Styleable.ShapeableImageView;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeableImageView_strokeColor = global::BTOAssistApp.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeableImageView_strokeWidth = global::BTOAssistApp.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerFamily = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerSize = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::BTOAssistApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider = global::BTOAssistApp.Droid.Resource.Styleable.Slider;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_android_enabled = global::BTOAssistApp.Droid.Resource.Styleable.Slider_android_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_android_stepSize = global::BTOAssistApp.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_android_value = global::BTOAssistApp.Droid.Resource.Styleable.Slider_android_value;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_android_valueFrom = global::BTOAssistApp.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_android_valueTo = global::BTOAssistApp.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_haloColor = global::BTOAssistApp.Droid.Resource.Styleable.Slider_haloColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_haloRadius = global::BTOAssistApp.Droid.Resource.Styleable.Slider_haloRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_labelBehavior = global::BTOAssistApp.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_labelStyle = global::BTOAssistApp.Droid.Resource.Styleable.Slider_labelStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_thumbColor = global::BTOAssistApp.Droid.Resource.Styleable.Slider_thumbColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_thumbElevation = global::BTOAssistApp.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_thumbRadius = global::BTOAssistApp.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_tickColor = global::BTOAssistApp.Droid.Resource.Styleable.Slider_tickColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_tickColorActive = global::BTOAssistApp.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_tickColorInactive = global::BTOAssistApp.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_trackColor = global::BTOAssistApp.Droid.Resource.Styleable.Slider_trackColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_trackColorActive = global::BTOAssistApp.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_trackColorInactive = global::BTOAssistApp.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Slider_trackHeight = global::BTOAssistApp.Droid.Resource.Styleable.Slider_trackHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Snackbar = global::BTOAssistApp.Droid.Resource.Styleable.Snackbar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_animationMode = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_elevation = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::BTOAssistApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::BTOAssistApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::BTOAssistApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::BTOAssistApp.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Spinner = global::BTOAssistApp.Droid.Resource.Styleable.Spinner;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::BTOAssistApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Spinner_android_entries = global::BTOAssistApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Spinner_android_popupBackground = global::BTOAssistApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Spinner_android_prompt = global::BTOAssistApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Spinner_popupTheme = global::BTOAssistApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawableItem = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable_android_dither = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.StateListDrawable_android_visible = global::BTOAssistApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwipeRefreshLayout = global::BTOAssistApp.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::BTOAssistApp.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_showText = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_track = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_trackTint = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::BTOAssistApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchMaterial = global::BTOAssistApp.Droid.Resource.Styleable.SwitchMaterial;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::BTOAssistApp.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_android_summaryOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_android_summaryOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_android_switchTextOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_android_switchTextOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_disableDependentsState = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_summaryOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_summaryOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_summaryOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_summaryOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_switchTextOff = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::TeeChart.PCL.Droid.Resource.Styleable.SwitchPreference_switchTextOn = global::BTOAssistApp.Droid.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabItem = global::BTOAssistApp.Droid.Resource.Styleable.TabItem;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabItem_android_icon = global::BTOAssistApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabItem_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabItem_android_text = global::BTOAssistApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabBackground = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabContentStart = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabGravity = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIconTint = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIndicator = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabMode = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabPadding = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::BTOAssistApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_textColor = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_textFontWeight = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_textSize = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_android_typeface = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_fontFamily = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextAppearance_textLocale = global::BTOAssistApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputEditText = global::BTOAssistApp.Droid.Resource.Styleable.TextInputEditText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_android_enabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_android_enabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_android_hint = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_counterTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_endIconCheckable = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_endIconDrawable = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_endIconMode = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_endIconTint = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_endIconTintMode = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorContentDescription = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorIconTint = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_errorTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_helperText = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_hintTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_placeholderText = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_prefixText = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_prefixTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_shapeAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_startIconCheckable = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_startIconDrawable = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_startIconTint = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_startIconTintMode = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_suffixText = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.TextInputLayout_suffixTextColor = global::BTOAssistApp.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ThemeEnforcement = global::BTOAssistApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::BTOAssistApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::BTOAssistApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_android_gravity = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_android_minHeight = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_buttonGravity = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_collapseIcon = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_logo = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_logoDescription = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_menu = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_navigationIcon = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_popupTheme = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_subtitle = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_title = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_title;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleMargin = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleMargins = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Toolbar_titleTextColor = global::BTOAssistApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_android_layout_margin = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_android_minHeight = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_android_minWidth = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_android_padding = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_android_text = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_android_text;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_android_textAppearance = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::TeeChart.PCL.Droid.Resource.Styleable.Tooltip_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.View = global::BTOAssistApp.Droid.Resource.Styleable.View;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewBackgroundHelper = global::BTOAssistApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::BTOAssistApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BTOAssistApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BTOAssistApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewPager2 = global::BTOAssistApp.Droid.Resource.Styleable.ViewPager2;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewPager2_android_orientation = global::BTOAssistApp.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewStubCompat = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewStubCompat_android_id = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::TeeChart.PCL.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::BTOAssistApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::TeeChart.PCL.Droid.Resource.Styleable.View_android_focusable = global::BTOAssistApp.Droid.Resource.Styleable.View_android_focusable;
+			global::TeeChart.PCL.Droid.Resource.Styleable.View_android_theme = global::BTOAssistApp.Droid.Resource.Styleable.View_android_theme;
+			global::TeeChart.PCL.Droid.Resource.Styleable.View_paddingEnd = global::BTOAssistApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::TeeChart.PCL.Droid.Resource.Styleable.View_paddingStart = global::BTOAssistApp.Droid.Resource.Styleable.View_paddingStart;
+			global::TeeChart.PCL.Droid.Resource.Styleable.View_theme = global::BTOAssistApp.Droid.Resource.Styleable.View_theme;
+			global::TeeChart.PCL.Droid.Resource.Xml.image_share_filepaths = global::BTOAssistApp.Droid.Resource.Xml.image_share_filepaths;
+			global::TeeChart.PCL.Droid.Resource.Xml.standalone_badge = global::BTOAssistApp.Droid.Resource.Xml.standalone_badge;
+			global::TeeChart.PCL.Droid.Resource.Xml.standalone_badge_gravity_bottom_end = global::BTOAssistApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::TeeChart.PCL.Droid.Resource.Xml.standalone_badge_gravity_bottom_start = global::BTOAssistApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::TeeChart.PCL.Droid.Resource.Xml.standalone_badge_gravity_top_start = global::BTOAssistApp.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::TeeChart.PCL.Droid.Resource.Xml.standalone_badge_offset = global::BTOAssistApp.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::BTOAssistApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::BTOAssistApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::BTOAssistApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -12690,6 +16718,18 @@ namespace BTOAssistApp.Droid
 			// aapt resource value: 0x7F010027
 			public const int nav_default_pop_exit_anim = 2130772007;
 			
+			// aapt resource value: 0x7F010028
+			public const int SfChart_Fade_In = 2130772008;
+			
+			// aapt resource value: 0x7F010029
+			public const int SfChart_Fade_Out = 2130772009;
+			
+			// aapt resource value: 0x7F01002A
+			public const int SfChart_Scale_In = 2130772010;
+			
+			// aapt resource value: 0x7F01002B
+			public const int SfChart_Scale_Out = 2130772011;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -18262,205 +22302,310 @@ namespace BTOAssistApp.Droid
 			public const int abc_vector_test = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_hide_password = 2131165269;
+			public const int Avatar1 = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int avd_show_password = 2131165270;
+			public const int Avatar10 = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int background_image = 2131165271;
+			public const int Avatar11 = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int bell_logo = 2131165272;
+			public const int Avatar12 = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int bluedot = 2131165273;
+			public const int Avatar13 = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int btn_checkbox_checked_mtrl = 2131165274;
+			public const int Avatar14 = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165275;
+			public const int Avatar15 = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int btn_checkbox_unchecked_mtrl = 2131165276;
+			public const int Avatar16 = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165277;
+			public const int Avatar17 = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_radio_off_mtrl = 2131165278;
+			public const int Avatar18 = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165279;
+			public const int Avatar19 = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_radio_on_mtrl = 2131165280;
+			public const int Avatar2 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165281;
+			public const int Avatar20 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int bus = 2131165282;
+			public const int Avatar21 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_fab_background = 2131165283;
+			public const int Avatar22 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_ic_visibility = 2131165284;
+			public const int Avatar23 = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_ic_visibility_off = 2131165285;
+			public const int Avatar24 = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_password_eye = 2131165286;
+			public const int Avatar25 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_snackbar_background = 2131165287;
+			public const int Avatar26 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_arrow_down_24dp = 2131165288;
+			public const int Avatar27 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_clock_black_24dp = 2131165289;
+			public const int Avatar28 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_keyboard_black_24dp = 2131165290;
+			public const int Avatar29 = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_mtrl_checked_circle = 2131165291;
+			public const int Avatar3 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_chip_checked_black = 2131165292;
+			public const int Avatar30 = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_checked_circle = 2131165293;
+			public const int Avatar4 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_close_circle = 2131165294;
+			public const int Avatar5 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_cursor_drawable = 2131165295;
+			public const int Avatar6 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_calendar_black_24dp = 2131165296;
+			public const int Avatar7 = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_clear_black_24dp = 2131165297;
+			public const int Avatar8 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_edit_black_24dp = 2131165298;
+			public const int Avatar9 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165299;
+			public const int avd_hide_password = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165300;
+			public const int avd_show_password = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165301;
+			public const int background_image = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165302;
+			public const int bell_logo = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165303;
+			public const int bluedot = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165304;
+			public const int btn_checkbox_checked_mtrl = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_dialog_background = 2131165305;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_dropdown_arrow = 2131165306;
+			public const int btn_checkbox_unchecked_mtrl = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_ic_arrow_drop_down = 2131165307;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_ic_arrow_drop_up = 2131165308;
+			public const int btn_radio_off_mtrl = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_cancel = 2131165309;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_error = 2131165310;
+			public const int btn_radio_on_mtrl = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_navigation_bar_item_background = 2131165311;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_popupmenu_background = 2131165312;
+			public const int bus = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_popupmenu_background_dark = 2131165313;
+			public const int clear_button_icon = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_tabs_default_indicator = 2131165314;
+			public const int design_fab_background = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int navigation_empty_icon = 2131165315;
+			public const int design_ic_visibility = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_action_background = 2131165316;
+			public const int design_ic_visibility_off = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg = 2131165317;
+			public const int design_password_eye = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low = 2131165318;
-			
-			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_normal = 2131165319;
-			
-			// aapt resource value: 0x7F070088
-			public const int notification_bg_low_pressed = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal = 2131165321;
-			
-			// aapt resource value: 0x7F07008A
-			public const int notification_bg_normal_pressed = 2131165322;
-			
-			// aapt resource value: 0x7F07008B
-			public const int notification_icon_background = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_bg = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int notification_template_icon_low_bg = 2131165325;
+			public const int design_snackbar_background = 2131165318;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_tile_bg = 2131165326;
+			public const int Icon = 2131165326;
 			
-			// aapt resource value: 0x7F07008F
-			public const int notify_panel_notification_icon_bg = 2131165327;
+			// aapt resource value: 0x7F070087
+			public const int ic_arrow_down_24dp = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int ic_clock_black_24dp = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int ic_keyboard_black_24dp = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int ic_mtrl_checked_circle = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int ic_mtrl_chip_checked_black = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_mtrl_chip_checked_circle = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_mtrl_chip_close_circle = 2131165325;
 			
 			// aapt resource value: 0x7F070090
-			public const int pin = 2131165328;
+			public const int inputlayout_togglecollapseicon = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int preference_list_divider_material = 2131165329;
+			public const int inputlayout_togglevisibleicon = 2131165329;
+			
+			// aapt resource value: 0x7F07008F
+			public const int input_layout_drop_down_icon = 2131165327;
 			
 			// aapt resource value: 0x7F070092
-			public const int spanner = 2131165330;
+			public const int material_cursor_drawable = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int store = 2131165331;
+			public const int material_ic_calendar_black_24dp = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int test_custom_background = 2131165332;
+			public const int material_ic_clear_black_24dp = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int tooltip_frame_dark = 2131165333;
+			public const int material_ic_edit_black_24dp = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int tooltip_frame_light = 2131165334;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int train = 2131165335;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int mtrl_dialog_background = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int mtrl_dropdown_arrow = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int mtrl_ic_arrow_drop_down = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int mtrl_ic_arrow_drop_up = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int mtrl_ic_cancel = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int mtrl_ic_error = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int mtrl_navigation_bar_item_background = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int mtrl_popupmenu_background = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int mtrl_popupmenu_background_dark = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int mtrl_tabs_default_indicator = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int navigation_empty_icon = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int notification_action_background = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int notification_bg = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int notification_bg_low = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int notification_bg_low_normal = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int notification_bg_low_pressed = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int notification_bg_normal = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int notification_bg_normal_pressed = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int notification_icon_background = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int notification_template_icon_bg = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int notification_template_icon_low_bg = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int notification_tile_bg = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int notify_panel_notification_icon_bg = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int pin = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int preference_list_divider_material = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int spanner = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int store = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int test_custom_background = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int tooltip_frame_dark = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int tooltip_frame_light = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int train = 2131165370;
 			
 			static Drawable()
 			{
@@ -18673,947 +22818,998 @@ namespace BTOAssistApp.Droid
 			// aapt resource value: 0x7F08004E
 			public const int animateToStart = 2131230798;
 			
-			// aapt resource value: 0x7F080050
-			public const int anticipate = 2131230800;
-			
 			// aapt resource value: 0x7F08004F
-			public const int antiClockwise = 2131230799;
+			public const int annotationLayout = 2131230799;
 			
 			// aapt resource value: 0x7F080051
-			public const int arc = 2131230801;
+			public const int anticipate = 2131230801;
+			
+			// aapt resource value: 0x7F080050
+			public const int antiClockwise = 2131230800;
 			
 			// aapt resource value: 0x7F080052
-			public const int asConfigured = 2131230802;
+			public const int arc = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int async = 2131230803;
+			public const int asConfigured = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int auto = 2131230804;
+			public const int async = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int autoComplete = 2131230805;
+			public const int auto = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int autoCompleteToEnd = 2131230806;
+			public const int autoComplete = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int autoCompleteToStart = 2131230807;
+			public const int autoCompleteToEnd = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int barrier = 2131230808;
+			public const int autoCompleteToStart = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int baseline = 2131230809;
-			
-			// aapt resource value: 0x7F08005B
-			public const int beginning = 2131230811;
+			public const int axisLayout = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int beginOnFirstDraw = 2131230810;
+			public const int barrier = 2131230810;
 			
-			// aapt resource value: 0x7F08005C
-			public const int bestChoice = 2131230812;
+			// aapt resource value: 0x7F08005B
+			public const int baseline = 2131230811;
 			
 			// aapt resource value: 0x7F08005D
-			public const int blocking = 2131230813;
+			public const int beginning = 2131230813;
+			
+			// aapt resource value: 0x7F08005C
+			public const int beginOnFirstDraw = 2131230812;
 			
 			// aapt resource value: 0x7F08005E
-			public const int bottom = 2131230814;
+			public const int bestChoice = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int bottomtab_navarea = 2131230815;
+			public const int blocking = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int bottomtab_tabbar = 2131230816;
+			public const int bottom = 2131230816;
+			
+			// aapt resource value: 0x7F080062
+			public const int bottomtab_navarea = 2131230818;
+			
+			// aapt resource value: 0x7F080063
+			public const int bottomtab_tabbar = 2131230819;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
 			
+			// aapt resource value: 0x7F080061
+			public const int bottom_labels = 2131230817;
+			
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F080061
-			public const int bounce = 2131230817;
-			
-			// aapt resource value: 0x7F080062
-			public const int bounceBoth = 2131230818;
-			
-			// aapt resource value: 0x7F080063
-			public const int bounceEnd = 2131230819;
-			
 			// aapt resource value: 0x7F080064
-			public const int bounceStart = 2131230820;
+			public const int bounce = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int browser_actions_header_text = 2131230821;
-			
-			// aapt resource value: 0x7F080068
-			public const int browser_actions_menu_items = 2131230824;
+			public const int bounceBoth = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int browser_actions_menu_item_icon = 2131230822;
+			public const int bounceEnd = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int browser_actions_menu_item_text = 2131230823;
+			public const int bounceStart = 2131230823;
 			
-			// aapt resource value: 0x7F080069
-			public const int browser_actions_menu_view = 2131230825;
-			
-			// aapt resource value: 0x7F08006A
-			public const int buttonPanel = 2131230826;
+			// aapt resource value: 0x7F080068
+			public const int browser_actions_header_text = 2131230824;
 			
 			// aapt resource value: 0x7F08006B
-			public const int cache_measures = 2131230827;
+			public const int browser_actions_menu_items = 2131230827;
+			
+			// aapt resource value: 0x7F080069
+			public const int browser_actions_menu_item_icon = 2131230825;
+			
+			// aapt resource value: 0x7F08006A
+			public const int browser_actions_menu_item_text = 2131230826;
 			
 			// aapt resource value: 0x7F08006C
-			public const int cancel_action = 2131230828;
+			public const int browser_actions_menu_view = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int cancel_button = 2131230829;
+			public const int buttonPanel = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int carryVelocity = 2131230830;
+			public const int cache_measures = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int center = 2131230831;
+			public const int cancel_action = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int center_horizontal = 2131230832;
+			public const int cancel_button = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int center_vertical = 2131230833;
+			public const int carryVelocity = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int chain = 2131230834;
+			public const int center = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int chains = 2131230835;
+			public const int center_horizontal = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int checkbox = 2131230836;
+			public const int center_vertical = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int @checked = 2131230837;
+			public const int chain = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int chip = 2131230838;
+			public const int chains = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int chip1 = 2131230839;
+			public const int chartBehaviorLayout = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int chip2 = 2131230840;
+			public const int chartLegendScrollView = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int chip3 = 2131230841;
+			public const int checkbox = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int chip_group = 2131230842;
+			public const int @checked = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int chronometer = 2131230843;
+			public const int chip = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int circle_center = 2131230844;
+			public const int chip1 = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int clear_text = 2131230845;
+			public const int chip2 = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int clip_horizontal = 2131230846;
+			public const int chip3 = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int clip_vertical = 2131230847;
+			public const int chip_group = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int clockwise = 2131230848;
+			public const int chronometer = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int closest = 2131230849;
+			public const int circle_center = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int collapseActionView = 2131230850;
+			public const int clear_text = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int confirm_button = 2131230851;
+			public const int clip_horizontal = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int constraint = 2131230852;
+			public const int clip_vertical = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int container = 2131230853;
+			public const int clockwise = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int content = 2131230854;
+			public const int closest = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int contentPanel = 2131230855;
+			public const int collapseActionView = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contiguous = 2131230856;
+			public const int confirm_button = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int continuousVelocity = 2131230857;
+			public const int constraint = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int coordinator = 2131230858;
+			public const int container = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int cos = 2131230859;
+			public const int content = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int counterclockwise = 2131230860;
+			public const int contentPanel = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int contiguous = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int continuousVelocity = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int coordinator = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int cos = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int counterclockwise = 2131230865;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008D
-			public const int currentState = 2131230861;
-			
-			// aapt resource value: 0x7F08008E
-			public const int custom = 2131230862;
-			
-			// aapt resource value: 0x7F08008F
-			public const int customPanel = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int cut = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int date_picker_actions = 2131230865;
-			
 			// aapt resource value: 0x7F080092
-			public const int decelerate = 2131230866;
+			public const int currentState = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerateAndComplete = 2131230867;
+			public const int custom = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decor_content_parent = 2131230868;
+			public const int customPanel = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int default_activity_button = 2131230869;
+			public const int cut = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int deltaRelative = 2131230870;
+			public const int dataMarkerLayout = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int dependency_ordering = 2131230871;
+			public const int date_picker_actions = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int design_bottom_sheet = 2131230872;
+			public const int decelerate = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_menu_item_action_area = 2131230873;
+			public const int decelerateAndComplete = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area_stub = 2131230874;
+			public const int decor_content_parent = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_text = 2131230875;
+			public const int default_activity_button = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_navigation_view = 2131230876;
+			public const int deltaRelative = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int dialog_button = 2131230877;
+			public const int dependency_ordering = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dimensions = 2131230878;
+			public const int design_bottom_sheet = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int direct = 2131230879;
+			public const int design_menu_item_action_area = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int disableHome = 2131230880;
+			public const int design_menu_item_action_area_stub = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableIntraAutoTransition = 2131230881;
+			public const int design_menu_item_text = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disablePostScroll = 2131230882;
+			public const int design_navigation_view = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disableScroll = 2131230883;
+			public const int dialog_button = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disjoint = 2131230884;
+			public const int dimensions = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int dragAnticlockwise = 2131230885;
+			public const int direct = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragClockwise = 2131230886;
+			public const int disableHome = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragDown = 2131230887;
+			public const int disableIntraAutoTransition = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragEnd = 2131230888;
+			public const int disablePostScroll = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragLeft = 2131230889;
+			public const int disableScroll = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragRight = 2131230890;
+			public const int disjoint = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragStart = 2131230891;
+			public const int dragAnticlockwise = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragUp = 2131230892;
+			public const int dragClockwise = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dropdown_menu = 2131230893;
+			public const int dragDown = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int easeIn = 2131230894;
+			public const int dragEnd = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeInOut = 2131230895;
+			public const int dragLeft = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeOut = 2131230896;
+			public const int dragRight = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int east = 2131230897;
+			public const int dragStart = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int edit_query = 2131230898;
+			public const int dragUp = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int elastic = 2131230899;
+			public const int dropdown_menu = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int end = 2131230900;
+			public const int easeIn = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int endToStart = 2131230901;
+			public const int easeInOut = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int end_padder = 2131230902;
+			public const int easeOut = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int enterAlways = 2131230903;
+			public const int east = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlwaysCollapsed = 2131230904;
+			public const int edit_query = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int exitUntilCollapsed = 2131230905;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int expanded_menu = 2131230907;
+			public const int elastic = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int expand_activities_button = 2131230906;
+			public const int end = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int endToStart = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int fade = 2131230908;
+			public const int end_padder = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fill = 2131230909;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int filled = 2131230912;
+			public const int enterAlways = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int fill_horizontal = 2131230910;
+			public const int enterAlwaysCollapsed = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int fill_vertical = 2131230911;
+			public const int exitUntilCollapsed = 2131230911;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int fitToContents = 2131230913;
+			public const int expanded_menu = 2131230913;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int expand_activities_button = 2131230912;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int @fixed = 2131230914;
+			public const int fade = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int flip = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int floating = 2131230916;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int flyoutcontent_appbar = 2131230917;
+			public const int fill = 2131230915;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int forever = 2131230918;
+			public const int filled = 2131230918;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int fill_horizontal = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int fill_vertical = 2131230917;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int fragment_container_view_tag = 2131230919;
+			public const int fitToContents = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int frost = 2131230920;
+			public const int @fixed = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int flip = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int floating = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int flyoutcontent_appbar = 2131230923;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int forever = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int fragment_container_view_tag = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int frost = 2131230926;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int ghost_view = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int ghost_view_holder = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int gone = 2131230923;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int graph = 2131230924;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int graph_wrap = 2131230925;
-			
 			// aapt resource value: 0x7F0800CF
-			public const int grouping = 2131230927;
+			public const int ghost_view = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int groups = 2131230928;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int group_divider = 2131230926;
+			public const int ghost_view_holder = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int guideline = 2131230929;
+			public const int gone = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int header_title = 2131230930;
+			public const int graph = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int hideable = 2131230931;
+			public const int graph_wrap = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int home = 2131230932;
+			public const int gridLineLayout = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int homeAsUp = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int honorRequest = 2131230934;
+			public const int gridLinesLayout = 2131230933;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int horizontal_only = 2131230935;
+			public const int grouping = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int icon = 2131230936;
+			public const int groups = 2131230936;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int group_divider = 2131230934;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon_frame = 2131230937;
+			public const int guideline = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_group = 2131230938;
+			public const int header_title = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int ifRoom = 2131230939;
+			public const int hideable = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ignore = 2131230940;
+			public const int home = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignoreRequest = 2131230941;
+			public const int homeAsUp = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int image = 2131230942;
+			public const int honorRequest = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int immediateStop = 2131230943;
+			public const int horizontal_only = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int included = 2131230944;
+			public const int icon = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int info = 2131230945;
+			public const int iconView = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int invisible = 2131230946;
+			public const int icon_frame = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int inward = 2131230947;
+			public const int icon_group = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int italic = 2131230948;
+			public const int ifRoom = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int item_touch_helper_previous_elevation = 2131230949;
+			public const int ignore = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int jumpToEnd = 2131230950;
+			public const int ignoreRequest = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int jumpToStart = 2131230951;
+			public const int image = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int labeled = 2131230952;
+			public const int immediateStop = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int layout = 2131230953;
+			public const int included = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int left = 2131230954;
+			public const int info = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int leftToRight = 2131230955;
+			public const int invisible = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int legacy = 2131230956;
+			public const int inward = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int line1 = 2131230957;
+			public const int italic = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int line3 = 2131230958;
+			public const int item_touch_helper_previous_elevation = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int linear = 2131230959;
+			public const int jumpToEnd = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int listMode = 2131230960;
+			public const int jumpToStart = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int list_item = 2131230961;
+			public const int label = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int main_appbar = 2131230962;
+			public const int labeled = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int main_tablayout = 2131230963;
+			public const int layout = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_toolbar = 2131230964;
+			public const int left = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int main_viewpager = 2131230965;
+			public const int leftToRight = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int masked = 2131230966;
+			public const int legacy = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int match_constraint = 2131230967;
+			public const int legendHeader = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int match_parent = 2131230968;
+			public const int legendItemsLayout = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int material_clock_display = 2131230969;
+			public const int legendLayout = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int material_clock_face = 2131230970;
+			public const int legendScrollView = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_hand = 2131230971;
+			public const int legendViewGroup = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_clock_period_am_button = 2131230972;
+			public const int line1 = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_pm_button = 2131230973;
+			public const int line3 = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_toggle = 2131230974;
+			public const int linear = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_hour_text_input = 2131230975;
+			public const int listMode = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_hour_tv = 2131230976;
+			public const int list_item = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_label = 2131230977;
+			public const int main_appbar = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_minute_text_input = 2131230978;
+			public const int main_tablayout = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_minute_tv = 2131230979;
+			public const int main_toolbar = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_textinput_timepicker = 2131230980;
+			public const int main_viewpager = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_timepicker_cancel_button = 2131230981;
+			public const int masked = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_timepicker_container = 2131230982;
+			public const int match_constraint = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_edit_text = 2131230983;
+			public const int match_parent = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_timepicker_mode_button = 2131230984;
+			public const int material_clock_display = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int material_timepicker_ok_button = 2131230985;
+			public const int material_clock_face = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_view = 2131230986;
+			public const int material_clock_hand = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int material_value_index = 2131230987;
+			public const int material_clock_period_am_button = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int media_actions = 2131230988;
+			public const int material_clock_period_pm_button = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int media_controller_compat_view_tag = 2131230989;
+			public const int material_clock_period_toggle = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int message = 2131230990;
+			public const int material_hour_text_input = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int material_hour_tv = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int material_label = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int material_minute_text_input = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int material_minute_tv = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int material_textinput_timepicker = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int material_timepicker_cancel_button = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int material_timepicker_container = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int material_timepicker_edit_text = 2131230998;
+			
+			// aapt resource value: 0x7F080117
+			public const int material_timepicker_mode_button = 2131230999;
+			
+			// aapt resource value: 0x7F080118
+			public const int material_timepicker_ok_button = 2131231000;
+			
+			// aapt resource value: 0x7F080119
+			public const int material_timepicker_view = 2131231001;
+			
+			// aapt resource value: 0x7F08011A
+			public const int material_value_index = 2131231002;
+			
+			// aapt resource value: 0x7F08011B
+			public const int media_actions = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int media_controller_compat_view_tag = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int message = 2131231005;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F08010F
-			public const int middle = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int mini = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int month_grid = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int month_navigation_bar = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int month_navigation_fragment_toggle = 2131230995;
-			
-			// aapt resource value: 0x7F080114
-			public const int month_navigation_next = 2131230996;
-			
-			// aapt resource value: 0x7F080115
-			public const int month_navigation_previous = 2131230997;
-			
-			// aapt resource value: 0x7F080116
-			public const int month_title = 2131230998;
-			
-			// aapt resource value: 0x7F080117
-			public const int motion_base = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int mtrl_anchor_parent = 2131231000;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_days_of_week = 2131231002;
-			
-			// aapt resource value: 0x7F080119
-			public const int mtrl_calendar_day_selector_frame = 2131231001;
-			
-			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_frame = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_main_pane = 2131231004;
-			
-			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_months = 2131231005;
-			
 			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_selection_frame = 2131231006;
+			public const int middle = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_text_input_frame = 2131231007;
+			public const int mini = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_year_selector_frame = 2131231008;
+			public const int month_grid = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_card_checked_layer_id = 2131231009;
+			public const int month_navigation_bar = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_child_content_container = 2131231010;
+			public const int month_navigation_fragment_toggle = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_internal_children_alpha_tag = 2131231011;
+			public const int month_navigation_next = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_motion_snapshot_view = 2131231012;
+			public const int month_navigation_previous = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_picker_fullscreen = 2131231013;
+			public const int month_title = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_header = 2131231014;
+			public const int motion_base = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header_selection_text = 2131231015;
-			
-			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_title_and_selection = 2131231016;
+			public const int mtrl_anchor_parent = 2131231015;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_toggle = 2131231017;
+			public const int mtrl_calendar_days_of_week = 2131231017;
+			
+			// aapt resource value: 0x7F080128
+			public const int mtrl_calendar_day_selector_frame = 2131231016;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_text_input_date = 2131231018;
+			public const int mtrl_calendar_frame = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_range_end = 2131231019;
+			public const int mtrl_calendar_main_pane = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_start = 2131231020;
+			public const int mtrl_calendar_months = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_title_text = 2131231021;
+			public const int mtrl_calendar_selection_frame = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_view_tag_bottom_padding = 2131231022;
+			public const int mtrl_calendar_text_input_frame = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int multiply = 2131231023;
-			
-			// aapt resource value: 0x7F080131
-			public const int navigation_bar_item_icon_view = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_labels_group = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_large_label_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_small_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_header_container = 2131231029;
+			public const int mtrl_calendar_year_selector_frame = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int nav_controller_view_tag = 2131231024;
+			public const int mtrl_card_checked_layer_id = 2131231024;
+			
+			// aapt resource value: 0x7F080131
+			public const int mtrl_child_content_container = 2131231025;
+			
+			// aapt resource value: 0x7F080132
+			public const int mtrl_internal_children_alpha_tag = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int mtrl_motion_snapshot_view = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int mtrl_picker_fullscreen = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int mtrl_picker_header = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int never = 2131231030;
+			public const int mtrl_picker_header_selection_text = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int neverCompleteToEnd = 2131231031;
+			public const int mtrl_picker_header_title_and_selection = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int neverCompleteToStart = 2131231032;
-			
-			// aapt resource value: 0x7F08013B
-			public const int none = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int normal = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int north = 2131231037;
+			public const int mtrl_picker_header_toggle = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int noScroll = 2131231033;
+			public const int mtrl_picker_text_input_date = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int noState = 2131231034;
+			public const int mtrl_picker_text_input_range_end = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int mtrl_picker_text_input_range_start = 2131231035;
+			
+			// aapt resource value: 0x7F08013C
+			public const int mtrl_picker_title_text = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int mtrl_view_tag_bottom_padding = 2131231037;
 			
 			// aapt resource value: 0x7F08013E
-			public const int notification_background = 2131231038;
-			
-			// aapt resource value: 0x7F08013F
-			public const int notification_main_column = 2131231039;
+			public const int multiply = 2131231038;
 			
 			// aapt resource value: 0x7F080140
-			public const int notification_main_column_container = 2131231040;
+			public const int navigation_bar_item_icon_view = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int navigation_bar_item_labels_group = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int navigation_bar_item_large_label_view = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int navigation_bar_item_small_label_view = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int navigation_header_container = 2131231044;
+			
+			// aapt resource value: 0x7F08013F
+			public const int nav_controller_view_tag = 2131231039;
+			
+			// aapt resource value: 0x7F080145
+			public const int never = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int neverCompleteToEnd = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int neverCompleteToStart = 2131231047;
+			
+			// aapt resource value: 0x7F08014A
+			public const int none = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int normal = 2131231051;
+			
+			// aapt resource value: 0x7F08014C
+			public const int north = 2131231052;
+			
+			// aapt resource value: 0x7F080148
+			public const int noScroll = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int noState = 2131231049;
+			
+			// aapt resource value: 0x7F08014D
+			public const int notification_background = 2131231053;
+			
+			// aapt resource value: 0x7F08014E
+			public const int notification_main_column = 2131231054;
+			
+			// aapt resource value: 0x7F08014F
+			public const int notification_main_column_container = 2131231055;
 			
 			// aapt resource value: 0x7F080006
 			public const int NO_DEBUG = 2131230726;
 			
-			// aapt resource value: 0x7F080141
-			public const int off = 2131231041;
-			
-			// aapt resource value: 0x7F080142
-			public const int on = 2131231042;
-			
-			// aapt resource value: 0x7F080143
-			public const int outline = 2131231043;
-			
-			// aapt resource value: 0x7F080144
-			public const int outward = 2131231044;
-			
-			// aapt resource value: 0x7F080145
-			public const int overshoot = 2131231045;
-			
-			// aapt resource value: 0x7F080146
-			public const int packed = 2131231046;
-			
-			// aapt resource value: 0x7F080147
-			public const int parallax = 2131231047;
-			
-			// aapt resource value: 0x7F080148
-			public const int parent = 2131231048;
-			
-			// aapt resource value: 0x7F080149
-			public const int parentPanel = 2131231049;
-			
-			// aapt resource value: 0x7F08014A
-			public const int parentRelative = 2131231050;
-			
-			// aapt resource value: 0x7F08014B
-			public const int parent_matrix = 2131231051;
-			
-			// aapt resource value: 0x7F08014C
-			public const int password_toggle = 2131231052;
-			
-			// aapt resource value: 0x7F08014D
-			public const int path = 2131231053;
-			
-			// aapt resource value: 0x7F08014E
-			public const int pathRelative = 2131231054;
-			
-			// aapt resource value: 0x7F08014F
-			public const int peekHeight = 2131231055;
-			
 			// aapt resource value: 0x7F080150
-			public const int percent = 2131231056;
+			public const int off = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int pin = 2131231057;
+			public const int on = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int position = 2131231058;
+			public const int outline = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int postLayout = 2131231059;
+			public const int outward = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int progress_circular = 2131231060;
+			public const int overshoot = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int progress_horizontal = 2131231061;
+			public const int packed = 2131231061;
 			
 			// aapt resource value: 0x7F080156
-			public const int radio = 2131231062;
+			public const int parallax = 2131231062;
 			
 			// aapt resource value: 0x7F080157
-			public const int ratio = 2131231063;
+			public const int parent = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int rectangles = 2131231064;
+			public const int parentPanel = 2131231064;
 			
 			// aapt resource value: 0x7F080159
-			public const int recycler_view = 2131231065;
+			public const int parentRelative = 2131231065;
 			
 			// aapt resource value: 0x7F08015A
-			public const int reverseSawtooth = 2131231066;
+			public const int parent_matrix = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int right = 2131231067;
+			public const int password_toggle = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int rightToLeft = 2131231068;
+			public const int path = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int right_icon = 2131231069;
+			public const int pathRelative = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int right_side = 2131231070;
+			public const int peekHeight = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int rounded = 2131231071;
+			public const int percent = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int row_index_key = 2131231072;
+			public const int pin = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int save_non_transition_alpha = 2131231073;
+			public const int position = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int save_overlay_view = 2131231074;
+			public const int postLayout = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int sawtooth = 2131231075;
+			public const int progress_circular = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int scale = 2131231076;
+			public const int progress_horizontal = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int screen = 2131231077;
+			public const int radio = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int scroll = 2131231078;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollable = 2131231082;
+			public const int ratio = 2131231078;
 			
 			// aapt resource value: 0x7F080167
-			public const int scrollIndicatorDown = 2131231079;
+			public const int rectangles = 2131231079;
 			
 			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorUp = 2131231080;
+			public const int recycler_view = 2131231080;
 			
 			// aapt resource value: 0x7F080169
-			public const int scrollView = 2131231081;
+			public const int reverseSawtooth = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int right = 2131231082;
 			
 			// aapt resource value: 0x7F08016B
-			public const int search_badge = 2131231083;
+			public const int rightToLeft = 2131231083;
 			
 			// aapt resource value: 0x7F08016C
-			public const int search_bar = 2131231084;
+			public const int right_icon = 2131231084;
 			
 			// aapt resource value: 0x7F08016D
-			public const int search_button = 2131231085;
+			public const int right_side = 2131231085;
 			
 			// aapt resource value: 0x7F08016E
-			public const int search_close_btn = 2131231086;
+			public const int rootLayout = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int search_edit_frame = 2131231087;
+			public const int rounded = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int search_go_btn = 2131231088;
+			public const int row_index_key = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int search_mag_icon = 2131231089;
+			public const int save_non_transition_alpha = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int search_plate = 2131231090;
+			public const int save_overlay_view = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int search_src_text = 2131231091;
+			public const int sawtooth = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int search_voice_btn = 2131231092;
+			public const int scale = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int seekbar = 2131231093;
+			public const int screen = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int seekbar_value = 2131231094;
-			
-			// aapt resource value: 0x7F080178
-			public const int selected = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int selection_type = 2131231097;
-			
-			// aapt resource value: 0x7F080177
-			public const int select_dialog_listview = 2131231095;
+			public const int scroll = 2131231094;
 			
 			// aapt resource value: 0x7F08017A
-			public const int sharedValueSet = 2131231098;
+			public const int scrollable = 2131231098;
+			
+			// aapt resource value: 0x7F080177
+			public const int scrollIndicatorDown = 2131231095;
+			
+			// aapt resource value: 0x7F080178
+			public const int scrollIndicatorUp = 2131231096;
+			
+			// aapt resource value: 0x7F080179
+			public const int scrollView = 2131231097;
 			
 			// aapt resource value: 0x7F08017B
-			public const int sharedValueUnset = 2131231099;
+			public const int search_badge = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int shellcontent_appbar = 2131231100;
+			public const int search_bar = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int shellcontent_toolbar = 2131231101;
+			public const int search_button = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int search_close_btn = 2131231102;
+			
+			// aapt resource value: 0x7F08017F
+			public const int search_edit_frame = 2131231103;
+			
+			// aapt resource value: 0x7F080180
+			public const int search_go_btn = 2131231104;
+			
+			// aapt resource value: 0x7F080181
+			public const int search_mag_icon = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int search_plate = 2131231106;
+			
+			// aapt resource value: 0x7F080183
+			public const int search_src_text = 2131231107;
+			
+			// aapt resource value: 0x7F080184
+			public const int search_voice_btn = 2131231108;
+			
+			// aapt resource value: 0x7F080185
+			public const int seekbar = 2131231109;
+			
+			// aapt resource value: 0x7F080186
+			public const int seekbar_value = 2131231110;
+			
+			// aapt resource value: 0x7F080188
+			public const int selected = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int selection_type = 2131231113;
+			
+			// aapt resource value: 0x7F080187
+			public const int select_dialog_listview = 2131231111;
+			
+			// aapt resource value: 0x7F08018A
+			public const int seriesLayout = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int sharedValueSet = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int sharedValueUnset = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int shellcontent_appbar = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int shellcontent_toolbar = 2131231118;
 			
 			// aapt resource value: 0x7F080007
 			public const int SHIFT = 2131230727;
 			
-			// aapt resource value: 0x7F08017E
-			public const int shortcut = 2131231102;
+			// aapt resource value: 0x7F08018F
+			public const int shortcut = 2131231119;
 			
-			// aapt resource value: 0x7F08017F
-			public const int showCustom = 2131231103;
+			// aapt resource value: 0x7F080190
+			public const int showCustom = 2131231120;
 			
-			// aapt resource value: 0x7F080180
-			public const int showHome = 2131231104;
+			// aapt resource value: 0x7F080191
+			public const int showHome = 2131231121;
 			
-			// aapt resource value: 0x7F080181
-			public const int showTitle = 2131231105;
+			// aapt resource value: 0x7F080192
+			public const int showTitle = 2131231122;
 			
 			// aapt resource value: 0x7F080008
 			public const int SHOW_ALL = 2131230728;
@@ -19624,341 +23820,356 @@ namespace BTOAssistApp.Droid
 			// aapt resource value: 0x7F08000A
 			public const int SHOW_PROGRESS = 2131230730;
 			
-			// aapt resource value: 0x7F080182
-			public const int sin = 2131231106;
-			
-			// aapt resource value: 0x7F080183
-			public const int skipCollapsed = 2131231107;
-			
-			// aapt resource value: 0x7F080184
-			public const int skipped = 2131231108;
-			
-			// aapt resource value: 0x7F080185
-			public const int slide = 2131231109;
-			
-			// aapt resource value: 0x7F080186
-			public const int sliding_tabs = 2131231110;
-			
-			// aapt resource value: 0x7F080187
-			public const int snackbar_action = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int snackbar_text = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int snap = 2131231113;
-			
-			// aapt resource value: 0x7F08018A
-			public const int snapMargins = 2131231114;
-			
-			// aapt resource value: 0x7F08018B
-			public const int south = 2131231115;
-			
-			// aapt resource value: 0x7F08018C
-			public const int spacer = 2131231116;
-			
-			// aapt resource value: 0x7F08018D
-			public const int special_effects_controller_view_tag = 2131231117;
-			
-			// aapt resource value: 0x7F08018E
-			public const int spinner = 2131231118;
-			
-			// aapt resource value: 0x7F08018F
-			public const int spline = 2131231119;
-			
-			// aapt resource value: 0x7F080190
-			public const int split_action_bar = 2131231120;
-			
-			// aapt resource value: 0x7F080191
-			public const int spread = 2131231121;
-			
-			// aapt resource value: 0x7F080192
-			public const int spread_inside = 2131231122;
-			
 			// aapt resource value: 0x7F080193
-			public const int spring = 2131231123;
+			public const int sin = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int square = 2131231124;
+			public const int skipCollapsed = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int src_atop = 2131231125;
+			public const int skipped = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int src_in = 2131231126;
+			public const int slide = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int src_over = 2131231127;
+			public const int sliding_tabs = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int standard = 2131231128;
+			public const int snackbar_action = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int start = 2131231129;
+			public const int snackbar_text = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int startHorizontal = 2131231130;
+			public const int snap = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int startToEnd = 2131231131;
+			public const int snapMargins = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int startVertical = 2131231132;
+			public const int south = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int staticLayout = 2131231133;
+			public const int spacer = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int staticPostLayout = 2131231134;
+			public const int special_effects_controller_view_tag = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int status_bar_latest_event_content = 2131231135;
+			public const int spinner = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int stop = 2131231136;
+			public const int spline = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int stretch = 2131231137;
+			public const int split_action_bar = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int submenuarrow = 2131231138;
+			public const int spread = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int submit_area = 2131231139;
+			public const int spread_inside = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int supportScrollUp = 2131231140;
+			public const int spring = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int switchWidget = 2131231141;
+			public const int square = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int src_atop = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int src_in = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int src_over = 2131231144;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int standard = 2131231145;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int start = 2131231146;
+			
+			// aapt resource value: 0x7F0801AB
+			public const int startHorizontal = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int startToEnd = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int startVertical = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int staticLayout = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int staticPostLayout = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int status_bar_latest_event_content = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int stop = 2131231153;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int stretch = 2131231154;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int stripLinesLayout = 2131231155;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int submenuarrow = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int submit_area = 2131231157;
+			
+			// aapt resource value: 0x7F0801B6
+			public const int supportScrollUp = 2131231158;
+			
+			// aapt resource value: 0x7F0801B7
+			public const int switchWidget = 2131231159;
 			
 			// aapt resource value: 0x7F08000B
 			public const int SYM = 2131230731;
 			
-			// aapt resource value: 0x7F0801A6
-			public const int tabMode = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int tag_accessibility_actions = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_clickable_spans = 2131231144;
-			
-			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_heading = 2131231145;
-			
-			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_pane_title = 2131231146;
-			
-			// aapt resource value: 0x7F0801AB
-			public const int tag_on_apply_window_listener = 2131231147;
-			
-			// aapt resource value: 0x7F0801AC
-			public const int tag_on_receive_content_listener = 2131231148;
-			
-			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_mime_types = 2131231149;
-			
-			// aapt resource value: 0x7F0801AE
-			public const int tag_screen_reader_focusable = 2131231150;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int tag_state_description = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int tag_transition_group = 2131231152;
-			
-			// aapt resource value: 0x7F0801B1
-			public const int tag_unhandled_key_event_manager = 2131231153;
-			
-			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_listeners = 2131231154;
-			
-			// aapt resource value: 0x7F0801B3
-			public const int tag_window_insets_animation_callback = 2131231155;
-			
-			// aapt resource value: 0x7F0801B4
-			public const int test_checkbox_android_button_tint = 2131231156;
-			
-			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_app_button_tint = 2131231157;
-			
-			// aapt resource value: 0x7F0801B6
-			public const int test_radiobutton_android_button_tint = 2131231158;
-			
-			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_app_button_tint = 2131231159;
-			
 			// aapt resource value: 0x7F0801B8
-			public const int text = 2131231160;
+			public const int tabMode = 2131231160;
 			
 			// aapt resource value: 0x7F0801B9
-			public const int text2 = 2131231161;
+			public const int tag_accessibility_actions = 2131231161;
 			
 			// aapt resource value: 0x7F0801BA
-			public const int textEnd = 2131231162;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textinput_counter = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_error = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_helper_text = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_placeholder = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_prefix_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_suffix_text = 2131231175;
+			public const int tag_accessibility_clickable_spans = 2131231162;
 			
 			// aapt resource value: 0x7F0801BB
-			public const int textSpacerNoButtons = 2131231163;
+			public const int tag_accessibility_heading = 2131231163;
 			
 			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoTitle = 2131231164;
+			public const int tag_accessibility_pane_title = 2131231164;
 			
 			// aapt resource value: 0x7F0801BD
-			public const int textStart = 2131231165;
+			public const int tag_on_apply_window_listener = 2131231165;
 			
 			// aapt resource value: 0x7F0801BE
-			public const int textTop = 2131231166;
+			public const int tag_on_receive_content_listener = 2131231166;
 			
 			// aapt resource value: 0x7F0801BF
-			public const int text_input_end_icon = 2131231167;
+			public const int tag_on_receive_content_mime_types = 2131231167;
 			
 			// aapt resource value: 0x7F0801C0
-			public const int text_input_error_icon = 2131231168;
+			public const int tag_screen_reader_focusable = 2131231168;
 			
 			// aapt resource value: 0x7F0801C1
-			public const int text_input_start_icon = 2131231169;
+			public const int tag_state_description = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int tag_transition_group = 2131231170;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int tag_unhandled_key_event_manager = 2131231171;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int tag_unhandled_key_listeners = 2131231172;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int tag_window_insets_animation_callback = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int technicalIndicatorLayout = 2131231174;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int test_checkbox_android_button_tint = 2131231175;
 			
 			// aapt resource value: 0x7F0801C8
-			public const int time = 2131231176;
+			public const int test_checkbox_app_button_tint = 2131231176;
 			
 			// aapt resource value: 0x7F0801C9
-			public const int title = 2131231177;
+			public const int test_radiobutton_android_button_tint = 2131231177;
 			
 			// aapt resource value: 0x7F0801CA
-			public const int titleDividerNoCustom = 2131231178;
+			public const int test_radiobutton_app_button_tint = 2131231178;
 			
 			// aapt resource value: 0x7F0801CB
-			public const int title_template = 2131231179;
+			public const int text = 2131231179;
 			
 			// aapt resource value: 0x7F0801CC
-			public const int toggle = 2131231180;
+			public const int text2 = 2131231180;
 			
 			// aapt resource value: 0x7F0801CD
-			public const int toolbar = 2131231181;
+			public const int textEnd = 2131231181;
+			
+			// aapt resource value: 0x7F0801D5
+			public const int textinput_counter = 2131231189;
+			
+			// aapt resource value: 0x7F0801D6
+			public const int textinput_error = 2131231190;
+			
+			// aapt resource value: 0x7F0801D7
+			public const int textinput_helper_text = 2131231191;
+			
+			// aapt resource value: 0x7F0801D8
+			public const int textinput_placeholder = 2131231192;
+			
+			// aapt resource value: 0x7F0801D9
+			public const int textinput_prefix_text = 2131231193;
+			
+			// aapt resource value: 0x7F0801DA
+			public const int textinput_suffix_text = 2131231194;
 			
 			// aapt resource value: 0x7F0801CE
-			public const int top = 2131231182;
+			public const int textSpacerNoButtons = 2131231182;
 			
 			// aapt resource value: 0x7F0801CF
-			public const int topPanel = 2131231183;
+			public const int textSpacerNoTitle = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int textStart = 2131231184;
+			
+			// aapt resource value: 0x7F0801D1
+			public const int textTop = 2131231185;
+			
+			// aapt resource value: 0x7F0801D2
+			public const int text_input_end_icon = 2131231186;
+			
+			// aapt resource value: 0x7F0801D3
+			public const int text_input_error_icon = 2131231187;
+			
+			// aapt resource value: 0x7F0801D4
+			public const int text_input_start_icon = 2131231188;
+			
+			// aapt resource value: 0x7F0801DB
+			public const int thumbLayout = 2131231195;
+			
+			// aapt resource value: 0x7F0801DC
+			public const int time = 2131231196;
+			
+			// aapt resource value: 0x7F0801DD
+			public const int title = 2131231197;
+			
+			// aapt resource value: 0x7F0801DE
+			public const int titleDividerNoCustom = 2131231198;
+			
+			// aapt resource value: 0x7F0801DF
+			public const int titleLayout = 2131231199;
+			
+			// aapt resource value: 0x7F0801E0
+			public const int title_template = 2131231200;
+			
+			// aapt resource value: 0x7F0801E1
+			public const int toggle = 2131231201;
+			
+			// aapt resource value: 0x7F0801E2
+			public const int toolbar = 2131231202;
+			
+			// aapt resource value: 0x7F0801E3
+			public const int top = 2131231203;
+			
+			// aapt resource value: 0x7F0801E4
+			public const int topPanel = 2131231204;
 			
 			// aapt resource value: 0x7F08000C
 			public const int TOP_END = 2131230732;
 			
+			// aapt resource value: 0x7F0801E5
+			public const int top_labels = 2131231205;
+			
 			// aapt resource value: 0x7F08000D
 			public const int TOP_START = 2131230733;
 			
-			// aapt resource value: 0x7F0801D0
-			public const int touch_outside = 2131231184;
-			
-			// aapt resource value: 0x7F0801D1
-			public const int transitionToEnd = 2131231185;
-			
-			// aapt resource value: 0x7F0801D2
-			public const int transitionToStart = 2131231186;
-			
-			// aapt resource value: 0x7F0801D3
-			public const int transition_current_scene = 2131231187;
-			
-			// aapt resource value: 0x7F0801D4
-			public const int transition_layout_save = 2131231188;
-			
-			// aapt resource value: 0x7F0801D5
-			public const int transition_position = 2131231189;
-			
-			// aapt resource value: 0x7F0801D6
-			public const int transition_scene_layoutid_cache = 2131231190;
-			
-			// aapt resource value: 0x7F0801D7
-			public const int transition_transform = 2131231191;
-			
-			// aapt resource value: 0x7F0801D8
-			public const int triangle = 2131231192;
-			
-			// aapt resource value: 0x7F0801D9
-			public const int @unchecked = 2131231193;
-			
-			// aapt resource value: 0x7F0801DA
-			public const int uniform = 2131231194;
-			
-			// aapt resource value: 0x7F0801DB
-			public const int unlabeled = 2131231195;
-			
-			// aapt resource value: 0x7F0801DC
-			public const int up = 2131231196;
-			
-			// aapt resource value: 0x7F0801DD
-			public const int useLogo = 2131231197;
-			
-			// aapt resource value: 0x7F0801DE
-			public const int vertical_only = 2131231198;
-			
-			// aapt resource value: 0x7F0801DF
-			public const int view_offset_helper = 2131231199;
-			
-			// aapt resource value: 0x7F0801E0
-			public const int view_transition = 2131231200;
-			
-			// aapt resource value: 0x7F0801E1
-			public const int view_tree_lifecycle_owner = 2131231201;
-			
-			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
-			
-			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
-			
-			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
-			
-			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
-			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int touch_outside = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int transitionToEnd = 2131231207;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int transitionToStart = 2131231208;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int transition_current_scene = 2131231209;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int transition_layout_save = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int transition_position = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int transition_scene_layoutid_cache = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int transition_transform = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int triangle = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int @unchecked = 2131231215;
+			
+			// aapt resource value: 0x7F0801F0
+			public const int uniform = 2131231216;
+			
+			// aapt resource value: 0x7F0801F1
+			public const int unlabeled = 2131231217;
+			
+			// aapt resource value: 0x7F0801F2
+			public const int up = 2131231218;
+			
+			// aapt resource value: 0x7F0801F3
+			public const int useLogo = 2131231219;
+			
+			// aapt resource value: 0x7F0801F4
+			public const int vertical_only = 2131231220;
+			
+			// aapt resource value: 0x7F0801F5
+			public const int view_offset_helper = 2131231221;
+			
+			// aapt resource value: 0x7F0801F6
+			public const int view_transition = 2131231222;
+			
+			// aapt resource value: 0x7F0801F7
+			public const int view_tree_lifecycle_owner = 2131231223;
+			
+			// aapt resource value: 0x7F0801F8
+			public const int view_tree_saved_state_registry_owner = 2131231224;
+			
+			// aapt resource value: 0x7F0801F9
+			public const int view_tree_view_model_store_owner = 2131231225;
+			
+			// aapt resource value: 0x7F0801FA
+			public const int visible = 2131231226;
+			
+			// aapt resource value: 0x7F0801FB
+			public const int visible_removing_fragment_view_tag = 2131231227;
+			
+			// aapt resource value: 0x7F0801FC
+			public const int west = 2131231228;
+			
+			// aapt resource value: 0x7F0801FE
+			public const int withinBounds = 2131231230;
+			
+			// aapt resource value: 0x7F0801FD
+			public const int withText = 2131231229;
+			
+			// aapt resource value: 0x7F0801FF
+			public const int wrap = 2131231231;
+			
+			// aapt resource value: 0x7F080200
+			public const int wrap_content = 2131231232;
+			
+			// aapt resource value: 0x7F080201
+			public const int wrap_content_constrained = 2131231233;
+			
+			// aapt resource value: 0x7F080202
+			public const int x_left = 2131231234;
+			
+			// aapt resource value: 0x7F080203
+			public const int x_right = 2131231235;
+			
+			// aapt resource value: 0x7F080204
+			public const int zero_corner_chip = 2131231236;
 			
 			static Id()
 			{
@@ -20213,358 +24424,370 @@ namespace BTOAssistApp.Droid
 			public const int browser_actions_context_menu_row = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int custom_dialog = 2131427359;
+			public const int chart_layout = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
+			public const int chart_legend = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
+			public const int chart_legend_item = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int custom_dialog = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_bottom_navigation_item = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_bottom_sheet_dialog = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_layout_snackbar = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_layout_snackbar_include = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_layout_tab_icon = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_layout_tab_text = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_menu_item_action_area = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_item = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_navigation_item_header = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int design_navigation_item_separator = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_end_icon = 2131427373;
+			public const int design_navigation_item_subheader = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_start_icon = 2131427374;
+			public const int design_navigation_menu = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int expand_button = 2131427375;
+			public const int design_navigation_menu_item = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FallbackTabbarDoNotUse = 2131427376;
+			public const int design_text_input_end_icon = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FallbackToolbarDoNotUse = 2131427377;
+			public const int design_text_input_start_icon = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FlyoutContent = 2131427378;
+			public const int expand_button = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int image_frame = 2131427379;
+			public const int FallbackTabbarDoNotUse = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int material_chip_input_combo = 2131427380;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clockface_textview = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clockface_view = 2131427386;
+			public const int FallbackToolbarDoNotUse = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int material_clock_display = 2131427381;
+			public const int FlyoutContent = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int material_clock_display_divider = 2131427382;
+			public const int image_frame = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int material_clock_period_toggle = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int material_clock_period_toggle_land = 2131427384;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int material_radial_view_group = 2131427387;
+			public const int material_chip_input_combo = 2131427383;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int material_textinput_timepicker = 2131427388;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int material_timepicker = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int material_timepicker_dialog = 2131427392;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int material_timepicker_textinput_display = 2131427393;
+			public const int material_clockface_textview = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int material_time_chip = 2131427389;
+			public const int material_clockface_view = 2131427389;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_display = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int material_clock_display_divider = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_clock_period_toggle = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int material_clock_period_toggle_land = 2131427387;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int material_time_input = 2131427390;
+			public const int material_radial_view_group = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_textinput_timepicker = 2131427391;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_alert_dialog = 2131427394;
+			public const int material_timepicker = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_alert_dialog_actions = 2131427395;
+			public const int material_timepicker_dialog = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_alert_dialog_title = 2131427396;
+			public const int material_timepicker_textinput_display = 2131427396;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int material_time_chip = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int material_time_input = 2131427393;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_alert_select_dialog_item = 2131427397;
+			public const int mtrl_alert_dialog = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_select_dialog_multichoice = 2131427398;
+			public const int mtrl_alert_dialog_actions = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427399;
+			public const int mtrl_alert_dialog_title = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_calendar_day = 2131427400;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_days_of_week = 2131427402;
+			public const int mtrl_alert_select_dialog_item = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_calendar_day_of_week = 2131427401;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int mtrl_calendar_horizontal = 2131427403;
-			
-			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_month = 2131427404;
-			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_months = 2131427407;
+			public const int mtrl_calendar_day = 2131427403;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_month_labeled = 2131427405;
+			public const int mtrl_calendar_days_of_week = 2131427405;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int mtrl_calendar_day_of_week = 2131427404;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_month_navigation = 2131427406;
+			public const int mtrl_calendar_horizontal = 2131427406;
 			
-			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_vertical = 2131427408;
-			
-			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_year = 2131427409;
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_month = 2131427407;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_layout_snackbar = 2131427410;
+			public const int mtrl_calendar_months = 2131427410;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int mtrl_calendar_month_labeled = 2131427408;
+			
+			// aapt resource value: 0x7F0B0051
+			public const int mtrl_calendar_month_navigation = 2131427409;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int mtrl_layout_snackbar_include = 2131427411;
+			public const int mtrl_calendar_vertical = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int mtrl_navigation_rail_item = 2131427412;
+			public const int mtrl_calendar_year = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_picker_actions = 2131427413;
+			public const int mtrl_layout_snackbar = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_picker_dialog = 2131427414;
+			public const int mtrl_layout_snackbar_include = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_picker_fullscreen = 2131427415;
+			public const int mtrl_navigation_rail_item = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_header_dialog = 2131427416;
+			public const int mtrl_picker_actions = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_header_fullscreen = 2131427417;
+			public const int mtrl_picker_dialog = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_header_selection_text = 2131427418;
+			public const int mtrl_picker_fullscreen = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_title_text = 2131427419;
+			public const int mtrl_picker_header_dialog = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_toggle = 2131427420;
+			public const int mtrl_picker_header_fullscreen = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_text_input_date = 2131427421;
+			public const int mtrl_picker_header_selection_text = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_text_input_date_range = 2131427422;
+			public const int mtrl_picker_header_title_text = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int notification_action = 2131427423;
+			public const int mtrl_picker_header_toggle = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_action_tombstone = 2131427424;
+			public const int mtrl_picker_text_input_date = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_media_action = 2131427425;
+			public const int mtrl_picker_text_input_date_range = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_cancel_action = 2131427426;
+			public const int notification_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_template_big_media = 2131427427;
+			public const int notification_action_tombstone = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media_custom = 2131427428;
+			public const int notification_media_action = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_narrow = 2131427429;
+			public const int notification_media_cancel_action = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow_custom = 2131427430;
+			public const int notification_template_big_media = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_custom_big = 2131427431;
+			public const int notification_template_big_media_custom = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_icon_group = 2131427432;
+			public const int notification_template_big_media_narrow = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_lines_media = 2131427433;
+			public const int notification_template_big_media_narrow_custom = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_media = 2131427434;
+			public const int notification_template_custom_big = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media_custom = 2131427435;
+			public const int notification_template_icon_group = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_part_chronometer = 2131427436;
+			public const int notification_template_lines_media = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_time = 2131427437;
+			public const int notification_template_media = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int preference = 2131427438;
+			public const int notification_template_media_custom = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int preference_category = 2131427439;
+			public const int notification_template_part_chronometer = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int preference_category_material = 2131427440;
+			public const int notification_template_part_time = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int preference_dialog_edittext = 2131427441;
+			public const int preference = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int preference_dropdown = 2131427442;
+			public const int preference_category = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int preference_dropdown_material = 2131427443;
+			public const int preference_category_material = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int preference_information = 2131427444;
+			public const int preference_dialog_edittext = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int preference_information_material = 2131427445;
+			public const int preference_dropdown = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int preference_list_fragment = 2131427446;
+			public const int preference_dropdown_material = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int preference_material = 2131427447;
+			public const int preference_information = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int preference_recyclerview = 2131427448;
+			public const int preference_information_material = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int preference_widget_checkbox = 2131427449;
+			public const int preference_list_fragment = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int preference_widget_seekbar = 2131427450;
+			public const int preference_material = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int preference_widget_seekbar_material = 2131427451;
+			public const int preference_recyclerview = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int preference_widget_switch = 2131427452;
+			public const int preference_widget_checkbox = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_switch_compat = 2131427453;
+			public const int preference_widget_seekbar = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int RootLayout = 2131427454;
+			public const int preference_widget_seekbar_material = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int select_dialog_item_material = 2131427455;
+			public const int preference_widget_switch = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int select_dialog_multichoice_material = 2131427456;
+			public const int preference_widget_switch_compat = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int select_dialog_singlechoice_material = 2131427457;
+			public const int range_navigator_layout = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int ShellContent = 2131427458;
+			public const int RootLayout = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int support_simple_spinner_dropdown_item = 2131427459;
+			public const int select_dialog_item_material = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int Tabbar = 2131427460;
+			public const int select_dialog_multichoice_material = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int test_action_chip = 2131427461;
+			public const int select_dialog_singlechoice_material = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_chip_zero_corner_radius = 2131427462;
+			public const int ShellContent = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_design_checkbox = 2131427463;
+			public const int support_simple_spinner_dropdown_item = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_radiobutton = 2131427464;
+			public const int Tabbar = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_navigation_bar_item_layout = 2131427465;
+			public const int test_action_chip = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_reflow_chipgroup = 2131427466;
+			public const int test_chip_zero_corner_radius = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_toolbar = 2131427467;
+			public const int test_design_checkbox = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar_custom_background = 2131427468;
+			public const int test_design_radiobutton = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_elevation = 2131427469;
+			public const int test_navigation_bar_item_layout = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_surface = 2131427470;
-			
-			// aapt resource value: 0x7F0B0093
-			public const int text_view_without_line_height = 2131427475;
+			public const int test_reflow_chipgroup = 2131427470;
 			
 			// aapt resource value: 0x7F0B008F
-			public const int text_view_with_line_height_from_appearance = 2131427471;
+			public const int test_toolbar = 2131427471;
 			
 			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_layout = 2131427472;
+			public const int test_toolbar_custom_background = 2131427472;
 			
 			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_style = 2131427473;
+			public const int test_toolbar_elevation = 2131427473;
 			
 			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_theme_line_height = 2131427474;
+			public const int test_toolbar_surface = 2131427474;
+			
+			// aapt resource value: 0x7F0B0097
+			public const int text_view_without_line_height = 2131427479;
+			
+			// aapt resource value: 0x7F0B0093
+			public const int text_view_with_line_height_from_appearance = 2131427475;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int Toolbar = 2131427476;
+			public const int text_view_with_line_height_from_layout = 2131427476;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int text_view_with_line_height_from_style = 2131427477;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int text_view_with_theme_line_height = 2131427478;
+			
+			// aapt resource value: 0x7F0B0098
+			public const int Toolbar = 2131427480;
 			
 			static Layout()
 			{
@@ -20960,19 +25183,70 @@ namespace BTOAssistApp.Droid
 			public const int preference_copied = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int search_menu_title = 2131624050;
+			public const int q = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int status_bar_notification_info_overflow = 2131624051;
+			public const int quarter = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int summary_collapsed_preference_list = 2131624052;
+			public const int search_menu_title = 2131624052;
+			
+			// aapt resource value: 0x7F0E0078
+			public const int sfchart_close_label = 2131624056;
+			
+			// aapt resource value: 0x7F0E0079
+			public const int sfchart_decrease_label = 2131624057;
+			
+			// aapt resource value: 0x7F0E007A
+			public const int sfchart_high_label = 2131624058;
+			
+			// aapt resource value: 0x7F0E007B
+			public const int sfchart_increase_label = 2131624059;
+			
+			// aapt resource value: 0x7F0E007C
+			public const int sfchart_low_label = 2131624060;
+			
+			// aapt resource value: 0x7F0E007D
+			public const int sfchart_maximum_label = 2131624061;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_off = 2131624053;
+			public const int sfchart_Median_label = 2131624053;
+			
+			// aapt resource value: 0x7F0E007E
+			public const int sfchart_minimum_label = 2131624062;
+			
+			// aapt resource value: 0x7F0E007F
+			public const int sfchart_open_label = 2131624063;
+			
+			// aapt resource value: 0x7F0E0080
+			public const int sfchart_others_label = 2131624064;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int v7_preference_on = 2131624054;
+			public const int sfchart_Q1_label = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int sfchart_Q3_label = 2131624055;
+			
+			// aapt resource value: 0x7F0E0081
+			public const int sfchart_total_label = 2131624065;
+			
+			// aapt resource value: 0x7F0E0082
+			public const int status_bar_notification_info_overflow = 2131624066;
+			
+			// aapt resource value: 0x7F0E0083
+			public const int summary_collapsed_preference_list = 2131624067;
+			
+			// aapt resource value: 0x7F0E0084
+			public const int v7_preference_off = 2131624068;
+			
+			// aapt resource value: 0x7F0E0085
+			public const int v7_preference_on = 2131624069;
+			
+			// aapt resource value: 0x7F0E0086
+			public const int w = 2131624070;
+			
+			// aapt resource value: 0x7F0E0087
+			public const int week = 2131624071;
 			
 			static String()
 			{

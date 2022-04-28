@@ -144,7 +144,6 @@ namespace BTOAssistApp.Views
 
                 client = new HttpClient();
                 Uri getToken = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonData");
-                Uri insertData = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPhoneInfo");
                 Uri insertPersonData = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPersonInfo");
                 /*string[] dirs = Directory.GetDirectories(rootpath, "*", SearchOption.AllDirectories);
                 foreach (string files in dirs)
@@ -179,111 +178,120 @@ namespace BTOAssistApp.Views
                         //accessToken 
                         Trace.WriteLine(gibberish);*/
                         JObject json = JObject.Parse(responseString);
+                        
                         /*var jsonString = JsonConvert.SerializeObject(json);
                         var look = "";
                         jsonString = jsonString.Replace(null, "-");*/
                         //Console.WriteLine(json);
-                        Console.WriteLine("full thing >>>> " + json["personData"]["mobileno"]["nbr"]["value"]);
-                        Console.WriteLine("full thing >>>> " + json["personData"]["sex"]["desc"]);
-                        Console.WriteLine("full thing >>>> " + nullChecker(json["personData"]["marital"]["desc"].ToString()));
-                        Console.WriteLine("full thing >>>> " + json["personData"]["nationality"]["desc"]);
-                        Console.WriteLine("full thing >>>> " + json["personData"]["occupation"]["desc"]);
+                        
 
                         if (json["personData"]["marital"]["desc"].ToString() == "")
                         {
                             Console.WriteLine("BLEGH");
                         }
+                        var average = 0.0;
 
 
                         var cpf = json["personData"]["cpfcontributions"];
-
-                        var cpfAmount = cpf["history"] as JArray;
-                        var count = 0;
-                        var amount = 0.0;
-                        var math = "";
-                        var average = 0.0;
-                        foreach (var i in cpfAmount)
+                        try
                         {
-                            if (Double.Parse(i["amount"]["value"].ToString()) == 0 && count == 0)
+                            var cpfAmount = cpf["history"] as JArray;
+                            var count = 0;
+                            var amount = 0.0;
+                            var math = "";
+                            foreach (var i in cpfAmount)
                             {
-                                break;
-                            }
-                            else
-                            {
-                                amount += Double.Parse(i["amount"]["value"].ToString());
-                                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>> amount in for loop " + i["amount"]["value"].ToString());
-                                math = math + i["amount"]["value"].ToString() + "+";
-                                count += 1;
+                                if (Double.Parse(i["amount"]["value"].ToString()) == 0 && count == 0)
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    amount += Double.Parse(i["amount"]["value"].ToString());
+                                    Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>> amount in for loop " + i["amount"]["value"].ToString());
+                                    math = math + i["amount"]["value"].ToString() + "+";
+                                    count += 1;
+                                    if (amount == 0 || math == "")
+                                    {
+                                        average = 0;
+                                    }
+                                    else
+                                    {
+                                        average =  amount / count;
+                                    }
+                                }
                             }
                         }
-                        if (amount == 0 || math == "")
+                        catch (Exception ex)
                         {
                             average = 0;
                         }
-                        else
+                        
+                        var test = json["personData"];
+                        var occType = "";
+                        var occupation = json["personData"]["occupation"].ToString();
+                        if (occupation.Contains("value"))
                         {
-                            average = amount / count;
+                            occType = json["personData"]["occupation"]["value"].ToString();
                         }
-                        var test = json["personData"]["name"]["value"].ToString();
+                        else if (occupation.Contains("desc"))
+                        {
+                            occType = json["personData"]["occupation"]["desc"].ToString();
+                        }
+                        
+                        int year = DateTime.Now.Year;
+                        int personYear = Int32.Parse(json["personData"]["dob"]["value"].ToString().Substring(0, 4));
+                        int age =  year - personYear;
+                        Console.WriteLine("::::::::::::: " + CrossDeviceInfo.Current.Id.ToString());
+                        Console.WriteLine("::::::::::::: "+json["personData"]["name"]["value"].ToString());
+                        Console.WriteLine("::::::::::::: " + json["personData"]["uinfin"]["value"].ToString());
+                        Console.WriteLine("::::::::::::: " + json["personData"]["mobileno"]["nbr"]["value"].ToString());
+                        Console.WriteLine("::::::::::::: " + json["personData"]["sex"]["desc"].ToString());
+                        Console.WriteLine("::::::::::::: " + age.ToString());
+                        Console.WriteLine("::::::::::::: " + json["personData"]["marital"]["desc"].ToString());
+                        Console.WriteLine("::::::::::::: " + json["personData"]["nationality"]["desc"].ToString());
+                        Console.WriteLine("::::::::::::: " + json["personData"]["cpfcontributions"]["history"].ToString());
+                        Console.WriteLine("::::::::::::: " + occType.ToString());
+                        Console.WriteLine("::::::::::::: " + average.ToString());
 
                         //EncryptStringToBytes_Aes(json["personData"]["name"]["value"].ToString());
-                        Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>",Key);
+                        
+
 
                         using (Aes myAes = Aes.Create())
                         {
 
                             var personValues = new Dictionary<string, string>
                       {
-                          { "phoneid", CrossDeviceInfo.Current.Id.ToString() },
-                          { "name", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["name"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "uinfin", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["uinfin"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "mobileno", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["mobileno"]["nbr"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "sex", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["sex"]["desc"].ToString(), myAes.Key, myAes.IV))+","+ Convert.ToBase64String(myAes.Key)+","+ Convert.ToBase64String(myAes.IV) },
-                          { "dob", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["dob"]["value"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "marital", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["marital"]["desc"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "nationality", Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["nationality"]["desc"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "occupation",Convert.ToBase64String(EncryptStringToBytes_Aes(json["personData"]["occupation"]["desc"].ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) },
-                          { "cpfcontributions", Convert.ToBase64String(EncryptStringToBytes_Aes(average.ToString(), myAes.Key, myAes.IV))+","+Convert.ToBase64String(myAes.Key)+","+Convert.ToBase64String(myAes.IV) }
-
+                          { "deviceid", CrossDeviceInfo.Current.Id.ToString() },
+                          { "name", EncryptStringToBytes_Aes(json["personData"]["name"]["value"].ToString()) },
+                          { "uinfin", EncryptStringToBytes_Aes(json["personData"]["uinfin"]["value"].ToString())},
+                          { "mobileno", EncryptStringToBytes_Aes(json["personData"]["mobileno"]["nbr"]["value"].ToString()) },
+                          { "sex", EncryptStringToBytes_Aes(json["personData"]["sex"]["desc"].ToString()) },
+                          { "dob", EncryptStringToBytes_Aes(age.ToString()) },
+                          { "marital", EncryptStringToBytes_Aes(json["personData"]["marital"]["desc"].ToString()) },
+                          { "nationality", EncryptStringToBytes_Aes(json["personData"]["nationality"]["desc"].ToString()) },
+                          { "occupation",EncryptStringToBytes_Aes(occType.ToString()) },
+                          { "cpfcontributions", EncryptStringToBytes_Aes(average.ToString())},
+                          { "cpfcontributionhistory", EncryptStringToBytes_Aes(json["personData"]["cpfcontributions"]["history"].ToString()) }
                             };
-                            
-
-
-
-
-
-
 
                         var personStringContent = new FormUrlEncodedContent(personValues);
                         HttpResponseMessage insertIntoPersonTable = await client.PostAsync(insertPersonData, personStringContent);
                         var personInfoResponseString = await insertIntoPersonTable.Content.ReadAsStringAsync();
-                        Uri getPersonInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertPersonInfo");
-                        HttpResponseMessage personInfoResponse = await client.GetAsync(getPersonInfo);
-                        string personContent = await personInfoResponse.Content.ReadAsStringAsync();
-                        JObject data = JObject.Parse(personContent);
-                        Console.WriteLine(">>>>>>>>>>>" + data);
+                        
+
+
+                            const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
+
+                            HttpResponseMessage personResponse = await client.GetAsync(getPerson);
+
+
+                            string receivedPersonContent = await personResponse.Content.ReadAsStringAsync();
+                            JObject receivedData = JObject.Parse(receivedPersonContent);
+                            var array = receivedData["result"] as JArray;
                         }
-                        ////////////////////////////////////////////////////
-
-
-
-
-                        /*
-                        BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-
-                        await database.DeleteAllPhoneInfoAsync();
-                        var count1 = await database.GetAllPhoneInfoAsync();
-                        Console.WriteLine(">>>> Here 1");
-                        await database.CheckDataAsync(newPhoneInfo);
-                        Console.WriteLine(">>>> Here 2");
-                        //await database.CheckDataAsync(newPhoneInfo);//<-----
-                        Console.WriteLine(">>>> Here 3");
-                        var count2 = await database.GetAllPhoneInfoAsync();
-                        Console.WriteLine(">>>> Here 4");
-                        await database.CheckDataAsync(newPhoneInfo);
-                        Console.WriteLine(">>>> Here 5");
-                        var count3 = await database.GetAllPhoneInfoAsync();
-                        */
+                        
                     }
                     catch (Exception ehdhfg)
                     {
@@ -300,45 +308,26 @@ namespace BTOAssistApp.Views
 
         }
 
-        public string nullChecker(string jsonObject)
-        {
-            if (jsonObject == "")
-            {
-                jsonObject = "!";
-            }
-            else
-            {
-                jsonObject = jsonObject + "!";
-            }
-            Console.WriteLine(jsonObject);
-            return jsonObject;
+        
 
-        }
-
-        static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
+        static string EncryptStringToBytes_Aes(string plainText)
         {
             // Check arguments.
-            
-
             if (plainText == "")
             {
-                plainText = "!";
+                plainText = "-";
             }
-            else
-            {
-                plainText = plainText + "!";
-            }
-
+            
+            
             byte[] encrypted;
-            Console.WriteLine("Key >>>>>>>>>>>>> "+ Convert.ToBase64String(Key));
-            Console.WriteLine("Key >>>>>>>>>>>>> " + Convert.ToBase64String(IV));
+            byte[] Key;
+            byte[] IV;
             // Create an Aes object
             // with the specified key and IV.
             using (Aes aesAlg = Aes.Create())
             {
-                aesAlg.Key = Key;
-                aesAlg.IV = IV;
-            
+                Key = aesAlg.Key;
+                IV = aesAlg.IV ;
                 // Create an encryptor to perform the stream transform.
                 ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
 
@@ -356,54 +345,11 @@ namespace BTOAssistApp.Views
                     }
                 }
             }
-
+            
             // Return the encrypted bytes from the memory stream.
-            return encrypted;
+            return Convert.ToBase64String(encrypted) + "," + Convert.ToBase64String(Key) + "," + Convert.ToBase64String(IV);
         }
-        /*
-        static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key, byte[] IV)
-        {
-            // Check arguments.
-            if (cipherText == null || cipherText.Length <= 0)
-                throw new ArgumentNullException("cipherText");
-            if (Key == null || Key.Length <= 0)
-                throw new ArgumentNullException("Key");
-            if (IV == null || IV.Length <= 0)
-                throw new ArgumentNullException("IV");
-
-            // Declare the string used to hold
-            // the decrypted text.
-            string plaintext = null;
-
-            // Create an Aes object
-            // with the specified key and IV.
-            using (Aes aesAlg = Aes.Create())
-            {
-                aesAlg.Key = Key;
-                aesAlg.IV = IV;
-
-                // Create a decryptor to perform the stream transform.
-                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
-
-                // Create the streams used for decryption.
-                using (MemoryStream msDecrypt = new MemoryStream(cipherText))
-                {
-                    using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
-                    {
-                        using (StreamReader srDecrypt = new StreamReader(csDecrypt))
-                        {
-
-                            // Read the decrypted bytes from the decrypting stream
-                            // and place them in a string.
-                            plaintext = srDecrypt.ReadToEnd();
-                        }
-                    }
-                }
-            }
-
-            return plaintext;
-        }
-        */
+        
         public Launch()
         {
 

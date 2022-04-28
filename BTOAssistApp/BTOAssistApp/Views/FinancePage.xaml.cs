@@ -53,6 +53,7 @@ namespace BTOAssistApp.Views
         {
             InitializeComponent();
             var deviceId = CrossDeviceInfo.Current.Id;
+            
             Task.Run(async () =>
             {
 
@@ -73,6 +74,7 @@ namespace BTOAssistApp.Views
                 Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
                 Trace.WriteLine("AccessToken: " + AccessToken);
             });
+            
         }
     }
 }

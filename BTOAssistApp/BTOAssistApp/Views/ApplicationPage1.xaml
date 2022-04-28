@@ -4,10 +4,15 @@
              x:Class="BTOAssistApp.Views.ApplicationPage1"
              Title="Fill Application">
     <ContentPage.Content>
-        <ScrollView>
+        
         <StackLayout>
+            <Shell.BackButtonBehavior>
+                <BackButtonBehavior Command="{Binding BackCommand}"/>
+            </Shell.BackButtonBehavior>
+            <ScrollView x:Name="scrollview1">
+            <StackLayout>
 
-                <StackLayout Margin="5,15,15,0" IsVisible="{Binding Page1Vis}">
+                <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page1Vis}" x:Name="page1height">
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
@@ -34,39 +39,39 @@
 
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black"/>
+                        <Entry Placeholder="Full Name" PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantName}" IsReadOnly="{Binding ApplicantNameRead}"/>
                     </Frame>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" >
-                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantNRIC}" IsReadOnly="{Binding ApplicantNRICRead}"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMobile}" IsReadOnly="{Binding ApplicantMobileRead}"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantGender}" IsReadOnly="{Binding ApplicantGenderRead}"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantAge}" IsReadOnly="{Binding ApplicantAgeRead}"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMarital}" IsReadOnly="{Binding ApplicantMaritalRead}"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCPF}" IsReadOnly="{Binding ApplicantCPFRead}"/>
                         </Frame>
 
                     </Grid>
@@ -74,13 +79,13 @@
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantOccupation}" IsReadOnly="{Binding ApplicantOccupationRead}"/>
                         </Frame>
 
                     </Grid>
                     <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
-                        <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black"/>
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" x:Name="textbox_height">
+                        <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCitizenship}" IsReadOnly="{Binding ApplicantCitizenshipRead}"/>
                     </Frame>
 
                     <Grid Margin="0,0,0,20" >
@@ -89,15 +94,17 @@
                             <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="1" Clicked="Button_Clicked"/>
                         </Frame>
                     </Grid>
+                    
                 </StackLayout>
+            
 <!--> ################################################### Page 2 ################################################################## <-->
-                <StackLayout Margin="30,40,40,0" IsVisible="{Binding Page2Vis}">
+                <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page2Vis}" x:Name="page2height">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Frame
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
-                    </Frame>
-                    <Frame
+                                <Button FontSize="25" HorizontalOptions="CenterAndExpand" Padding="1" VerticalOptions="CenterAndExpand" TextColor="White" Text="1" AutomationId="1" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
                         <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">2</Label>
                     </Frame>
@@ -118,39 +125,39 @@
 
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black"/>
+                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantName}" IsReadOnly="{Binding SubApplicantNameRead}" TextTransform="Uppercase"/>
                     </Frame>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" >
-                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantNRIC}" IsReadOnly="{Binding SubApplicantNRICRead}" TextTransform="Uppercase"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantMobile}" IsReadOnly="{Binding SubApplicantMobileRead}" Keyboard="Telephone"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantGender}" IsReadOnly="{Binding SubApplicantGenderRead}" TextTransform="Uppercase"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantAge}" IsReadOnly="{Binding SubApplicantAgeRead}" Keyboard="Numeric"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantMarital}" IsReadOnly="{Binding SubApplicantMaritalRead}" TextTransform="Uppercase"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantCPF}" IsReadOnly="{Binding SubApplicantCPFRead}" Keyboard="Numeric"/>
                         </Frame>
 
                     </Grid>
@@ -158,22 +165,31 @@
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantOccupation}" IsReadOnly="{Binding SubApplicantOccupationRead}" TextTransform="Uppercase"/>
                         </Frame>
 
                     </Grid>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
-                        <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantCitizenship}" IsReadOnly="{Binding SubApplicantCitizenshipRead}" TextTransform="Uppercase"/>
                     </Frame>
-                    <Grid Margin="0,0,0,20">
-                        <Frame
+                        <Grid Margin="0,0,0,20">
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Relationship With Applicant" PlaceholderColor="Gray" TextColor="Black"/>
-                        </Frame>
+                                <Entry Placeholder="Relationship With Applicant" PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantRelationship}" IsReadOnly="{Binding SubApplicantRelationshipRead}" TextTransform="Uppercase"/>
+                            </Frame>
+                        </Grid>
+                        <Grid Margin="0,0,0,20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
 
-                    </Grid>
-                    <Grid Margin="0,0,0,20" >
+                            <CheckBox Grid.Row="0" Grid.Column="0" AutomationId="page2store"/>
+                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0">Save this data for future reference?</Label>
+
+                        </Grid>
+                        <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
                             <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="2" Clicked="Button_Clicked"/>
@@ -182,17 +198,17 @@
                 </StackLayout>
             
             <!--> ################################################### Page 3 ################################################################## <-->
-                <StackLayout Margin="30,40,40,0" IsVisible="{Binding Page3Vis}">
+                <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page3Vis}">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Frame
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
-                    </Frame>
-                    <Frame
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="1" AutomationId="1" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">2</Label>
-                    </Frame>
-                    <Frame
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="2" AutomationId="2" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
                         <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">3</Label>
                     </Frame>
@@ -209,39 +225,39 @@
 
                 <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherName}" IsReadOnly="{Binding MotherNameRead}" TextTransform="Uppercase"/>
                 </Frame>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" >
-                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherNRIC}" IsReadOnly="{Binding MotherNRICRead}" TextTransform="Uppercase"/>
                     </Frame>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black"  Text="{Binding MotherMobile}" IsReadOnly="{Binding MotherMobileRead}" Keyboard="Telephone"/>
                     </Frame>
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Text="Female" IsReadOnly="true" BackgroundColor="#e0e0e0" PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Text="FEMALE" IsReadOnly="true" BackgroundColor="#e0e0e0" PlaceholderColor="Gray" TextColor="Black"/>
                     </Frame>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherAge}" IsReadOnly="{Binding MotherAgeRead}" Keyboard="Numeric"/>
                     </Frame>
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherMarital}" IsReadOnly="{Binding MotherMaritalRead}" TextTransform="Uppercase"/>
                     </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherCPF}" IsReadOnly="{Binding MotherCPFRead}" Keyboard="Numeric" />
                         </Frame>
                         
                 </Grid>
@@ -249,44 +265,55 @@
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherOccupation}" IsReadOnly="{Binding MotherOccupationRead}" TextTransform="Uppercase"/>
                     </Frame>
                         
                     </Grid>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
-                            <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherCitizenship}" IsReadOnly="{Binding MotherCitizenshipRead}" TextTransform="Uppercase"/>
                         </Frame>
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Editor Placeholder="Address" HeightRequest="85"  MaxLength="1800" AutoSize="TextChanges" PlaceholderColor="Gray" TextColor="Black"/>
+                                <Editor Placeholder="Address" HeightRequest="85"  MaxLength="1800" AutoSize="TextChanges" PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherAddress}" IsReadOnly="{Binding MotherAddressRead}" TextTransform="Uppercase"/>
                     </Frame>
                     
                 </Grid>
-                    <Grid Margin="0,0,0,20" >
-                        <Frame
+                        <Grid Margin="0,0,0,20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <CheckBox Grid.Row="0" Grid.Column="0" AutomationId="page3store"/>
+                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0">Save this data for future reference?</Label>
+
+                        </Grid>
+                        <Grid Margin="0,0,0,20" >
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
-                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="3" Clicked="Button_Clicked"/>
-                        </Frame>
-                    </Grid>
-            </StackLayout>
+                                <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="3" Clicked="Button_Clicked"/>
+                            </Frame>
+                        </Grid>
+
+                    </StackLayout>
             <!--> ################################################### Page 4 ################################################################## <-->
-                <StackLayout Margin="30,40,40,0" IsVisible="{Binding Page4Vis}">
+                <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page4Vis}">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Frame
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
-                    </Frame>
-                    <Frame
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="1" AutomationId="1" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">2</Label>
-                    </Frame>
-                    <Frame
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="2" AutomationId="2" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                        <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">3</Label>
-                    </Frame>
-                    <Frame
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="3" AutomationId="3" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
                         <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">4</Label>
                     </Frame>
@@ -299,67 +326,239 @@
 
                 <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                        <Entry Placeholder="Full Name" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Full Name" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherName}" IsReadOnly="{Binding FatherNameRead}" TextTransform="Uppercase"/>
                 </Frame>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="NRIC" IsReadOnly="false" PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="NRIC" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherNRIC}" IsReadOnly="{Binding FatherNRICRead}" TextTransform="Uppercase"/>
                     </Frame>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Mobile No." IsReadOnly="false" PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Mobile No." PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherMobile}" IsReadOnly="{Binding FatherMobileRead}" Keyboard="Telephone"/>
                     </Frame>
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0" BackgroundColor="#e0e0e0">
-                            <Entry Text="Male" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Text="MALE" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
                     </Frame>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Age" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                            <Entry Placeholder="Age" PlaceholderColor="Gray" TextColor="Black"  Text="{Binding FatherAge}" IsReadOnly="{Binding FatherAgeRead}"/>
                     </Frame>
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Marital Status" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Marital Status" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherMarital}" IsReadOnly="{Binding FatherMaritalRead}" TextTransform="Uppercase"/>
                     </Frame>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Citizenship" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
-                    </Frame>
+
+
+                                <Entry Placeholder="Monthly CPF" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherCPF}" IsReadOnly="{Binding FatherCPFRead}" Keyboard="Numeric"/>
+                            </Frame>
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Occupation" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
+                                <Entry Placeholder="Occupation" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherOccupation}" IsReadOnly="{Binding FatherOccupationRead}" TextTransform="Uppercase"/>
                     </Frame>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Monthly CPF" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
-                    </Frame>
+                                <Entry Placeholder="Citizenship" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherCitizenship}" IsReadOnly="{Binding FatherCitizenshipRead}" TextTransform="Uppercase"/>
+                            </Frame>
                 </Grid>
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Editor Placeholder="Address" IsReadOnly="true" HeightRequest="85"  MaxLength="1800" AutoSize="TextChanges" PlaceholderColor="Gray" TextColor="Black"/>
+                                <Editor Placeholder="Address" HeightRequest="85"  MaxLength="1800" AutoSize="TextChanges" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherAddress}" IsReadOnly="{Binding FatherAddressRead}" TextTransform="Uppercase"/>
                     </Frame>
                 </Grid>
-                    <Grid Margin="0,0,0,20" >
+                        <Grid Margin="0,0,0,20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <CheckBox Grid.Row="0" Grid.Column="0" AutomationId="page4store"/>
+                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0">Save this data for future reference?</Label>
+
+                        </Grid>
+                        <Grid Margin="0,0,0,20" >
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
                             <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="4" Clicked="Button_Clicked"/>
                         </Frame>
                     </Grid>
-                </StackLayout>
+                    </StackLayout>
+                    <!-->################################# Page 5 ######################################################################################<-->
+                    <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page5Vis}">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                            <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="1" AutomationId="1" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
+               BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="2" AutomationId="2" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="3" AutomationId="3" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="4" AutomationId="4" Clicked="Button_Clicked2"/>
+                            </Frame>
+                            <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                                <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">5</Label>
+                            </Frame>
+                        </StackLayout>
+                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Particulars</Label>
+
+                        
+                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="ApplicantNameLabel" TextColor="Gray" FontSize="18"/>
+                        
+                        
+                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="ApplicantNRICLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="ApplicantGenderLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="Test" Margin="25,5,0,10" x:Name="ApplicantAgeLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantMobileLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantMaritalLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantOccupationLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantCitizenshipLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Monthly CPF" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantCPFLabel" TextColor="Gray" FontSize="18"/>
+
+
+                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Sub-Applicant's Particulars</Label>
+
+                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="SubApplicantNameLabel" TextColor="Gray" FontSize="18"/>
+
+
+                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="SubApplicantNRICLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="SubApplicantGenderLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="Test" Margin="25,5,0,10" x:Name="SubApplicantAgeLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantMobileLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantMaritalLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantOccupationLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantCitizenshipLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Monthly CPF" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantCPFLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Relationship with Applicant" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantRelationshipLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Mother Particulars</Label>
+
+                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="MotherNameLabel" TextColor="Gray" FontSize="18"/>
+
+
+                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="MotherNRICLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="MotherGenderLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="Test" Margin="25,5,0,10" x:Name="MotherAgeLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMobileLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMaritalLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherOccupationLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherAddressLabel" TextColor="Gray" FontSize="18"/>
+
+
+                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Father Particulars</Label>
+
+                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="FatherNameLabel" TextColor="Gray" FontSize="18"/>
+
+
+                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="FatherNRICLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Margin="25,5,0,10" x:Name="FatherGenderLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="Test" Margin="25,5,0,10" x:Name="FatherAgeLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMobileLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMaritalLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherOccupationLabel" TextColor="Gray" FontSize="18"/>
+
+                        <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherAddressLabel" TextColor="Gray" FontSize="18"/>
+
+
+                        <Grid Margin="0,0,0,20" >
+                            <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+                                <Button BorderColor="DarkRed" CornerRadius="5" Text ="Proceed to Payment" TextColor="White" AutomationId="5" Clicked="Button_Clicked"/>
+                            </Frame>
+                        </Grid>
+                        
+                    </StackLayout>
+
+                    <StackLayout Margin="30,20,40,0" IsVisible="{Binding WebGrid}">
+                        <Frame>
+                            <WebView  x:Name="PaymentRedirect" Source="https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session"  Navigating="paymentNavigating"/>
+                        </Frame>
+                    </StackLayout>
             
         </StackLayout>
         </ScrollView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
