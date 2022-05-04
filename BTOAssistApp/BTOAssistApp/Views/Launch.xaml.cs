@@ -113,22 +113,7 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(ErrorMsg)); // Notify that there was a change on this property
             }
         }
-        //async void OnLogin(object sender, EventArgs args)
-        //{
-        //    /*await Task.Delay(1000);
-        //    WebView webView = new WebView();
-        //    webView.WidthRequest = 50000;
-        //    webView.HeightRequest = 50000;
-        //    webView.IsVisible = true;
-        //    //webView.Source = "https://sandbox.api.myinfo.gov.sg/com/v3/authorise?client_id=STG2-MYINFO-SELF-TEST&attributes=uinfin,name,sex,race,nationality,dob,email,mobileno,regadd,housingtype,hdbtype,marital,edulevel,noa-basic,ownerprivate,cpfcontributions,cpfbalances&purpose=demonstrating MyInfo APIs&state=123&redirect_uri=http://localhost:3001/callback";
-        //    webView.Source = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/#";
-
-        //    Test.Children.Add(webView);*/
-        //    //await Shell.Current.GoToAsync("//HomePage");
-
-        //}
-
-
+       
 
 
         void webviewNavigating(object sender, WebNavigatedEventArgs e)

@@ -97,6 +97,9 @@
     <FlyoutItem Title="Check CPF">
         <ShellContent Route="CPFPage" ContentTemplate="{DataTemplate local:CPFPage}" />
     </FlyoutItem>
+    <FlyoutItem Title="Check BTO Progess">
+        <ShellContent Route="BTOProcessPage" ContentTemplate="{DataTemplate local:BTOProcessPage}" />
+    </FlyoutItem>
 
 
     <!--

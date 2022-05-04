@@ -4,15 +4,23 @@
              x:Class="BTOAssistApp.Views.ApplicationPage1"
              Title="Fill Application">
     <ContentPage.Content>
-        
-        <StackLayout>
-            <Shell.BackButtonBehavior>
-                <BackButtonBehavior Command="{Binding BackCommand}"/>
-            </Shell.BackButtonBehavior>
-            <ScrollView x:Name="scrollview1">
-            <StackLayout>
+        <Grid>
 
-                <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page1Vis}" x:Name="page1height">
+
+                
+
+                <!-- Place your layouts and controls here, for example-->
+
+
+
+            <StackLayout>
+                <Shell.BackButtonBehavior>
+                    <BackButtonBehavior Command="{Binding BackCommand}"/>
+                </Shell.BackButtonBehavior>
+                <ScrollView x:Name="scrollview1">
+                    <StackLayout>
+
+                        <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page1Vis}" x:Name="page1height">
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
@@ -96,9 +104,9 @@
                     </Grid>
                     
                 </StackLayout>
-            
-<!--> ################################################### Page 2 ################################################################## <-->
-                <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page2Vis}" x:Name="page2height">
+
+                        <!--> ################################################### Page 2 ################################################################## <-->
+                        <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page2Vis}" x:Name="page2height">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                             <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
@@ -185,8 +193,8 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
 
-                            <CheckBox Grid.Row="0" Grid.Column="0" AutomationId="page2store"/>
-                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0">Save this data for future reference?</Label>
+                            <CheckBox Grid.Row="0" Grid.Column="0" x:Name="page2store"/>
+                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0" TextColor="Black">Save this data for future reference?</Label>
 
                         </Grid>
                         <Grid Margin="0,0,0,20">
@@ -196,9 +204,9 @@
                         </Frame>
                     </Grid>
                 </StackLayout>
-            
-            <!--> ################################################### Page 3 ################################################################## <-->
-                <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page3Vis}">
+
+                        <!--> ################################################### Page 3 ################################################################## <-->
+                        <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page3Vis}">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                             <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
@@ -286,8 +294,8 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
 
-                            <CheckBox Grid.Row="0" Grid.Column="0" AutomationId="page3store"/>
-                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0">Save this data for future reference?</Label>
+                                <CheckBox Grid.Row="0" Grid.Column="0" x:Name="page3store"/>
+                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0" TextColor="Black">Save this data for future reference?</Label>
 
                         </Grid>
                         <Grid Margin="0,0,0,20" >
@@ -298,8 +306,8 @@
                         </Grid>
 
                     </StackLayout>
-            <!--> ################################################### Page 4 ################################################################## <-->
-                <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page4Vis}">
+                        <!--> ################################################### Page 4 ################################################################## <-->
+                        <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page4Vis}">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                             <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
@@ -386,8 +394,8 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
 
-                            <CheckBox Grid.Row="0" Grid.Column="0" AutomationId="page4store"/>
-                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0">Save this data for future reference?</Label>
+                                <CheckBox Grid.Row="0" Grid.Column="0" x:Name="page4store"/>
+                            <Label FontSize="18" Grid.Row="0" Grid.Column="1" Padding="0,3,0,0" Margin="0" TextColor="Black">Save this data for future reference?</Label>
 
                         </Grid>
                         <Grid Margin="0,0,0,20" >
@@ -397,168 +405,165 @@
                         </Frame>
                     </Grid>
                     </StackLayout>
-                    <!-->################################# Page 5 ######################################################################################<-->
-                    <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page5Vis}">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                            <Frame
+                        <!-->################################# Page 5 ######################################################################################<-->
+                        <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page5Vis}">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="1" AutomationId="1" Clicked="Button_Clicked2"/>
-                            </Frame>
-                            <Frame
+                                    <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="1" AutomationId="1" Clicked="Button_Clicked2"/>
+                                </Frame>
+                                <Frame
                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="2" AutomationId="2" Clicked="Button_Clicked2"/>
-                            </Frame>
-                            <Frame
+                                    <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="2" AutomationId="2" Clicked="Button_Clicked2"/>
+                                </Frame>
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="3" AutomationId="3" Clicked="Button_Clicked2"/>
-                            </Frame>
-                            <Frame
+                                    <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="3" AutomationId="3" Clicked="Button_Clicked2"/>
+                                </Frame>
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                                <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="4" AutomationId="4" Clicked="Button_Clicked2"/>
-                            </Frame>
-                            <Frame
+                                    <Button FontSize="25" Padding="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" Text="4" AutomationId="4" Clicked="Button_Clicked2"/>
+                                </Frame>
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
-                                <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">5</Label>
-                            </Frame>
-                        </StackLayout>
-                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Particulars</Label>
-
-                        
-                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="ApplicantNameLabel" TextColor="Gray" FontSize="18"/>
-                        
-                        
-                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="ApplicantNRICLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="ApplicantGenderLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="Test" Margin="25,5,0,10" x:Name="ApplicantAgeLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantMobileLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantMaritalLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantOccupationLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantCitizenshipLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Monthly CPF" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantCPFLabel" TextColor="Gray" FontSize="18"/>
+                                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">5</Label>
+                                </Frame>
+                            </StackLayout>
+                            <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Particulars</Label>
 
 
-                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Sub-Applicant's Particulars</Label>
-
-                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="SubApplicantNameLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="ApplicantNameLabel" TextColor="Gray" FontSize="18"/>
 
 
-                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="SubApplicantNRICLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="ApplicantNRICLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="SubApplicantGenderLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="ApplicantGenderLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="Test" Margin="25,5,0,10" x:Name="SubApplicantAgeLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="Test" Margin="25,5,0,10" x:Name="ApplicantAgeLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantMobileLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantMobileLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantMaritalLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantMaritalLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantOccupationLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantOccupationLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantCitizenshipLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantCitizenshipLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Monthly CPF" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantCPFLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Relationship with Applicant" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantRelationshipLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Mother Particulars</Label>
-
-                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="MotherNameLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Monthly CPF" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="ApplicantCPFLabel" TextColor="Gray" FontSize="18"/>
 
 
-                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="MotherNRICLabel" TextColor="Gray" FontSize="18"/>
+                            <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Sub-Applicant's Particulars</Label>
 
-                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="MotherGenderLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="Test" Margin="25,5,0,10" x:Name="MotherAgeLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMobileLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMaritalLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherOccupationLabel" TextColor="Gray" FontSize="18"/>
-
-                        <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherAddressLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="SubApplicantNameLabel" TextColor="Gray" FontSize="18"/>
 
 
-                        <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Father Particulars</Label>
+                            <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="SubApplicantNRICLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="FatherNameLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="SubApplicantGenderLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="Test" Margin="25,5,0,10" x:Name="SubApplicantAgeLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantMobileLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantMaritalLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantOccupationLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantCitizenshipLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Monthly CPF" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantCPFLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Relationship with Applicant" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="SubApplicantRelationshipLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Mother Particulars</Label>
+
+                            <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="MotherNameLabel" TextColor="Gray" FontSize="18"/>
 
 
-                        <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="FatherNRICLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="MotherNRICLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Margin="25,5,0,10" x:Name="FatherGenderLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="MotherGenderLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="Test" Margin="25,5,0,10" x:Name="FatherAgeLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="Test" Margin="25,5,0,10" x:Name="MotherAgeLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMobileLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMobileLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMaritalLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMaritalLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherOccupationLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherOccupationLabel" TextColor="Gray" FontSize="18"/>
 
-                        <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                        <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherAddressLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherAddressLabel" TextColor="Gray" FontSize="18"/>
 
 
-                        <Grid Margin="0,0,0,20" >
-                            <Frame
+                            <Label FontSize="22" Margin="0,10,0,10" TextColor="Gray">Applicant's Father Particulars</Label>
+
+                            <Label Text="Full Name" Margin="15,10,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="FatherNameLabel" TextColor="Gray" FontSize="18"/>
+
+
+                            <Label Text="NRIC" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="FatherNRICLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Gender" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Margin="25,5,0,10" x:Name="FatherGenderLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Age" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="Test" Margin="25,5,0,10" x:Name="FatherAgeLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Mobile Number" Margin="15,25,0,0" TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMobileLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMaritalLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherOccupationLabel" TextColor="Gray" FontSize="18"/>
+
+                            <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherAddressLabel" TextColor="Gray" FontSize="18"/>
+
+
+                            <Grid Margin="0,0,0,20" >
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
-                                <Button BorderColor="DarkRed" CornerRadius="5" Text ="Proceed to Payment" TextColor="White" AutomationId="5" Clicked="Button_Clicked"/>
-                            </Frame>
-                        </Grid>
-                        
-                    </StackLayout>
+                                    <Button BorderColor="DarkRed" CornerRadius="5" Text ="Proceed to Payment" TextColor="White" AutomationId="5" Clicked="Button_Clicked"/>
+                                </Frame>
+                            </Grid>
 
-                    <StackLayout Margin="30,20,40,0" IsVisible="{Binding WebGrid}">
-                        <Frame>
-                            <WebView  x:Name="PaymentRedirect" Source="https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session"  Navigating="paymentNavigating"/>
-                        </Frame>
+                        </StackLayout>
                     </StackLayout>
-            
-        </StackLayout>
-        </ScrollView>
-        </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            <Grid IsVisible="{Binding WebGrid}">
+                <WebView  x:Name="SingpassRedirect" Source="{Binding Source}" Navigating ="paymentNavigating" />
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

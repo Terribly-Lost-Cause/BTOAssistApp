@@ -110,6 +110,8 @@ namespace BTOAssistApp.Views
         private string fatheraddress;
         private string fatheraddressread;
         private string webgrid;
+        private string source;
+
         public ICommand BackCommand { get; private set; }
 
 
@@ -205,6 +207,15 @@ namespace BTOAssistApp.Views
             {
                 webgrid = value;
                 OnPropertyChanged(nameof(WebGrid)); // Notify that there was a change on this property
+            }
+        }
+        public string Source
+        {
+            get { return source; }
+            set
+            {
+                source = value;
+                OnPropertyChanged(nameof(Source)); // Notify that there was a change on this property
             }
         }
         public string ApplicantName
@@ -879,10 +890,21 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(FatherAddressRead)); // Notify that there was a change on this property
             }
         }
+
+
+        /**/
         public ApplicationPage1(string id)
         {
             InitializeComponent();
-            WebGrid = "false";
+            const string paymentRoute = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session";
+            var paymentValues = new Dictionary<string, string>
+                      {
+                          { "id", id},
+
+                      };
+            var url = new Uri(QueryHelpers.AddQueryString(paymentRoute, paymentValues));
+            //var stringContent = new FormUrlEncodedContent(values);
+            Source = url.ToString();
             Console.WriteLine(id);
             Shell.SetBackButtonBehavior(this, new BackButtonBehavior()
             {
@@ -903,31 +925,10 @@ namespace BTOAssistApp.Views
             Task.Run(async () =>
         {
 
-            BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            //await database.DeleteAllPhoneInfoAsync();
-            PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
-            List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
-
-            foreach (var i in allPhoneInfo)
-            {
-                Trace.WriteLine("deviceID: " + i.deviceID);
-                Trace.WriteLine("appPageAccessToken: " + i.accessToken);
-            }
-            DevID = BTODataDetails.deviceID;
-            Sub = BTODataDetails.sub;
-            AccessToken = BTODataDetails.accessToken;
-            Trace.WriteLine(">>>>>>>>>>>>> Sub:" + Sub);
-            Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
-            Trace.WriteLine("AccessToken: " + AccessToken);
-
-            //const string url = "https://customer-information.azure-api.net/customers/search/taxnbr";
-            //var param = new Dictionary<string, string>() { { "CIKey", "123456789" } };
-
 
             client = new HttpClient();
 
-            //string code = "code";
-            //const string getToken = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/testRoute/";
+            
             const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
             Console.WriteLine(">>>>>>>>>>>>>>>>>>CrossDeviceInfo.Current.Id.ToString()>>>>>>>>>>>>> "+CrossDeviceInfo.Current.Id.ToString());
             var personValues = new Dictionary<string, string>
@@ -936,12 +937,10 @@ namespace BTOAssistApp.Views
 
                       };
             var newUrl = new Uri(QueryHelpers.AddQueryString(getPerson, personValues));
-            //var stringContent = new FormUrlEncodedContent(values);
 
 
             HttpResponseMessage personResponse = await client.GetAsync(newUrl);
 
-            //string str = "te";
             string personContent = await personResponse.Content.ReadAsStringAsync();
             JObject data = JObject.Parse(personContent);
             var array = data["result"] as JArray;
@@ -974,8 +973,7 @@ namespace BTOAssistApp.Views
                 }
                 
             }
-            var test2 = DecryptStringFromBytes_Aes(Convert.FromBase64String(array[0]["uinfin"].ToString().Split(',')[0]), Convert.FromBase64String(array[0]["name"].ToString().Split(',')[1]), Convert.FromBase64String(array[0]["name"].ToString().Split(',')[2]));
-
+            
 
 
 
@@ -1181,6 +1179,7 @@ namespace BTOAssistApp.Views
             Page3Vis = "false";
             Page4Vis = "false";
             Page5Vis = "false";
+            WebGrid = "false";
 
         }
          
@@ -1224,7 +1223,7 @@ namespace BTOAssistApp.Views
                     Page4Vis = "false";
                     Page5Vis = "true";
                     WebGrid = "false";
-
+                    
                     ApplicantNameLabel.Text = ApplicantName;
                     ApplicantNRICLabel.Text = ApplicantNRIC;
                     ApplicantGenderLabel.Text = ApplicantGender;
@@ -1260,6 +1259,11 @@ namespace BTOAssistApp.Views
                     FatherMaritalLabel.Text = FatherMarital;
                     FatherOccupationLabel.Text = FatherOccupation;
                     FatherAddressLabel.Text = FatherAddress;
+                    
+
+                    /*var DetailsSaver = (CheckBox)sender;
+                    var subAppDetailsSaver = DetailsSaver.AutomationId;
+                    subAppDetailsSaver.*/
                     break;
                 case 5:
                     Page1Vis = "false";
@@ -1267,24 +1271,175 @@ namespace BTOAssistApp.Views
                     Page3Vis = "false";
                     Page4Vis = "false";
                     Page5Vis = "false";
+
+                    var subAppIsChecked = false;
+                    var motherIsChecked = false;
+                    var fatherIsChecked = false;
+                    if (page2store.IsChecked == true)
+                    {
+                        subAppIsChecked = true;
+                        Console.WriteLine("sub applicant data stored");
+                    }
+                    if (page3store.IsChecked == true)
+                    {
+                        motherIsChecked = true;
+                        Console.WriteLine("mother data stored");
+                    }
+                    if (page4store.IsChecked == true)
+                    {
+                        fatherIsChecked = true;
+                        Console.WriteLine("father data stored");
+                    }
+                    client = new HttpClient();
+                    
+                    Uri saveParticularInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/saveApplicantFamilyParticulars");
+                    Task.Run(async () =>
+                    {
+                        using (Aes myAes = Aes.Create())
+                        {
+                            var values = new Dictionary<string, string>
+                      {
+                          { "subAppIsChecked", subAppIsChecked.ToString() },
+
+                          { "SubApplicantName", EncryptStringToBytes_Aes(SubApplicantName.ToString()) },
+                         { "SubApplicantNRIC", EncryptStringToBytes_Aes(SubApplicantNRIC.ToString()) },
+                          { "SubApplicantGender", EncryptStringToBytes_Aes(SubApplicantGender.ToString()) },
+                          { "SubApplicantAge", EncryptStringToBytes_Aes(SubApplicantAge.ToString()) },
+                          { "SubApplicantMobile", EncryptStringToBytes_Aes(SubApplicantMobile.ToString()) },
+                          { "SubApplicantMarital", EncryptStringToBytes_Aes(SubApplicantMarital.ToString()) },
+                          { "SubApplicantOccupation", EncryptStringToBytes_Aes(SubApplicantOccupation.ToString()) },
+                          { "SubApplicantCitizenship", EncryptStringToBytes_Aes(SubApplicantCitizenship.ToString()) },
+                          { "SubApplicantCPF", EncryptStringToBytes_Aes(SubApplicantCPF.ToString()) },
+                          { "SubApplicantRelationship", EncryptStringToBytes_Aes(SubApplicantRelationship.ToString()) },
+
+                          { "motherIsChecked", motherIsChecked.ToString() },
+
+                          { "MotherName", EncryptStringToBytes_Aes(MotherName.ToString()) },
+                            { "MotherNRIC", EncryptStringToBytes_Aes(MotherNRIC.ToString()) },
+                            { "MotherGender", EncryptStringToBytes_Aes("FEMALE") },
+                            { "MotherAge", EncryptStringToBytes_Aes(MotherAge.ToString()) },
+                            { "MotherMobile", EncryptStringToBytes_Aes(MotherMobile.ToString()) },
+                            { "MotherMarital", EncryptStringToBytes_Aes(MotherMarital.ToString()) },
+                            { "MotherOccupation", EncryptStringToBytes_Aes(MotherOccupation.ToString()) },
+                            { "MotherAddress", EncryptStringToBytes_Aes(MotherAddress.ToString()) },
+
+
+                        { "fatherIsChecked", fatherIsChecked.ToString()},
+                        { "FatherName", EncryptStringToBytes_Aes(FatherName.ToString()) },
+                            { "FatherNRIC", EncryptStringToBytes_Aes(FatherNRIC.ToString()) },
+                            { "FatherGender", EncryptStringToBytes_Aes("MALE") },
+                            { "FatherAge", EncryptStringToBytes_Aes(FatherAge.ToString()) },
+                            { "FatherMobile", EncryptStringToBytes_Aes(FatherMobile.ToString()) },
+                            { "FatherMarital", EncryptStringToBytes_Aes(FatherMarital.ToString()) },
+                            { "FatherOccupation", EncryptStringToBytes_Aes(FatherOccupation.ToString()) },
+                            { "FatherAddress", EncryptStringToBytes_Aes(FatherAddress.ToString()) }
+
+                      };
+                            var saveParticularInfoStringContent = new FormUrlEncodedContent(values);
+                            HttpResponseMessage insertIntoPersonTable = await client.PostAsync(saveParticularInfo, saveParticularInfoStringContent);
+                        }
+                    });
+
+                    
+
                     WebGrid = "true";
+                    
                     break;
             }
+
+            
         }
 
-      
 
+        static string EncryptStringToBytes_Aes(string plainText)
+        {
+            // Check arguments.
+            if (plainText == "")
+            {
+                plainText = "-";
+            }
+
+
+            byte[] encrypted;
+            byte[] Key;
+            byte[] IV;
+            // Create an Aes object
+            // with the specified key and IV.
+            using (Aes aesAlg = Aes.Create())
+            {
+                Key = aesAlg.Key;
+                IV = aesAlg.IV;
+                // Create an encryptor to perform the stream transform.
+                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+                // Create the streams used for encryption.
+                using (MemoryStream msEncrypt = new MemoryStream())
+                {
+                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                    {
+                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
+                        {
+                            //Write all data to the stream.
+                            swEncrypt.Write(plainText);
+                        }
+                        encrypted = msEncrypt.ToArray();
+                    }
+                }
+            }
+
+            // Return the encrypted bytes from the memory stream.
+            return Convert.ToBase64String(encrypted) + "," + Convert.ToBase64String(Key) + "," + Convert.ToBase64String(IV);
+        }
 
 
         void paymentNavigating(object sender, WebNavigatedEventArgs e)
         {
-
-            //WebView paymentWebView = new WebView();
-
-            //string url = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session";
-            //string postData = "";
             var paymentURL = e.Url;
-            Console.WriteLine(">>>>>>>>>>>>>>> " + paymentURL);
+
+            /*if (e.Url.Contains("success.html"))
+            {
+                
+                WebGrid = "false";
+                client = new HttpClient();
+                Task.Run(async () =>
+                {
+
+                    //string code = "code";
+                    const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
+                    Console.WriteLine(">>>>>>>>>>>>>>>>>>CrossDeviceInfo.Current.Id.ToString()>>>>>>>>>>>>> " + CrossDeviceInfo.Current.Id.ToString());
+                    var personValues = new Dictionary<string, string>
+                      {
+                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()},
+
+                      };
+                    var newUrl = new Uri(QueryHelpers.AddQueryString(getPerson, personValues));
+                    //var stringContent = new FormUrlEncodedContent(values);
+
+
+                    HttpResponseMessage personResponse = await client.GetAsync(newUrl);
+
+                    //string str = "te";
+                    string personContent = await personResponse.Content.ReadAsStringAsync();
+                    JObject data = JObject.Parse(personContent);
+                    var array = data["result"] as JArray;
+                    Console.WriteLine(array);
+                });
+
+                Shell.Current.GoToAsync("//BTOProcessPage");
+
+
+            }
+            else if (e.Url.Contains("cancel.html"))
+            {
+                WebGrid = "false";
+                Page5Vis = "true";
+                Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> " + e.Url);
+
+            }*/
+            Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> "+e.Url);
+
+            //Console.WriteLine(paymentURL);
+
         }
             private void Button_Clicked2(object sender, EventArgs e)
         {
@@ -1299,6 +1454,8 @@ namespace BTOAssistApp.Views
                     Page3Vis = "false";
                     Page4Vis = "false";
                     Page5Vis = "false";
+                    
+
                     break;
                 case 2:
                     Page1Vis = "false";
@@ -1306,6 +1463,7 @@ namespace BTOAssistApp.Views
                     Page3Vis = "false";
                     Page4Vis = "false";
                     Page5Vis = "false";
+                    
                     break;
                 case 3:
                     Page1Vis = "false";
@@ -1334,10 +1492,10 @@ namespace BTOAssistApp.Views
             return true;
         }
 
-        
+        private void SingpassRedirect_Navigating(object sender, WebNavigatingEventArgs e)
+        {
 
-
-
+        }
     }
 
     

@@ -11,6 +11,7 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
+            <StackLayout IsVisible="false">
             
             <Label Text="Target Amount:"
                    Margin="0,20,0,0"
@@ -38,16 +39,17 @@
                    FontAttributes="Bold"/>
                 
             </Grid>
-            <Grid>
+           </StackLayout>
+            <!--Grid>
                 <Picker x:Name="picker"
         Title="Select a year"
         TitleColor="Red"
                         SelectedIndexChanged="Picker_SelectedIndexChanged">
 
                 </Picker>
-            </Grid>
+            </Grid-->
             
-                <chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                <!--chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
 
                 <chart:SfChart.BindingContext>
                     <local:ViewModel/>
@@ -80,7 +82,19 @@
                         
                     </chart:ColumnSeries>
                 </chart:SfChart.Series>
-            </chart:SfChart>
+            </chart:SfChart-->
+            <StackLayout IsVisible="true" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="30,30,40,0">
+                <Image Source="uwu.gif" IsAnimationPlaying="True"/>
+                <Label Text="Access Denied" FontSize="30" TextColor="Red" HorizontalOptions="Center"/>
+                <Label Text="You have not applied for any BTO" FontSize="20" TextColor="Red" HorizontalOptions="EndAndExpand"/>
+
+                <Label Text="Redirecting you to home page in" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0" Padding="0">
+                    <Label Text="{Binding Countdown}" FontSize="15" TextColor="Black" Margin="0" Padding="0"/>
+                    <Label Text="{Binding Second}" FontSize="15" TextColor="Black" Margin="0" Padding="0"/>
+                </StackLayout>
+                
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

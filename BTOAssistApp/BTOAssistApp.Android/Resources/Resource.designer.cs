@@ -22607,6 +22607,9 @@ namespace BTOAssistApp.Droid
 			// aapt resource value: 0x7F0700BA
 			public const int train = 2131165370;
 			
+			// aapt resource value: 0x7F0700BB
+			public const int uwu = 2131165371;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

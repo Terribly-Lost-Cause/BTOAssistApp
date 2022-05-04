@@ -27,17 +27,27 @@ namespace BTOAssistApp.Views
         private string cpfprogressring;
         private string cpfpercentage;
         private string currentcpf;
-        private string test;
-
+        private string second;
+        private string countdown;
         HttpClient client;
 
-        public string Test
+        public string Countdown
         {
-            get { return test; }
+            get { return countdown; }
             set
             {
-                test = value;
-                OnPropertyChanged(nameof(Test)); // Notify that there was a change on this property
+                countdown = value;
+                OnPropertyChanged(nameof(Countdown)); // Notify that there was a change on this property
+            }
+        }
+
+        public string Second
+        {
+            get { return second; }
+            set
+            {
+                second = value;
+                OnPropertyChanged(nameof(Second)); // Notify that there was a change on this property
             }
         }
 
@@ -144,7 +154,7 @@ namespace BTOAssistApp.Views
                             }
                             List<string> hList = dateArray.ToList();
 
-                            picker.ItemsSource = hList;
+                            //picker.ItemsSource = hList;
 
 
                             dateArray.ToList<String>().ForEach(x => Console.WriteLine(x));
@@ -159,20 +169,59 @@ namespace BTOAssistApp.Views
 
                 }
             });
-
-            //Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NjIzMzA0QDMyMzAyZTMxMmUzMEhoeWRZcVZQdmowMXVwU3lGMjA0YXhzUFVCdkdyMDlvMFhNcHRpMW9nVmc9");
+           
         }
 
 
         protected override async void OnAppearing()
         {
-            
-          client = new HttpClient();
+
+            var counter = 5;
+            var stat = true;
+            Second = "Seconds";
+            Countdown = counter.ToString();
+            BindingContext = this;
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            {
+                if (counter != 1)
+                {
+                    Console.WriteLine("HERE AGAIN");
+                    counter -= 1;
+                    Countdown = counter.ToString();
+
+                    if (counter == 1)
+                    {
+                        Second = "Second";
+                    }
+                    else
+                    {
+                        Second = "Seconds";
+                    }
+                    stat = true;
+                    BindingContext = this;
+                }
+                else
+                {
+                    stat = false;
+                    Shell.Current.GoToAsync("//HomePage");
+                }
+                return stat;
+            });
+
+
+
+
+
+
+
+
+
+
+            client = new HttpClient();
             BindingContext = this;
             double downpayment = 0.0;
             await Task.Run(async () =>
             {
-                test = "REEEEEEEEEEEEEEEEEEEEEEEEEEEE";
                 const string getBTO = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getAppliedBTOinfo";
 
                 var BTOValues = new Dictionary<string, string>
@@ -189,6 +238,9 @@ namespace BTOAssistApp.Views
                 
                 JObject btodata = JObject.Parse(BTOContent);
                 var btoarray = btodata["result"] as JArray;
+
+                Console.WriteLine(btoarray.Count);
+
                 var license = btodata["key"].ToString();
                 
                 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(license.ToString());
@@ -254,7 +306,6 @@ namespace BTOAssistApp.Views
                 
 
             }
-
         }
         
         
