@@ -111,14 +111,22 @@ namespace BTOAssistApp.Views
         private string fatheraddressread;
         private string webgrid;
         private string source;
-
+        private string webpageid;
         public ICommand BackCommand { get; private set; }
 
 
 
         HttpClient client;
 
-
+        public string WebPageID
+        {
+            get { return webpageid; }
+            set
+            {
+                webpageid = value;
+                OnPropertyChanged(nameof(WebPageID)); // Notify that there was a change on this property
+            }
+        }
         public string Page1Vis
         {
             get { return page1vis; }
@@ -890,12 +898,15 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(FatherAddressRead)); // Notify that there was a change on this property
             }
         }
-
+         
 
         /**/
         public ApplicationPage1(string id)
         {
             InitializeComponent();
+
+            WebPageID = id;
+
             const string paymentRoute = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session";
             var paymentValues = new Dictionary<string, string>
                       {
@@ -1185,7 +1196,7 @@ namespace BTOAssistApp.Views
          
 
 
-        private void Button_Clicked(object sender, EventArgs e)
+        async private void Button_Clicked(object sender, EventArgs e)
         {
             var BTOPage = (Button)sender;
             int id = Convert.ToInt32(BTOPage.AutomationId);
@@ -1249,15 +1260,15 @@ namespace BTOAssistApp.Views
                     MotherAgeLabel.Text = MotherAge;
                     MotherMobileLabel.Text = MotherMobile;
                     MotherMaritalLabel.Text = MotherMarital;
-                    MotherOccupationLabel.Text = MotherOccupation;
-                    MotherAddressLabel.Text = MotherAddress;
+                    MotherCitizenshipLabel.Text = MotherOccupation;
+                    MotherAddressLabel.Text = MotherCitizenship;
                     FatherNameLabel.Text = FatherName;
                     FatherNRICLabel.Text = FatherNRIC;
                     FatherGenderLabel.Text = "MALE";
                     FatherAgeLabel.Text = FatherAge;
                     FatherMobileLabel.Text = FatherMobile;
                     FatherMaritalLabel.Text = FatherMarital;
-                    FatherOccupationLabel.Text = FatherOccupation;
+                    FatherCitizenshipLabel.Text = FatherCitizenship;
                     FatherAddressLabel.Text = FatherAddress;
                     
 
@@ -1271,76 +1282,59 @@ namespace BTOAssistApp.Views
                     Page3Vis = "false";
                     Page4Vis = "false";
                     Page5Vis = "false";
+                    Console.WriteLine(ApplicantNRIC.ToString());
+                    if(SubApplicantMarital.ToString() == null)
+                    {
+                        Console.WriteLine("yeap, it's null");
+                    }
+                    Console.WriteLine(SubApplicantMarital.ToString());
+                    await Task.Run(async () =>
+                    {
 
-                    var subAppIsChecked = false;
-                    var motherIsChecked = false;
-                    var fatherIsChecked = false;
-                    if (page2store.IsChecked == true)
-                    {
-                        subAppIsChecked = true;
-                        Console.WriteLine("sub applicant data stored");
-                    }
-                    if (page3store.IsChecked == true)
-                    {
-                        motherIsChecked = true;
-                        Console.WriteLine("mother data stored");
-                    }
-                    if (page4store.IsChecked == true)
-                    {
-                        fatherIsChecked = true;
-                        Console.WriteLine("father data stored");
-                    }
-                    client = new HttpClient();
-                    
-                    Uri saveParticularInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/saveApplicantFamilyParticulars");
-                    Task.Run(async () =>
-                    {
-                        using (Aes myAes = Aes.Create())
+                        var values = new Dictionary<string, string> { };
+                        values.Add("deviceid", CrossDeviceInfo.Current.Id.ToString());
+                        values.Add("uinfin", ApplicantNRIC.ToString());
+
+                        if (page2store.IsChecked == true)
                         {
-                            var values = new Dictionary<string, string>
-                      {
-                          { "subAppIsChecked", subAppIsChecked.ToString() },
-
-                          { "SubApplicantName", EncryptStringToBytes_Aes(SubApplicantName.ToString()) },
-                         { "SubApplicantNRIC", EncryptStringToBytes_Aes(SubApplicantNRIC.ToString()) },
-                          { "SubApplicantGender", EncryptStringToBytes_Aes(SubApplicantGender.ToString()) },
-                          { "SubApplicantAge", EncryptStringToBytes_Aes(SubApplicantAge.ToString()) },
-                          { "SubApplicantMobile", EncryptStringToBytes_Aes(SubApplicantMobile.ToString()) },
-                          { "SubApplicantMarital", EncryptStringToBytes_Aes(SubApplicantMarital.ToString()) },
-                          { "SubApplicantOccupation", EncryptStringToBytes_Aes(SubApplicantOccupation.ToString()) },
-                          { "SubApplicantCitizenship", EncryptStringToBytes_Aes(SubApplicantCitizenship.ToString()) },
-                          { "SubApplicantCPF", EncryptStringToBytes_Aes(SubApplicantCPF.ToString()) },
-                          { "SubApplicantRelationship", EncryptStringToBytes_Aes(SubApplicantRelationship.ToString()) },
-
-                          { "motherIsChecked", motherIsChecked.ToString() },
-
-                          { "MotherName", EncryptStringToBytes_Aes(MotherName.ToString()) },
-                            { "MotherNRIC", EncryptStringToBytes_Aes(MotherNRIC.ToString()) },
-                            { "MotherGender", EncryptStringToBytes_Aes("FEMALE") },
-                            { "MotherAge", EncryptStringToBytes_Aes(MotherAge.ToString()) },
-                            { "MotherMobile", EncryptStringToBytes_Aes(MotherMobile.ToString()) },
-                            { "MotherMarital", EncryptStringToBytes_Aes(MotherMarital.ToString()) },
-                            { "MotherOccupation", EncryptStringToBytes_Aes(MotherOccupation.ToString()) },
-                            { "MotherAddress", EncryptStringToBytes_Aes(MotherAddress.ToString()) },
-
-
-                        { "fatherIsChecked", fatherIsChecked.ToString()},
-                        { "FatherName", EncryptStringToBytes_Aes(FatherName.ToString()) },
-                            { "FatherNRIC", EncryptStringToBytes_Aes(FatherNRIC.ToString()) },
-                            { "FatherGender", EncryptStringToBytes_Aes("MALE") },
-                            { "FatherAge", EncryptStringToBytes_Aes(FatherAge.ToString()) },
-                            { "FatherMobile", EncryptStringToBytes_Aes(FatherMobile.ToString()) },
-                            { "FatherMarital", EncryptStringToBytes_Aes(FatherMarital.ToString()) },
-                            { "FatherOccupation", EncryptStringToBytes_Aes(FatherOccupation.ToString()) },
-                            { "FatherAddress", EncryptStringToBytes_Aes(FatherAddress.ToString()) }
-
-                      };
-                            var saveParticularInfoStringContent = new FormUrlEncodedContent(values);
-                            HttpResponseMessage insertIntoPersonTable = await client.PostAsync(saveParticularInfo, saveParticularInfoStringContent);
+                            values.Add("subname", EncryptStringToBytes_Aes(SubApplicantName.ToString()));
+                            values.Add("subuinfin", EncryptStringToBytes_Aes(SubApplicantNRIC.ToString()));
+                            values.Add("subsex", EncryptStringToBytes_Aes(SubApplicantGender.ToString()));
+                            values.Add("subdob", EncryptStringToBytes_Aes(SubApplicantAge.ToString()));
+                            values.Add("submobileno", EncryptStringToBytes_Aes(SubApplicantMobile.ToString()));
+                            values.Add("submarital", EncryptStringToBytes_Aes(SubApplicantMarital.ToString()));
+                            values.Add("suboccupation", EncryptStringToBytes_Aes(SubApplicantOccupation.ToString()));
+                            values.Add("subnationality", EncryptStringToBytes_Aes(SubApplicantCitizenship.ToString()));
+                            values.Add("subcpfcontributions", EncryptStringToBytes_Aes(SubApplicantCPF.ToString()));
+                            values.Add("relationship", EncryptStringToBytes_Aes(SubApplicantRelationship.ToString()));
                         }
-                    });
+                        if (page3store.IsChecked == true)
+                        {
+                            values.Add("mothername", EncryptStringToBytes_Aes(MotherName.ToString()));
+                            values.Add("motheruinfin ", EncryptStringToBytes_Aes(MotherNRIC.ToString()));
+                            values.Add("motherdob", EncryptStringToBytes_Aes(MotherAge.ToString()));
+                            values.Add("mothermobileno", EncryptStringToBytes_Aes(MotherMobile.ToString()));
+                            values.Add("mothermarital ", EncryptStringToBytes_Aes(MotherMarital.ToString()));
+                            values.Add("mothernationality", EncryptStringToBytes_Aes(MotherCitizenship.ToString()));
+                            values.Add("motheraddress", EncryptStringToBytes_Aes(MotherAddress.ToString()));
+                        }
+                        if (page4store.IsChecked == true)
+                        {
+                            values.Add("fathername", EncryptStringToBytes_Aes(FatherName.ToString()));
+                            values.Add("fatheruinfin ", EncryptStringToBytes_Aes(FatherNRIC.ToString()));
+                            values.Add("fatherdob", EncryptStringToBytes_Aes(FatherAge.ToString()));
+                            values.Add("fathermobileno", EncryptStringToBytes_Aes(FatherMobile.ToString()));
+                            values.Add("fathermarital ", EncryptStringToBytes_Aes(FatherMarital.ToString()));
+                            values.Add("fathernationality", EncryptStringToBytes_Aes(FatherCitizenship.ToString()));
+                            values.Add("fatheraddress", EncryptStringToBytes_Aes(FatherAddress.ToString()));
+                        }
 
-                    
+                        client = new HttpClient();
+                        Uri saveParticularInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/saveApplicantFamilyParticulars");
+                        var saveParticularInfoStringContent = new FormUrlEncodedContent(values);
+                        HttpResponseMessage insertIntoPersonTable = await client.PostAsync(saveParticularInfo, saveParticularInfoStringContent);
+                        var personInfoResponseString = await insertIntoPersonTable.Content.ReadAsStringAsync();
+                    });
 
                     WebGrid = "true";
                     
@@ -1359,7 +1353,7 @@ namespace BTOAssistApp.Views
                 plainText = "-";
             }
 
-
+            Console.WriteLine(plainText);
             byte[] encrypted;
             byte[] Key;
             byte[] IV;
@@ -1392,11 +1386,11 @@ namespace BTOAssistApp.Views
         }
 
 
-        void paymentNavigating(object sender, WebNavigatedEventArgs e)
+        async void paymentNavigating(object sender, WebNavigatedEventArgs e)
         {
             var paymentURL = e.Url;
 
-            /*if (e.Url.Contains("success.html"))
+            if (e.Url.Contains("success.html"))
             {
                 
                 WebGrid = "false";
@@ -1405,25 +1399,21 @@ namespace BTOAssistApp.Views
                 {
 
                     //string code = "code";
-                    const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
-                    Console.WriteLine(">>>>>>>>>>>>>>>>>>CrossDeviceInfo.Current.Id.ToString()>>>>>>>>>>>>> " + CrossDeviceInfo.Current.Id.ToString());
-                    var personValues = new Dictionary<string, string>
+                    const string appliedBTO = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/insertAppliedBTOinfo";
+                    var appliedBTOValues = new Dictionary<string, string>
                       {
-                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()},
+                        {"deviceid", CrossDeviceInfo.Current.Id.ToString() },
+                        { "uinfin", EncryptStringToBytes_Aes(ApplicantNRIC.ToString()) },
+                    { "btoid", EncryptStringToBytes_Aes(WebPageID.ToString())}
 
                       };
-                    var newUrl = new Uri(QueryHelpers.AddQueryString(getPerson, personValues));
-                    //var stringContent = new FormUrlEncodedContent(values);
-
-
-                    HttpResponseMessage personResponse = await client.GetAsync(newUrl);
-
-                    //string str = "te";
-                    string personContent = await personResponse.Content.ReadAsStringAsync();
-                    JObject data = JObject.Parse(personContent);
-                    var array = data["result"] as JArray;
-                    Console.WriteLine(array);
+                    var appliedBTOContent = new FormUrlEncodedContent(appliedBTOValues);
+                    HttpResponseMessage insertIntoAppliedBTO = await client.PostAsync(appliedBTO, appliedBTOContent);
+                    var appliedBTOResponseString = await insertIntoAppliedBTO.Content.ReadAsStringAsync();
                 });
+
+                await Navigation.PopAsync();
+                await Navigation.PopAsync();
 
                 Shell.Current.GoToAsync("//BTOProcessPage");
 
@@ -1434,8 +1424,17 @@ namespace BTOAssistApp.Views
                 WebGrid = "false";
                 Page5Vis = "true";
                 Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> " + e.Url);
+                Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> " + WebPageID.ToString());
+                const string paymentRoute = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session";
+                var paymentValues = new Dictionary<string, string>
+                      {
+                          { "id", WebPageID.ToString()},
 
-            }*/
+                      };
+                var url = new Uri(QueryHelpers.AddQueryString(paymentRoute, paymentValues));
+                //var stringContent = new FormUrlEncodedContent(values);
+                Source = url.ToString();
+            }
             Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> "+e.Url);
 
             //Console.WriteLine(paymentURL);

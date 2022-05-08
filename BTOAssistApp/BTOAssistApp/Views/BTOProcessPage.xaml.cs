@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.WebUtilities;
+using Newtonsoft.Json.Linq;
 using Plugin.DeviceInfo;
 using System;
 using System.Collections.Generic;
@@ -39,8 +40,53 @@ namespace BTOAssistApp.Views
         private string step7areacolor;
         private string step7textcolor;
 
+        private string btoprocessvisibity;
+        private string errorpagevisibility;
+        private string second;
+        private string countdown;
+
         HttpClient client;
 
+
+        public string Countdown
+        {
+            get { return countdown; }
+            set
+            {
+                countdown = value;
+                OnPropertyChanged(nameof(Countdown)); // Notify that there was a change on this property
+            }
+        }
+
+        public string Second
+        {
+            get { return second; }
+            set
+            {
+                second = value;
+                OnPropertyChanged(nameof(Second)); // Notify that there was a change on this property
+            }
+        }
+
+        public string BTOProcessVisability
+        {
+            get { return btoprocessvisibity; }
+            set
+            {
+                btoprocessvisibity = value;
+                OnPropertyChanged(nameof(BTOProcessVisability)); // Notify that there was a change on this property
+            }
+        }
+
+        public string ErrorPageVisability
+        {
+            get { return errorpagevisibility; }
+            set
+            {
+                errorpagevisibility = value;
+                OnPropertyChanged(nameof(ErrorPageVisability)); // Notify that there was a change on this property
+            }
+        }
         public string Step2NumberColor
         {
             get { return step2numbercolor; }
@@ -212,47 +258,295 @@ namespace BTOAssistApp.Views
         public BTOProcessPage()
         {
             InitializeComponent();
-
-            Step2NumberColor = "#0C8188";
-            Step2AreaColor = "#FAFFFF";
-            Step2TextColor = "#707070";
-
-            Step3NumberColor = "#0C8188";
-            Step3AreaColor = "#FAFFFF";
-            Step3TextColor = "#707070";
-
-            Step4NumberColor = "#0C8188";
-            Step4AreaColor = "#FAFFFF";
-            Step4TextColor = "#707070";
-
-            Step5NumberColor = "#0C8188";
-            Step5AreaColor = "#FAFFFF";
-            Step5TextColor = "#707070";
-
-            Step6NumberColor = "#0C8188";
-            Step6AreaColor = "#FAFFFF";
-            Step6TextColor = "#707070";
-
-            Step7NumberColor = "#0C8188";
-            Step7AreaColor = "#FAFFFF";
-            Step7TextColor = "#707070";
             BindingContext = this;
         }
 
         protected override async void OnAppearing()
         {
             HttpClient client = new HttpClient();
+            await Task.Run(async () =>
+            {
+                const string getBTO = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getAppliedBTOinfo";
 
-            const string getnric = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/btoProgress";
+                var BTOValues = new Dictionary<string, string>
+                      {
+                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
+
+                      };
+                var newGetBTOUrl = new Uri(QueryHelpers.AddQueryString(getBTO, BTOValues));
+                //var stringContent = new FormUrlEncodedContent(values);
+
+
+                HttpResponseMessage BTOResponse = await client.GetAsync(newGetBTOUrl);
+                string BTOContent = await BTOResponse.Content.ReadAsStringAsync();
+
+                JObject btodata = JObject.Parse(BTOContent);
+                var btoarray = btodata["resultForCPFPage"] as JArray;
+
+
+                var license = btodata["key"].ToString();
+
+                var results = btodata["resultForCPFPage"];
+
+
+                if (results.ToString() == "0")
+                {
+                    ErrorPageVisability = "true";
+                    BTOProcessVisability = "false";
+                    var counter = 5;
+                    var stat = true;
+                    Second = "Seconds";
+                    Countdown = counter.ToString();
+                    BindingContext = this;
+                    Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+                    {
+                        if (counter != 1)
+                        {
+                            Console.WriteLine("HERE AGAIN");
+                            counter -= 1;
+                            Countdown = counter.ToString();
+
+                            if (counter == 1)
+                            {
+                                Second = "Second";
+                            }
+                            else
+                            {
+                                Second = "Seconds";
+                            }
+                            stat = true;
+                            BindingContext = this;
+                        }
+                        else
+                        {
+                            stat = false;
+                            Shell.Current.GoToAsync("//HomePage");
+                        }
+                        return stat;
+                    });
+                }
+                else
+                {
+                    ErrorPageVisability = "false";
+                    BTOProcessVisability = "true";
+                    int status = Int16.Parse(results[0]["status"].ToString());
+                    Console.WriteLine(status);
+                    Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>> "+status.GetType());
+                    switch (status)
+                    {
+                        case 1:
+                            Step2NumberColor = "#0C8188";
+                            Step2AreaColor = "#FAFFFF";
+                            Step2TextColor = "#707070";
+
+                            Step3NumberColor = "#0C8188";
+                            Step3AreaColor = "#FAFFFF";
+                            Step3TextColor = "#707070";
+
+                            Step4NumberColor = "#0C8188";
+                            Step4AreaColor = "#FAFFFF";
+                            Step4TextColor = "#707070";
+
+                            Step5NumberColor = "#0C8188";
+                            Step5AreaColor = "#FAFFFF";
+                            Step5TextColor = "#707070";
+
+                            Step6NumberColor = "#0C8188";
+                            Step6AreaColor = "#FAFFFF";
+                            Step6TextColor = "#707070";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+                            BindingContext = this;
+                            break;
+                        case 2:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "#0C8188";
+                            Step3AreaColor = "#FAFFFF";
+                            Step3TextColor = "#707070";
+
+                            Step4NumberColor = "#0C8188";
+                            Step4AreaColor = "#FAFFFF";
+                            Step4TextColor = "#707070";
+
+                            Step5NumberColor = "#0C8188";
+                            Step5AreaColor = "#FAFFFF";
+                            Step5TextColor = "#707070";
+
+                            Step6NumberColor = "#0C8188";
+                            Step6AreaColor = "#FAFFFF";
+                            Step6TextColor = "#707070";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+                            BindingContext = this;
+                            break;
+
+                        case 3:
+
+                            
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+                            
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#0C8188";
+                            Step3TextColor = "#0C8188";
+
+                            Step4NumberColor = "#0C8188";
+                            Step4AreaColor = "#FAFFFF";
+                            Step4TextColor = "#707070";
+
+                            Step5NumberColor = "#0C8188";
+                            Step5AreaColor = "#FAFFFF";
+                            Step5TextColor = "#707070";
+
+                            Step6NumberColor = "#0C8188";
+                            Step6AreaColor = "#FAFFFF";
+                            Step6TextColor = "#707070";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+                            BindingContext = this;
+
+                            break;
+
+                        case 4:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#0C8188";
+                            Step3TextColor = "#0C8188";
+
+                            Step4NumberColor = "white";
+                            Step4AreaColor = "#0C8188";
+                            Step4TextColor = "#0C8188";
+
+                            Step5NumberColor = "#0C8188";
+                            Step5AreaColor = "#FAFFFF";
+                            Step5TextColor = "#707070";
+
+                            Step6NumberColor = "#0C8188";
+                            Step6AreaColor = "#FAFFFF";
+                            Step6TextColor = "#707070";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+                            BindingContext = this;
+                            break;
+
+                        case 5:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#0C8188";
+                            Step3TextColor = "#0C8188";
+
+                            Step4NumberColor = "white";
+                            Step4AreaColor = "#0C8188";
+                            Step4TextColor = "#0C8188";
+
+                            Step5NumberColor = "white";
+                            Step5AreaColor = "#0C8188";
+                            Step5TextColor = "#0C8188";
+
+                            Step6NumberColor = "#0C8188";
+                            Step6AreaColor = "#FAFFFF";
+                            Step6TextColor = "#707070";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+                            BindingContext = this;
+                            break;
+
+                        case 6:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#0C8188";
+                            Step3TextColor = "#0C8188";
+
+                            Step4NumberColor = "white";
+                            Step4AreaColor = "#0C8188";
+                            Step4TextColor = "#0C8188";
+
+                            Step5NumberColor = "white";
+                            Step5AreaColor = "#0C8188";
+                            Step5TextColor = "#0C8188";
+
+                            Step6NumberColor = "white";
+                            Step6AreaColor = "#0C8188";
+                            Step6TextColor = "#0C8188";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+                            BindingContext = this;
+                            break;
+
+                        case 7:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#0C8188";
+                            Step3TextColor = "#0C8188";
+
+                            Step4NumberColor = "white";
+                            Step4AreaColor = "#0C8188";
+                            Step4TextColor = "#0C8188";
+
+                            Step5NumberColor = "white";
+                            Step5AreaColor = "#0C8188";
+                            Step5TextColor = "#0C8188";
+
+                            Step6NumberColor = "white";
+                            Step6AreaColor = "#0C8188";
+                            Step6TextColor = "#0C8188";
+
+                            Step7NumberColor = "white";
+                            Step7AreaColor = "#0C8188";
+                            Step7TextColor = "#0C8188";
+                            BindingContext = this;
+                            break;
+
+                        
+                    }
+                        
+                        
+
+
+                    
+                }
+            });
+            const string getnric = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getAppliedBTOinfo";
             var personValues = new Dictionary<string, string>
                       {
-                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()},
+                         { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
 
                       };
             var newUrl = new Uri(QueryHelpers.AddQueryString(getnric, personValues));
             Console.WriteLine(newUrl);
             HttpResponseMessage personResponse = await client.GetAsync(newUrl);
             string personContent = await personResponse.Content.ReadAsStringAsync();
+            Console.WriteLine(personContent);
+
+
         }
     }
 }

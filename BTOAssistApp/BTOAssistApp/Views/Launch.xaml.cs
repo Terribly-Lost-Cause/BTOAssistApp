@@ -247,6 +247,7 @@ namespace BTOAssistApp.Views
                         {
 
                             var personValues = new Dictionary<string, string>
+
                       {
                           { "deviceid", CrossDeviceInfo.Current.Id.ToString() },
                           { "name", EncryptStringToBytes_Aes(json["personData"]["name"]["value"].ToString()) },
@@ -267,14 +268,14 @@ namespace BTOAssistApp.Views
                         
 
 
-                            const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
+                            /*const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
 
                             HttpResponseMessage personResponse = await client.GetAsync(getPerson);
 
 
                             string receivedPersonContent = await personResponse.Content.ReadAsStringAsync();
                             JObject receivedData = JObject.Parse(receivedPersonContent);
-                            var array = receivedData["result"] as JArray;
+                            var array = receivedData["result"] as JArray;*/
                         }
                         
                     }

@@ -248,35 +248,19 @@
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
-                    <Frame
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Text="FEMALE" IsReadOnly="true" BackgroundColor="#e0e0e0" PlaceholderColor="Gray" TextColor="Black"/>
-                    </Frame>
-                    <Frame
+                                    <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherMarital}" IsReadOnly="{Binding MotherMaritalRead}" TextTransform="Uppercase"/>
+                                </Frame>
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
                                 <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherAge}" IsReadOnly="{Binding MotherAgeRead}" Keyboard="Numeric"/>
                     </Frame>
                 </Grid>
 
-                <Grid Margin="0,0,0,20">
-                    <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherMarital}" IsReadOnly="{Binding MotherMaritalRead}" TextTransform="Uppercase"/>
-                    </Frame>
-                        <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                                <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherCPF}" IsReadOnly="{Binding MotherCPFRead}" Keyboard="Numeric" />
-                        </Frame>
-                        
-                </Grid>
+                
 
-                <Grid Margin="0,0,0,20">
-                    <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherOccupation}" IsReadOnly="{Binding MotherOccupationRead}" TextTransform="Uppercase"/>
-                    </Frame>
-                        
-                    </Grid>
+                
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
                             <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding MotherCitizenship}" IsReadOnly="{Binding MotherCitizenshipRead}" TextTransform="Uppercase"/>
@@ -349,39 +333,23 @@
                 </Grid>
 
                 <Grid Margin="0,0,0,20">
-                    <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0" BackgroundColor="#e0e0e0">
-                            <Entry Text="MALE" IsReadOnly="true" PlaceholderColor="Gray" TextColor="Black"/>
-                    </Frame>
-                    <Frame
+                                <Frame
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
+                                    <Entry Placeholder="Marital Status" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherMarital}" IsReadOnly="{Binding FatherMaritalRead}" TextTransform="Uppercase"/>
+                                </Frame>
+                                <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Age" PlaceholderColor="Gray" TextColor="Black"  Text="{Binding FatherAge}" IsReadOnly="{Binding FatherAgeRead}"/>
+                                    <Entry Placeholder="Age" PlaceholderColor="Gray" TextColor="Black"  Text="{Binding FatherAge}" IsReadOnly="{Binding FatherAgeRead}" Keyboard="Telephone"/>
                     </Frame>
                 </Grid>
 
-                <Grid Margin="0,0,0,20">
-                    <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Marital Status" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherMarital}" IsReadOnly="{Binding FatherMaritalRead}" TextTransform="Uppercase"/>
-                    </Frame>
-                    <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                
 
-
-                                <Entry Placeholder="Monthly CPF" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherCPF}" IsReadOnly="{Binding FatherCPFRead}" Keyboard="Numeric"/>
-                            </Frame>
-                </Grid>
-
-                <Grid Margin="0,0,0,20">
+                    
                     <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Occupation" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherOccupation}" IsReadOnly="{Binding FatherOccupationRead}" TextTransform="Uppercase"/>
-                    </Frame>
-                    <Frame
-                BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
+                BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20">
                                 <Entry Placeholder="Citizenship" PlaceholderColor="Gray" TextColor="Black" Text="{Binding FatherCitizenship}" IsReadOnly="{Binding FatherCitizenshipRead}" TextTransform="Uppercase"/>
                             </Frame>
-                </Grid>
                 <Grid Margin="0,0,0,20">
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
@@ -516,7 +484,7 @@
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMaritalLabel" TextColor="Gray" FontSize="18"/>
 
                             <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherOccupationLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherCitizenshipLabel" TextColor="Gray" FontSize="18"/>
 
                             <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherAddressLabel" TextColor="Gray" FontSize="18"/>
@@ -544,7 +512,7 @@
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMaritalLabel" TextColor="Gray" FontSize="18"/>
 
                             <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
-                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherOccupationLabel" TextColor="Gray" FontSize="18"/>
+                            <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherCitizenshipLabel" TextColor="Gray" FontSize="18"/>
 
                             <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherAddressLabel" TextColor="Gray" FontSize="18"/>

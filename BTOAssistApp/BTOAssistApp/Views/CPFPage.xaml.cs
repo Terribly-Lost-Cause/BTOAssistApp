@@ -29,8 +29,30 @@ namespace BTOAssistApp.Views
         private string currentcpf;
         private string second;
         private string countdown;
+
+        private string cpfpagevisibity;
+        private string errorpagevisibility;
         HttpClient client;
 
+        public string CPFPageVisability
+        {
+            get { return cpfpagevisibity; }
+            set
+            {
+                cpfpagevisibity = value;
+                OnPropertyChanged(nameof(CPFPageVisability)); // Notify that there was a change on this property
+            }
+        }
+
+        public string ErrorPageVisability
+        {
+            get { return errorpagevisibility; }
+            set
+            {
+                errorpagevisibility = value;
+                OnPropertyChanged(nameof(ErrorPageVisability)); // Notify that there was a change on this property
+            }
+        }
         public string Countdown
         {
             get { return countdown; }
@@ -176,37 +198,7 @@ namespace BTOAssistApp.Views
         protected override async void OnAppearing()
         {
 
-            var counter = 5;
-            var stat = true;
-            Second = "Seconds";
-            Countdown = counter.ToString();
-            BindingContext = this;
-            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
-            {
-                if (counter != 1)
-                {
-                    Console.WriteLine("HERE AGAIN");
-                    counter -= 1;
-                    Countdown = counter.ToString();
-
-                    if (counter == 1)
-                    {
-                        Second = "Second";
-                    }
-                    else
-                    {
-                        Second = "Seconds";
-                    }
-                    stat = true;
-                    BindingContext = this;
-                }
-                else
-                {
-                    stat = false;
-                    Shell.Current.GoToAsync("//HomePage");
-                }
-                return stat;
-            });
+             
 
 
 
@@ -226,7 +218,7 @@ namespace BTOAssistApp.Views
 
                 var BTOValues = new Dictionary<string, string>
                       {
-                          { "uinfin", "S3100052A"},
+                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
 
                       };
                 var newGetBTOUrl = new Uri(QueryHelpers.AddQueryString(getBTO, BTOValues));
@@ -237,21 +229,61 @@ namespace BTOAssistApp.Views
                 string BTOContent = await BTOResponse.Content.ReadAsStringAsync();
                 
                 JObject btodata = JObject.Parse(BTOContent);
-                var btoarray = btodata["result"] as JArray;
+                var btoarray = btodata["resultForCPFPage"] as JArray;
 
-                Console.WriteLine(btoarray.Count);
 
                 var license = btodata["key"].ToString();
-                
-                Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(license.ToString());
+
+                var results = btodata["resultForBTOStatusPage"];
+
+
+                if(results.ToString() == "0")
+                {
+                    ErrorPageVisability = "true";
+                    CPFPageVisability = "false";
+                    var counter = 5;
+                    var stat = true;
+                    Second = "Seconds";
+                    Countdown = counter.ToString();
+                    BindingContext = this;
+                    Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+                    {
+                        if (counter != 1)
+                        {
+                            Console.WriteLine("HERE AGAIN");
+                            counter -= 1;
+                            Countdown = counter.ToString();
+
+                            if (counter == 1)
+                            {
+                                Second = "Second";
+                            }
+                            else
+                            {
+                                Second = "Seconds";
+                            }
+                            stat = true;
+                            BindingContext = this;
+                        }
+                        else
+                        {
+                            stat = false;
+                            Shell.Current.GoToAsync("//HomePage");
+                        }
+                        return stat;
+                    });
+                }
+                else
+                {
+                    ErrorPageVisability = "false";
+                    CPFPageVisability = "true";
+                    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(license.ToString());
                 bool isValid = SyncfusionLicenseProvider.ValidateLicense(Syncfusion.Licensing.Platform.Xamarin);
                 Console.WriteLine(isValid.ToString());
-                downpayment = double.Parse(btoarray[0]["downpayment"].ToString());
-                CPFAmount = "$"+ btoarray[0]["downpayment"].ToString();
-                Console.WriteLine("array  " + btoarray[0]["downpayment"]);
-                
-            });
-            ///////////////////////////
+                downpayment = double.Parse(results[0]["downpayment"].ToString());
+                CPFAmount = "$"+ results[0]["downpayment"].ToString();
+                Console.WriteLine("array  " + results[0]["downpayment"]);
+                            ///////////////////////////
             const string getPerson = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getPersonInfo";
             Console.WriteLine(">>>>>>>>>>>>>>>>>>CrossDeviceInfo.Current.Id.ToString()>>>>>>>>>>>>> " + CrossDeviceInfo.Current.Id.ToString());
             var personValues = new Dictionary<string, string>
@@ -306,6 +338,11 @@ namespace BTOAssistApp.Views
                 
 
             }
+                }
+
+                
+            });
+
         }
         
         

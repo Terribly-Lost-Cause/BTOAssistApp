@@ -64,7 +64,6 @@ namespace BTOAssistApp.Data
             string text;
             text = "echo hello";
             System.Diagnostics.Process.Start("CMD.exe", text);
-            string strCmdText;
 
             string rootpath = "C:"+"/"+"Users"+"/"+"ASUS"+"/"+"Desktop";
             Console.WriteLine(rootpath);
