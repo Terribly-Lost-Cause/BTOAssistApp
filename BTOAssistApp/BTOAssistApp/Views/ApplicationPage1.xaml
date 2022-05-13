@@ -23,26 +23,30 @@
                         <StackLayout Margin="30,20,40,0" IsVisible="{Binding Page1Vis}" x:Name="page1height">
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Frame
-                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45" BackgroundColor="DarkRed">
+                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="43" WidthRequest="45" BackgroundColor="DarkRed">
                     <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White">1</Label>
                 </Frame>
                 <Frame
-                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="43" WidthRequest="45">
                             <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">2</Label>
                 </Frame>
                 <Frame
-                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="43" WidthRequest="45">
                             <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">3</Label>
                 </Frame>
                 <Frame
-                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
                             <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">4</Label>
                 </Frame>
                 <Frame
-                BorderColor="DarkRed" CornerRadius="30" Margin="10,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
                             <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">5</Label>
                 </Frame>
-            </StackLayout>
+                                <Frame
+                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
+                                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">6</Label>
+                                </Frame>
+                            </StackLayout>
                     <Label FontSize="25" FontAttributes="Bold" TextColor="Black">Applicant's Particular</Label>
 
                     <Frame
@@ -92,12 +96,12 @@
                         </Frame>
 
                     </Grid>
-                    <Frame
+                            <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" x:Name="textbox_height">
                                 <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCitizenship}" IsReadOnly="{Binding ApplicantCitizenshipRead}" AutomationId="CheckCitizenship" />
-                    </Frame>
-
-                    <Grid Margin="0,0,0,20" >
+                            </Frame>
+                            
+                            <Grid Margin="0,0,0,20" >
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
                             <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="1" Clicked="Button_Clicked" />
