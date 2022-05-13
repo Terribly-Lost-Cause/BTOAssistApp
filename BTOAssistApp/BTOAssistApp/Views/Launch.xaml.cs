@@ -138,6 +138,8 @@ namespace BTOAssistApp.Views
                 Task.Run(async () =>
                 {
                     //string code = "code";
+
+                    var testcode = authCode[0];
                     Trace.WriteLine("authCode[0] " + authCode[0]);
                     //string parametersJson = JsonConvert.SerializeObject(new { coded = "authCode[0].ToString()" });
                     //string json = JsonConvert.SerializeObject(new { "PropertyA" = obj.PropertyA });
@@ -152,7 +154,7 @@ namespace BTOAssistApp.Views
                     try
                     {
                         HttpResponseMessage response = await client.PostAsync(getToken, stringContent);
-                        //string str = "" + response.Content.ToString() + " : " + response.StatusCode;
+                        //^^^^^string str = "" + response.Content.ToString() + " : " + response.StatusCode;
                         var responseString = await response.Content.ReadAsStringAsync();
                         string content = await response.Content.ReadAsStringAsync();
                         Trace.WriteLine("content: " + content.ToString());
@@ -301,6 +303,7 @@ namespace BTOAssistApp.Views
             // Check arguments.
             if (plainText == "")
             {
+                Console.WriteLine("IT'S EMPTY");
                 plainText = "-";
             }
             

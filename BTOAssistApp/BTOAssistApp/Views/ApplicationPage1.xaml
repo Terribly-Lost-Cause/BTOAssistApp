@@ -47,39 +47,40 @@
 
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                        <Entry Placeholder="Full Name" PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantName}" IsReadOnly="{Binding ApplicantNameRead}"/>
+                                <Entry Placeholder="Full Name" PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantName}" IsReadOnly="{Binding ApplicantNameRead}"  AutomationId="CheckName"  />
                     </Frame>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" >
-                            <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantNRIC}" IsReadOnly="{Binding ApplicantNRICRead}"/>
+                                    <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantNRIC}" IsReadOnly="{Binding ApplicantNRICRead}"   AutomationId="CheckNRIC" />
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMobile}" IsReadOnly="{Binding ApplicantMobileRead}"/>
+                                    <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMobile}" IsReadOnly="{Binding ApplicantMobileRead}" AutomationId="CheckMobile"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantGender}" IsReadOnly="{Binding ApplicantGenderRead}"/>
-                        </Frame>
+                                    <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantGender}" IsReadOnly="{Binding ApplicantGenderRead}" AutomationId="CheckGender" />
+                            
+                                </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantAge}" IsReadOnly="{Binding ApplicantAgeRead}"/>
+                                    <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantAge}" IsReadOnly="{Binding ApplicantAgeRead}" AutomationId="CheckAge"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMarital}" IsReadOnly="{Binding ApplicantMaritalRead}"/>
+                                    <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMarital}" IsReadOnly="{Binding ApplicantMaritalRead}" TextChanged="OnTextChanged" AutomationId="CheckMarital" />
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCPF}" IsReadOnly="{Binding ApplicantCPFRead}"/>
+                                    <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCPF}" IsReadOnly="{Binding ApplicantCPFRead}" AutomationId="CheckCPF" />
                         </Frame>
 
                     </Grid>
@@ -87,25 +88,25 @@
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                            <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantOccupation}" IsReadOnly="{Binding ApplicantOccupationRead}"/>
+                                    <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantOccupation}" IsReadOnly="{Binding ApplicantOccupationRead}" AutomationId="CheckOccupation" />
                         </Frame>
 
                     </Grid>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" x:Name="textbox_height">
-                        <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCitizenship}" IsReadOnly="{Binding ApplicantCitizenshipRead}"/>
+                                <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCitizenship}" IsReadOnly="{Binding ApplicantCitizenshipRead}" AutomationId="CheckCitizenship" />
                     </Frame>
 
                     <Grid Margin="0,0,0,20" >
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
-                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="1" Clicked="Button_Clicked"/>
+                            <Button BorderColor="DarkRed" CornerRadius="5" Text ="Next Page" TextColor="White" AutomationId="1" Clicked="Button_Clicked" />
                         </Frame>
                     </Grid>
                     
                 </StackLayout>
 
-                        <!--> ################################################### Page 2 ################################################################## <-->
+                        <!--> ################################################### Page 2 ##################################################################IsEnabled="{Binding EnableBtn1}" <-->
                         <StackLayout Margin="30,30,40,0" IsVisible="{Binding Page2Vis}" x:Name="page2height">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                             <Frame
@@ -133,39 +134,39 @@
 
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                        <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantName}" IsReadOnly="{Binding SubApplicantNameRead}" TextTransform="Uppercase"/>
+                                <Entry Placeholder="Full Name"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantName}" IsReadOnly="{Binding SubApplicantNameRead}" TextTransform="Uppercase"  />
                     </Frame>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" >
-                                <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantNRIC}" IsReadOnly="{Binding SubApplicantNRICRead}" TextTransform="Uppercase"/>
+                                    <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantNRIC}" IsReadOnly="{Binding SubApplicantNRICRead}" TextTransform="Uppercase"  />
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                            <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantMobile}" IsReadOnly="{Binding SubApplicantMobileRead}" Keyboard="Telephone"/>
+                                    <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantMobile}" IsReadOnly="{Binding SubApplicantMobileRead}" Keyboard="Telephone"  />
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantGender}" IsReadOnly="{Binding SubApplicantGenderRead}" TextTransform="Uppercase"/>
+                                    <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantGender}" IsReadOnly="{Binding SubApplicantGenderRead}" TextTransform="Uppercase"  />
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                                <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantAge}" IsReadOnly="{Binding SubApplicantAgeRead}" Keyboard="Numeric"/>
+                                    <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantAge}" IsReadOnly="{Binding SubApplicantAgeRead}" Keyboard="Numeric"  />
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantMarital}" IsReadOnly="{Binding SubApplicantMaritalRead}" TextTransform="Uppercase"/>
+                                    <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantMarital}" IsReadOnly="{Binding SubApplicantMaritalRead}" TextTransform="Uppercase" />
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                                <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantCPF}" IsReadOnly="{Binding SubApplicantCPFRead}" Keyboard="Numeric"/>
+                                    <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantCPF}" IsReadOnly="{Binding SubApplicantCPFRead}" Keyboard="Numeric" />
                         </Frame>
 
                     </Grid>
@@ -173,18 +174,18 @@
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantOccupation}" IsReadOnly="{Binding SubApplicantOccupationRead}" TextTransform="Uppercase"/>
+                                    <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantOccupation}" IsReadOnly="{Binding SubApplicantOccupationRead}" TextTransform="Uppercase" />
                         </Frame>
 
                     </Grid>
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" >
-                            <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantCitizenship}" IsReadOnly="{Binding SubApplicantCitizenshipRead}" TextTransform="Uppercase"/>
+                                <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantCitizenship}" IsReadOnly="{Binding SubApplicantCitizenshipRead}" TextTransform="Uppercase" />
                     </Frame>
                         <Grid Margin="0,0,0,20">
                             <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                <Entry Placeholder="Relationship With Applicant" PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantRelationship}" IsReadOnly="{Binding SubApplicantRelationshipRead}" TextTransform="Uppercase"/>
+                                    <Entry Placeholder="Relationship With Applicant" PlaceholderColor="Gray" TextColor="Black" Text="{Binding SubApplicantRelationship}" IsReadOnly="{Binding SubApplicantRelationshipRead}" TextTransform="Uppercase" />
                             </Frame>
                         </Grid>
                         <Grid Margin="0,0,0,20">

@@ -114,23 +114,11 @@ namespace BTOAssistApp.Views
         public List<CPFHistory> Data { get; set; }
         Dictionary<string, double> cpfRecords = new Dictionary<string, double>();
 
-        private void uwutest(int uwu)
-        {
-            Data = new List<CPFHistory>()
-            {
-
-            };
-            if (uwu == 1)
-            {
-                Data.Add(new CPFHistory("11111", 111111));
-            }
-            else if (uwu == 2)
-            {
-                Data.Add(new CPFHistory("22222", 22222222));
-            }
-        }
+        
         public CPFPage()
         {
+            CPFPageVisability = "False";
+            ErrorPageVisability = "False";
             InitializeComponent();
             
             Task.Run(async () =>
@@ -477,7 +465,6 @@ namespace BTOAssistApp.Views
                                 {
                                     BindingContext = null;
                                     Console.WriteLine("SEEEEMEEEEE "+ _picker.SelectedIndex);
-                                    uwutest(1);
                                     BindingContext = this;
 
                                     /*var amount = item.GetValue("amount");
@@ -494,7 +481,6 @@ namespace BTOAssistApp.Views
                                 {
                                     BindingContext = null;
                                     Console.WriteLine("SEEEEMEEEEE " + _picker.SelectedIndex);
-                                    uwutest(2);
                                     BindingContext = this;
                                 }
 

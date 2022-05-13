@@ -2,6 +2,7 @@
 using BTOAssistApp.Models;
 using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json.Linq;
+using Plugin.DeviceInfo;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -34,8 +35,39 @@ namespace BTOAssistApp.Views
         private double downpayment;
         private double fullpayment;
         private string test;
-
+        private string btntext;
+        private string btnenabled;
+        private string warningmsg;
         HttpClient client = new HttpClient();
+
+        public string WarningMsg
+        {
+            get { return warningmsg; }
+            set
+            {
+                warningmsg = value;
+                OnPropertyChanged(nameof(WarningMsg)); // Notify that there was a change on this property
+            }
+        }
+
+        public string BtnText
+        {
+            get { return btntext; }
+            set
+            {
+                btntext = value;
+                OnPropertyChanged(nameof(BtnText)); // Notify that there was a change on this property
+            }
+        }
+        public string EnableBtn
+        {
+            get { return btnenabled; }
+            set
+            {
+                btnenabled = value;
+                OnPropertyChanged(nameof(EnableBtn)); // Notify that there was a change on this property
+            }
+        }
 
         public string Test
         {
@@ -182,6 +214,7 @@ namespace BTOAssistApp.Views
 
         public BTODetail(string id)
         {
+            WarningMsg = "False";
             InitializeComponent();
 
             BTOId = id;
@@ -190,21 +223,80 @@ namespace BTOAssistApp.Views
             {
                 BTOAssistDatabase database = await BTOAssistDatabase.Instance;
                 List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
+            });
 
-                foreach (var i in allPhoneInfo)
-                {
-                    Trace.WriteLine("homePageDeviceID: " + i.deviceID);
-                    Trace.WriteLine("homePageAccessToken: " + i.accessToken);
-                }
+            Shell.SetBackButtonBehavior(this, new BackButtonBehavior()
+            {
+                Command = new Command(async () => {
+
+                    Device.BeginInvokeOnMainThread(async () => {
+                        var homepage = new HomePage();
+                        await Navigation.PopToRootAsync();
+                        await Shell.Current.GoToAsync("//HomePage");
+                    });
+                })
             });
 
         }
+        protected async void GetLink()
+        {
+            HttpClient client = new HttpClient();
+            await Task.Run(async () =>
+            {
+                const string getBTO = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getAppliedBTOinfo";
 
+                var BTOValues = new Dictionary<string, string>
+                      {
+                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
+
+                      };
+                var newGetBTOUrl = new Uri(QueryHelpers.AddQueryString(getBTO, BTOValues));
+                //var stringContent = new FormUrlEncodedContent(values);
+
+
+                HttpResponseMessage BTOResponse = await client.GetAsync(newGetBTOUrl);
+                string BTOContent = await BTOResponse.Content.ReadAsStringAsync();
+
+                JObject btodata = JObject.Parse(BTOContent);
+                var btoarray = btodata["resultForCPFPage"] as JArray;
+
+
+                var license = btodata["key"].ToString();
+
+                var results1 = btodata["resultForBTOStatusPage"];
+                var results = btodata["resultForCPFPage"];
+
+
+                if (results1.ToString() == "0")
+                {
+                    BtnText = "Apply";
+                    EnableBtn = "true";
+                    WarningMsg = "False";
+                }
+                else
+                {
+                    BtnText = "Not Applicable";
+                    EnableBtn = "False";
+                    WarningMsg = "True";
+                }
+            });
+            }
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () => {
+                //await Navigation.PopToRootAsync();
+                //await Shell.Current.GoToAsync("//HomePage");
+                
+
+            });
+
+            return base.OnBackButtonPressed();
+        }
         protected override async void OnAppearing()
         {
 
             base.OnAppearing();
-
+            GetLink();
             const string getHouseInfo = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getOneBTOInfo";
             var values = new Dictionary<string, string>
                       {
@@ -212,18 +304,11 @@ namespace BTOAssistApp.Views
 
                       };
             var newUrl = new Uri(QueryHelpers.AddQueryString(getHouseInfo, values));
-            //var stringContent = new FormUrlEncodedContent(values);
             HttpResponseMessage getHouseInfoResponse = await client.GetAsync(newUrl);
             var responseString = await getHouseInfoResponse.Content.ReadAsStringAsync();
             JObject data = JObject.Parse(responseString);
             var array = data["result"] as JArray;
             var details = array[0];
-
-            Console.WriteLine("array: " + array[0]);
-            //PostGre postGre = new PostGre();
-            //BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-            //BTO BTODetails = postGre.GetBTODetailsAsync(array[0]["id"]);
-
             Id = details["id"].ToString();
             Image = details["image"].ToString();
             Location = details["location"].ToString();
@@ -246,10 +331,7 @@ namespace BTOAssistApp.Views
         {
             var BTODeets = (Button)sender;
             string id = BTODeets.AutomationId;
-
             await Navigation.PushAsync(new ApplicationPage1(id));
-            //await Shell.Current.GoToAsync("//ApplicationPage1");
-            Trace.WriteLine(id);
         }
     }
 }

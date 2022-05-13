@@ -10,6 +10,25 @@
         <ScrollView>
         <StackLayout>
                 <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Margin="30,20,40,0" IsVisible="{Binding BTOProcessVisability}">
+                    
+
+                    <Frame Margin="0,0,0,0" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
+                        <StackLayout>
+                            <Grid>
+                        <Image Grid.Row="0" Grid.Column="0"
+                    Source="{Binding Image}"
+                    HeightRequest="150"
+                    Aspect="AspectFill" />
+                    </Grid>
+                            <Grid>
+                                <StackLayout Orientation="Horizontal" >
+
+                                    <Label Text="{Binding BTOName}" FontFamily="Verdana" FontSize="24" TextColor="Black"/>
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                    
                     <Grid Margin="0,0,0,20">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
@@ -18,9 +37,8 @@
                             <ColumnDefinition Width="45"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
-
                         <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1" >
-                            <Label FontSize="20" Margin="0" TextColor="#0C8188">Application Successful</Label>
+                            <Label FontSize="20" Margin="0" TextColor="#0C8188">Application Submitted</Label>
                         </Frame>
                         <BoxView VerticalOptions="Fill" HorizontalOptions="Center" WidthRequest="1" Color="Blue" Margin="0,45,0,-50" Grid.Row="0" Grid.Column="0" />
 
@@ -60,7 +78,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1">
-                            <Label FontSize="20" Margin="0" TextColor="{Binding Step3TextColor}">Obtain HDB/Bank Loan</Label>
+                            <Label FontSize="20" Margin="0" TextColor="{Binding Step3TextColor}" Text="{Binding ApplicationStatusText}"/> 
                         </Frame>
                         <BoxView VerticalOptions="Fill" HorizontalOptions="Center" WidthRequest="1" Color="Blue" Margin="0,45,0,-50" Grid.Row="0" Grid.Column="0" />
 
@@ -73,15 +91,13 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
-
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="45"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
 
-
                         <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1">
-                            <Label FontSize="20" Margin="0" TextColor="{Binding Step4TextColor}">Select your BTO unit and pay option fee</Label>
+                            <Label FontSize="20" Margin="0" TextColor="{Binding Step4TextColor}">Obtain HDB/Bank Loan</Label>
                         </Frame>
                         <BoxView VerticalOptions="Fill" HorizontalOptions="Center" WidthRequest="1" Color="Blue" Margin="0,45,0,-50" Grid.Row="0" Grid.Column="0" />
 
@@ -94,18 +110,20 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
+
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="45"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
 
+
                         <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1">
-                            <Label FontSize="20" Margin="0" TextColor="{Binding Step5TextColor}">Sign the lease agreement and pay the downpayment</Label>
+                            <Label FontSize="20" Margin="0" TextColor="{Binding Step5TextColor}">Select your BTO unit and pay option fee</Label>
                         </Frame>
                         <BoxView VerticalOptions="Fill" HorizontalOptions="Center" WidthRequest="1" Color="Blue" Margin="0,45,0,-50" Grid.Row="0" Grid.Column="0" />
 
                         <Frame HasShadow="True" CornerRadius="30" Margin="0" Padding="0" HeightRequest="45" WidthRequest="45" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" BackgroundColor="{Binding Step5AreaColor}">
-                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="{Binding Step5NumberColor}">5</Label>
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  TextColor="{Binding Step5NumberColor}">5</Label>
                         </Frame>
 
                     </Grid>
@@ -119,7 +137,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1">
-                            <Label FontSize="20" Margin="0" TextColor="{Binding Step6TextColor}">Collect your keys</Label>
+                            <Label FontSize="20" Margin="0" TextColor="{Binding Step6TextColor}">Sign the lease agreement and pay the downpayment</Label>
                         </Frame>
                         <BoxView VerticalOptions="Fill" HorizontalOptions="Center" WidthRequest="1" Color="Blue" Margin="0,45,0,-50" Grid.Row="0" Grid.Column="0" />
 
@@ -138,16 +156,51 @@
                         </Grid.ColumnDefinitions>
 
                         <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1">
-                            <Label FontSize="20" Margin="0" TextColor="{Binding Step7TextColor}">Successful</Label>
+                            <Label FontSize="20" Margin="0" TextColor="{Binding Step7TextColor}">Collect your keys</Label>
                         </Frame>
+                        <BoxView VerticalOptions="Fill" HorizontalOptions="Center" WidthRequest="1" Color="Blue" Margin="0,45,0,-50" Grid.Row="0" Grid.Column="0" />
 
                         <Frame HasShadow="True" CornerRadius="30" Margin="0" Padding="0" HeightRequest="45" WidthRequest="45" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" BackgroundColor="{Binding Step7AreaColor}">
                             <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="{Binding Step7NumberColor}">7</Label>
                         </Frame>
 
                     </Grid>
+                    <Grid Margin="0,0,0,20">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="45"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
+                        <Frame BorderColor="Transparent" Margin="10,0,0,0" Padding="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Grid.Row="0" Grid.Column="1">
+                            <Label FontSize="20" Margin="0" TextColor="{Binding Step8TextColor}">Successful</Label>
+                        </Frame>
+
+                        <Frame HasShadow="True" CornerRadius="30" Margin="0" Padding="0" HeightRequest="45" WidthRequest="45" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" BackgroundColor="{Binding Step8AreaColor}">
+                            <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="{Binding Step8NumberColor}">8</Label>
+                        </Frame>
+
+                    </Grid>
+                    <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Text="increase &#x0a; progress" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" BackgroundColor="Green" Clicked="DemoButton" AutomationId="IncrementStatus" />
+
+                        <Button Text="Reset &#x0a; Status"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="1" BackgroundColor="Gray" Clicked="DemoButton" AutomationId="Reset"/>
+                        <Button Text="create &#x0a;Error "  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="2"  Clicked="DemoButton" AutomationId="Error"/>
+                    </Grid>
+                   
                 </StackLayout>
+            
                 <StackLayout IsVisible="{Binding ErrorPageVisability}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="30,30,40,0">
                     <Image Source="uwu.gif" IsAnimationPlaying="True"/>
                     <Label Text="Access Denied" FontSize="30" TextColor="Red" HorizontalOptions="Center"/>

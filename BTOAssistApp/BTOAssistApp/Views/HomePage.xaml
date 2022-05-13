@@ -8,15 +8,19 @@
     </ContentPage.ToolbarItems>
     <ScrollView>
             <StackLayout Margin="20,20,30,10">
-            <Frame BorderColor="Black" Padding="0">
-                <!--SearchBar Placeholder="Search" Margin="0" TextColor="Black" BackgroundColor="#f7f7f7" PlaceholderColor="Black" /-->
+                <Frame BorderColor="Red" Padding="10" IsVisible="{Binding WarningMsg}">
+                    <Label Text="Your current application for a BTO is still in process; You cannot apply for another BTO yet." TextColor="Red"/>
+                </Frame>
+            <!--Frame >
+                
+                <SearchBar Placeholder="Search" Margin="0" TextColor="Black" BackgroundColor="#f7f7f7" PlaceholderColor="Black" />
                 <Entry Placeholder="Search" Margin="0" TextColor="Black" BackgroundColor="#f7f7f7" PlaceholderColor="Black" />
-            </Frame>
+            </Frame-->
 
             <Frame HeightRequest="250" Padding="0" BackgroundColor="Transparent">
                 <StackLayout Padding="0" Margin="0">
                     <Label TextColor="Black" Text="Nearby You" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18"/>
-                    <CarouselView ItemsSource="{Binding AllBTO}" PeekAreaInsets="60" Loop="False" EmptyView="No BTO to display.">
+                    <CarouselView ItemsSource="{Binding AllBTO}" PeekAreaInsets="60"  EmptyView="No BTO to display." Loop="False">
                         <CarouselView.ItemsLayout>
                             <LinearItemsLayout Orientation="Horizontal"
                                                SnapPointsType="None"
@@ -72,7 +76,7 @@
             <Frame HeightRequest="250" Padding="0" BackgroundColor="Transparent">
                 <StackLayout Padding="0" Margin="0">
                     <Label Text="Popular" Margin="5,10,0,10" FontFamily="Verdana" FontSize="18" TextColor="Black"></Label>
-                    <CarouselView ItemsSource="{Binding BTOSorted}" PeekAreaInsets="60" Loop="False" EmptyView="No BTO to display.">
+                    <CarouselView ItemsSource="{Binding BTOSorted}" PeekAreaInsets="60"  EmptyView="No BTO to display." Loop="False">
                         <CarouselView.ItemsLayout>
                             <LinearItemsLayout Orientation="Horizontal"
                                                SnapPointsType="None"

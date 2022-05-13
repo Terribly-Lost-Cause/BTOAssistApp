@@ -52,28 +52,7 @@ namespace BTOAssistApp.Views
         public FinancePage()
         {
             InitializeComponent();
-            var deviceId = CrossDeviceInfo.Current.Id;
             
-            Task.Run(async () =>
-            {
-
-                BTOAssistDatabase database = await BTOAssistDatabase.Instance;
-                //await database.DeleteAllPhoneInfoAsync();
-                PhoneInfo BTODataDetails = await database.GetBTODataAsync(deviceId);
-                List<PhoneInfo> allPhoneInfo = await database.GetAllPhoneInfoAsync();
-
-                foreach (var i in allPhoneInfo)
-                {
-                    Trace.WriteLine("deviceID: " + i.deviceID);
-                    Trace.WriteLine("accessToken: " + i.accessToken);
-                }
-                DevID = BTODataDetails.deviceID;
-                //Sub = BTODataDetails.sub;
-                AccessToken = BTODataDetails.accessToken;
-                //Trace.WriteLine(">>>>>>>>>>>>> Sub:" + Sub);
-                Trace.WriteLine(">>>>>>>>>>>>> DevID:" + DevID);
-                Trace.WriteLine("AccessToken: " + AccessToken);
-            });
             
         }
     }

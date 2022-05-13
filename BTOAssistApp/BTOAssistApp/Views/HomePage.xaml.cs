@@ -14,6 +14,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Plugin.DeviceInfo;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.WebUtilities;
 
 namespace BTOAssistApp.Views
 {
@@ -23,7 +24,19 @@ namespace BTOAssistApp.Views
         private string devID;
         private string id;
         private string accesstoken;
+        private string warningmsg;
+        private ObservableCollection<BTO> allbto;
+        public ObservableCollection<BTO> btosorted;
         HttpClient client = new HttpClient();
+        public string WarningMsg
+        {
+            get { return warningmsg; }
+            set
+            {
+                warningmsg = value;
+                OnPropertyChanged(nameof(WarningMsg)); // Notify that there was a change on this property
+            }
+        }
         public string DevID
         {
             get { return devID; }
@@ -52,67 +65,136 @@ namespace BTOAssistApp.Views
             }
         }
 
-        public ObservableCollection<BTO> AllBTO { get; set; } = new ObservableCollection<BTO>();
-        public ObservableCollection<BTO> BTOSorted { get; set; } = new ObservableCollection<BTO>();
+        public ObservableCollection<BTO> AllBTO
+        {
+            get { return allbto; }
+            set
+            {
+                allbto = value;
+                OnPropertyChanged(nameof(AllBTO)); // Notify that there was a change on this property
+            }
+        }
+
+        public ObservableCollection<BTO> BTOSorted
+        {
+            get { return btosorted; }
+            set
+            {
+                btosorted = value;
+                OnPropertyChanged(nameof(BTOSorted)); // Notify that there was a change on this property
+            }
+        }
         public HomePage()
         {
+            base.OnAppearing();
+            WarningMsg = "False";
+
+            GetLink();
+            CallGetBTOLink();
             InitializeComponent();
-            
-
-
-            }
+            BindingContext = this;
+        }
 
 
 
         protected override async void OnAppearing()
         {
+            WarningMsg = "False";
 
-            base.OnAppearing();
+            GetLink();
+        }
+        protected async void GetLink()
+        {
+            HttpClient client = new HttpClient();
+            await Task.Run(async () =>
+            {
+                const string getBTO = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getAppliedBTOinfo";
+
+                var BTOValues = new Dictionary<string, string>
+                      {
+                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
+
+                      };
+                var newGetBTOUrl = new Uri(QueryHelpers.AddQueryString(getBTO, BTOValues));
+                //var stringContent = new FormUrlEncodedContent(values);
+
+
+                HttpResponseMessage BTOResponse = await client.GetAsync(newGetBTOUrl);
+                string BTOContent = await BTOResponse.Content.ReadAsStringAsync();
+
+                JObject btodata = JObject.Parse(BTOContent);
+                var btoarray = btodata["resultForCPFPage"] as JArray;
+
+
+                var license = btodata["key"].ToString();
+
+                var results1 = btodata["resultForBTOStatusPage"];
+                var results = btodata["resultForCPFPage"];
+
+
+                /*if (results1.ToString() == "0")
+                {
+                    WarningMsg = "False";
+                }
+                else
+                {
+                    WarningMsg = "True";
+                }*/
+            });
+        }
+        protected async void CallGetBTOLink()
+        {
             Uri getBTOInfo = new Uri("https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getBTOInfo");
-
             HttpResponseMessage response = await client.GetAsync(getBTOInfo);
-            Console.WriteLine("{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}");
-
             string content = await response.Content.ReadAsStringAsync();
             JObject data = JObject.Parse(content);
             var array = data["result"] as JArray;
             var sortarray = data["sorted"] as JArray;
+            ObservableCollection<BTO> TempAllBTO = new ObservableCollection<BTO>();
+            ObservableCollection<BTO> TempBTOSorted = new ObservableCollection<BTO>();
 
-            AllBTO.Clear();
-            BTOSorted.Clear();
+
 
             foreach (var house in array)
             {
                 var classhouse = house.ToObject<BTO>();
                 classhouse.Block = "Block " + classhouse.Block;
-                AllBTO.Add(classhouse);
+                TempAllBTO.Add(classhouse);
             }
-
             foreach (var sorthouse in sortarray)
             {
                 var sortclasshouse = sorthouse.ToObject<BTO>();
                 sortclasshouse.Block = "Block " + sortclasshouse.Block;
-                BTOSorted.Add(sortclasshouse);
+                TempBTOSorted.Add(sortclasshouse);
+
+
+
             }
-
+            AllBTO = TempAllBTO;
+            BTOSorted = TempBTOSorted;
+            Console.WriteLine(TempBTOSorted.Count());
             BindingContext = this;
+
         }
 
-        protected override void OnDisappearing()
-        {
 
-            base.OnDisappearing();
+        /*
+                protected override void OnDisappearing()
+                {
+                    base.OnDisappearing();
 
-            BindingContext = null;
-        }
-
+                    ObservableCollection<BTO> TempAllBTO = new ObservableCollection<BTO>();
+                    ObservableCollection<BTO> TempBTOSorted = new ObservableCollection<BTO>();
+                    AllBTO = TempAllBTO;
+                    BTOSorted = TempBTOSorted;
+                    Console.WriteLine(TempBTOSorted.Count());
+                    BindingContext = this;
+                }
+        */
         async void ViewDetail(object sender, EventArgs args)
         {
             var BTO = (Frame)sender;
-            Console.WriteLine(">>>>>>>>>>>>>>", BTO);
             string id = BTO.AutomationId;
-
-            Trace.WriteLine(">>>>>> "+id);
             await Navigation.PushAsync(new BTODetail(id));
         }
     }

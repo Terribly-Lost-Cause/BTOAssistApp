@@ -112,11 +112,60 @@ namespace BTOAssistApp.Views
         private string webgrid;
         private string source;
         private string webpageid;
+        private string enablebtn1;
+        private string enablebtn2;
+        private string enablebtn3;
+        private string enablebtn4;
+        private string[] counter;
         public ICommand BackCommand { get; private set; }
 
 
 
         HttpClient client;
+
+        
+
+        public string EnableBtn1
+        {
+            get { return enablebtn1; }
+            set
+            {
+                enablebtn1 = value;
+                OnPropertyChanged(nameof(EnableBtn1)); // Notify that there was a change on this property
+            }
+        }
+
+        public string EnableBtn2
+        {
+            get { return enablebtn2; }
+            set
+            {
+                enablebtn2 = value;
+                OnPropertyChanged(nameof(EnableBtn2)); // Notify that there was a change on this property
+            }
+        }
+
+        public string EnableBtn3
+        {
+            get { return enablebtn3; }
+            set
+            {
+                enablebtn3 = value;
+                OnPropertyChanged(nameof(EnableBtn3)); // Notify that there was a change on this property
+            }
+        }
+
+        public string EnableBtn4
+        {
+            get { return enablebtn4; }
+            set
+            {
+                enablebtn4 = value;
+                OnPropertyChanged(nameof(EnableBtn4)); // Notify that there was a change on this property
+            }
+        }
+
+        
 
         public string WebPageID
         {
@@ -898,14 +947,22 @@ namespace BTOAssistApp.Views
                 OnPropertyChanged(nameof(FatherAddressRead)); // Notify that there was a change on this property
             }
         }
-         
+
+        public List<string> ApplicantCounter = new List<string>();
+        public List<string> SubCounter = new List<string>();
+        public List<string> MotherCounter = new List<string>();
+        public List<string> FatherCounter = new List<string>();
+
 
         /**/
         public ApplicationPage1(string id)
         {
-            InitializeComponent();
+            
+
+        InitializeComponent();
 
             WebPageID = id;
+            
 
             const string paymentRoute = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session";
             var paymentValues = new Dictionary<string, string>
@@ -935,7 +992,7 @@ namespace BTOAssistApp.Views
             
             Task.Run(async () =>
         {
-
+            //textchanged
 
             client = new HttpClient();
 
@@ -954,38 +1011,77 @@ namespace BTOAssistApp.Views
 
             string personContent = await personResponse.Content.ReadAsStringAsync();
             JObject data = JObject.Parse(personContent);
+            
+
             var array = data["result"] as JArray;
-            Console.WriteLine("array  " + array[0]);
+            
+            Console.Write(array[0].GetType());
+            foreach(var key in array[0])
+            {
+                //Console.WriteLine(array[0][key]);
+            }
+            
             var values = JObject.FromObject(array[0]).ToObject<Dictionary<string, object>>();
             Console.WriteLine(">>>>>>>>>>>Values>>>>>>>>>>>" + values);
-            foreach (KeyValuePair<string, Object> entry in values)
-            {
-                //Console.WriteLine(entry.Value);
-                try
+        foreach (KeyValuePair<string, Object> entry in values)
+        {
+            if ((entry.Value == null|| entry.Value.ToString() == "-" ) && entry.Key != "phoneid")
                 {
-                    if(entry.Key != "phoneid")
+                    
+                    
+                    if (entry.Key.StartsWith("sub")|| entry.Key == "relationship")
                     {
-                        /*switch (entry.Key.ToString()){
-                            case "name":
-                                var test = DecryptStringFromBytes_Aes(Convert.FromBase64String(entry.Value.ToString().Split(',')[0]), Convert.FromBase64String(entry.Value.ToString().Split(',')[1]), Convert.FromBase64String(entry.Value.ToString().Split(',')[2]));
-                                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>" + entry.Key +":" + test);
+                        SubCounter.Add(entry.Key.ToString());
+                        //EnableBtn2 = "false";
+                        BindingContext = this;
+                    }
+                   else if (entry.Key.StartsWith("mother"))
+                    {
+                        MotherCounter.Add(entry.Key.ToString());
+                        //EnableBtn3 = "false";
+                        BindingContext = this;
+                    }
+                   else if (entry.Key.StartsWith("father"))
+                    {
+                        FatherCounter.Add(entry.Key.ToString());
+                        //EnableBtn4 = "false";
+                        BindingContext = this;
+                    }
+                    
+                }
+                else
+                {
+                    try
+                    {
+                        if (entry.Key != "phoneid")
+                        {
+                            /*switch (entry.Key.ToString()){
+                                case "name":
+                                    var test = DecryptStringFromBytes_Aes(Convert.FromBase64String(entry.Value.ToString().Split(',')[0]), Convert.FromBase64String(entry.Value.ToString().Split(',')[1]), Convert.FromBase64String(entry.Value.ToString().Split(',')[2]));
+                                    Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>" + entry.Key +":" + test);
 
-                        }*/
-                        var personValue = DecryptStringFromBytes_Aes(Convert.FromBase64String(entry.Value.ToString().Split(',')[0]), Convert.FromBase64String(entry.Value.ToString().Split(',')[1]), Convert.FromBase64String(entry.Value.ToString().Split(',')[2]));
-                        checker(entry.Key.ToString(), personValue.ToString());
-                        
+                            }*/
+                            var personValue = DecryptStringFromBytes_Aes(Convert.FromBase64String(entry.Value.ToString().Split(',')[0]), Convert.FromBase64String(entry.Value.ToString().Split(',')[1]), Convert.FromBase64String(entry.Value.ToString().Split(',')[2]));
+                            checker(entry.Key.ToString(), personValue.ToString());
 
 
+
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e);
                     }
                 }
-                catch(Exception e)
-                {
-                    Console.WriteLine(e);
-                }
-                
             }
             
 
+            for (var i = 0; i < ApplicantCounter.Count; i++)
+            {
+                Console.WriteLine(ApplicantCounter[i]);
+            }
+            Console.WriteLine(ApplicantCounter.Count);
+            Console.WriteLine("ApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.CountApplicantCounter.Count");
 
 
 
@@ -1040,6 +1136,7 @@ namespace BTOAssistApp.Views
                             try
                             {
                                 plaintext = srDecrypt.ReadToEnd();
+
                             }
                             catch(Exception e)
                             {
@@ -1056,9 +1153,9 @@ namespace BTOAssistApp.Views
 
         protected void checker(string key, string value)
         {
-            if(value == null || value == "-")
+            if (value == null || value == "-")
             {
-                return ;
+                return;
             }
             else
             {
@@ -1067,7 +1164,6 @@ namespace BTOAssistApp.Views
                     case "name":
                         ApplicantName = value.ToString();
                         ApplicantNameRead = "true";
-                        
                         break;
                     case "uinfin":
                         ApplicantNRIC = value.ToString();
@@ -1098,7 +1194,7 @@ namespace BTOAssistApp.Views
                         ApplicantOccupationRead = "true";
                         break;
                     case "cpfcontributions":
-                        ApplicantCPF = "$"+value.ToString();
+                        ApplicantCPF = "$" + value.ToString();
                         ApplicantCPFRead = "true";
                         break;
                     case "subname":
@@ -1175,9 +1271,6 @@ namespace BTOAssistApp.Views
                         break;
                 }
             }
-
-
-
         }
 
 
@@ -1193,7 +1286,84 @@ namespace BTOAssistApp.Views
             WebGrid = "false";
 
         }
-         
+
+        private void OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+            var entry = (Entry)sender;
+            for(var i = 0; i < ApplicantCounter.Count; i++)
+            {
+                Console.WriteLine(ApplicantCounter[i]);
+            }
+            Console.WriteLine(ApplicantCounter);
+
+            switch (entry.AutomationId)
+            {
+                case "CheckName":
+                    if (entry.Text != null || entry.Text != "")
+                    {
+                        if (ApplicantCounter.Contains("name"))
+                        {
+                            ApplicantCounter.Remove("name");
+                        }
+                    }
+                    break;
+                case "CheckNRIC":
+                    if (entry.Text != null || entry.Text != "")
+                    {
+                        
+                    }
+                    break;
+                case "CheckMobile":
+                    if (entry.Text != null || entry.Text != "")
+                    {
+                        
+                    }
+                    break;
+                case "CheckGender":
+                    if (entry.Text != null || entry.Text != "")
+                    {
+                        
+                    }
+                    break;
+                case "CheckMarital":
+                    if (entry.Text != null || entry.Text != "" || entry.Text != "-")
+                    {
+                        if (ApplicantCounter.Contains("marital"))
+                        {
+                            ApplicantCounter.Remove("marital");
+                        }
+                    }
+                    break;
+                case "CheckCPF":
+                    if (entry.Text != null || entry.Text != "")
+                    {
+                        
+                    }
+                    break;
+                case "CheckOccupation":
+                    if (entry.Text != null || entry.Text != "" || entry.Text != "-")
+                    {
+                        if (ApplicantCounter.Contains("occupation"))
+                        {
+                            ApplicantCounter.Remove("occupation");
+                        }
+                    }
+                    break;
+                case "CheckCitizenship":
+                    if (entry.Text != null || entry.Text != "")
+                    {
+                        
+                    }
+                    break;
+            }
+            if (ApplicantCounter.Count == 0)
+            {
+                EnableBtn1 = "true";
+                BindingContext = this;
+            }
+            Console.WriteLine(entry.Text);
+
+        }
 
 
         async private void Button_Clicked(object sender, EventArgs e)
@@ -1204,6 +1374,8 @@ namespace BTOAssistApp.Views
             switch (id)
             {
                 case 1:
+                    
+
                     Page1Vis = "false";
                     Page2Vis = "true";
                     Page3Vis = "false";
@@ -1234,7 +1406,6 @@ namespace BTOAssistApp.Views
                     Page4Vis = "false";
                     Page5Vis = "true";
                     WebGrid = "false";
-                    
                     ApplicantNameLabel.Text = ApplicantName;
                     ApplicantNRICLabel.Text = ApplicantNRIC;
                     ApplicantGenderLabel.Text = ApplicantGender;
@@ -1270,11 +1441,6 @@ namespace BTOAssistApp.Views
                     FatherMaritalLabel.Text = FatherMarital;
                     FatherCitizenshipLabel.Text = FatherCitizenship;
                     FatherAddressLabel.Text = FatherAddress;
-                    
-
-                    /*var DetailsSaver = (CheckBox)sender;
-                    var subAppDetailsSaver = DetailsSaver.AutomationId;
-                    subAppDetailsSaver.*/
                     break;
                 case 5:
                     Page1Vis = "false";
@@ -1282,15 +1448,8 @@ namespace BTOAssistApp.Views
                     Page3Vis = "false";
                     Page4Vis = "false";
                     Page5Vis = "false";
-                    Console.WriteLine(ApplicantNRIC.ToString());
-                    if(SubApplicantMarital.ToString() == null)
-                    {
-                        Console.WriteLine("yeap, it's null");
-                    }
-                    Console.WriteLine(SubApplicantMarital.ToString());
                     await Task.Run(async () =>
                     {
-
                         var values = new Dictionary<string, string> { };
                         values.Add("deviceid", CrossDeviceInfo.Current.Id.ToString());
                         values.Add("uinfin", ApplicantNRIC.ToString());
@@ -1340,11 +1499,7 @@ namespace BTOAssistApp.Views
                     
                     break;
             }
-
-            
         }
-
-
         static string EncryptStringToBytes_Aes(string plainText)
         {
             // Check arguments.
@@ -1352,8 +1507,6 @@ namespace BTOAssistApp.Views
             {
                 plainText = "-";
             }
-
-            Console.WriteLine(plainText);
             byte[] encrypted;
             byte[] Key;
             byte[] IV;
@@ -1412,9 +1565,7 @@ namespace BTOAssistApp.Views
                     var appliedBTOResponseString = await insertIntoAppliedBTO.Content.ReadAsStringAsync();
                 });
 
-                await Navigation.PopAsync();
-                await Navigation.PopAsync();
-
+                await Navigation.PopToRootAsync();
                 Shell.Current.GoToAsync("//BTOProcessPage");
 
 
@@ -1423,8 +1574,6 @@ namespace BTOAssistApp.Views
             {
                 WebGrid = "false";
                 Page5Vis = "true";
-                Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> " + e.Url);
-                Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> " + WebPageID.ToString());
                 const string paymentRoute = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/create-checkout-session";
                 var paymentValues = new Dictionary<string, string>
                       {
@@ -1435,9 +1584,6 @@ namespace BTOAssistApp.Views
                 //var stringContent = new FormUrlEncodedContent(values);
                 Source = url.ToString();
             }
-            Console.WriteLine(">>>>>>>>>>> >>>>>>>>>>>>>>>>>> >>>>>>>>>>>>>>>>>>>>> "+e.Url);
-
-            //Console.WriteLine(paymentURL);
 
         }
             private void Button_Clicked2(object sender, EventArgs e)

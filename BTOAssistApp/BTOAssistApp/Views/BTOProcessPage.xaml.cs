@@ -40,13 +40,62 @@ namespace BTOAssistApp.Views
         private string step7areacolor;
         private string step7textcolor;
 
+        private string step8numbercolor;
+        private string step8areacolor;
+        private string step8textcolor;
+
         private string btoprocessvisibity;
         private string errorpagevisibility;
         private string second;
         private string countdown;
-
+        private string btoname;
+        private string image;
+        private string mrt;
+        private string applicationstatustext;
         HttpClient client;
 
+        public string Image
+        {
+            get { return image; }
+            set
+            {
+                image = value;
+                OnPropertyChanged(nameof(Image)); // Notify that there was a change on this property
+            }
+        }
+
+
+        public string ApplicationStatusText
+        {
+            get { return applicationstatustext; }
+            set
+            {
+                applicationstatustext = value;
+                OnPropertyChanged(nameof(ApplicationStatusText)); // Notify that there was a change on this property
+            }
+        }
+
+
+
+        public string MRT
+        {
+            get { return mrt; }
+            set
+            {
+                mrt = value;
+                OnPropertyChanged(nameof(MRT)); // Notify that there was a change on this property
+            }
+        }
+
+        public string BTOName
+        {
+            get { return btoname; }
+            set
+            {
+                btoname = value;
+                OnPropertyChanged(nameof(BTOName)); // Notify that there was a change on this property
+            }
+        }
 
         public string Countdown
         {
@@ -255,8 +304,39 @@ namespace BTOAssistApp.Views
             }
         }
 
+        public string Step8NumberColor
+        {
+            get { return step8numbercolor; }
+            set
+            {
+                step8numbercolor = value;
+                OnPropertyChanged(nameof(Step8NumberColor)); // Notify that there was a change on this property
+            }
+        }
+        public string Step8AreaColor
+        {
+            get { return step8areacolor; }
+            set
+            {
+                step8areacolor = value;
+                OnPropertyChanged(nameof(Step8AreaColor)); // Notify that there was a change on this property
+            }
+        }
+        public string Step8TextColor
+        {
+            get { return step8textcolor; }
+            set
+            {
+                step8textcolor = value;
+                OnPropertyChanged(nameof(Step8TextColor)); // Notify that there was a change on this property
+            }
+        }
+
         public BTOProcessPage()
         {
+            ErrorPageVisability = "False";
+            BTOProcessVisability = "False";
+            ApplicationStatusText = "Application Successful";
             InitializeComponent();
             BindingContext = this;
         }
@@ -284,12 +364,12 @@ namespace BTOAssistApp.Views
                 var btoarray = btodata["resultForCPFPage"] as JArray;
 
 
-                var license = btodata["key"].ToString();
 
+                var results1 = btodata["resultForBTOStatusPage"];
                 var results = btodata["resultForCPFPage"];
 
 
-                if (results.ToString() == "0")
+                if (results1.ToString() == "0")
                 {
                     ErrorPageVisability = "true";
                     BTOProcessVisability = "false";
@@ -327,13 +407,51 @@ namespace BTOAssistApp.Views
                 }
                 else
                 {
+                    var locationName = "Block " + results1[0]["block"] + ", " + results1[0]["location"];
+                    var imageSrc = results1[0]["image"];
+                    BTOName = locationName;
+                    Image = imageSrc.ToString();
+                    BindingContext = this;
                     ErrorPageVisability = "false";
                     BTOProcessVisability = "true";
                     int status = Int16.Parse(results[0]["status"].ToString());
                     Console.WriteLine(status);
-                    Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>> "+status.GetType());
+                    Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>> " + status.GetType());
                     switch (status)
                     {
+                        case 0:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#f72c25";
+                            Step3TextColor = "#f72c25";
+
+                            Step4NumberColor = "#0C8188";
+                            Step4AreaColor = "#FAFFFF";
+                            Step4TextColor = "#707070";
+                            ApplicationStatusText = "Appliation Unsuccessful";
+
+                            Step5NumberColor = "#0C8188";
+                            Step5AreaColor = "#FAFFFF";
+                            Step5TextColor = "#707070";
+
+                            Step6NumberColor = "#0C8188";
+                            Step6AreaColor = "#FAFFFF";
+                            Step6TextColor = "#707070";
+
+                            Step7NumberColor = "#0C8188";
+                            Step7AreaColor = "#FAFFFF";
+                            Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
+
+                            BindingContext = this;
+
+                            break;
                         case 1:
                             Step2NumberColor = "#0C8188";
                             Step2AreaColor = "#FAFFFF";
@@ -358,6 +476,10 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "#0C8188";
                             Step7AreaColor = "#FAFFFF";
                             Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
                             BindingContext = this;
                             break;
                         case 2:
@@ -384,16 +506,20 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "#0C8188";
                             Step7AreaColor = "#FAFFFF";
                             Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
                             BindingContext = this;
                             break;
 
                         case 3:
 
-                            
+
                             Step2NumberColor = "white";
                             Step2AreaColor = "#0C8188";
                             Step2TextColor = "#0C8188";
-                            
+
                             Step3NumberColor = "white";
                             Step3AreaColor = "#0C8188";
                             Step3TextColor = "#0C8188";
@@ -413,6 +539,11 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "#0C8188";
                             Step7AreaColor = "#FAFFFF";
                             Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
+
                             BindingContext = this;
 
                             break;
@@ -441,6 +572,10 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "#0C8188";
                             Step7AreaColor = "#FAFFFF";
                             Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
                             BindingContext = this;
                             break;
 
@@ -468,6 +603,10 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "#0C8188";
                             Step7AreaColor = "#FAFFFF";
                             Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
                             BindingContext = this;
                             break;
 
@@ -495,6 +634,10 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "#0C8188";
                             Step7AreaColor = "#FAFFFF";
                             Step7TextColor = "#707070";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
                             BindingContext = this;
                             break;
 
@@ -522,16 +665,50 @@ namespace BTOAssistApp.Views
                             Step7NumberColor = "white";
                             Step7AreaColor = "#0C8188";
                             Step7TextColor = "#0C8188";
+
+                            Step8NumberColor = "#0C8188";
+                            Step8AreaColor = "#FAFFFF";
+                            Step8TextColor = "#707070";
                             BindingContext = this;
                             break;
 
-                        
+                        case 8:
+                            Step2NumberColor = "white";
+                            Step2AreaColor = "#0C8188";
+                            Step2TextColor = "#0C8188";
+
+                            Step3NumberColor = "white";
+                            Step3AreaColor = "#0C8188";
+                            Step3TextColor = "#0C8188";
+
+                            Step4NumberColor = "white";
+                            Step4AreaColor = "#0C8188";
+                            Step4TextColor = "#0C8188";
+
+                            Step5NumberColor = "white";
+                            Step5AreaColor = "#0C8188";
+                            Step5TextColor = "#0C8188";
+
+                            Step6NumberColor = "white";
+                            Step6AreaColor = "#0C8188";
+                            Step6TextColor = "#0C8188";
+
+                            Step7NumberColor = "white";
+                            Step7AreaColor = "#0C8188";
+                            Step7TextColor = "#0C8188";
+
+                            Step8NumberColor = "white";
+                            Step8AreaColor = "#0C8188";
+                            Step8TextColor = "#0C8188";
+                            BindingContext = this;
+                            break;
+
                     }
-                        
-                        
 
 
-                    
+
+
+
                 }
             });
             const string getnric = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/getAppliedBTOinfo";
@@ -544,8 +721,38 @@ namespace BTOAssistApp.Views
             Console.WriteLine(newUrl);
             HttpResponseMessage personResponse = await client.GetAsync(newUrl);
             string personContent = await personResponse.Content.ReadAsStringAsync();
-            Console.WriteLine(personContent);
+            //JObject btodata = JObject.Parse(personContent);
+            //var btoarray = btodata["resultForCPFPage"] as JArray;
 
+
+
+            //var results1 = btodata["resultForBTOStatusPage"];
+            //Console.WriteLine(personContent);
+            //personContent = personContent[0]["getAppliedBTOInfo"];
+
+        }
+
+        private async void DemoButton(object sender, EventArgs e)
+        {
+            HttpClient client = new HttpClient();
+
+            await Task.Run(async () =>
+            {
+                const string getnric = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/updatebtoprogress";
+                var personValues = new Dictionary<string, string>
+                      {
+                         { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
+
+                      };
+                var saveParticularInfoStringContent = new FormUrlEncodedContent(personValues);
+                //var newUrl = new Uri(QueryHelpers.AddQueryString(getnric, personValues));
+                //Console.WriteLine(newUrl);
+                HttpResponseMessage personResponse = await client.PostAsync(getnric, saveParticularInfoStringContent);
+                string personContent = await personResponse.Content.ReadAsStringAsync();
+                //await Shell.Current.GoToAsync("//HomePage");
+
+
+            });
 
         }
     }
