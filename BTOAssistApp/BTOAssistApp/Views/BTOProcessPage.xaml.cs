@@ -734,11 +734,15 @@ namespace BTOAssistApp.Views
 
         private async void DemoButton(object sender, EventArgs e)
         {
+            var btn = (Button)sender;
+            Console.WriteLine("][][][][][][][][][ "+ btn.AutomationId);
             HttpClient client = new HttpClient();
-
+            
             await Task.Run(async () =>
             {
-                const string getnric = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/updatebtoprogress";
+                const string update = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/updatebtoprogress";
+                const string reset = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/resetbtoprogress";
+                const string invalidate = "https://uwuwuwuwuuwuwuwuwuuwuwuwuwuuwu.herokuapp.com/invalidatebtoprogress";
                 var personValues = new Dictionary<string, string>
                       {
                          { "deviceid", CrossDeviceInfo.Current.Id.ToString()}
@@ -747,13 +751,30 @@ namespace BTOAssistApp.Views
                 var saveParticularInfoStringContent = new FormUrlEncodedContent(personValues);
                 //var newUrl = new Uri(QueryHelpers.AddQueryString(getnric, personValues));
                 //Console.WriteLine(newUrl);
-                HttpResponseMessage personResponse = await client.PostAsync(getnric, saveParticularInfoStringContent);
-                string personContent = await personResponse.Content.ReadAsStringAsync();
+                if (btn.AutomationId == "IncrementStatus")
+                {
+                    HttpResponseMessage personResponse = await client.PostAsync(update, saveParticularInfoStringContent);
+                    string personContent = await personResponse.Content.ReadAsStringAsync();
+                    OnAppearing();
+                }
+                else if (btn.AutomationId == "Reset")
+                {
+                    HttpResponseMessage personResponse = await client.PostAsync(reset, saveParticularInfoStringContent);
+                    string personContent = await personResponse.Content.ReadAsStringAsync();
+                    OnAppearing();
+                }
+                else 
+                {
+                    HttpResponseMessage personResponse = await client.PostAsync(invalidate, saveParticularInfoStringContent);
+                    string personContent = await personResponse.Content.ReadAsStringAsync();
+                    OnAppearing();
+                }
+
                 //await Shell.Current.GoToAsync("//HomePage");
 
 
             });
-
+            
         }
     }
 }
