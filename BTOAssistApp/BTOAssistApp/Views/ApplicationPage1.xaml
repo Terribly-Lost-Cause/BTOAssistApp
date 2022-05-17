@@ -42,49 +42,46 @@
                 BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
                             <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">5</Label>
                 </Frame>
-                                <Frame
-                BorderColor="DarkRed" CornerRadius="30" Margin="0,0,10,0" Padding="0" HeightRequest="45" WidthRequest="45">
-                                    <Label FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black">6</Label>
-                                </Frame>
+                                
                             </StackLayout>
                     <Label FontSize="25" FontAttributes="Bold" TextColor="Black">Applicant's Particular</Label>
 
                     <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" Margin="0,0,0,20">
-                                <Entry Placeholder="Full Name" PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantName}" IsReadOnly="{Binding ApplicantNameRead}"  AutomationId="CheckName"  />
+                                <Entry Placeholder="Full Name" PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantName}" IsReadOnly="{Binding ApplicantNameRead}"  AutomationId="CheckName" TextTransform="Uppercase" />
                     </Frame>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="3" >
-                                    <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantNRIC}" IsReadOnly="{Binding ApplicantNRICRead}"   AutomationId="CheckNRIC" />
+                                    <Entry Placeholder="NRIC"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantNRIC}" IsReadOnly="{Binding ApplicantNRICRead}"   AutomationId="CheckNRIC" TextTransform="Uppercase" />
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                                    <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMobile}" IsReadOnly="{Binding ApplicantMobileRead}" AutomationId="CheckMobile"/>
+                                    <Entry Placeholder="Mobile No."  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMobile}" IsReadOnly="{Binding ApplicantMobileRead}" AutomationId="CheckMobile" Keyboard="Telephone"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                    <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantGender}" IsReadOnly="{Binding ApplicantGenderRead}" AutomationId="CheckGender" />
+                                    <Entry Placeholder="Gender"   PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantGender}" IsReadOnly="{Binding ApplicantGenderRead}" AutomationId="CheckGender" TextTransform="Uppercase"/>
                             
                                 </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                                    <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantAge}" IsReadOnly="{Binding ApplicantAgeRead}" AutomationId="CheckAge"/>
+                                    <Entry Placeholder="Age"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantAge}" IsReadOnly="{Binding ApplicantAgeRead}" AutomationId="CheckAge" TextTransform="Uppercase"/>
                         </Frame>
                     </Grid>
 
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                    <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMarital}" IsReadOnly="{Binding ApplicantMaritalRead}" TextChanged="OnTextChanged" AutomationId="CheckMarital" />
+                                    <Entry Placeholder="Marital Status"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantMarital}" IsReadOnly="{Binding ApplicantMaritalRead}" TextChanged="OnTextChanged" AutomationId="CheckMarital" TextTransform="Uppercase"/>
                         </Frame>
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="1">
-                                    <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCPF}" IsReadOnly="{Binding ApplicantCPFRead}" AutomationId="CheckCPF" />
+                                    <Entry Placeholder="Monthly CPF"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCPF}" IsReadOnly="{Binding ApplicantCPFRead}" AutomationId="CheckCPF" TextTransform="Uppercase"/>
                         </Frame>
 
                     </Grid>
@@ -92,13 +89,13 @@
                     <Grid Margin="0,0,0,20">
                         <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Grid.Row="0" Grid.Column="0">
-                                    <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantOccupation}" IsReadOnly="{Binding ApplicantOccupationRead}" AutomationId="CheckOccupation" />
+                                    <Entry Placeholder="Occupation"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantOccupation}" IsReadOnly="{Binding ApplicantOccupationRead}" AutomationId="CheckOccupation" TextTransform="Uppercase"/>
                         </Frame>
 
                     </Grid>
                             <Frame
                 BorderColor="DarkRed" CornerRadius="5" Padding="2" Margin="0,0,0,20" x:Name="textbox_height">
-                                <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCitizenship}" IsReadOnly="{Binding ApplicantCitizenshipRead}" AutomationId="CheckCitizenship" />
+                                <Entry Placeholder="Citizenship"  PlaceholderColor="Gray" TextColor="Black" Text="{Binding ApplicantCitizenship}" IsReadOnly="{Binding ApplicantCitizenshipRead}" AutomationId="CheckCitizenship" TextTransform="Uppercase"/>
                             </Frame>
                             
                             <Grid Margin="0,0,0,20" >
@@ -488,7 +485,7 @@
                             <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherMaritalLabel" TextColor="Gray" FontSize="18"/>
 
-                            <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="MotherCitizenshipLabel" TextColor="Gray" FontSize="18"/>
 
                             <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
@@ -516,7 +513,7 @@
                             <Label Text="Marital Status" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherMaritalLabel" TextColor="Gray" FontSize="18"/>
 
-                            <Label Text="Occupation" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
+                            <Label Text="Citizenship" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
                             <Label Text="John smth smth" Margin="25,5,0,10" x:Name="FatherCitizenshipLabel" TextColor="Gray" FontSize="18"/>
 
                             <Label Text="Address" Margin="15,25,0,0"  TextColor="Black" FontSize="18"/>
